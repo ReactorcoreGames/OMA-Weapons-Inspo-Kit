@@ -12,6 +12,7 @@
      "Info": "0.0;-15.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -40,6 +41,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 40,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.5,
    "Priority": 16,
@@ -624,6 +633,7 @@
      "Info": "0.0;-15.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -652,6 +662,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 18,
+   "GunLength": 16.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.5,
    "Priority": 16,
@@ -1870,6 +1888,7 @@
      "Info": "60.0;-15.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -1898,6 +1917,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.1,
    "PutDownTime": 0.3,
    "BringUpTime": 0.5,
    "Priority": 16,
@@ -2817,6 +2844,7 @@
      "Info": "210.0;30.0;0.95;80.0;0.0;0.8;0.8"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Blast",
@@ -2845,6 +2873,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 8,
+   "GunLength": 48.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.5,
    "Priority": 39,
@@ -3200,6 +3236,7 @@
      "Info": "0.0;5.0;-999.0;25.0;-999.0;0.0;0.5"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Charged Throw",
@@ -3228,11 +3265,20 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.0,
+   "MagAmmo": 1,
+   "GunLength": 0.0,
    "PutDownTime": 1.0,
    "BringUpTime": 2.5,
    "Priority": 124,
    "ItemName": "AD-51 Reptile Corrosive Grenade",
    "bNoMag": true,
+   "bAimDisabled": true,
    "bShowChargingBar": true,
    "bWT_Hazardous": true,
    "bWT_Splash": true,
@@ -3716,6 +3762,7 @@
      "Info": "240.0;20.0;0.9;80.0;0.0;0.4;0.1"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Auto",
@@ -3744,6 +3791,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.5,
    "Priority": 39,
@@ -4707,6 +4762,7 @@
      "Info": "480.0;60.0;2.0;100.0;0.5;0.5;0.5"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "600 RPM",
@@ -4735,6 +4791,14 @@
    },
    "CurrentWeaponMode": 1,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 8.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.6,
+   "MagAmmo": 90,
+   "GunLength": 64.0,
    "PutDownTime": 1.2,
    "BringUpTime": 1.2,
    "Priority": 78,
@@ -4743,6 +4807,8 @@
    "bNonCocking": true,
    "bWT_Machinegun": true,
    "bWT_Super": true,
+   "PlayerSpeedFactor": 0.78,
+   "PlayerJumpFactor": 0.75,
    "FireModeClass": {
     "0": "Class'BWBP_SWC_Pro.A800MinigunPrimaryFire'",
     "1": "Class'BWBP_SWC_Pro.A800MinigunSecondaryFire'"
@@ -5584,6 +5650,7 @@
      "Info": "120.0;2.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -5612,10 +5679,19 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.2,
    "BringUpTime": 0.2,
    "Priority": 13,
    "ItemName": "A909 Skrith Blades",
+   "bCanBlock": true,
    "bNoMag": true,
    "bNonCocking": true,
    "AIRating": 0.7,
@@ -5625,6 +5701,7 @@
     "1": "Prepares a slash, which will be executed upon release. The damage of this slash increases the longer altfire is held, up to 1.5 seconds for maximum damage output. This attack inflicts more damage from behind.",
     "2": "The Weapon Function key allows the player to block. Whilst blocking, no attacks are possible, but all melee damage striking the player frontally will be mitigated.||The A909s have extreme damage output at close range, but their short range makes realizing this potential difficult.||The player moves faster with the blades equipped."
    },
+   "bAimDisabled": true,
    "FireModeClass": {
     "0": "Class'BallisticProV55.A909PrimaryFire'",
     "1": "Class'BallisticProV55.A909SecondaryFire'"
@@ -5903,6 +5980,7 @@
      "Info": "120.0;15.0;0.8;70.0;0.75;0.5;0.0"
     }
    },
+   "AIReloadTime": 1.5,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -5931,6 +6009,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 7,
+   "GunLength": 4.0,
    "PutDownTime": 1.0,
    "BringUpTime": 1.2,
    "Priority": 162,
@@ -5938,6 +6024,7 @@
    "bNoCrosshairInScope": true,
    "bCockOnEmpty": true,
    "bWT_Bullet": true,
+   "PlayerSpeedFactor": 1.0,
    "CockingBringUpTime": 1.5,
    "FireModeClass": {
     "0": "Class'BWBP_SKC_Pro.AH104PrimaryFire'",
@@ -6519,6 +6606,7 @@
      "Info": "140.0;12.0;0.7;70.0;0.55;0.0;-999.0"
     }
    },
+   "AIReloadTime": 1.5,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -6547,6 +6635,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 4.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.6,
    "Priority": 96,
@@ -7515,6 +7611,7 @@
      "Info": "320.0;25.0;1.0;110.0;0.5;0.8;0.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -7543,6 +7640,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.4,
    "Priority": 65,
@@ -9400,6 +9505,7 @@
      "Info": "320.0;25.0;1.0;110.0;0.5;0.8;0.6"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -9428,6 +9534,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.3,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.9,
    "Priority": 65,
@@ -10358,6 +10472,7 @@
      "Info": "120.0;15.0;0.8;50.0;0.0;0.5;-999.0"
     }
    },
+   "AIReloadTime": 1.5,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -10386,6 +10501,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.25,
+   "MagAmmo": 8,
+   "GunLength": 16.0,
    "PutDownTime": 0.6,
    "BringUpTime": 0.9,
    "Priority": 24,
@@ -11949,6 +12072,7 @@
      "Info": "0.0;5.0;-999.0;25.0;-999.0;0.0;0.5"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Charged Throw",
@@ -11977,11 +12101,20 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.0,
+   "MagAmmo": 1,
+   "GunLength": 0.0,
    "PutDownTime": 1.0,
    "BringUpTime": 1.0,
    "Priority": 124,
    "ItemName": "A-Pod Capsule",
    "bNoMag": true,
+   "bAimDisabled": true,
    "bShowChargingBar": false,
    "bWT_Grenade": true,
    "FireModeClass": {
@@ -12483,6 +12616,7 @@
      "Info": "240.0;30.0;0.9;80.0;1.3;1.3;0.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -12511,6 +12645,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 18,
+   "GunLength": 64.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.3,
    "Priority": 62,
@@ -15171,6 +15313,7 @@
      "Info": "360.0;35.0;1.0;90.0;10.0;0.0;0.1"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -15199,12 +15342,21 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 4.0,
+   "MaxZoom": 16.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 8,
+   "GunLength": 80.0,
    "PutDownTime": 0.6,
    "BringUpTime": 0.3,
    "Priority": 207,
    "ItemName": "FSSG-50 Marksman Rifle",
    "bNoCrosshairInScope": true,
    "bCockOnEmpty": true,
+   "bAltTriggerReload": true,
    "MeleeFireClass": "Class'BWBP_SKC_Pro.AS50MeleeFire'",
    "bWT_Bullet": true,
    "ManualLines": {
@@ -15661,6 +15813,7 @@
      "Info": "360.0;35.0;1.0;90.0;10.0;0.0;0.1"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -15689,12 +15842,21 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 4.0,
+   "MaxZoom": 16.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 1e-06,
+   "MagAmmo": 8,
+   "GunLength": 0.0,
    "PutDownTime": 0.6,
    "BringUpTime": 1.0,
    "Priority": 1,
    "ItemName": "FG50 Turret",
    "bNoCrosshairInScope": true,
    "bCockOnEmpty": true,
+   "bAltTriggerReload": true,
    "MeleeFireClass": "Class'BWBP_SKC_Pro.AS50MeleeFire'",
    "bWT_Bullet": true,
    "ManualLines": {
@@ -15709,7 +15871,8 @@
    "AIRating": 0.8,
    "Description": "[ FallschirmjÃ¤gerscharfschÃºtzengewehr] FSsG-50 is the name given to high-performance FG50 machineguns that are then equipped with match-grade barrels and high-quality custom marksman stocks. FG-50s with exceptional target groupings and perfect reliability ratings are the primary candidates for the FSsG upgrade, though some production plants with extremely tight tolerances and quality control specifically produce the FSsG variant. The result is a very accurate sniper rifle with a muzzle velocity far higher than its standard cousin. These elite rifles are very rarely mounted on vehicle platforms and are often utilized by sharpshooters equipped with enhanced scopes and match-grade N6-BMG rounds for hard target interdiction. This FSSG-50 is firing the mass produced N1-Incendiary round and has an Aeris Mark 2 Suresight scope attached.",
    "InventoryGroup": 9,
-   "PickupClass": "Class'BWBP_SKC_Pro.AS50Pickup'"
+   "PickupClass": "Class'BWBP_SKC_Pro.AS50Pickup'",
+   "bUseSpecialAim": true
   },
   "class_chain": [
    "AS50_TW",
@@ -16527,6 +16690,7 @@
      "Info": "300.0;25.0;1.5;85.0;0.6;0.6;0.6"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Charged Fire",
@@ -16571,6 +16735,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 40,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.5,
    "Priority": 92,
@@ -17161,6 +17333,7 @@
      "Info": "300.0;35.0;1.0;80.0;0.8;0.0;1.0"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -17189,6 +17362,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 8.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.8,
    "BringUpTime": 1.0,
    "Priority": 44,
@@ -17729,6 +17910,7 @@
      "Info": "120.0;20.0;0.8;40.0;0.0;0.0;0.6"
     }
    },
+   "AIReloadTime": 1.5,
    "WeaponModes": {
     "0": {
      "ModeName": "Grenade",
@@ -17757,6 +17939,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.45,
    "BringUpTime": 0.3,
    "Priority": 19,
@@ -18156,6 +18346,7 @@
      "Info": "320.0;25.0;1.0;110.0;0.8;0.5;0.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -18184,6 +18375,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.3,
    "Priority": 65,
@@ -18673,6 +18872,7 @@
      "Info": "260.0;20.0;0.6;60.0;0.0;0.0;1.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -18701,6 +18901,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.5,
    "Priority": 0,
@@ -18714,6 +18922,7 @@
     "1": "Changes the mode of the mine. With the base extended outwards, the mine will spring off its base and explode in the air after a short delay. It will have a greater trigger radius in this mode. With the base not extended, the mine will explode immediately, but only upon direct contact.",
     "2": "This weapon is no longer available due to its effectiveness being independent of skill and its primary usage being to trap places where it cannot be avoided."
    },
+   "bAimDisabled": true,
    "FireModeClass": {
     "0": "Class'BallisticProV55.BX5PrimaryFire'",
     "1": "Class'BallisticProV55.BX5SecondaryFire'"
@@ -18957,6 +19166,7 @@
      "Info": "240.0;10.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -18985,10 +19195,19 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.5,
    "Priority": 12,
    "ItemName": "RSH-1034 Riot Shield",
+   "bCanBlock": true,
    "bNoMag": true,
    "bNonCocking": true,
    "AIRating": 0.5,
@@ -19770,6 +19989,7 @@
      "Info": "360.0;10.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -19798,14 +20018,24 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 1,
+   "GunLength": 0.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.5,
    "Priority": 12,
    "ItemName": "X5W Black Ops Blade",
+   "bCanBlock": true,
    "bNoMag": true,
    "bNonCocking": true,
    "AIRating": 0.3,
    "bShowChargingBar": true,
+   "PlayerSpeedFactor": 1.1,
    "FireModeClass": {
     "0": "Class'BWBP_SKC_Pro.BlackOpsWristBladePrimaryFire'",
     "1": "Class'BWBP_SKC_Pro.BlackOpsWristBladeSecondaryFire'"
@@ -20540,6 +20770,7 @@
      "Info": "120.0;15.0;0.8;70.0;0.75;0.5;0.0"
     }
    },
+   "AIReloadTime": 1.5,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -20592,12 +20823,22 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 48.0,
    "PutDownTime": 0.4,
    "BringUpTime": 0.9,
    "Priority": 162,
    "ItemName": "Bulldog Autocannon",
    "bNoCrosshairInScope": true,
    "bCockOnEmpty": true,
+   "bCanSkipReload": true,
+   "bAltTriggerReload": true,
    "bWT_Bullet": true,
    "ManualLines": {
     "0": ".75 BOLT cannon fire. Long-ranged with high power. Fire rate is better than average. Good penetration. Poor from the hip.",
@@ -21055,6 +21296,7 @@
      "Info": "240.0;25.0;0.8;90.0;0.0;1.0;0.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Flamethrower",
@@ -21083,6 +21325,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.4,
    "BringUpTime": 0.4,
    "Priority": 32,
@@ -21914,6 +22164,7 @@
      "Info": "240.0;30.0;0.9;75.0;1.0;0.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -21942,6 +22193,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 8.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.65,
+   "MagAmmo": 30,
+   "GunLength": 72.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.7,
    "Priority": 40,
@@ -22813,6 +23072,7 @@
      "Info": "240.0;20.0;0.9;85.0;0.1;0.9;0.4"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -22841,11 +23101,20 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 22,
+   "GunLength": 16.0,
    "PutDownTime": 0.33,
    "BringUpTime": 0.45,
    "Priority": 41,
    "ItemName": "CYLO Urban Assault Weapon",
    "bNoCrosshairInScope": true,
+   "bAltTriggerReload": true,
    "MeleeFireClass": "Class'BWBP_SKC_Pro.CYLOMeleeFire'",
    "bWT_Bullet": true,
    "bWT_Shotgun": true,
@@ -23901,6 +24170,7 @@
      "Info": "60.0;5.0;0.25;30.0;0.0;0.0;0.4"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Charged Throw",
@@ -23929,11 +24199,20 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.0,
+   "MagAmmo": 1,
+   "GunLength": 0.0,
    "PutDownTime": 1.0,
    "BringUpTime": 0.9,
    "Priority": 13,
    "ItemName": "MOA-C Chaff Grenade",
    "bNoMag": true,
+   "bAimDisabled": true,
    "bShowChargingBar": true,
    "bWT_Hazardous": true,
    "bWT_Splash": true,
@@ -24448,6 +24727,7 @@
      "Info": "160.0;10.0;0.3;40.0;0.0;1.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Ammo: Shot",
@@ -24500,6 +24780,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 60.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 38,
@@ -25999,6 +26287,7 @@
      "Info": "320.0;25.0;1.0;110.0;0.8;0.5;0.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -26027,6 +26316,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.3,
    "Priority": 65,
@@ -26373,6 +26670,7 @@
      "Info": "120.0;10.0;0.6;50.0;1.0;0.0;-999.0"
     }
    },
+   "AIReloadTime": 1.5,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -26401,12 +26699,21 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.3,
    "Priority": 22,
    "ItemName": "D49 Revolver",
    "bWT_Sidearm": true,
    "bNoCrosshairInScope": true,
+   "bAltTriggerReload": true,
    "bWT_Bullet": true,
    "ManualLines": {
     "0": "Fires from a single barrel. Powerful, but short-ranged and has high recoil.",
@@ -27034,6 +27341,7 @@
      "Info": "0.0;-999.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Strikes",
@@ -27062,10 +27370,19 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.66,
    "BringUpTime": 0.66,
    "Priority": 1,
    "ItemName": "FMD H14 Combat Defibrillator",
+   "bCanBlock": true,
    "bNoMag": true,
    "bNonCocking": true,
    "AIRating": 0.2,
@@ -27076,6 +27393,7 @@
     "1": "Uppercut with the gauntlets. Deals good damage with some charge remaining. Allies struck will be healed. With over 55% charge, gains power, discharging a shockwave which increases the effectiveness of the attack and causes some radius damage. A successful or empowered strike depletes charge.",
     "2": "Holding Weapon Function allows the defibrillators to block. This generates a frontal shield which reduces damage from attacks by 35. The weapon will also project pulses which inflict poor healing or damage upon nearby targets. Melee attacks are blocked regardless of charge. Charge drains over time with the shield engaged.||Effective in a defensive and supporting role."
    },
+   "bAimDisabled": true,
    "FireModeClass": {
     "0": "Class'BWBP_OP_Pro.DefibFistsPrimaryFire'",
     "1": "Class'BWBP_OP_Pro.DefibFistsSecondaryFire'"
@@ -27346,6 +27664,7 @@
      "Info": "420.0;20.0;-999.0;-1.0;-999.0;0.9;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -27374,10 +27693,19 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.7,
    "Priority": 12,
    "ItemName": "XM300 Dragon Nanoblade",
+   "bCanBlock": true,
    "bNoMag": true,
    "bNonCocking": true,
    "AIRating": 0.8,
@@ -27387,6 +27715,7 @@
     "1": "Strikes twice consecutively for good damage. Good for baiting block.",
     "2": "The Weapon Function key allows the Nanoblade to block incoming frontal melee attacks.||Devastating at close range."
    },
+   "bAimDisabled": true,
    "FireModeClass": {
     "0": "Class'BWBP_SKC_Pro.DragonsToothPrimaryFire'",
     "1": "Class'BWBP_SKC_Pro.DragonsToothSecondaryFire'"
@@ -28438,6 +28767,7 @@
      "Info": "300.0;25.0;0.9;80.0;0.2;0.4;0.1"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Series Pulse",
@@ -28466,6 +28796,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 8.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.4,
    "Priority": 39,
@@ -29079,6 +29417,7 @@
      "Info": "300.0;25.0;0.9;80.0;0.2;0.4;0.1"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Series Pulse",
@@ -29107,6 +29446,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.6,
    "BringUpTime": 0.55,
    "Priority": 39,
@@ -29605,6 +29952,7 @@
      "Info": "240.0;10.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -29633,10 +29981,19 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 12,
    "ItemName": "EKS-43 Katana",
+   "bCanBlock": true,
    "bNoMag": true,
    "bNonCocking": true,
    "AIRating": 0.7,
@@ -29646,6 +30003,7 @@
     "1": "Prepares a slash, which will be executed upon release. The damage of this slash increases the longer altfire is held, up to 1.5 seconds for maximum damage output. This attack inflicts more damage from behind.",
     "2": "The Weapon Function key allows the player to block. Whilst blocking, no attacks are possible, but all melee damage striking the player frontally will be mitigated.||The EKS-43 is effective at close range, but has lower DPS than shorter ranged melee weapons."
    },
+   "bAimDisabled": true,
    "FireModeClass": {
     "0": "Class'BallisticProV55.EKS43PrimaryFire'",
     "1": "Class'BallisticProV55.EKS43SecondaryFire'"
@@ -30193,6 +30551,7 @@
      "Info": "240.0;25.0;0.9;85.0;0.1;0.9;0.4"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Full Auto",
@@ -30221,11 +30580,20 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 50,
+   "GunLength": 16.0,
    "PutDownTime": 1.0,
    "BringUpTime": 1.0,
    "Priority": 41,
    "ItemName": "FC-01 Smartgun",
    "bNoCrosshairInScope": true,
+   "bAltTriggerReload": true,
    "bWT_Bullet": true,
    "bWT_Shotgun": true,
    "bWT_Machinegun": true,
@@ -30894,6 +31262,7 @@
      "Info": "320.0;35.0;1.0;100.0;0.8;0.5;0.1"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Controlled",
@@ -30922,6 +31291,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 1e-06,
+   "MagAmmo": 40,
+   "GunLength": 0.0,
    "PutDownTime": 0.5,
    "BringUpTime": 1.6,
    "Priority": 1,
@@ -30942,7 +31319,8 @@
    "bShowChargingBar": true,
    "Description": "The FG50 Heavy Machine Gun is a specialized .50 caliber weapon designed for use on automated weapons platforms and vehicles. Built under contract for the UTC, the NDTR FG50 is the primary weapon for many light assault vehicles and combat drones. An infantry version was developed for UTC's Sub-Orbital Insertion Troops as a high powered combat rifle, after complaints that the current M925 was too bulky to carry and store in Armored Insertion Pods and that the MG33 simply did not pack the punch required to stop a charging Skrith.||Hunter-killer SOIT teams swear by the FG50 now, and praise its ability to fire with precision and accuracy. However ask any veteran and you'll hear many stories about those who disrespected the power of the weapon and foolishly ended up with broken arms and damaged prides. The HMG is not a weapon to toy with.",
    "InventoryGroup": 6,
-   "PickupClass": "Class'BWBP_SKC_Pro.FG50Pickup'"
+   "PickupClass": "Class'BWBP_SKC_Pro.FG50Pickup'",
+   "bUseSpecialAim": true
   },
   "class_chain": [
    "FG50MG_TW",
@@ -31890,6 +32268,7 @@
      "Info": "320.0;35.0;1.0;100.0;0.8;0.5;0.1"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Controlled",
@@ -31918,6 +32297,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 40,
+   "GunLength": 64.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.3,
    "Priority": 65,
@@ -32830,6 +33217,7 @@
      "Info": "500.0;60.0;1.0;80.0;2.0;0.0;1.5"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Incendiary Rocket",
@@ -32858,6 +33246,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 4,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 1.4,
    "BringUpTime": 1.5,
    "Priority": 164,
@@ -33160,6 +33556,7 @@
      "Info": "120.0;20.0;0.7;50.0;0.0;0.5;0.8"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Single Fire",
@@ -33188,12 +33585,23 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 48.0,
    "PutDownTime": 0.35,
    "BringUpTime": 1.4,
    "Priority": 37,
    "ItemName": "FM13 Dragon Shotgun",
    "bNoCrosshairInScope": true,
    "bCockOnEmpty": true,
+   "bCanSkipReload": true,
+   "bAltTriggerReload": true,
+   "bShovelLoad": true,
    "MeleeFireClass": "Class'BWBP_OP_Pro.FM13MeleeFire'",
    "bWT_Shotgun": true,
    "ManualLines": {
@@ -33801,6 +34209,7 @@
      "Info": "120.0;20.0;0.7;50.0;0.0;0.5;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Single Fire",
@@ -33829,12 +34238,23 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 48.0,
    "PutDownTime": 0.35,
    "BringUpTime": 1.4,
    "Priority": 37,
    "ItemName": "FM14 Pitbull Blunderbuss",
    "bNoCrosshairInScope": true,
    "bCockOnEmpty": true,
+   "bCanSkipReload": true,
+   "bAltTriggerReload": true,
+   "bShovelLoad": true,
    "MeleeFireClass": "Class'BWBP_APC_Pro.FM14MeleeFire'",
    "bWT_Shotgun": true,
    "ManualLines": {
@@ -34154,6 +34574,7 @@
      "Info": "240.0;15.0;0.9;80.0;0.7;0.7;0.4"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Automatic",
@@ -34182,6 +34603,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.2,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.3,
    "Priority": 41,
@@ -35433,6 +35862,7 @@
      "Info": "0.0;5.0;-999.0;25.0;-999.0;0.0;0.5"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Charged Throw",
@@ -35461,11 +35891,20 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.0,
+   "MagAmmo": 1,
+   "GunLength": 0.0,
    "PutDownTime": 1.0,
    "BringUpTime": 1.0,
    "Priority": 5,
    "ItemName": "FP7 Grenade",
    "bNoMag": true,
+   "bAimDisabled": true,
    "bShowChargingBar": true,
    "bWT_Hazardous": true,
    "bWT_Splash": true,
@@ -35954,6 +36393,7 @@
      "Info": "180.0;10.0;0.4;-1.0;0.0;0.0;0.5"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -35982,6 +36422,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.5,
    "Priority": 2,
@@ -35996,6 +36444,7 @@
     "1": "Detonates the FP9. The user must be facing the mine to detonate, which will be displayed surrounded by a red box.",
     "2": "The FP9 has a number of special functions.||When not facing a placed bomb:|The Weapon Function key toggles whether the next bomb placed will use the laser tripwire.||When facing a placed bomb:|The Weapon Function key toggles whether the placed bomb will use the laser tripwire.|The Switch Fire Mode key selects the faced bomb, highlighting it in green.||With a bomb highlighted:|Targeting an area and pressing Switch Weapon Mode will cause the endpoint of the selected bomb's laser, if active, to shift to the targeted location."
    },
+   "bAimDisabled": true,
    "FireModeClass": {
     "0": "Class'BallisticProV55.FP9PrimaryFire'",
     "1": "Class'BallisticProV55.FP9SecondaryFire'"
@@ -36233,6 +36682,7 @@
      "Info": "120.0;10.0;0.8;40.0;0.0;0.4;-999.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Burst",
@@ -36261,6 +36711,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 25,
+   "GunLength": 16.0,
    "PutDownTime": 0.4,
    "BringUpTime": 0.5,
    "Priority": 31,
@@ -38074,6 +38532,7 @@
      "Info": "420.0;20.0;-999.0;-1.0;-999.0;0.9;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -38102,10 +38561,19 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.7,
    "Priority": 12,
    "ItemName": "PSI-56 Fire Sword",
+   "bCanBlock": true,
    "bNoMag": true,
    "bNonCocking": true,
    "AIRating": 0.8,
@@ -38116,6 +38584,7 @@
     "1": "Creates a temporary barrier to block all incoming shots, but temporarily removes your hazard shielding.",
     "2": "Passively grants immunity to fire damage."
    },
+   "bAimDisabled": true,
    "FireModeClass": {
     "0": "Class'BWBP_OP_Pro.FlameSwordPrimaryFire'",
     "1": "Class'BWBP_OP_Pro.FlameSwordSecondaryFire'"
@@ -38362,6 +38831,7 @@
      "Info": "0.0;0.0;0.0;-1.0;0.0;0.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Charged Throw",
@@ -38390,11 +38860,20 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.0,
+   "MagAmmo": 1,
+   "GunLength": 0.0,
    "PutDownTime": 1.0,
    "BringUpTime": 1.0,
    "Priority": 14,
    "ItemName": "FMD G28 Medicinal Aerosol",
    "bNoMag": true,
+   "bAimDisabled": true,
    "bShowChargingBar": true,
    "bWT_Splash": true,
    "bWT_Grenade": true,
@@ -38846,6 +39325,7 @@
      "Info": "240.0;20.0;0.9;75.0;0.8;0.7;0.2"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi-Auto",
@@ -38882,6 +39362,14 @@
    },
    "CurrentWeaponMode": 1,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.2,
+   "MagAmmo": 30,
+   "GunLength": 50.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.9,
    "Priority": 41,
@@ -41935,6 +42423,7 @@
      "Info": "300.0;35.0;1.0;80.0;0.8;0.0;1.0"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Rocket",
@@ -41963,11 +42452,21 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 8.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.5,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.8,
    "BringUpTime": 1.0,
    "Priority": 44,
    "ItemName": "G5 Missile Launcher",
    "bNoCrosshairInScope": true,
+   "bCanSkipReload": true,
+   "bShovelLoad": true,
    "bWT_Hazardous": true,
    "bWT_Splash": true,
    "bWT_Projectile": true,
@@ -42359,6 +42858,7 @@
      "Info": "120.0;10.0;-999.0;25.0;0.0;0.0;-999.0"
     }
    },
+   "AIReloadTime": 1.5,
    "WeaponModes": {
     "0": {
      "ModeName": "Burst of Four",
@@ -42395,6 +42895,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 16,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 19,
@@ -42960,6 +43468,7 @@
      "Info": "120.0;8.0;-999.0;25.0;0.0;0.0;-999.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -42988,6 +43497,14 @@
    },
    "CurrentWeaponMode": 1,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 9,
@@ -45462,6 +45979,7 @@
      "Info": "1200.0;65.0;4.0;150.0;2.0;2.0;1.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -45498,6 +46016,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 9,
@@ -46072,6 +46598,7 @@
      "Info": "120.0;15.0;0.8;50.0;0.0;0.5;-999.0"
     }
    },
+   "AIReloadTime": 1.5,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -46100,6 +46627,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.25,
+   "MagAmmo": 3,
+   "GunLength": 16.0,
    "PutDownTime": 0.6,
    "BringUpTime": 0.9,
    "Priority": 24,
@@ -46385,6 +46920,7 @@
      "Info": "120.0;12.0;0.6;50.0;0.0;1.0;0.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -46413,6 +46949,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.3,
    "Priority": 17,
@@ -46872,6 +47416,7 @@
      "Info": "300.0;20.0;1.80;80.0;0.8;0.8;0.1"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Full Power",
@@ -46900,6 +47445,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 500,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.5,
    "Priority": 72,
@@ -47705,6 +48258,7 @@
      "Info": "360.0;60.0;1.0;90.0;0.0;0.5;1.0"
     }
    },
+   "AIReloadTime": 0.2,
    "WeaponModes": {
     "0": {
      "ModeName": "Stream",
@@ -47733,6 +48287,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.5,
    "BringUpTime": 1.0,
    "Priority": 45,
@@ -48032,6 +48594,7 @@
      "Info": "360.0;50.0;1.0;90.0;0.0;0.5;1.0"
     }
    },
+   "AIReloadTime": 0.2,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -48060,6 +48623,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.5,
    "Priority": 73,
@@ -48070,6 +48641,8 @@
    "bWT_Hazardous": true,
    "bWT_Energy": true,
    "bWT_Super": true,
+   "PlayerSpeedFactor": 0.8,
+   "PlayerJumpFactor": 0.7,
    "FireModeClass": {
     "0": "Class'BWBP_SKC_Pro.HVPCMk5PrimaryFire'",
     "1": "Class'BWBP_SKC_Pro.HVPCMk5SecondaryFire'"
@@ -50074,6 +50647,7 @@
      "Info": "600.0;80.0;1.0;100.0;0.5;0.8;5.0"
     }
    },
+   "AIReloadTime": 0.2,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -50102,6 +50676,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.5,
    "Priority": 196,
@@ -50521,6 +51103,7 @@
      "Info": "300.0;40.0;1.0;80.0;0.6;4.0;1.2"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "HV Rockets",
@@ -50549,11 +51132,21 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.5,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 1.4,
    "BringUpTime": 1.7,
    "Priority": 44,
    "ItemName": "M11-X Hydra MRL",
    "bNonCocking": true,
+   "bCanSkipReload": true,
+   "bShovelLoad": true,
    "bWT_Hazardous": true,
    "bWT_Splash": true,
    "bWT_Projectile": true,
@@ -50975,6 +51568,7 @@
      "Info": "0.0;-999.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -51003,6 +51597,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.0,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.2,
    "BringUpTime": 0.2,
    "Priority": 13,
@@ -51014,6 +51616,7 @@
     "1": "Melee attack. Damage improves over hold time, with max bonus reached after 1.5 seconds. Deals increased damage from behind.",
     "2": "Attacking allies with the stimpack will apply its effect to them."
    },
+   "bAimDisabled": true,
    "FireModeClass": {
     "0": "Class'BWBP_SKC_Pro.ICISPrimaryFire'",
     "1": "Class'BWBP_SKC_Pro.ICISSecondaryFire'"
@@ -51257,6 +51860,7 @@
      "Info": "240.0;10.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -51285,10 +51889,19 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.5,
    "Priority": 12,
    "ItemName": "Scavenged Junk Shield",
+   "bCanBlock": true,
    "bNoMag": true,
    "bNonCocking": true,
    "AIRating": 0.5,
@@ -52041,6 +52654,7 @@
      "Info": "240.0;10.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -52069,10 +52683,19 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.5,
    "Priority": 12,
    "ItemName": "Civilian Riot Shield",
+   "bCanBlock": true,
    "bNoMag": true,
    "bNonCocking": true,
    "AIRating": 0.5,
@@ -52825,6 +53448,7 @@
      "Info": "120.0;15.0;0.8;50.0;0.0;0.5;-999.0"
     }
    },
+   "AIReloadTime": 1.5,
    "WeaponModes": {
     "0": {
      "ModeName": "Lever-Action",
@@ -52853,6 +53477,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 16.0,
+   "ZoomStages": 3,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.6,
    "BringUpTime": 0.9,
    "Priority": 24,
@@ -53110,6 +53742,7 @@
      "Info": "0.0;5.0;-999.0;25.0;-999.0;0.0;0.5"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Charged Throw",
@@ -53138,13 +53771,23 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.0,
+   "MagAmmo": 1,
+   "GunLength": 0.0,
    "PutDownTime": 1.0,
    "BringUpTime": 1.0,
    "Priority": 20,
    "ItemName": "L8 GI Ammunition Pack",
    "bNoMag": true,
+   "bAimDisabled": true,
    "bShowChargingBar": true,
    "bWT_Grenade": true,
+   "PlayerSpeedFactor": 0.75,
    "FireModeClass": {
     "0": "Class'BWBP_OP_Pro.L8GIPrimaryFire'",
     "1": "Class'BWBP_OP_Pro.L8GISecondaryFire'"
@@ -53628,6 +54271,7 @@
      "Info": "500.0;60.0;1.0;80.0;2.0;0.0;1.5"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Single Fire",
@@ -53656,6 +54300,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 8.0,
+   "ZoomStages": 6,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 1.9,
    "BringUpTime": 2.25,
    "Priority": 164,
@@ -53955,6 +54607,7 @@
      "Info": "240.0;30.0;0.9;80.0;0.7;0.7;0.4"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -53991,6 +54644,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.4,
    "BringUpTime": 0.45,
    "Priority": 41,
@@ -56916,6 +57577,7 @@
      "Info": "240.0;15.0;1.1;90.0;1.0;0.0;0.3"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Single Barrel",
@@ -56944,6 +57606,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 4.0,
+   "ZoomStages": 1,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 80.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.4,
    "Priority": 194,
@@ -58520,6 +59190,7 @@
      "Info": "240.0;25.0;0.5;60.0;10.0;0.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -58548,6 +59219,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 8.0,
+   "ZoomStages": 4,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 60.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.6,
    "Priority": 33,
@@ -58837,6 +59516,7 @@
      "Info": "240.0;25.0;0.6;50.0;1.0;0.5;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Single Fire",
@@ -58865,11 +59545,21 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.45,
    "Priority": 2,
    "ItemName": "Longhorn Repeater",
    "bNoCrosshairInScope": true,
+   "bCanSkipReload": true,
+   "bShovelLoad": true,
    "bWT_Hazardous": true,
    "bWT_Splash": true,
    "bWT_Grenade": true,
@@ -59169,6 +59859,7 @@
      "Info": "240.0;25.0;1.0;80.0;2.0;0.1;0.1"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Gauss: Recharge",
@@ -59205,6 +59896,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 16.0,
+   "ZoomStages": 8,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 80.0,
    "PutDownTime": 0.8,
    "BringUpTime": 0.8,
    "Priority": 65,
@@ -60928,6 +61627,7 @@
      "Info": "240.0;20.0;0.5;80.0;0.0;1.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Single Fire",
@@ -60956,12 +61656,23 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 38,
    "ItemName": "M290 Shotgun",
    "bNoCrosshairInScope": true,
    "bCockOnEmpty": true,
+   "bCanSkipReload": true,
+   "bAltTriggerReload": true,
+   "bShovelLoad": true,
    "bWT_Shotgun": true,
    "ManualLines": {
     "0": "Fires both barrels at once. Deals extreme damage at close to medium range. Spread is tight, recoil is high and fire rate is moderate.",
@@ -61303,6 +62014,7 @@
      "Info": "300.0;25.0;0.7;-1.0;0.4;0.4;-999.0"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -61339,6 +62051,14 @@
    },
    "CurrentWeaponMode": 3,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.55,
    "BringUpTime": 0.7,
    "Priority": 43,
@@ -61864,6 +62584,7 @@
      "Info": "300.0;25.0;0.7;-1.0;0.4;0.4;-999.0"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -61900,6 +62621,14 @@
    },
    "CurrentWeaponMode": 3,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.4,
    "BringUpTime": 1.0,
    "Priority": 1,
@@ -61908,6 +62637,7 @@
    "bCockOnEmpty": true,
    "bWT_Bullet": true,
    "bWT_Machinegun": true,
+   "bUseSpecialAim": true,
    "FireModeClass": {
     "0": "Class'BallisticProV55.M353TW_PrimaryFire'",
     "1": "Class'BallisticProV55.M353SecondaryFire'"
@@ -62392,6 +63122,7 @@
      "Info": "240.0;25.0;0.9;70.0;0.9;0.2;0.7"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Proximity Detonation",
@@ -62420,6 +63151,14 @@
    },
    "CurrentWeaponMode": 1,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 4.0,
+   "ZoomStages": 1,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 41,
@@ -63849,6 +64588,7 @@
      "Info": "240.0;25.0;0.9;80.0;0.7;0.7;0.4"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -63877,6 +64617,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 41,
@@ -66140,6 +66888,7 @@
      "Info": "330.0;25.0;0.7;-1.0;1.0;0.2;-999.0"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -66184,6 +66933,14 @@
    },
    "CurrentWeaponMode": 3,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.55,
    "BringUpTime": 0.7,
    "Priority": 43,
@@ -66198,6 +66955,8 @@
     "2": "Enable the Hybrid Scope. While the hybrid scope is enabled, you will have access to a fixed 2X Scope, which can be taken off when out of combat.",
     "3": "In response to not just the regular UTC troops demanding a new LMG, but also the ODST troops finding the M353 to be inadequate in stopping skrith dead in their tracks, Enravion updated the platform into the new M575 Machine Gun. In addition to firing 7.62mm rounds instead of the old 5.56mm rounds, the M575 also has rail support for all the optics one could ever ask for; when the weapon first debuted, it came with a C-All Red Dot Sight along with a 2x magnifier scope. While the M353 is still hanging around, it is slated to be phased by the M575 within 6 months if all goes well."
    },
+   "PlayerSpeedFactor": 0.9,
+   "PlayerJumpFactor": 0.9,
    "CockingBringUpTime": 2.1,
    "FireModeClass": {
     "0": "Class'BWBP_OP_Pro.M575PrimaryFire'",
@@ -66838,6 +67597,7 @@
      "Info": "0.0;0.0;0.0;-1.0;0.0;0.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Charged Throw",
@@ -66866,11 +67626,20 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.0,
+   "MagAmmo": 1,
+   "GunLength": 0.0,
    "PutDownTime": 1.0,
    "BringUpTime": 1.0,
    "Priority": 3,
    "ItemName": "M58 Smoke Grenade",
    "bNoMag": true,
+   "bAimDisabled": true,
    "bShowChargingBar": true,
    "FireModeClass": {
     "0": "Class'BallisticProV55.M58PrimaryFire'",
@@ -67235,6 +68004,7 @@
      "Info": "300.0;45.0;1.0;80.0;1.0;0.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Single Fire",
@@ -67263,11 +68033,20 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 4.0,
+   "MaxZoom": 16.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 80.0,
    "PutDownTime": 0.8,
    "BringUpTime": 0.6,
    "Priority": 34,
    "ItemName": "M75 Railgun",
    "bNoCrosshairInScope": true,
+   "bAltTriggerReload": true,
    "bWT_Bullet": true,
    "ManualLines": {
     "0": "Uncharged rail slug shot. High damage, moderate fire rate and recoil, and good penetration.",
@@ -67815,6 +68594,7 @@
      "Info": "120.0;20.0;0.7;50.0;0.0;0.5;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Single Fire",
@@ -67843,12 +68623,23 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 48.0,
    "PutDownTime": 0.35,
    "BringUpTime": 0.3,
    "Priority": 37,
    "ItemName": "M763 Shotgun",
    "bNoCrosshairInScope": true,
    "bCockOnEmpty": true,
+   "bCanSkipReload": true,
+   "bAltTriggerReload": true,
+   "bShovelLoad": true,
    "MeleeFireClass": "Class'BallisticProV55.M763MeleeFire'",
    "bWT_Shotgun": true,
    "ManualLines": {
@@ -68477,6 +69268,7 @@
      "Info": "340.0;30.0;1.2;60.0;0.9;0.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Single Fire",
@@ -68505,6 +69297,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.25,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.5,
    "Priority": 33,
@@ -70306,6 +71106,7 @@
      "Info": "0.0;8.0;-999.0;25.0;0.0;0.0;-999.0"
     }
    },
+   "AIReloadTime": 1.5,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -70334,6 +71135,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 19,
@@ -71594,6 +72403,7 @@
      "Info": "360.0;30.0;0.8;40.0;0.0;0.0;0.0"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Auto",
@@ -71622,6 +72432,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.7,
    "Priority": 42,
@@ -71968,6 +72786,7 @@
      "Info": "360.0;30.0;0.8;40.0;0.0;0.0;0.0"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Auto",
@@ -71996,6 +72815,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.45,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.4,
    "BringUpTime": 1.5,
    "Priority": 1,
@@ -72004,6 +72831,7 @@
    "bCockOnEmpty": true,
    "bWT_Bullet": true,
    "bWT_Machinegun": true,
+   "bUseSpecialAim": true,
    "FireModeClass": {
     "0": "Class'BallisticProV55.M925TW_PrimaryFire'",
     "1": "Class'BallisticProV55.M925SecondaryFire'"
@@ -72459,6 +73287,7 @@
      "Info": "240.0;35.0;2.0;120.0;10.0;0.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Bolt-Action",
@@ -72487,6 +73316,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 4.0,
+   "MaxZoom": 16.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 85.0,
    "PutDownTime": 0.8,
    "BringUpTime": 1.0,
    "Priority": 33,
@@ -72494,6 +73331,8 @@
    "bNoCrosshairInScope": true,
    "bNonCocking": true,
    "bWT_Bullet": true,
+   "PlayerSpeedFactor": 0.75,
+   "PlayerJumpFactor": 0.78,
    "CockingBringUpTime": 2.8,
    "FireModeClass": {
     "0": "Class'BWBP_JCF_Pro.M99PrimaryFire'",
@@ -72778,6 +73617,7 @@
      "Info": "240.0;35.0;2.0;120.0;10.0;0.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Bolt-Action",
@@ -72806,6 +73646,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 4.0,
+   "MaxZoom": 16.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 1e-06,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.8,
    "BringUpTime": 1.0,
    "Priority": 1,
@@ -72813,6 +73661,8 @@
    "bNoCrosshairInScope": true,
    "bNonCocking": true,
    "bWT_Bullet": true,
+   "PlayerSpeedFactor": 0.75,
+   "PlayerJumpFactor": 0.78,
    "CockingBringUpTime": 2.8,
    "FireModeClass": {
     "0": "Class'BWBP_JCF_Pro.M99PrimaryFire'",
@@ -72821,7 +73671,8 @@
    "AIRating": 0.6,
    "Description": "M99 ECS .55 Anti Material Rifle||Manufacturer: Enravion Combat Solutions|Primary: Single Powerful Shot|Secondary: Activate Zooming Scope||In the 21st century the M99 was an effective long range sniper rifle, with a high penetration power. During the Skrith wars however the M99 lost its relevance due to its slow fire rate and old ammunition. Weapons like the M75-TIC Railgun were far more effective and feared. In the middle of the war the production of the M75 was too expensive to arm every sniper with it. Thus Enravion Combat Solutions started to do researches on how to improve old firearms and they succeeded. The M99-ECS was the result. Many improvements like better materials and a high quality scope made the rifle useful again. The major improvement however was the ammunition. The new 55.cal ECS armor piercing round easily penetrates concrete wall, with minimal deformations. Due to its nano coating the 55.cal ECS projectile glides through the air with minimal aerodynamic drag. This way it keeps its high V0",
    "InventoryGroup": 9,
-   "PickupClass": "Class'BWBP_JCF_Pro.M99Pickup'"
+   "PickupClass": "Class'BWBP_JCF_Pro.M99Pickup'",
+   "bUseSpecialAim": true
   },
   "class_chain": [
    "M99_TW",
@@ -73053,6 +73904,7 @@
      "Info": "300.0;40.0;1.0;90.0;0.8;0.0;1.2"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -73081,12 +73933,22 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 16.0,
+   "ZoomStages": 3,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 96.0,
    "PutDownTime": 0.8,
    "BringUpTime": 1.0,
    "Priority": 44,
    "ItemName": "Heavy Anti-Materiel Rifle",
    "bNoCrosshairInScope": true,
    "bNonCocking": true,
+   "bCanSkipReload": true,
+   "bShovelLoad": true,
    "bWT_Hazardous": true,
    "bWT_Splash": true,
    "bWT_Projectile": true,
@@ -73368,6 +74230,7 @@
      "Info": "300.0;40.0;1.0;90.0;0.8;0.0;1.2"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -73396,12 +74259,22 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 16.0,
+   "ZoomStages": 3,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.8,
    "BringUpTime": 1.5,
    "Priority": 1,
    "ItemName": "HAMR Turret",
    "bNoCrosshairInScope": true,
    "bNonCocking": true,
+   "bCanSkipReload": true,
+   "bShovelLoad": true,
    "bWT_Hazardous": true,
    "bWT_Splash": true,
    "bWT_Projectile": true,
@@ -73415,7 +74288,8 @@
    "AIRating": 0.9,
    "Description": "This heavy construct was designed for infantry use, to combat vehicles and large Cryon troops. After several failed designs and attempts, resulting in weapons which were far too heavy and cumbersome for infantry use, the HAMR was built. This new weapon could be carried by infantry, and could be deployed with the sturdy legs mounted underneath the weapon. The weapon can still be fired when mounted on the soldier's shoulder, but it generates extreme recoil, and leaves the users aim in complete disarray. The optical system mounted on the weapon, allows the user to viem from a remote screen attached to the soldiers helmet. Besides a zooming scope, the optical system also features an angle indicator and range finder, allowing the user to pitch the weapon as necessary depending on an inputed distance.",
    "InventoryGroup": 8,
-   "PickupClass": "Class'BallisticProV55.MACPickup'"
+   "PickupClass": "Class'BallisticProV55.MACPickup'",
+   "bUseSpecialAim": true
   },
   "class_chain": [
    "MACWeapon_TW",
@@ -73661,6 +74535,7 @@
      "Info": "240.0;10.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -73689,10 +74564,19 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.5,
    "Priority": 12,
    "ItemName": "MAG-SAW Longsword",
+   "bCanBlock": true,
    "bNoMag": true,
    "bNonCocking": true,
    "AIRating": 0.3,
@@ -73702,6 +74586,7 @@
     "1": "Prepares a thrust, which will be extended to longpoint upon getting within reach of anything, rapidly dealing damage through the animation. This attack inflicts more damage from behind.",
     "2": "The Weapon Function key allows the player to block. Whilst blocking, no attacks are possible, but all melee damage striking the player frontally will be mitigated.||The MAG-SAW is effective at close range, but has lower DPS than shorter ranged melee weapons."
    },
+   "bAimDisabled": true,
    "FireModeClass": {
     "0": "Class'BWBP_OP_Pro.MAG78PrimaryFire'",
     "1": "Class'BWBP_OP_Pro.MAG78SecondaryFire'"
@@ -73973,6 +74858,7 @@
      "Info": "320.0;30.0;1.0;110.0;0.8;0.5;0.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -74001,6 +74887,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 4.0,
+   "ZoomStages": 1,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.33,
    "Priority": 65,
@@ -77428,6 +78322,7 @@
      "Info": "120.0;10.0;-999.0;25.0;0.0;0.0;-999.0"
     }
    },
+   "AIReloadTime": 1.5,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -77456,6 +78351,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 19,
@@ -78547,6 +79450,7 @@
      "Info": "240.0;15.0;0.6;60.0;0.7;0.1;-999.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -78583,6 +79487,14 @@
    },
    "CurrentWeaponMode": 3,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 32,
@@ -79177,6 +80089,7 @@
      "Info": "240.0;25.0;0.9;80.0;0.7;0.7;0.4"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi-Auto",
@@ -79205,6 +80118,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 3.0,
+   "ZoomStages": 1,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 1e-06,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.6,
    "BringUpTime": 1.6,
    "Priority": 1,
@@ -79217,6 +80138,8 @@
     "1": "Attaches or remvoes the suppressor. When active, the suppressor reduces recoil and noise output and hides the muzzle flash, but reduces range.",
     "2": "The Weapon Function key switches between various integrated scopes.|The Normal scope offers clear vision.|The Night Vision scope (green) illuminates the environment and shows enemies in orange.|The Infrared scope (red) highlights enemies with a box, even underwater or through smoke or trees.||Effective at medium range."
    },
+   "PlayerSpeedFactor": 0.75,
+   "PlayerJumpFactor": 0.75,
    "ZoomType": 2,
    "CockingBringUpTime": 1.4,
    "FireModeClass": {
@@ -79226,7 +80149,8 @@
    "AIRating": 0.7,
    "Description": "Mk.88 Light Support Weapon||Manufacturer: Majestic Firearms 12|Primary: 5.56mm Rifle Rounds|Secondary: Attach Suppressor|Special: Mount Bipod (Unscoped)/ Activate NV (Scoped)||A limited production weapon, the Mk.88 was Majestic's first foray into infantry support weaponry. After the first Skrith war jump-started the ballistic weapons business, Majestic Firearms 12 designed the Mk.88 to replace the aging M353's still in use by the UTC. The fast-firing and powerful Mk.88 was well received by troops, however its high recoil and prohibitive cost prevented it from seeing mainstream adoption. The Mk.88 currently sees limited service in special operations units and private military groups.",
    "InventoryGroup": 6,
-   "PickupClass": "Class'BWBP_SKC_Pro.MG36Pickup'"
+   "PickupClass": "Class'BWBP_SKC_Pro.MG36Pickup'",
+   "bUseSpecialAim": true
   },
   "class_chain": [
    "MG36MG_TW",
@@ -80465,6 +81389,7 @@
      "Info": "240.0;25.0;0.9;80.0;0.7;0.7;0.4"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi-Auto",
@@ -80493,6 +81418,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 3.0,
+   "ZoomStages": 1,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.85,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.6,
    "BringUpTime": 0.65,
    "Priority": 41,
@@ -80505,6 +81438,8 @@
     "1": "Attaches or remvoes the suppressor. When active, the suppressor reduces recoil and noise output and hides the muzzle flash, but reduces range.",
     "2": "The Weapon Function key switches between various integrated scopes.|The Normal scope offers clear vision.|The Night Vision scope (green) illuminates the environment and shows enemies in orange.|The Infrared scope (red) highlights enemies with a box, even underwater or through smoke or trees.||Effective at medium range."
    },
+   "PlayerSpeedFactor": 0.75,
+   "PlayerJumpFactor": 0.75,
    "ZoomType": 2,
    "CockingBringUpTime": 1.4,
    "FireModeClass": {
@@ -82101,6 +83036,7 @@
      "Info": "300.0;35.0;0.5;60.0;0.0;1.0;1.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Timed",
@@ -82129,6 +83065,14 @@
    },
    "CurrentWeaponMode": 1,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 48.0,
    "PutDownTime": 0.66,
    "BringUpTime": 0.66,
    "Priority": 245,
@@ -82552,6 +83496,7 @@
      "Info": "240.0;20.0;0.9;75.0;0.8;0.7;0.2"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi-Auto",
@@ -82588,6 +83533,14 @@
    },
    "CurrentWeaponMode": 1,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.2,
+   "MagAmmo": 30,
+   "GunLength": 50.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.9,
    "Priority": 41,
@@ -83445,6 +84398,7 @@
      "Info": "300.0;25.0;0.5;60.0;0.6;1.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Automatic",
@@ -83473,11 +84427,21 @@
    },
    "CurrentWeaponMode": 1,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 48.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.3,
    "Priority": 245,
    "ItemName": "MK781 Combat Shotgun",
    "bNoCrosshairInScope": true,
+   "bCanSkipReload": true,
+   "bShovelLoad": true,
    "bWT_Shotgun": true,
    "bWT_Machinegun": true,
    "ManualLines": {
@@ -85671,6 +86635,7 @@
      "Info": "60.0;3.0;0.1;125.0;0.0;0.2;-999.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -85699,6 +86664,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.1,
    "PutDownTime": 0.4,
    "BringUpTime": 0.5,
    "Priority": 143,
@@ -86173,6 +87146,7 @@
      "Info": "240.0;25.0;0.5;40.0;0.0;1.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Pump-Action",
@@ -86201,12 +87175,22 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 32.0,
    "PutDownTime": 0.35,
    "BringUpTime": 0.3,
    "Priority": 36,
    "ItemName": "MRS-138 Tactical Shotgun",
    "bNoCrosshairInScope": true,
    "bCockOnEmpty": true,
+   "bCanSkipReload": true,
+   "bShovelLoad": true,
    "MeleeFireClass": "Class'BallisticProV55.MRS138MeleeFire'",
    "bWT_Shotgun": true,
    "ManualLines": {
@@ -87081,6 +88065,7 @@
      "Info": "180.0;10.0;-999.0;25.0;0.0;0.8;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Single Fire",
@@ -87109,10 +88094,19 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 24.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 35,
    "ItemName": "MRT-6 Shotgun",
+   "bAltTriggerReload": true,
    "bWT_Shotgun": true,
    "bWT_Sidearm": true,
    "ManualLines": {
@@ -87448,6 +88442,7 @@
      "Info": "480.0;60.0;1.5;100.0;0.8;2.0;1.5"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Full Auto",
@@ -87476,6 +88471,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.5,
    "Priority": 39,
@@ -87769,6 +88772,7 @@
      "Info": "240.0;25.0;0.9;80.0;0.7;0.7;2.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Auto Rockets",
@@ -87797,6 +88801,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 50,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 41,
@@ -88203,6 +89215,7 @@
      "Info": "240.0;25.0;0.6;50.0;1.0;0.5;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Lever Action",
@@ -88231,12 +89244,22 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.4,
    "BringUpTime": 0.3,
    "Priority": 33,
    "ItemName": "Redwood 6000 'DeerMaster'",
    "bNoCrosshairInScope": true,
    "bCockOnEmpty": true,
+   "bCanSkipReload": true,
+   "bShovelLoad": true,
    "MeleeFireClass": "Class'BallisticProV55.MarlinMeleeFire'",
    "bWT_Bullet": true,
    "ManualLines": {
@@ -89531,6 +90554,7 @@
      "Info": "240.0;20.0;0.9;80.0;0.0;0.4;0.1"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Auto",
@@ -89559,6 +90583,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.5,
    "Priority": 7,
@@ -90520,6 +91552,7 @@
      "Info": "240.0;25.0;0.9;80.0;0.7;0.7;0.4"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -90548,6 +91581,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 11,
@@ -92812,6 +93853,7 @@
      "Info": "120.0;20.0;0.7;50.0;0.0;0.5;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Single Fire",
@@ -92840,12 +93882,23 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 48.0,
    "PutDownTime": 0.35,
    "BringUpTime": 0.3,
    "Priority": 9,
    "ItemName": "Unfireable M763 Shotgun",
    "bNoCrosshairInScope": true,
    "bCockOnEmpty": true,
+   "bCanSkipReload": true,
+   "bAltTriggerReload": true,
+   "bShovelLoad": true,
    "MeleeFireClass": "Class'BallisticProV55.M763MeleeFire'",
    "bWT_Shotgun": true,
    "ManualLines": {
@@ -93472,6 +94525,7 @@
      "Info": "0.0;-999.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Strikes",
@@ -93500,15 +94554,26 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.66,
    "BringUpTime": 0.66,
    "Priority": 1,
    "ItemName": "NEX Plas-Edge Axe",
+   "bCanBlock": true,
    "bNoMag": true,
    "bNonCocking": true,
    "AIRating": 0.2,
    "bShowChargingBar": true,
    "bWT_Heal": true,
+   "PlayerSpeedFactor": 1.1,
+   "bAimDisabled": true,
    "FireModeClass": {
     "0": "Class'BWBP_SKC_Pro.N3XPlazPrimaryFire'",
     "1": "Class'BWBP_SKC_Pro.N3XPlazSecondaryFire'"
@@ -93787,6 +94852,7 @@
      "Info": "60.0;5.0;0.25;30.0;0.0;0.0;0.4"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Charged Throw",
@@ -93815,11 +94881,20 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.0,
+   "MagAmmo": 1,
+   "GunLength": 0.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.75,
    "Priority": 7,
    "ItemName": "NRP-57 'Pineapple'",
    "bNoMag": true,
+   "bAimDisabled": true,
    "bShowChargingBar": true,
    "bWT_Hazardous": true,
    "bWT_Splash": true,
@@ -94308,6 +95383,7 @@
      "Info": "0.0;5.0;-999.0;25.0;-999.0;0.0;0.5"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Charged Throw",
@@ -94336,11 +95412,20 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.0,
+   "MagAmmo": 1,
+   "GunLength": 0.0,
    "PutDownTime": 1.0,
    "BringUpTime": 1.0,
    "Priority": 124,
    "ItemName": "N-TOV Emergency Bandage",
    "bNoMag": true,
+   "bAimDisabled": true,
    "bShowChargingBar": false,
    "bWT_Grenade": true,
    "FireModeClass": {
@@ -94842,6 +95927,7 @@
      "Info": "120.0;15.0;0.8;50.0;0.0;0.5;0.5"
     }
    },
+   "AIReloadTime": 1.5,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -94870,6 +95956,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.2,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.6,
    "BringUpTime": 0.9,
    "Priority": 24,
@@ -96366,6 +97460,7 @@
      "Info": "300.0;25.0;0.7;-1.0;0.3;0.4;1.0"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -96402,6 +97497,14 @@
    },
    "CurrentWeaponMode": 3,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.55,
    "BringUpTime": 0.5,
    "Priority": 43,
@@ -96415,6 +97518,8 @@
     "1": " If a knife is attached, it will be launched, dealing high damage. This attack is hip-accurate and has no recoil. If no knife is attached, one will be attached if available.||This weapon is effective at medium range.",
     "2": "Rugged, reliable, no fancy attachments needed.  That's the mantra of ZTV Exports PKMA-420 General Purpose Machine Gun, an old timey design brought back from the glory days of the MSR (Merged States Republic).  A 7.62mm belt-fed machine gun that can get the job done even without the frills of optics and other attachments, however there have been upgrades so that it can mount the infamous X8 seen on the AK-490. The PKMA can fight, no matter how harsh the conditions are or how many Krao come surging, nothing can stop this machine gun from performing above and beyond."
    },
+   "PlayerSpeedFactor": 0.85,
+   "PlayerJumpFactor": 0.85,
    "CockingBringUpTime": 1.6,
    "FireModeClass": {
     "0": "Class'BWBP_APC_Pro.PKMPrimaryFire'",
@@ -97017,6 +98122,7 @@
      "Info": "320.0;15.0;1.0;110.0;2.0;0.1;0.1"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi-Automatic",
@@ -97045,6 +98151,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.3,
    "Priority": 65,
@@ -97781,6 +98895,7 @@
      "Info": "0.0;-15.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Gravity Proton Stream",
@@ -97809,6 +98924,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.2,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.6,
    "BringUpTime": 0.6,
    "Priority": 16,
@@ -98116,6 +99239,7 @@
      "Info": "0.0;-15.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Proton Stream",
@@ -98144,6 +99268,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.6,
    "BringUpTime": 0.6,
    "Priority": 16,
@@ -98524,6 +99656,7 @@
      "Info": "120.0;15.0;0.8;70.0;0.75;0.5;0.0"
     }
    },
+   "AIReloadTime": 1.5,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -98576,11 +99709,21 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 48.0,
    "PutDownTime": 0.4,
    "BringUpTime": 0.9,
    "Priority": 162,
    "ItemName": "PUG-M2 Riot Cannon",
    "bNoCrosshairInScope": true,
+   "bCanSkipReload": true,
+   "bAltTriggerReload": true,
    "bWT_Bullet": true,
    "FireModeClass": {
     "0": "Class'BWBP_SKC_Pro.PugPrimaryFire'",
@@ -99009,6 +100152,7 @@
      "Info": "300.0;30.0;0.5;60.0;0.0;1.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Airburst: Impact Detonation",
@@ -99037,6 +100181,14 @@
    },
    "CurrentWeaponMode": 1,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 8,
+   "GunLength": 48.0,
    "PutDownTime": 0.8,
    "BringUpTime": 1.0,
    "Priority": 245,
@@ -99579,6 +100731,7 @@
      "Info": "240.0;25.0;0.5;60.0;10.0;0.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Bolt-Action",
@@ -99607,6 +100760,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 4.0,
+   "MaxZoom": 16.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 80.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.5,
    "Priority": 33,
@@ -100615,6 +101776,7 @@
      "Info": "240.0;25.0;0.5;60.0;10.0;0.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Ammo: FMJ",
@@ -100643,6 +101805,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 4.0,
+   "MaxZoom": 16.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 80.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.5,
    "Priority": 33,
@@ -101055,6 +102225,7 @@
      "Info": "240.0;25.0;0.5;50.0;1.0;0.2;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Regular",
@@ -101083,6 +102254,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.4,
+   "MagAmmo": 30,
+   "GunLength": 80.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.4,
    "Priority": 33,
@@ -102653,6 +103832,7 @@
      "Info": "240.0;25.0;0.5;50.0;1.0;0.2;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Regular",
@@ -102697,6 +103877,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 80.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.4,
    "Priority": 33,
@@ -103202,6 +104390,7 @@
      "Info": "300.0;30.0;0.5;60.0;0.0;1.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Automatic",
@@ -103230,6 +104419,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 48.0,
    "PutDownTime": 0.55,
    "BringUpTime": 0.7,
    "Priority": 245,
@@ -103837,6 +105034,7 @@
      "Info": "300.0;35.0;1.0;80.0;0.8;0.8;1.0"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Rocket",
@@ -103865,6 +105063,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 1.6,
    "BringUpTime": 1.5,
    "Priority": 44,
@@ -104177,6 +105383,7 @@
      "Info": "60.0;6.0;1.0;90.0;0.2;0.0;0.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi-Automatic",
@@ -104213,6 +105420,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.2,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.6,
    "BringUpTime": 0.8,
    "Priority": 155,
@@ -105828,6 +107043,7 @@
      "Info": "0.0;-5.0;-999.0;-1.0;0.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -105856,6 +107072,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 17,
@@ -107346,6 +108570,7 @@
      "Info": "300.0;40.0;1.0;80.0;0.0;1.0;1.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Bolt",
@@ -107390,6 +108615,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 128.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.5,
    "Priority": 38,
@@ -108669,6 +109902,7 @@
      "Info": "300.0;40.0;1.0;80.0;1.0;0.0;1.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Slow Bolt",
@@ -108713,6 +109947,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 128.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.5,
    "Priority": 9,
@@ -109468,6 +110710,7 @@
      "Info": "360.0;50.0;0.96;90.0;0.0;0.3;1.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -109496,6 +110739,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 1.2,
    "Priority": 46,
@@ -109823,6 +111074,7 @@
      "Info": "240.0;20.0;0.9;80.0;0.0;0.4;0.1"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Full Auto",
@@ -109851,6 +111103,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.5,
    "Priority": 39,
@@ -110499,6 +111759,7 @@
      "Info": "240.0;25.0;0.8;90.0;0.0;1.0;0.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Auto",
@@ -110527,6 +111788,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 32,
@@ -113349,6 +114618,7 @@
      "Info": "300.0;30.0;0.5;60.0;0.0;1.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Automatic",
@@ -113377,6 +114647,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 48.0,
    "PutDownTime": 0.35,
    "BringUpTime": 0.6,
    "Priority": 245,
@@ -114014,6 +115292,7 @@
      "Info": "360.0;45.0;0.9;120.0;0.0;3.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Automatic",
@@ -114058,6 +115337,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 24,
+   "GunLength": 32.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.3,
    "Priority": 245,
@@ -115484,6 +116771,7 @@
      "Info": "500.0;60.0;1.0;80.0;2.0;0.0;1.5"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Single Fire",
@@ -115512,6 +116800,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 8.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.75,
+   "MagAmmo": 1,
+   "GunLength": 64.0,
    "PutDownTime": 0.8,
    "BringUpTime": 1.0,
    "Priority": 164,
@@ -115521,6 +116817,7 @@
    "bWT_Splash": true,
    "bWT_Projectile": true,
    "bWT_Super": true,
+   "PlayerSpeedFactor": 0.7,
    "CockingBringUpTime": 2.8,
    "FireModeClass": {
     "0": "Class'BWBP_SKC_Pro.SMATPrimaryFire'",
@@ -116076,6 +117373,7 @@
      "Info": "240.0;30.0;1.5;100.0;0.0;2.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi-Automatic",
@@ -116104,12 +117402,22 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.45,
+   "MagAmmo": 10,
+   "GunLength": 32.0,
    "PutDownTime": 0.5,
    "BringUpTime": 0.3,
    "Priority": 36,
    "ItemName": "SP-12 Compact Shotgun",
    "bNoCrosshairInScope": true,
    "bCockOnEmpty": true,
+   "bCanSkipReload": true,
+   "bShovelLoad": true,
    "bWT_Shotgun": true,
    "FireModeClass": {
     "0": "Class'BWBP_JCF_Pro.SPASPrimaryFire'",
@@ -116644,6 +117952,7 @@
      "Info": "240.0;20.0;0.9;75.0;0.8;0.7;0.2"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi-Auto",
@@ -116680,6 +117989,14 @@
    },
    "CurrentWeaponMode": 1,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.2,
+   "MagAmmo": 30,
+   "GunLength": 50.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.9,
    "Priority": 41,
@@ -117276,6 +118593,7 @@
      "Info": "240.0;20.0;0.9;75.0;1.0;0.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -117304,6 +118622,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 2.0,
+   "MaxZoom": 8.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 20,
+   "GunLength": 72.0,
    "PutDownTime": 0.4,
    "BringUpTime": 0.5,
    "Priority": 40,
@@ -119616,6 +120942,7 @@
      "Info": "240.0;20.0;0.9;75.0;1.0;0.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi-Auto",
@@ -119644,6 +120971,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 72.0,
    "PutDownTime": 0.35,
    "BringUpTime": 0.35,
    "Priority": 40,
@@ -121320,6 +122655,7 @@
      "Info": "120.0;12.0;-999.0;35.0;0.0;0.0;-999.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi-Auto",
@@ -121348,6 +122684,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.7,
    "Priority": 17,
@@ -122416,6 +123760,7 @@
      "Info": "240.0;10.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -122444,6 +123789,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.9,
    "BringUpTime": 0.7,
    "Priority": 12,
@@ -122672,6 +124025,7 @@
      "Info": "60.0;5.0;0.25;30.0;0.0;0.0;0.4"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Charged Throw",
@@ -122700,11 +124054,20 @@
    },
    "CurrentWeaponMode": 1,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.0,
+   "MagAmmo": 1,
+   "GunLength": 0.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.75,
    "Priority": 7,
    "ItemName": "NRX-82 'Scarab' Cluster Grenade",
    "bNoMag": true,
+   "bAimDisabled": true,
    "bShowChargingBar": true,
    "bWT_Hazardous": true,
    "bWT_Splash": true,
@@ -123193,6 +124556,7 @@
      "Info": "300.0;25.0;0.5;85.0;0.2;0.2;0.2"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Plasma Charge",
@@ -123237,6 +124601,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 60,
+   "GunLength": 128.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.5,
    "Priority": 92,
@@ -123700,6 +125072,7 @@
      "Info": "360.0;40.0;1.0;90.0;0.0;0.75;2.0"
     }
    },
+   "AIReloadTime": 0.2,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -123728,6 +125101,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 100,
+   "GunLength": 16.5,
    "PutDownTime": 1.5,
    "BringUpTime": 1.5,
    "Priority": 41,
@@ -124356,6 +125737,7 @@
      "Info": "0.0;0.0;0.0;-1.0;0.0;0.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Charged Throw",
@@ -124384,11 +125766,20 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.0,
+   "MagAmmo": 1,
+   "GunLength": 0.0,
    "PutDownTime": 1.0,
    "BringUpTime": 1.0,
    "Priority": 3,
    "ItemName": "T10 Toxic Grenade",
    "bNoMag": true,
+   "bAimDisabled": true,
    "bShowChargingBar": true,
    "bWT_Hazardous": true,
    "bWT_Splash": true,
@@ -124878,6 +126269,7 @@
      "Info": "240.0;12.0;1.50;80.0;0.4;0.2;-999.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -124914,6 +126306,14 @@
    },
    "CurrentWeaponMode": 3,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.1,
    "PutDownTime": 0.4,
    "BringUpTime": 0.5,
    "Priority": 143,
@@ -126236,6 +127636,7 @@
      "Info": "360.0;30.0;0.9;120.0;0.0;3.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Double Shot",
@@ -126264,6 +127665,14 @@
    },
    "CurrentWeaponMode": 1,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 10,
+   "GunLength": 32.0,
    "PutDownTime": 1.5,
    "BringUpTime": 0.3,
    "Priority": 245,
@@ -126272,6 +127681,7 @@
    "bWT_Hazardous": true,
    "bWT_Splash": true,
    "bWT_Projectile": true,
+   "PlayerSpeedFactor": 0.85,
    "FireModeClass": {
     "0": "Class'BWBP_SKC_Pro.TAC30PrimaryFire'",
     "1": "Class'BWBP_SKC_Pro.TAC30SecondaryFire'"
@@ -126720,6 +128130,7 @@
      "Info": "0.0;10.0;0.5;50.0;0.2;0.2;0.1"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Carpet Bombing",
@@ -126764,6 +128175,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 4.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 15,
@@ -126776,6 +128195,7 @@
     "1": "Raises the scope. The color of the scope changes from green to red, depending on whether or not the player is sufficiently far away from the aim point to call in the current airstrike.",
     "2": "Switch modes by holding down the Fire Mode key and scrolling the mouse.||Effective at medium range. Extremely effective at long range, against cover, and against groups."
    },
+   "bAimDisabled": true,
    "FireModeClass": {
     "0": "Class'BWBPAirstrikesPro.TargetDesignatorFire'",
     "1": "Class'BWBPAirstrikesPro.TargetDesignatorScopeFire'"
@@ -127439,6 +128859,7 @@
      "Info": "0.0;-15.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Gravity Proton Stream",
@@ -127467,6 +128888,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.2,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 1.1,
    "BringUpTime": 1.1,
    "Priority": 16,
@@ -127774,6 +129203,7 @@
      "Info": "210.0;30.0;0.95;80.0;0.0;0.8;0.8"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Blast",
@@ -127802,6 +129232,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 5,
+   "GunLength": 48.0,
    "PutDownTime": 0.8,
    "BringUpTime": 0.95,
    "Priority": 39,
@@ -128132,6 +129570,7 @@
      "Info": "300.0;25.0;0.7;-1.0;0.4;0.4;-999.0"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "800 RPM",
@@ -128160,6 +129599,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.6,
    "BringUpTime": 1.1,
    "Priority": 43,
@@ -128544,6 +129991,7 @@
      "Info": "240.0;15.0;0.4;25.0;0.8;0.0;-999.0"
     }
    },
+   "AIReloadTime": 1.5,
    "WeaponModes": {
     "0": {
      "ModeName": "Mode: Rapid Fire",
@@ -128572,6 +130020,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.25,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.8,
    "BringUpTime": 1.0,
    "Priority": 19,
@@ -129048,6 +130504,7 @@
      "Info": "320.0;25.0;1.0;110.0;2.0;0.1;0.1"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "High Powered",
@@ -129076,6 +130533,14 @@
    },
    "CurrentWeaponMode": 1,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.3,
    "Priority": 65,
@@ -129840,6 +131305,7 @@
      "Info": "240.0;25.0;0.9;85.0;0.1;0.9;0.4"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -129868,11 +131334,20 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 22,
+   "GunLength": 16.0,
    "PutDownTime": 1.0,
    "BringUpTime": 1.0,
    "Priority": 41,
    "ItemName": "[B] Type-76 Wendigo EMP-R",
    "bNoCrosshairInScope": true,
+   "bAltTriggerReload": true,
    "bWT_Bullet": true,
    "bWT_Shotgun": true,
    "bWT_Machinegun": true,
@@ -130230,6 +131705,7 @@
      "Info": "180.0;6.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Boost Pad",
@@ -130282,10 +131758,19 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 1.75,
    "BringUpTime": 1.75,
    "Priority": 13,
    "ItemName": "NFUD Combat Wrench",
+   "bCanBlock": true,
    "bNoMag": true,
    "bNonCocking": true,
    "AIRating": 0.2,
@@ -130296,6 +131781,7 @@
     "1": "Constructs an energy barrier, regardless of the currently active mode.",
     "2": "Grants a 10% speed increase."
    },
+   "bAimDisabled": true,
    "FireModeClass": {
     "0": "Class'BWBP_OP_Pro.WrenchPrimaryFire'",
     "1": "Class'BWBP_OP_Pro.WrenchSecondaryFire'"
@@ -130933,6 +132419,7 @@
      "Info": "160.0;10.0;0.3;40.0;0.0;1.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Wrench. There is only Wrench.",
@@ -130961,6 +132448,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.25,
+   "MagAmmo": 30,
+   "GunLength": 60.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 38,
@@ -131268,6 +132763,7 @@
      "Info": "0.0;-999.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -131296,10 +132792,19 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.2,
    "BringUpTime": 0.2,
    "Priority": 9,
    "ItemName": "X3 Knife",
+   "bCanBlock": true,
    "bNoMag": true,
    "bNonCocking": true,
    "AIRating": 0.6,
@@ -131309,6 +132814,7 @@
     "1": "Prepared slash. Gains damage over hold time (maximum bonus reached after 1.5 seconds). Deals more damage from behind.",
     "2": "The Weapon Function key throws a knife, dealing good damage. Thrown knives have a very short range."
    },
+   "bAimDisabled": true,
    "FireModeClass": {
     "0": "Class'BallisticProV55.X3PrimaryFire'",
     "1": "Class'BallisticProV55.X3SecondaryFire'"
@@ -131683,6 +133189,7 @@
      "Info": "180.0;6.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -131711,10 +133218,19 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.2,
    "BringUpTime": 0.2,
    "Priority": 13,
    "ItemName": "X4 Knife",
+   "bCanBlock": false,
    "bNoMag": true,
    "bNonCocking": true,
    "AIRating": 0.7,
@@ -131724,6 +133240,7 @@
     "1": "Prepared slash. Gains damage over hold time (maximum bonus reached after 1.5 seconds). Deals more damage from behind.",
     "2": ""
    },
+   "bAimDisabled": true,
    "FireModeClass": {
     "0": "Class'BallisticProV55.X4PrimaryFire'",
     "1": "Class'BallisticProV55.X4SecondaryFire'"
@@ -132003,6 +133520,7 @@
      "Info": "360.0;35.0;1.0;80.0;10.0;0.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -132031,6 +133549,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 4.0,
+   "MaxZoom": 32.0,
+   "ZoomStages": 3,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 80.0,
    "PutDownTime": 1.4,
    "BringUpTime": 1.2,
    "Priority": 207,
@@ -132858,6 +134384,7 @@
      "Info": "360.0;35.0;1.0;80.0;10.0;0.0;0.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -132886,6 +134413,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 4.0,
+   "MaxZoom": 32.0,
+   "ZoomStages": 3,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 1.4,
    "BringUpTime": 1.0,
    "Priority": 1,
@@ -132903,7 +134438,8 @@
    "AIRating": 0.8,
    "Description": "X83 Anti-Material Rifle||Manufacturer: Enravion Combat Solutions |Primary: Single Powerful Shot|Secondary: Activate Zooming Scope|Special: (Scoped) Activate Night Vision/Detector|Special: (Unscoped) Mount X-83 A1||Enravion's high powered X-83 A1 Anti-Material Rifle is a fearsome sight on the modern day battlefield. With an effective range of about 1.1 miles, the X-83 can target and eliminate infantry and light vehicles with ease and at range using its specialized .50 cal N6-BMG HEAP rounds. This special operations weapon, designed to disable key targets like parked aircraft and APCs, was used extensively prior to the Skrith wars.",
    "InventoryGroup": 9,
-   "PickupClass": "Class'BWBP_SKC_Pro.X82Pickup'"
+   "PickupClass": "Class'BWBP_SKC_Pro.X82Pickup'",
+   "bUseSpecialAim": true
   },
   "class_chain": [
    "X82Rifle_TW",
@@ -133672,6 +135208,7 @@
      "Info": "0.0;-999.0;-999.0;-1.0;-999.0;-999.0;-999.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -133700,10 +135237,19 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 1,
+   "GunLength": 0.0,
    "PutDownTime": 0.2,
    "BringUpTime": 0.4,
    "Priority": 13,
    "ItemName": "X8 Ballistic Knife",
+   "bCanBlock": false,
    "bNoMag": true,
    "bNonCocking": true,
    "AIRating": 0.7,
@@ -133713,6 +135259,7 @@
     "1": "When held, readies the ballistic knife. When released, the knife is fired in a straight trajectory, dealing good damage to targets hit.",
     "2": "Effective at close range and while moving."
    },
+   "bAimDisabled": true,
    "FireModeClass": {
     "0": "Class'BWBP_SKC_Pro.X8PrimaryFire'",
     "1": "Class'BWBP_SKC_Pro.X8SecondaryFire'"
@@ -133979,6 +135526,7 @@
      "Info": "120.0;10.0;0.6;60.0;0.3;0.1;-999.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -134023,6 +135571,14 @@
    },
    "CurrentWeaponMode": 3,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 32,
@@ -135400,6 +136956,7 @@
      "Info": "240.0;15.0;1.1;90.0;1.0;0.0;0.3"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Laser Beam",
@@ -135428,6 +136985,14 @@
    },
    "CurrentWeaponMode": 1,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 40,
+   "GunLength": 64.0,
    "PutDownTime": 1.0,
    "BringUpTime": 0.8,
    "Priority": 194,
@@ -135438,6 +137003,8 @@
    "bWT_Splash": true,
    "bWT_Projectile": true,
    "bWT_Energy": true,
+   "PlayerSpeedFactor": 1.1,
+   "PlayerJumpFactor": 1.1,
    "CockingBringUpTime": 1.2,
    "FireModeClass": {
     "0": "Class'BWBP_SKC_Pro.XM20PrimaryFire'",
@@ -136488,6 +138055,7 @@
      "Info": "60.0;5.0;0.25;30.0;0.0;0.0;0.4"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Charged Throw",
@@ -136516,11 +138084,20 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.0,
+   "MagAmmo": 1,
+   "GunLength": 0.0,
    "PutDownTime": 1.0,
    "BringUpTime": 0.9,
    "Priority": 142,
    "ItemName": "XM84 Heavy Tech Grenade",
    "bNoMag": true,
+   "bAimDisabled": true,
    "bShowChargingBar": true,
    "bWT_Hazardous": true,
    "bWT_Splash": true,
@@ -137005,6 +138582,7 @@
      "Info": "180.0;15.0;0.7;60.0;0.1;0.4;-999.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -137033,6 +138611,14 @@
    },
    "CurrentWeaponMode": 2,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 40.0,
    "PutDownTime": 0.35,
    "BringUpTime": 0.3,
    "Priority": 41,
@@ -138177,6 +139763,7 @@
      "Info": "480.0;55.0;2.0;100.0;0.5;0.5;0.7"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "600 RPM",
@@ -138221,6 +139808,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 800,
+   "GunLength": 64.0,
    "PutDownTime": 0.8,
    "BringUpTime": 2.0,
    "Priority": 48,
@@ -138229,6 +139824,8 @@
    "bWT_Bullet": true,
    "bWT_Machinegun": true,
    "bWT_Super": true,
+   "PlayerSpeedFactor": 0.75,
+   "PlayerJumpFactor": 0.75,
    "FireModeClass": {
     "0": "Class'BWBP_APC_Pro.XMV500MinigunPrimaryFire'",
     "1": "Class'BWBP_APC_Pro.XMV500MinigunSecondaryFire'"
@@ -138756,6 +140353,7 @@
      "Info": "480.0;55.0;2.0;100.0;0.5;0.5;0.7"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "600 RPM",
@@ -138800,6 +140398,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 800,
+   "GunLength": 0.0,
    "PutDownTime": 0.8,
    "BringUpTime": 1.4,
    "Priority": 1,
@@ -138808,12 +140414,15 @@
    "bWT_Bullet": true,
    "bWT_Machinegun": true,
    "bWT_Super": true,
+   "PlayerSpeedFactor": 0.75,
+   "PlayerJumpFactor": 0.75,
    "FireModeClass": "Class'BWBP_APC_Pro.XMV500TW_PrimaryFire'",
    "AIRating": 0.7,
    "bShowChargingBar": true,
    "Description": "XMB-500 Smart Minigun|Manuacturer: Enravion Combat Solutions|Primary: Auto fire||The XMB-500 Personal Suppression System is a prototype weapon being developed by Enravion as a low-recoil, precision minigun. The XMB-500 has been designed for ease of use with infantry and boasts firerates of 600 to 2400 RPM; combined with the potent incendiary rounds, the accurate XMB-500 is perfect for cutting down large amounts of enemy troops. This weapon has excellent accuracy when stationary but unfortunately cannot be fired safely at the higher speeds while moving. To prevent damage to the user and the weapon, the XMB-500 will automatically lock when mobile at cyclic speeds over 600 RPM. It should be noted that the speed sensor will malfunction if submerged in liquid or not properly cared for.",
    "InventoryGroup": 6,
-   "PickupClass": "Class'BWBP_APC_Pro.XMV500Pickup'"
+   "PickupClass": "Class'BWBP_APC_Pro.XMV500Pickup'",
+   "bUseSpecialAim": true
   },
   "class_chain": [
    "XMV500Minigun_TW",
@@ -139323,6 +140932,7 @@
      "Info": "480.0;60.0;2.0;100.0;0.5;0.5;0.5"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "1200 RPM",
@@ -139351,6 +140961,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 64.0,
    "PutDownTime": 0.8,
    "BringUpTime": 2.0,
    "Priority": 47,
@@ -139884,6 +141502,7 @@
      "Info": "480.0;60.0;2.0;100.0;0.5;0.5;0.5"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "1200 RPM",
@@ -139912,6 +141531,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": false,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 0.0,
    "PutDownTime": 0.8,
    "BringUpTime": 1.4,
    "Priority": 1,
@@ -139929,7 +141556,8 @@
    "bShowChargingBar": true,
    "Description": "Anti-Krao weapons are a common thing these days, with many being designed specifically to kill as many as possible in a short time. However, no infantry weapon does this better, than the XMV-850. A weapon to be feared, this monster is capable of firing as many as sixty 5.56mm rounds a second. While most miniguns are capable of firing ten or twelve thousand rounds-per-minute, the XMV-850 has been designed for infantry use, as a fire-rate that high, would generate far to much recoil. To make the weapon usable in a defensive position, it can be deployed to stabilise it, and allows the user to become that much more effective. To help with recoil, and allow the soldier to use the weapon more efectively when not deployed, the fire-rate can be limited to a lower RPM. Though not terribly accurate or damaging, the fact that it can pour out bullets at such a rate, means that it will be difficult to miss the target.",
    "InventoryGroup": 6,
-   "PickupClass": "Class'BallisticProV55.XMV850Pickup'"
+   "PickupClass": "Class'BallisticProV55.XMV850Pickup'",
+   "bUseSpecialAim": true
   },
   "class_chain": [
    "XMV850Minigun_TW",
@@ -140420,6 +142048,7 @@
      "Info": "300.0;40.0;1.0;80.0;0.0;1.0;1.0"
     }
    },
+   "AIReloadTime": 2.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Rapid Fire",
@@ -140456,6 +142085,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 128.0,
    "PutDownTime": 0.6,
    "BringUpTime": 0.5,
    "Priority": 38,
@@ -141416,6 +143053,7 @@
      "Info": "60.0;5.0;0.4;-1.0;0.0;0.2;-999.0"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "Full Auto",
@@ -141444,6 +143082,14 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.3,
    "BringUpTime": 0.3,
    "Priority": 27,
@@ -142091,6 +143737,7 @@
      "Info": "480.0;60.0;2.0;100.0;0.5;0.5;0.5"
     }
    },
+   "AIReloadTime": 4.0,
    "WeaponModes": {
     "0": {
      "ModeName": "400 RPM",
@@ -142135,6 +143782,14 @@
    },
    "CurrentWeaponMode": 1,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.55,
+   "MagAmmo": 100,
+   "GunLength": 64.0,
    "PutDownTime": 0.8,
    "BringUpTime": 2.0,
    "Priority": 47,
@@ -142147,6 +143802,8 @@
     "1": "Secondary fire launches a fuel grenade, which spreads fuel on the ground. This fuel can be ignited using the primary fire or other fire-based weapons. Enemies hit by the grenade or who walk into the fuel spilled will be ignited and receive damage, in addition to the damage inflicted by the ground fires.",
     "2": "Effective against groups of players and at area denial."
    },
+   "PlayerSpeedFactor": 0.9,
+   "PlayerJumpFactor": 0.9,
    "FireModeClass": {
     "0": "Class'BWBP_OP_Pro.Z250PrimaryFire'",
     "1": "Class'BWBP_OP_Pro.Z250SecondaryFire'"
@@ -142587,6 +144244,7 @@
      "Info": "240.0;25.0;0.9;85.0;0.1;0.9;0.4"
     }
    },
+   "AIReloadTime": 1.0,
    "WeaponModes": {
     "0": {
      "ModeName": "600 RPM",
@@ -142615,11 +144273,20 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.35,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.35,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.33,
    "BringUpTime": 0.45,
    "Priority": 41,
    "ItemName": "ZX-98 Reaper Gauss Rifle",
    "bNoCrosshairInScope": true,
+   "bAltTriggerReload": true,
    "bWT_Bullet": true,
    "bWT_Machinegun": true,
    "ManualLines": {
@@ -142950,6 +144617,7 @@
      "Info": "120.0;15.0;0.6;50.0;0.9;0.5;-999.0"
     }
    },
+   "AIReloadTime": 1.5,
    "WeaponModes": {
     "0": {
      "ModeName": "Semi",
@@ -142978,12 +144646,21 @@
    },
    "CurrentWeaponMode": 0,
    "bUseSights": true,
+   "MinZoom": 1.0,
+   "MaxZoom": 2.0,
+   "ZoomStages": 2,
+   "SightZoomFactor": 1.2,
+   "ShovelIncrement": 1,
+   "SightingTime": 0.2,
+   "MagAmmo": 30,
+   "GunLength": 16.0,
    "PutDownTime": 0.7,
    "BringUpTime": 0.3,
    "Priority": 22,
    "ItemName": "Wilson 41",
    "bWT_Sidearm": true,
    "bNoCrosshairInScope": true,
+   "bAltTriggerReload": true,
    "bWT_Bullet": true,
    "ManualLines": {
     "0": "High damage bullet fire. Good range for a handgun and high ammo capacity.",

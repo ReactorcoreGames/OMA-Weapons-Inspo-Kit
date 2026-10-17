@@ -4,6 +4,9 @@ Walks weapon class -> ParamsClasses[i] (0=pro, 1=classic, 2=realism, 3=tactical)
 WeaponParams -> Recoil/Aim/Fire/AltFire params -> FireEffectParams, resolving params-class
 inheritance and BCoreProV55 base-class defaults so every value is the effective one.
 
+Also writes bw_aux_classes.json next to the output: gameplay defaults of every fire, melee, ammo,
+projectile and damage-type class the weapons reference (melee stats and reserve ammo live there).
+
 Raw BW units are kept as-is (Unreal units, rotation units, 100 HP scale). Normalization into
 kit units happens in a later step; this file is provenance data.
 
@@ -27,7 +30,17 @@ WEAPON_KEYS = {
     "bCockOnEmpty", "bShowChargingBar", "bUseSights", "ZoomType", "MeleeFireClass", "FireModeClass",
     "SpecialInfo", "WeaponModes", "CurrentWeaponMode", "CockingBringUpTime", "PutDownTime",
     "BringUpTime", "bNoCrosshairInScope", "AIRating", "ManualLines", "PickupClass",
+    "GunLength", "AIReloadTime", "bCockAfterReload", "bShovelLoad", "ShovelIncrement", "bCanSkipReload",
+    "bAltTriggerReload", "bAimDisabled", "bUseSpecialAim", "SightZoomFactor", "MagAmmo", "SightingTime",
+    "PlayerSpeedFactor", "PlayerJumpFactor", "ZoomType", "MaxZoom", "MinZoom", "ZoomStages", "bCanBlock",
 }
+# Classes referenced from weapons whose defaults hold gameplay data (melee stats, reserve ammo,
+# projectile and damage-type behaviour). Dumped to a side file with cosmetic keys removed.
+AUX_REF_KEYS = ("FireModeClass", "MeleeFireClass", "AmmoClass", "ProjectileClass", "DamageType",
+                "DamageTypeHead", "DamageTypeArm", "MyDamageType", "SplashDamageType", "AltFireClass")
+COSMETIC_RE = re.compile(r"(Sound|Anim|Emitter|Mesh|Texture|Material|Skin|Shader|Icon|Flash|Brass|Tracer|"
+                         r"Trail|Decal|Light|Shake|Death|Suicide|Kill|String|Message|Hud|HUD|Color|Draw|Glow|"
+                         r"Smoke|Effect$|ImpactManager|Blood|Gib|Font|Force$|Spawn|Ambient|Fades|Offset$|Mute)")
 
 
 # ---------- value parsing ----------
@@ -225,6 +238,44 @@ def registered_weapons(cfg_dir):
     return reg
 
 
+def aux_classes(classes, weapons):
+    """Transitively collect gameplay defaults of fire / melee / ammo / projectile / damage-type classes."""
+    todo, out = [], {}
+
+    def refs(d):
+        for k, v in d.items():
+            vals = v.values() if isinstance(v, dict) and all(isinstance(i, int) for i in v) else [v]
+            for x in vals:
+                if isinstance(x, str) and k in AUX_REF_KEYS:
+                    n = class_ref_name(x)
+                    if n:
+                        yield n
+
+    def walk(o):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k in AUX_REF_KEYS and isinstance(v, str) and class_ref_name(v):
+                    todo.append(class_ref_name(v))
+                else:
+                    walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+
+    for w in weapons.values():
+        todo.extend(refs(merged_defaults(classes, w["class"])))
+        walk(w["styles"])
+    while todo:
+        c = todo.pop()
+        if c in out or c not in classes:
+            continue
+        d = merged_defaults(classes, c)
+        keep = {k: v for k, v in d.items() if not COSMETIC_RE.search(k)}
+        out[c] = {"package": classes[c]["package"], "parent": classes[c]["parent"], "chain": chain(classes, c), "defaults": keep}
+        todo.extend(refs(d))
+    return out
+
+
 def main(root, cfg_dir, out_path):
     classes = load_all(root)
     reg = registered_weapons(cfg_dir)
@@ -256,6 +307,11 @@ def main(root, cfg_dir, out_path):
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w", encoding="utf-8", newline="\r\n") as fh:  # CRLF on every OS (repo convention)
         json.dump(weapons, fh, indent=1, ensure_ascii=False)
+    aux = aux_classes(classes, weapons)
+    aux_path = os.path.join(os.path.dirname(out_path), "bw_aux_classes.json")
+    with open(aux_path, "w", encoding="utf-8", newline="\r\n") as fh:  # CRLF on every OS (repo convention)
+        json.dump(dict(sorted(aux.items())), fh, indent=1, ensure_ascii=False)
+    print(f"{len(aux)} referenced fire/ammo/projectile/damage-type classes -> {aux_path}")
     print(f"{len(weapons)} weapon classes ({sum(w['registered'] for w in weapons.values())} registered) -> {out_path}")
     missing = sorted(set(reg) - set(weapons))
     if missing:

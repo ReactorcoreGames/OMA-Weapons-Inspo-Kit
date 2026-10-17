@@ -16,7 +16,7 @@ Full vision: [docs/project-objective.md](docs/project-objective.md).
 
 - **Sever the BW link in kit output.** New names and identities. No BW names, BW lore (Skrith, UTC, Cryon, Enravion…), asset paths, or verbatim BW descriptions or code. Pseudo code is written fresh, not transliterated. Mechanics and numbers carry over.
 - **Engine- and dimension-agnostic.** Prose plus Python-flavoured pseudo code with dimension-neutral vectors (`aim_dir`, `rotate(aim_dir, angle)`). Pseudo code only where words can't carry the idea.
-- **Physically grounded, unclamped units.** Seconds, meters, degrees, kilograms, newton-seconds, etc. No 1–5 caps: every value must be freely pushable beyond BW's range for modding. Each scale gets a reference table (e.g. what "light" vs "heavy" recoil means in numbers). BW conversions: 52.5 Unreal units = 1 m; 65536 rotation units = 360°; damage is relative to a 100 HP human.
+- **Physically grounded, unclamped units.** Seconds, meters, degrees, kilograms, newton-seconds, etc. No 1–5 caps: every value must be freely pushable beyond BW's range for modding. Each scale gets a reference table (e.g. what "light" vs "heavy" recoil means in numbers). BW conversions: 52.5 Unreal units = 1 m; 65536 rotation units = 360°; UT2004 runs at time dilation 1.1, so BW game seconds ÷ 1.1 = real seconds (speeds × 1.1); damage is absolute HP (100 HP human, 200 HP merc). Details: [docs/research/unit-conversion.md](docs/research/unit-conversion.md).
 - **LLM consumption first, human browsing second.** Compact, consistent, predictable structure. Every entry must pass the validator.
 - Markdown prose is never hard-wrapped (one line per paragraph).
 
@@ -27,7 +27,7 @@ Full vision: [docs/project-objective.md](docs/project-objective.md).
 | Canonical ruleset | **One unified stat set, Classic-based with selected Pro enhancements.** See "Canonical stat merge rules" below and [docs/research/pro-vs-classic.md](docs/research/pro-vs-classic.md). Realism/Tactical are out. |
 | Units | Accepted: forces as **impulse (N·s)** resisted by mass, grip and bracing. Recoil and knockback use the same model, so it works in any gravity. BW feel is the calibration target for a default human. See [docs/open-questions-2.md](docs/open-questions-2.md) #2. |
 | Health baseline | **200 HP, no regen** = trained mercenary in body armour (the default combatant). 100 HP = ordinary human in basic clothes. Classic damage numbers stay as-is against this pool. Document this in the core docs. |
-| Movement baseline | Pro's: slower base movement (ground 315 uu/s ≈ 6.0 m/s, jump 294), stronger sprint (×1.40). |
+| Movement baseline | Pro's: slower base movement (ground 315 uu/s = 6.6 m/s real time, jump 294 uu/s), stronger sprint (×1.40). |
 | Credit | Public README gets exactly one line: "Inspired by Ballistic Weapons mod for UT2004 by the Runestorm team + Relics and Rayguns server team." |
 | Extra sources | Stock UT2004 handheld weapons and Onslaught vehicle weapons are in scope too. They lack BW's mechanics, so their stats are **invented to BW standard** (modes, recoil, aim, layouts…), clearly marked as invented in provenance. |
 | Variants | Layouts become named variants inside the weapon's file, named per-weapon by maker style, e.g. base "P7 Kiraric" → variant "P7b Kiraric Tac". Camos are dropped. |
@@ -69,7 +69,10 @@ provenance/                private BW mapping, never shipped
 
 1. ✅ **Decompile v2**: [tools/decompile/](tools/decompile/) (Windows-only: UE Explorer's UELib with the UT2004 natives table + `vartypes.txt` array map). Output in `sources/*/scripts-decompiled-v2/`, kept in the repo so cloud sessions never need to re-run it.
 2. ✅ **Extract stats**: `tools/extract/extract_params.py` → `sources/bw-2.9/extracted/bw_weapon_params.json` (raw BW values: 172 weapon classes, 142 registered; per ruleset, layout, fire/aim/recoil/effect params, with inheritance and defaults resolved).
-3. ⬜ Normalize to kit units, then design the schema + validator.
+   Side file `bw_aux_classes.json`: gameplay defaults of referenced fire, melee, ammo, projectile and damage-type classes.
+2b. ✅ **Merge**: `tools/extract/merge_canonical.py` → `bw_canonical.json` + `docs/research/merge-report.md`.
+2c. ✅ **Kit units**: `tools/extract/to_kit_units.py` → `bw_kit_units.json` (raw values kept under `_raw`).
+3. ⬜ Impulse calibration, hipfire derivation, then the schema + validator.
 4. ⬜ Core-mechanics docs.
 5. ⬜ Pilot batch (12, all in `BallisticProV55`), in two steps. **Step A:** X3Knife, M806Pistol, Fifty9MachinePistol together with the core-mechanics drafts and schema, so the author can correct the format early. **Step B:** M50AssaultRifle, E23PlasmaRifle, HVCMk9LightningGun, G5Bazooka, RX22AFlamer, M75Railgun, FP9Explosive, XMV850Minigun, FP7Grenade.
 6. ⬜ Remaining BW weapons in batches, then vehicle weapons (BW VPC + Onslaught), then stock UT2004 weapons with invented BW-standard stats, then the browser.
