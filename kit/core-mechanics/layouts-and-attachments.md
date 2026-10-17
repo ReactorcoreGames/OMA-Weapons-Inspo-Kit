@@ -47,7 +47,7 @@ variants:
       dual_wield.allowed: false
 ```
 
-Paths address any front-matter field; `fire_modes[Burst].rpm` addresses a named list item; a new name appends; `null` removes. The validator applies each patch and checks the result as a full weapon.
+Paths address any front-matter field; `fire_modes[Burst].rpm` addresses a named list item; a new name appends; `null` removes. A value replaces what was there, maps included, so change single keys with deeper paths (`dual_wield.mixing: true`) and replace whole blocks (a new `secondary`) by setting the block. The validator applies each patch and checks the result as a full weapon.
 
 ## Chimera weapons
 

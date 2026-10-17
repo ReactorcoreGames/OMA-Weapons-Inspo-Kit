@@ -482,11 +482,11 @@ def apply_patch(base, changes, rep, where):
                     break
                 if last:
                     if value is None:
+                        if tok not in cur:
+                            ok = False
                         cur.pop(tok, None)
-                    elif isinstance(value, dict) and isinstance(cur.get(tok), dict):
-                        deep_merge(cur[tok], value)
                     else:
-                        cur[tok] = copy.deepcopy(value)
+                        cur[tok] = copy.deepcopy(value)   # a map value replaces the whole map
                 else:
                     if tok not in cur:
                         nxt_kind = toks[i + 1][0]
@@ -508,7 +508,9 @@ def apply_patch(base, changes, rep, where):
                             ok = False
                     elif idx:
                         if isinstance(value, dict):
-                            deep_merge(cur[idx[0]], value)
+                            item = {"name": tok}
+                            item.update(copy.deepcopy(value))
+                            cur[idx[0]] = item              # replaces the named item
                         else:
                             ok = False
                     else:

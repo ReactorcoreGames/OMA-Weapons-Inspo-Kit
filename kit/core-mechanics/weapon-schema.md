@@ -308,7 +308,7 @@ Layouts, attachments and factory versions of the same weapon. Each variant is a 
 | `name` | string | yes | starts with the base `name`, then one or more words: `Kiraric` → `Kiraric Tac` |
 | `summary` | string | yes | one line: what changed and why you'd pick it |
 | `tags_add`, `tags_remove` | list | no | tag changes |
-| `changes` | map | yes | `dotted.path: value`. Paths address front-matter fields; list items with a `name` are addressed by name in brackets: `fire_modes[Burst].rpm: 300`. Setting a map replaces that map's listed keys only; setting a list replaces the list; `fire_modes[New Mode]: {...}` appends a mode; `null` removes the field or list item |
+| `changes` | map | yes | `dotted.path: value`. Paths address front-matter fields; list items with a `name` are addressed by name in brackets: `fire_modes[Burst].rpm: 300`. Any value replaces what was there, maps included (use a deeper path to change one key: `dual_wield.mixing: true`); `fire_modes[Name]: {...}` replaces that mode, and a new name appends one; `null` removes the field or list item |
 
 The validator applies each patch and validates the result as a full weapon.
 

@@ -72,9 +72,9 @@ provenance/                private BW mapping, never shipped
    Side file `bw_aux_classes.json`: gameplay defaults of referenced fire, melee, ammo, projectile and damage-type classes.
 2b. ✅ **Merge**: `tools/extract/merge_canonical.py` → `bw_canonical.json` + `docs/research/merge-report.md`.
 2c. ✅ **Kit units**: `tools/extract/to_kit_units.py` → `bw_kit_units.json` (raw values kept under `_raw`).
-3. ⬜ Impulse calibration, hipfire derivation, then the schema + validator.
-4. ⬜ Core-mechanics docs.
-5. ⬜ Pilot batch (12, all in `BallisticProV55`), in two steps. **Step A:** X3Knife, M806Pistol, Fifty9MachinePistol together with the core-mechanics drafts and schema, so the author can correct the format early. **Step B:** M50AssaultRifle, E23PlasmaRifle, HVCMk9LightningGun, G5Bazooka, RX22AFlamer, M75Railgun, FP9Explosive, XMV850Minigun, FP7Grenade.
+3. ✅ Impulse model (`tools/kit/recoil_model.py`, `docs/research/impulse-calibration.md`), hipfire / run-ADS derivation (`tools/kit/handling_model.py`, `docs/research/hipfire-and-run-ads.md`), schema (`kit/core-mechanics/weapon-schema.md`) and validator (`tools/kit/validate.py`, private name blocklist in `provenance/`).
+4. ✅ Core-mechanics docs (`kit/core-mechanics/`, drafts awaiting author review).
+5. 🔶 Pilot batch (12, all in `BallisticProV55`), in two steps (step A written, awaiting author review). **Step A:** X3Knife, M806Pistol, Fifty9MachinePistol together with the core-mechanics drafts and schema, so the author can correct the format early. **Step B:** M50AssaultRifle, E23PlasmaRifle, HVCMk9LightningGun, G5Bazooka, RX22AFlamer, M75Railgun, FP9Explosive, XMV850Minigun, FP7Grenade.
 6. ⬜ Remaining BW weapons in batches, then vehicle weapons (BW VPC + Onslaught), then stock UT2004 weapons with invented BW-standard stats, then the browser.
 
 ## Repo layout
@@ -88,7 +88,9 @@ provenance/                private BW mapping, never shipped
 | `sources/bw-2.9/config-localization/` | `.int` (descriptions, mode names), `.ucl` (weapon registry + fallback names), `.ini` |
 | `sources/bw-2.9/weapon-icons/` | 154 BW HUD icons (local dev reference only, not in git, never shipped) |
 | `sources/ut2004-base/scripts-decompiled-v2/` | UT2004 base classes incl. `Onslaught` (vehicles) |
-| `tools/` | Decompile + extract scripts. `ut2004-oldunreal-runtime/` is local-only (not in git) |
+| `tools/` | `decompile/` (Windows-only), `extract/` (extract → merge → kit units), `kit/` (recoil and handling models, validator, blocklist builder, tests). `ut2004-oldunreal-runtime/` is local-only (not in git) |
+| `kit/` | The shippable kit: `core-mechanics/` docs and `weapons/` entries. Must never name the source mod (the validator's blocklist checks) |
+| `provenance/` | Private kit → source map with every judgement call (`weapons.yaml`), name blocklist. Never shipped |
 | `trash/` | Judged useless or superseded (incl. the flawed v1 decompile). Move here rather than delete |
 
 ## How BW code is organized (for reading sources)
@@ -108,3 +110,5 @@ The working repo is a **temporary public GitHub repo** (private repos aren't an 
 - Bulk work goes through scripts in `tools/`. Scratch output stays out of the repo.
 - When unsure whether something is useful, move it to `trash/<reason>/` rather than deleting.
 - Verify claims against code (`scripts-decompiled-v2`) before writing them into the kit.
+- Weapon entries: start from `sources/bw-2.9/extracted/bw_kit_units.json` (kit units + `kit_estimates`), read the weapon's `.uc` files for code-defined behaviour, solve `kick_factor` with `python tools/kit/recoil_model.py solve ...`, record every judgement in `provenance/weapons.yaml`, and run `python tools/kit/validate.py` (needs PyYAML) until it reports no errors or warnings.
+- Variant patches: a value replaces what was there (maps included); change single keys with dotted paths.

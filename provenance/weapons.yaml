@@ -1,0 +1,84 @@
+# Private: kit entry -> source mapping. Never ship. See README.md.
+
+rk3-halvenn:
+  file: kit/weapons/light-melee_knife_rk3-halvenn.md
+  bw_class: X3Knife
+  package: BallisticProV55
+  bw_name: X3 Knife
+  layouts: {rk3-halvenn: Silver}
+  derived:
+    - "Slash 45 dmg (Pro buff over Classic 35), 264 RPM (0.25 game s), lunge stop 1.3 / pull 100 uu/s (Classic)"
+    - "Prepared slash 75 dmg (Classic, Pro 65), interval 0.27 s (Classic 0.3; Pro 0.75), fire-on-release, MaxBonusHoldTime 1.5 -> 1.36 s, ChargeDamageBonusFactor 1 -> x2, flank 1.15 / back 1.3"
+    - "Reach 2.48 m (Pro TraceRange 130 uu over Classic 96)"
+    - "Melee ignores hit zones (BallisticMeleeFire.bNoPositionalDamage); primary has no backstab (X3PrimaryFire.bCanBackstab=false)"
+    - "Throw: X3Projectile via OverrideProjectileParams(1): 50 dmg (Pro over 35), head 2.5 (Classic), limb 0.75 (Pro, buff-judgement); 12 knives; 0.6 s game NextThrowTime -> 0.55 s; needs AmmoAmount >= 2; sticks 20 s, TakeBack on touch"
+    - "Slash damage type: blockable, aim displacement threshold 25, 0.5 game s (DTX3Knife / DT_BWBlade); thrown not blockable, no displacement"
+    - "move 1.15, draw/holster 0.2 game s, bulk 1"
+  estimated: []
+  invented:
+    - "mass 0.3 kg, length 0.3 m"
+    - "durability wear_per_hit 0.0004, worn_damage_mult 0.75"
+  changed:
+    - "Throw speed 3000 uu/s (62.9 m/s at the source's 2.2 g) -> 35 m/s at 1 g: physically plausible throw with a similar short-range arc"
+    - "Melee key: the source knife has no melee-key attack (no MeleeFireClass); the kit maps it to the quick slash"
+    - "Fatigue: Classic params set none (0), so no fatigue on either attack"
+  review:
+    - "No block on ADS (source knife can't block; its Weapon Function is the throw). Offered as optional in design notes."
+
+hv9-corvane:
+  file: kit/weapons/sidearm_pistol_hv9-corvane.md
+  bw_class: M806Pistol
+  package: BallisticProV55
+  bw_name: M806A2 Pistol
+  layouts: {hv9-corvane: Laser + Ext Mags, hv9b-corvane-longeye: 4X Scope, hv9c-corvane-breacher: Shotgun}
+  derived:
+    - "35 dmg, head 3.0 (Classic), limb 0.75 (Pro, buff-judgement), FireInterval 0.25 game s -> 264 RPM"
+    - "Range 5000-6000 uu -> 95-114 m, linear falloff from 0 to max to 0.8 (Classic kept; Pro falloff mixed)"
+    - "Penetration force 150, after-body 0.6, wall 24 uu -> 0.46 m, after-wall 0.4 (Classic)"
+    - "Burst: WM_Burst 3, Classic burst params BurstFireRateFactor 0.75 -> 352 RPM in burst, 0.40 s cooldown"
+    - "Recoil: Classic RecoilParams (max 8192 rot = 45 deg, decline 0.5, delay 0.1, view bind 0.2 / 0.3, hip 1.6, crouch 0.7, yaw factor 0, rand 0.25)"
+    - "Aim: Classic AimParams, hip drift tightened by divisor 2.52 (1.2 kg): [0.26, 5.63] -> [0.10, 2.23] deg"
+    - "Laser: M806Pistol.ApplyLaserAim (AimAdjustTime and AimSpread x0.65); WeaponSpecial also toggles the laser -> alias"
+    - "Magazine 12 on every layout (Pro buff; Classic scope and shotgun layouts had 8)"
+    - "Melee: M806MeleeFire 35 blunt, 140 uu, 0.45 game s, hold bonus x2 over 1.36 s, HookStop 1.7, DTM806Melee displacement 0.3 game s"
+    - "Reserve 28 (Ammo_45HV InitialAmount; MaxAmmo 42)"
+    - "Scope layout: ZT_Fixed 4x, SightingTime 0.35; Secondary has no Scope state in M806SecondaryFire, so it does nothing; bDualMixing"
+    - "Shotgun layout: alt fire 12 x 6 dmg, 0.7 game s, Recoil 512 rot (2.81 deg), Inaccuracy 400 rot (2.2 deg), HipSpreadFactor 2, AltAmmo 6, Ammo_16GaugeleMat InitialAmount 12; bDualBlocked"
+  estimated:
+    - "reload 1.4 s (AIReloadTime 1.5 game s); cock 0.5 s; drum reload 1.6 s"
+  invented:
+    - "mass 1.2 kg, length 0.22 m; impulse 4.4 N*s (hot .45), shotgun impulse 12 N*s; kick_factor solved per mode"
+    - "durability: standard class"
+  changed:
+    - "Underwater reach: Classic WaterTraceRange 3600 uu (68.6 m) dropped for the kit default (3 m) - physical grounding"
+
+lm5-vesquill:
+  file: kit/weapons/sidearm_machine-pistol_lm5-vesquill.md
+  bw_class: Fifty9MachinePistol
+  package: BallisticProV55
+  bw_name: Fifty-9 Machine Pistol
+  layouts: {lm5-vesquill: Bladed, lm5b-vesquill-chatter: Burst, lm5c-vesquill-hush: Suppressed}
+  derived:
+    - "19 dmg (Pro buff over 17), head 3.5 (Classic), limb 0.75 (Pro, buff-judgement)"
+    - "Bladed FireInterval 0.072 game s (Pro buff over 0.08) -> 916 RPM; Burst layout 0.06 -> 1101 RPM; Suppressed 0.08 -> 825 RPM (Classic kept, Pro not faster)"
+    - "Modes: Classic Semi / BigBurst 3 / FullAuto (default Auto, InitialWeaponMode 2); Burst layout Semi / BigBurst 5 (default Burst)"
+    - "Classic BigBurst BurstFireRateFactor 1.0: burst at full rate, one burst per pull"
+    - "Range 5000 uu -> 95 m, falloff 0 -> 95 m to 0.6 (Classic); penetration 135 / 0.6, wall 16 uu -> 0.31 m / 0.4"
+    - "Recoil: Classic curves and values (max 45 deg, decline 0.8, delay 0.3, view bind 0.2 / 1.0, crouch 0.8, rand 0.4); Recoil 64 rot = 0.352 deg"
+    - "Aim: Classic, drift tightened by divisor 2.26 (2.2 kg): [1.06, 8.44] -> [0.47, 3.73] deg"
+    - "Blade: 55 dmg (Pro over 35), reach 2.86 m (Pro 150 uu over 96), 0.5 game s, no backstab, DTFifty9Blade displacement threshold 40, 0.5 game s"
+    - "Stock: Fifty9MachinePistol.ApplyStockAim multipliers; starts folded unless layout tag 'open'; Burst layout tags laser,lock,open (stock fixed open); Suppressed tag lock (fixed folded)"
+    - "Laser: ApplyLaserAim (AimAdjustTime x0.75, AimSpread x0.65)"
+    - "Non-bladed layouts: Fifty9SecondaryFire state Scope = Secondary works as an aim button"
+    - "Reserve 100 (Ammo_FiftyNine InitialAmount; MaxAmmo 200); bDryUncock -> cock_on_empty; bNeedCock -> cock_on_draw"
+  estimated:
+    - "reload 1.0 s (AIReloadTime 1.0 game s, ReloadAnimRate 1.6); cock 0.6 s"
+  invented:
+    - "mass 2.2 kg, length 0.3 m; impulse 3.0 N*s (Hush 2.7: suppressor), kick_factor solved"
+    - "durability: precision class"
+    - "Melee key: source has no melee-key attack; base maps the blade, Chatter a 35-dmg stock butt, Hush a 30-dmg muzzle jab"
+  changed:
+    - "Burst 5 (repeating) on the base and Hush builds is a Pro-only mode (mode union). Its timing is Pro's (burst gap 0.0425 s, cooldown 0.18 s); its payload inherits the Classic cartridge instead of Pro's shorter reach and steeper falloff, since it is the same round"
+  review:
+    - "Confirm the Pro-only Burst 5 mode belongs on the bladed and suppressed builds, and that inheriting the Classic payload is the right reading of merge rule 1"
+    - "Pro-buffed blade (35 -> 55) makes the melee key strong (121 DPS + weapon displacement)"

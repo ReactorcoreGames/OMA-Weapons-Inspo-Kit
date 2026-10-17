@@ -39,7 +39,8 @@ Work queue for all sessions (local or Claude Code cloud). Read [CLAUDE.md](CLAUD
 
 ## Phase 2: Pilot
 
-- [ ] **Pilot step A [author review].** Weapon entries for X3Knife, M806Pistol, Fifty9MachinePistol in `kit/weapons/` (new names, makers, lore, variants from layouts), plus `provenance/` mapping entries. Must pass the validator. Present together with Phase 1 docs for format feedback.
+- [x] **Pilot step A [author review].** Weapon entries for X3Knife, M806Pistol, Fifty9MachinePistol in `kit/weapons/` (new names, makers, lore, variants from layouts), plus `provenance/` mapping entries. Must pass the validator. Present together with Phase 1 docs for format feedback.
+  - Written, **awaiting author review**: `kit/weapons/light-melee_knife_rk3-halvenn.md`, `sidearm_pistol_hv9-corvane.md` (variants Longeye = scope, Breacher = underbarrel drum shotgun), `sidearm_machine-pistol_lm5-vesquill.md` (variants Chatter = laser burst, Hush = suppressed); all pass the validator with no warnings. Mapping and every judgement call in `provenance/weapons.yaml` (open questions under `review:`).
 - [ ] Apply author feedback to schema, docs and the three entries.
 - [ ] **Pilot step B [author review].** M50AssaultRifle, E23PlasmaRifle, HVCMk9LightningGun, G5Bazooka, RX22AFlamer, M75Railgun, FP9Explosive, XMV850Minigun (with Classic's 900-round 3600 RPM identity), FP7Grenade.
 - [ ] `kit/SKILL.md` and `kit/catalog-index.md` first versions.

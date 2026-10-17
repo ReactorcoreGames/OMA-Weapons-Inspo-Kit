@@ -6978,16 +6978,13 @@
          {
           "payload": "melee",
           "damage": 55,
-          "head_mult": 3.0,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.857,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Stab",
@@ -7041,7 +7038,7 @@
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.35,
@@ -7059,7 +7056,7 @@
          {
           "payload": "melee",
           "damage": 75,
-          "head_mult": 1.5,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.857,
@@ -7115,14 +7112,15 @@
            "_DamageType": "DTA909Blades",
            "_DamageTypeHead": "DTA909Head",
            "_DamageTypeArm": "DTA909Limb"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 275.0,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 3,
-         "merc_head": 2
+         "merc_head": 3
         },
         "_raw": {
          "FireInterval": 0.3,
@@ -14967,7 +14965,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "_raw": {
@@ -15017,7 +15014,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "_raw": {
@@ -15080,7 +15076,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "_raw": {
@@ -15130,7 +15125,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "_raw": {
@@ -15193,7 +15187,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "_raw": {
@@ -15243,7 +15236,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "_raw": {
@@ -23462,7 +23454,6 @@
           "range_max_m": 2.667,
           "underwater_range_m": 2.438,
           "lunge_stop": 1.7,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "fatigue_per_hit": 0.15,
@@ -23591,7 +23582,8 @@
            "_DamageType": "DTBallisticShield",
            "_DamageTypeHead": "DTBallisticShield",
            "_DamageTypeArm": "DTBallisticShield"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 73.3,
@@ -23822,7 +23814,6 @@
           "range_max_m": 2.667,
           "underwater_range_m": 2.438,
           "lunge_stop": 1.7,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "fatigue_per_hit": 0.15,
@@ -23951,7 +23942,8 @@
            "_DamageType": "DTBallisticShield",
            "_DamageTypeHead": "DTBallisticShield",
            "_DamageTypeArm": "DTBallisticShield"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 73.3,
@@ -24182,7 +24174,6 @@
           "range_max_m": 2.667,
           "underwater_range_m": 2.438,
           "lunge_stop": 1.7,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "fatigue_per_hit": 0.15,
@@ -24311,7 +24302,8 @@
            "_DamageType": "DTBallisticShield",
            "_DamageTypeHead": "DTBallisticShield",
            "_DamageTypeArm": "DTBallisticShield"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 73.3,
@@ -24580,12 +24572,11 @@
          {
           "payload": "melee",
           "damage": 55,
-          "head_mult": 2.0,
-          "limb_mult": 0.8,
+          "head_mult": 1.0,
+          "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 1.905,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -24633,7 +24624,7 @@
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.7,
@@ -24651,16 +24642,14 @@
          {
           "payload": "melee",
           "damage": 115,
-          "head_mult": 1.5,
-          "limb_mult": 0.8,
+          "head_mult": 1.0,
+          "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
           "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Slash"
@@ -24701,7 +24690,8 @@
            "_DamageType": "DTBOBTorsoLunge",
            "_DamageTypeHead": "DTBOBHeadLunge",
            "_DamageTypeArm": "DTBOBTorsoLunge"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 158.1,
@@ -24925,12 +24915,11 @@
          {
           "payload": "melee",
           "damage": 55,
-          "head_mult": 2.0,
-          "limb_mult": 0.8,
+          "head_mult": 1.0,
+          "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 1.905,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -24978,7 +24967,7 @@
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.7,
@@ -24996,16 +24985,14 @@
          {
           "payload": "melee",
           "damage": 115,
-          "head_mult": 1.5,
-          "limb_mult": 0.8,
+          "head_mult": 1.0,
+          "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
           "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Slash"
@@ -25046,7 +25033,8 @@
            "_DamageType": "DTBOBTorsoLunge",
            "_DamageTypeHead": "DTBOBHeadLunge",
            "_DamageTypeArm": "DTBOBTorsoLunge"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 158.1,
@@ -25273,7 +25261,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 1.905,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "fatigue_per_hit": 0.06,
@@ -25349,8 +25336,6 @@
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
           "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "fatigue_per_hit": 0.25,
           "damage_effects": {
            "forms": [
@@ -25393,7 +25378,8 @@
            "_DamageType": "DTBOBTorsoLunge",
            "_DamageTypeHead": "DTBOBHeadLunge",
            "_DamageTypeArm": "DTBOBTorsoLunge"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 103.1,
@@ -30115,7 +30101,7 @@
          {
           "payload": "melee",
           "damage": 65,
-          "head_mult": 1.666666,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.667,
@@ -30163,14 +30149,15 @@
            "_DamageType": "DTChaffSmack",
            "_DamageTypeHead": "DTChaffSmack",
            "_DamageTypeArm": "DTChaffSmack"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 102.1,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.7,
@@ -30245,7 +30232,7 @@
          {
           "payload": "melee",
           "damage": 65,
-          "head_mult": 1.666666,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.667,
@@ -30293,14 +30280,15 @@
            "_DamageType": "DTChaffSmack",
            "_DamageTypeHead": "DTChaffSmack",
            "_DamageTypeArm": "DTChaffSmack"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 102.1,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.7,
@@ -30375,7 +30363,7 @@
          {
           "payload": "melee",
           "damage": 65,
-          "head_mult": 1.666666,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.667,
@@ -30423,14 +30411,15 @@
            "_DamageType": "DTChaffSmack",
            "_DamageTypeHead": "DTChaffSmack",
            "_DamageTypeArm": "DTChaffSmack"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 102.1,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.7,
@@ -33982,7 +33971,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.476,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "fatigue_per_hit": 0.015,
@@ -34061,9 +34049,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.476,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "fatigue_per_hit": 0.03,
           "damage_effects": {
            "forms": [
@@ -34375,14 +34360,13 @@
          {
           "payload": "melee",
           "damage": 125,
-          "head_mult": 2.0,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.333,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.2,
           "lunge_pull_mps": 1.676,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -34437,7 +34421,7 @@
         "shots_to_kill": {
          "human_body": 1,
          "merc_body": 2,
-         "merc_head": 1
+         "merc_head": 2
         },
         "_raw": {
          "FireInterval": 0.8,
@@ -34454,16 +34438,13 @@
          {
           "payload": "melee",
           "damage": 115,
-          "head_mult": 1.5,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.143,
           "underwater_range_m": 95.238,
           "lunge_stop": 2.7,
           "lunge_pull_mps": 3.143,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Slash"
@@ -34731,14 +34712,13 @@
          {
           "payload": "melee",
           "damage": 125,
-          "head_mult": 2.0,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.333,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.2,
           "lunge_pull_mps": 1.676,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -34793,7 +34773,7 @@
         "shots_to_kill": {
          "human_body": 1,
          "merc_body": 2,
-         "merc_head": 1
+         "merc_head": 2
         },
         "_raw": {
          "FireInterval": 0.8,
@@ -34810,16 +34790,13 @@
          {
           "payload": "melee",
           "damage": 115,
-          "head_mult": 1.5,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.143,
           "underwater_range_m": 95.238,
           "lunge_stop": 2.7,
           "lunge_pull_mps": 3.143,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Slash"
@@ -35087,14 +35064,13 @@
          {
           "payload": "melee",
           "damage": 125,
-          "head_mult": 2.0,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.333,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.2,
           "lunge_pull_mps": 1.676,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -35149,7 +35125,7 @@
         "shots_to_kill": {
          "human_body": 1,
          "merc_body": 2,
-         "merc_head": 1
+         "merc_head": 2
         },
         "_raw": {
          "FireInterval": 0.8,
@@ -35166,16 +35142,13 @@
          {
           "payload": "melee",
           "damage": 115,
-          "head_mult": 1.5,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.143,
           "underwater_range_m": 95.238,
           "lunge_stop": 2.7,
           "lunge_pull_mps": 3.143,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Slash"
@@ -35443,14 +35416,13 @@
          {
           "payload": "melee",
           "damage": 125,
-          "head_mult": 2.0,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.333,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.2,
           "lunge_pull_mps": 1.676,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -35505,7 +35477,7 @@
         "shots_to_kill": {
          "human_body": 1,
          "merc_body": 2,
-         "merc_head": 1
+         "merc_head": 2
         },
         "_raw": {
          "FireInterval": 0.8,
@@ -35522,16 +35494,13 @@
          {
           "payload": "melee",
           "damage": 115,
-          "head_mult": 1.5,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.143,
           "underwater_range_m": 95.238,
           "lunge_stop": 2.7,
           "lunge_pull_mps": 3.143,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Slash"
@@ -37170,16 +37139,13 @@
          {
           "payload": "melee",
           "damage": 80,
-          "head_mult": 2.222222,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.143,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Slash"
@@ -37233,7 +37199,7 @@
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 3,
-         "merc_head": 2
+         "merc_head": 3
         },
         "_raw": {
          "FireInterval": 0.5,
@@ -37251,7 +37217,7 @@
          {
           "payload": "melee",
           "damage": 80,
-          "head_mult": 1.4375,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.143,
@@ -37307,14 +37273,15 @@
            "_DamageType": "DTEKS43Katana",
            "_DamageTypeHead": "DTEKS43KatanaHead",
            "_DamageTypeArm": "DTEKS43KatanaLimb"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 110.0,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 3,
-         "merc_head": 2
+         "merc_head": 3
         },
         "_raw": {
          "FireInterval": 0.8,
@@ -37527,16 +37494,13 @@
          {
           "payload": "melee",
           "damage": 80,
-          "head_mult": 2.222222,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.143,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Slash"
@@ -37590,7 +37554,7 @@
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 3,
-         "merc_head": 2
+         "merc_head": 3
         },
         "_raw": {
          "FireInterval": 0.5,
@@ -37608,7 +37572,7 @@
          {
           "payload": "melee",
           "damage": 80,
-          "head_mult": 1.4375,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.143,
@@ -37664,14 +37628,15 @@
            "_DamageType": "DTEKS43Katana",
            "_DamageTypeHead": "DTEKS43KatanaHead",
            "_DamageTypeArm": "DTEKS43KatanaLimb"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 110.0,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 3,
-         "merc_head": 2
+         "merc_head": 3
         },
         "_raw": {
          "FireInterval": 0.8,
@@ -38100,7 +38065,8 @@
            "_DamageType": "DTShockGauntletAlt",
            "_DamageTypeHead": "DTShockGauntletAlt",
            "_DamageTypeArm": "DTShockGauntletAlt"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 71.5,
@@ -38528,7 +38494,8 @@
            "_DamageType": "DTShockGauntletAlt",
            "_DamageTypeHead": "DTShockGauntletAlt",
            "_DamageTypeArm": "DTShockGauntletAlt"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 71.5,
@@ -45608,16 +45575,13 @@
          {
           "payload": "melee",
           "damage": 55,
-          "head_mult": 2.5,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.857,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Slash"
@@ -45671,7 +45635,7 @@
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.5,
@@ -45791,16 +45755,13 @@
          {
           "payload": "melee",
           "damage": 55,
-          "head_mult": 2.5,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.857,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Slash"
@@ -45854,7 +45815,7 @@
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.5,
@@ -45970,16 +45931,13 @@
          {
           "payload": "melee",
           "damage": 55,
-          "head_mult": 2.5,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.857,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Slash"
@@ -46033,7 +45991,7 @@
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.5,
@@ -46152,16 +46110,13 @@
          {
           "payload": "melee",
           "damage": 55,
-          "head_mult": 2.5,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.857,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Slash"
@@ -46215,7 +46170,7 @@
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.5,
@@ -47797,9 +47752,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.143,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "fatigue_per_hit": 0.15,
           "damage_effects": {
            "forms": [
@@ -63370,7 +63322,8 @@
            "_DamageType": "DT_ICIS",
            "_DamageTypeHead": "DT_ICIS",
            "_DamageTypeArm": "DT_ICIS"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 91.7,
@@ -63645,7 +63598,6 @@
           "range_max_m": 2.667,
           "underwater_range_m": 2.438,
           "lunge_stop": 1.7,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "fatigue_per_hit": 0.15,
@@ -63766,7 +63718,8 @@
            "_DamageType": "DTBallisticShield",
            "_DamageTypeHead": "DTBallisticShield",
            "_DamageTypeArm": "DTBallisticShield"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 73.3,
@@ -63995,7 +63948,6 @@
           "range_max_m": 2.667,
           "underwater_range_m": 2.438,
           "lunge_stop": 1.7,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "fatigue_per_hit": 0.15,
@@ -64116,7 +64068,8 @@
            "_DamageType": "DTBallisticShield",
            "_DamageTypeHead": "DTBallisticShield",
            "_DamageTypeArm": "DTBallisticShield"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 73.3,
@@ -64345,7 +64298,6 @@
           "range_max_m": 2.667,
           "underwater_range_m": 2.438,
           "lunge_stop": 1.7,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "fatigue_per_hit": 0.15,
@@ -64466,7 +64418,8 @@
            "_DamageType": "DTBallisticShield",
            "_DamageTypeHead": "DTBallisticShield",
            "_DamageTypeArm": "DTBallisticShield"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 73.3,
@@ -64740,7 +64693,6 @@
           "range_max_m": 2.667,
           "underwater_range_m": 2.438,
           "lunge_stop": 1.7,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "fatigue_per_hit": 0.15,
@@ -64861,7 +64813,8 @@
            "_DamageType": "DTBallisticShield",
            "_DamageTypeHead": "DTBallisticShield",
            "_DamageTypeArm": "DTBallisticShield"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 73.3,
@@ -65090,7 +65043,6 @@
           "range_max_m": 2.667,
           "underwater_range_m": 2.438,
           "lunge_stop": 1.7,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "fatigue_per_hit": 0.15,
@@ -65211,7 +65163,8 @@
            "_DamageType": "DTBallisticShield",
            "_DamageTypeHead": "DTBallisticShield",
            "_DamageTypeArm": "DTBallisticShield"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 73.3,
@@ -65440,7 +65393,6 @@
           "range_max_m": 2.667,
           "underwater_range_m": 2.438,
           "lunge_stop": 1.7,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "fatigue_per_hit": 0.15,
@@ -65561,7 +65513,8 @@
            "_DamageType": "DTBallisticShield",
            "_DamageTypeHead": "DTBallisticShield",
            "_DamageTypeArm": "DTBallisticShield"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 73.3,
@@ -66170,7 +66123,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "_raw": {
@@ -66273,7 +66225,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "_raw": {
@@ -66376,7 +66327,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "_raw": {
@@ -90776,9 +90726,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.333,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "fatigue_per_hit": 0.064,
           "damage_effects": {
            "forms": [
@@ -90855,7 +90802,6 @@
           "underwater_range_m": 2.438,
           "lunge_stop": 1.5,
           "lunge_pull_mps": 3.143,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -96486,14 +96432,13 @@
          {
           "payload": "melee",
           "damage": 35,
-          "head_mult": 2.5,
-          "limb_mult": 0.6,
+          "head_mult": 1.0,
+          "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 1.829,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -96547,7 +96492,7 @@
         "shots_to_kill": {
          "human_body": 3,
          "merc_body": 6,
-         "merc_head": 3
+         "merc_head": 6
         },
         "_raw": {
          "FireInterval": 0.5,
@@ -105681,14 +105626,13 @@
          {
           "payload": "melee",
           "damage": 55,
-          "head_mult": 2.428571,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.476,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -105743,7 +105687,7 @@
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.5,
@@ -105859,14 +105803,13 @@
          {
           "payload": "melee",
           "damage": 55,
-          "head_mult": 2.428571,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.476,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -105921,7 +105864,7 @@
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.5,
@@ -108849,8 +108792,8 @@
          {
           "payload": "melee",
           "damage": 65,
-          "head_mult": 1.538461,
-          "limb_mult": 0.461538,
+          "head_mult": 1.0,
+          "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.438,
           "underwater_range_m": 95.238,
@@ -108896,14 +108839,15 @@
            "_DamageType": "DTMarlinMelee",
            "_DamageTypeHead": "DTMarlinMeleeHead",
            "_DamageTypeArm": "DTMarlinMelee"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 102.1,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 3
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.7,
@@ -109217,8 +109161,8 @@
          {
           "payload": "melee",
           "damage": 65,
-          "head_mult": 1.538461,
-          "limb_mult": 0.461538,
+          "head_mult": 1.0,
+          "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.438,
           "underwater_range_m": 95.238,
@@ -109264,14 +109208,15 @@
            "_DamageType": "DTMarlinMelee",
            "_DamageTypeHead": "DTMarlinMeleeHead",
            "_DamageTypeArm": "DTMarlinMelee"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 102.1,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 3
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.7,
@@ -109379,8 +109324,8 @@
          {
           "payload": "melee",
           "damage": 65,
-          "head_mult": 1.538461,
-          "limb_mult": 0.461538,
+          "head_mult": 1.0,
+          "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.438,
           "underwater_range_m": 95.238,
@@ -109426,14 +109371,15 @@
            "_DamageType": "DTMarlinMelee",
            "_DamageTypeHead": "DTMarlinMeleeHead",
            "_DamageTypeArm": "DTMarlinMelee"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 102.1,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 3
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.7,
@@ -109748,8 +109694,8 @@
          {
           "payload": "melee",
           "damage": 65,
-          "head_mult": 1.538461,
-          "limb_mult": 0.461538,
+          "head_mult": 1.0,
+          "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.438,
           "underwater_range_m": 95.238,
@@ -109795,14 +109741,15 @@
            "_DamageType": "DTMarlinMelee",
            "_DamageTypeHead": "DTMarlinMeleeHead",
            "_DamageTypeArm": "DTMarlinMelee"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 102.1,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 3
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.7,
@@ -110118,8 +110065,8 @@
          {
           "payload": "melee",
           "damage": 65,
-          "head_mult": 1.538461,
-          "limb_mult": 0.461538,
+          "head_mult": 1.0,
+          "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.438,
           "underwater_range_m": 95.238,
@@ -110165,14 +110112,15 @@
            "_DamageType": "DTMarlinMelee",
            "_DamageTypeHead": "DTMarlinMeleeHead",
            "_DamageTypeArm": "DTMarlinMelee"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 102.1,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 3
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.7,
@@ -115320,14 +115268,13 @@
          {
           "payload": "melee",
           "damage": 40,
-          "head_mult": 1.857142,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.143,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -115384,7 +115331,7 @@
         "shots_to_kill": {
          "human_body": 3,
          "merc_body": 5,
-         "merc_head": 3
+         "merc_head": 5
         },
         "_raw": {
          "FireInterval": 0.5,
@@ -115402,7 +115349,7 @@
          {
           "payload": "melee",
           "damage": 75,
-          "head_mult": 1.7,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.143,
@@ -115410,8 +115357,6 @@
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
           "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Plasma",
@@ -115459,14 +115404,15 @@
            "_DamageType": "DTNEXSlash",
            "_DamageTypeHead": "DTNEXSlashHead",
            "_DamageTypeArm": "DTNEXSlashLimb"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 68.8,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 3,
-         "merc_head": 2
+         "merc_head": 3
         },
         "_raw": {
          "FireInterval": 1.2,
@@ -116256,7 +116202,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "_raw": {
@@ -116306,7 +116251,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "_raw": {
@@ -116369,7 +116313,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "_raw": {
@@ -116419,7 +116362,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "_raw": {
@@ -116482,7 +116424,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "_raw": {
@@ -116532,7 +116473,6 @@
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.762,
           "underwater_range_m": 2.438,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "_raw": {
@@ -128262,14 +128202,13 @@
          {
           "payload": "melee",
           "damage": 35,
-          "head_mult": 2.5,
-          "limb_mult": 0.6,
+          "head_mult": 1.0,
+          "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 1.829,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -128325,7 +128264,7 @@
         "shots_to_kill": {
          "human_body": 3,
          "merc_body": 6,
-         "merc_head": 3
+         "merc_head": 6
         },
         "_raw": {
          "FireInterval": 0.5,
@@ -128446,14 +128385,13 @@
          {
           "payload": "melee",
           "damage": 35,
-          "head_mult": 2.5,
-          "limb_mult": 0.6,
+          "head_mult": 1.0,
+          "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 1.829,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -128509,7 +128447,7 @@
         "shots_to_kill": {
          "human_body": 3,
          "merc_body": 6,
-         "merc_head": 3
+         "merc_head": 6
         },
         "_raw": {
          "FireInterval": 0.5,
@@ -130524,14 +130462,13 @@
          {
           "payload": "melee",
           "damage": 35,
-          "head_mult": 2.5,
-          "limb_mult": 0.6,
+          "head_mult": 1.0,
+          "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 1.829,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -130587,7 +130524,7 @@
         "shots_to_kill": {
          "human_body": 3,
          "merc_body": 6,
-         "merc_head": 3
+         "merc_head": 6
         },
         "_raw": {
          "FireInterval": 0.5,
@@ -130707,14 +130644,13 @@
          {
           "payload": "melee",
           "damage": 35,
-          "head_mult": 2.5,
-          "limb_mult": 0.6,
+          "head_mult": 1.0,
+          "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 1.829,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.7,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -130770,7 +130706,7 @@
         "shots_to_kill": {
          "human_body": 3,
          "merc_body": 6,
-         "merc_head": 3
+         "merc_head": 6
         },
         "_raw": {
          "FireInterval": 0.5,
@@ -132772,7 +132708,6 @@
           "underwater_range_m": 95.238,
           "lunge_stop": 1.0,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -132922,7 +132857,6 @@
           "underwater_range_m": 95.238,
           "lunge_stop": 1.0,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -133063,7 +132997,6 @@
           "underwater_range_m": 95.238,
           "lunge_stop": 1.0,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -133213,7 +133146,6 @@
           "underwater_range_m": 95.238,
           "lunge_stop": 1.0,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -133699,7 +133631,7 @@
          {
           "payload": "melee",
           "damage": 65,
-          "head_mult": 1.818181,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.81,
@@ -133756,14 +133688,15 @@
            "_DamageType": "DT_RSNovaStab",
            "_DamageTypeHead": "DT_RSNovaStabHead",
            "_DamageTypeArm": "DT_RSNovaStab"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 238.4,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.3,
@@ -133850,7 +133783,7 @@
          {
           "payload": "melee",
           "damage": 65,
-          "head_mult": 1.818181,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.81,
@@ -133907,14 +133840,15 @@
            "_DamageType": "DT_RSNovaStab",
            "_DamageTypeHead": "DT_RSNovaStabHead",
            "_DamageTypeArm": "DT_RSNovaStab"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 238.4,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.3,
@@ -133984,7 +133918,7 @@
          {
           "payload": "melee",
           "damage": 65,
-          "head_mult": 1.818181,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.81,
@@ -134041,14 +133975,15 @@
            "_DamageType": "DT_RSNovaStab",
            "_DamageTypeHead": "DT_RSNovaStabHead",
            "_DamageTypeArm": "DT_RSNovaStab"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 238.4,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.3,
@@ -134118,7 +134053,7 @@
          {
           "payload": "melee",
           "damage": 65,
-          "head_mult": 1.818181,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 3.81,
@@ -134175,14 +134110,15 @@
            "_DamageType": "DT_RSNovaStab",
            "_DamageTypeHead": "DT_RSNovaStabHead",
            "_DamageTypeArm": "DT_RSNovaStab"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 238.4,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.3,
@@ -152410,7 +152346,6 @@
           "underwater_range_m": 2.438,
           "lunge_stop": 1.5,
           "lunge_pull_mps": 3.143,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -152585,7 +152520,6 @@
           "underwater_range_m": 2.438,
           "lunge_stop": 1.5,
           "lunge_pull_mps": 3.143,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -152756,7 +152690,6 @@
           "underwater_range_m": 2.438,
           "lunge_stop": 1.5,
           "lunge_pull_mps": 3.143,
-          "charge_bonus_mult": 2.0,
           "flank_mult": 1.15,
           "back_mult": 1.3,
           "damage_effects": {
@@ -160843,16 +160776,13 @@
          {
           "payload": "melee",
           "damage": 45,
-          "head_mult": 2.5,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.476,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.3,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Slash"
@@ -160906,7 +160836,7 @@
         "shots_to_kill": {
          "human_body": 3,
          "merc_body": 5,
-         "merc_head": 2
+         "merc_head": 5
         },
         "_raw": {
          "FireInterval": 0.25,
@@ -160924,8 +160854,8 @@
          {
           "payload": "melee",
           "damage": 75,
-          "head_mult": 1.5,
-          "limb_mult": 0.75,
+          "head_mult": 1.0,
+          "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.476,
           "underwater_range_m": 95.238,
@@ -160980,14 +160910,15 @@
            "_DamageType": "DTX3Knife",
            "_DamageTypeHead": "DTX3KnifeHead",
            "_DamageTypeArm": "DTX3KnifeLimb"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 275.0,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 3,
-         "merc_head": 2
+         "merc_head": 3
         },
         "_raw": {
          "FireInterval": 0.3,
@@ -161331,16 +161262,13 @@
          {
           "payload": "melee",
           "damage": 70,
-          "head_mult": 2.5,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.476,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.3,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Slash",
@@ -161395,7 +161323,7 @@
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 3,
-         "merc_head": 2
+         "merc_head": 3
         },
         "_raw": {
          "FireInterval": 0.35,
@@ -161413,7 +161341,7 @@
          {
           "payload": "melee",
           "damage": 90,
-          "head_mult": 1.5,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 2.476,
@@ -161470,14 +161398,15 @@
            "_DamageType": "DTX4Knife",
            "_DamageTypeHead": "DTX4KnifeHead",
            "_DamageTypeArm": "DTX4KnifeLimb"
-          }
+          },
+          "max_charge_s": 1.3636
          }
         ],
         "dps": 198.0,
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 3,
-         "merc_head": 2
+         "merc_head": 3
         },
         "_raw": {
          "FireInterval": 0.5,
@@ -163727,16 +163656,13 @@
          {
           "payload": "melee",
           "damage": 55,
-          "head_mult": 2.666666,
+          "head_mult": 1.0,
           "limb_mult": 1.0,
           "recoil_kick_deg": 0.0,
           "range_max_m": 1.829,
           "underwater_range_m": 95.238,
           "lunge_stop": 1.3,
           "lunge_pull_mps": 2.095,
-          "charge_bonus_mult": 2.0,
-          "flank_mult": 1.15,
-          "back_mult": 1.3,
           "damage_effects": {
            "forms": [
             "Slash",
@@ -163790,7 +163716,7 @@
         "shots_to_kill": {
          "human_body": 2,
          "merc_body": 4,
-         "merc_head": 2
+         "merc_head": 4
         },
         "_raw": {
          "FireInterval": 0.5,

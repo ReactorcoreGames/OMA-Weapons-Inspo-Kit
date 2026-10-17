@@ -304,6 +304,21 @@ def conv_fire(f, mode, aux, fire_cls_defaults):
         out["burst_shot_interval_s"] = sec(iv * fac)
         out["burst_cooldown_s"] = sec(iv * (1 + n * (1 - fac)))
     out["effects"] = [conv_effect(e, aux) for e in as_list(f.get("FireEffectParams")) if isinstance(e, dict)]
+    for e in out["effects"]:
+        if e.get("payload") == "melee":
+            # BallisticMeleeFire: no hit zones unless the class turns positional damage back on; the hold
+            # bonus only exists for release-to-strike modes; backstab is switched on the fire class
+            if fire_cls_defaults.get("bNoPositionalDamage", True):
+                e["head_mult"], e["limb_mult"] = 1.0, 1.0
+            if not fire_cls_defaults.get("bFireOnRelease"):
+                e.pop("charge_bonus_mult", None)
+            else:
+                e["max_charge_s"] = sec(fire_cls_defaults.get("MaxBonusHoldTime", 1.5))
+            if not fire_cls_defaults.get("bCanBackstab", True):
+                e.pop("flank_mult", None)
+                e.pop("back_mult", None)
+            # fatigue: BallisticMeleeFire.ApplyFireEffectParams copies the params' Fatigue over the class
+            # default, so the params value (already in fatigue_per_hit, 0 when unset) is the effective one
     e0 = out["effects"][0] if out["effects"] else {}
     if num(e0.get("damage")) and iv:
         shot = e0["damage"] * e0.get("pellets", 1)

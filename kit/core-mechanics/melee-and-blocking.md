@@ -35,7 +35,7 @@ Melee damage ignores hit zones unless the payload sets `head_mult` (blades often
 
 ## Fatigue
 
-Each strike adds `fatigue` (0–1). Fatigue slows swings (animation rate ÷ (1 + 0.75 × fatigue), extra delay above 0.15) and weakens blocks. It starts recovering 0.75 s after the last strike and drains fully in 4 s. Heavy two-handed blows cost 0.15–0.3 per swing; quick knife slashes 0.03–0.05.
+Each strike adds `fatigue` (0–1). Fatigue slows swings (animation rate ÷ (1 + 0.75 × fatigue), extra delay above 0.15) and weakens blocks. It starts recovering 0.7 s after the last strike and drains from full in 3.6 s. Heavy two-handed blows cost 0.15–0.3 per swing; quick knife slashes 0–0.05.
 
 ## Blocking
 
