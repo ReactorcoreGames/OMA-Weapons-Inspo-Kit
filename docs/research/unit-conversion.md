@@ -87,7 +87,7 @@ BW "aim" is a **drifting aim offset**: the barrel wanders to a random point insi
 |---|---|---|
 | `AimSpread.Min/Max` | `drift_min_deg`, `drift_max_deg` | half-angle of the drift cone. The kit's hipfire tightening (≈2× vs Classic, weight-scaled) is applied in the hipfire derivation step, not here |
 | `ADSMultiplier` | `ads_drift_mult` | |
-| `AimAdjustTime`, `VelocityAimAdjustMult` | `settle_s`, `moving_settle_mult` | BW re-aims over 2 × settle × lerp(speed fraction, 1, mult) |
+| `AimAdjustTime`, `VelocityAimAdjustMult` | `settle_s`, `moving_settle_mult` | BW swings to each new drift point over 2 × `AimAdjustTime` × lerp(1, mult, speed fraction); `settle_s` = 2 × `AimAdjustTime` ÷ 1.1, the real swing time at rest |
 | `OffsetAdjustTime` | `pose_shift_s` | time to move into the sprint pose and back |
 | `CrouchMultiplier` | `crouch_mult` | shrinks drift and speeds chaos recovery while crouched |
 | `ChaosSpeedThreshold`, `ChaosTurnThreshold` | `chaos_full_speed_mps`, `chaos_full_turn_deg_s` | speed / turn rate that alone gives full chaos (turning only counts in Classic, which the kit follows) |

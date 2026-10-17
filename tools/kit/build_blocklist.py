@@ -11,7 +11,7 @@ import os
 import re
 import sys
 
-LORE = ["Skrith", "UTC", "Cryon", "Enravion", "Nexron", "Krao", "Ballistic Weapons", "Runestorm", "Relics and Rayguns",
+LORE = ["BW", "Skrith", "UTC", "Cryon", "Enravion", "Nexron", "Krao", "Ballistic Weapons", "Runestorm", "Relics and Rayguns",
         "Unreal Tournament", "Liandri", "Izanagi", "Phayder", "Necris", "Gen Mo'Kai",
         "Majestic Firearms", "ZTV Export", "Zavod Tochnogo Voorujeniya", "Apollo Industries", "JAX Industrial", "Drake & Co",
         "Black & Wood", "Wot ya Packin", "N-TOV", "Dipheox", "Redwood Firearms", "Classic Weapons Industries",

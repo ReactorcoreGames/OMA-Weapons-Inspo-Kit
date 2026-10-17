@@ -119,7 +119,7 @@ LUNGE = MAP({"stop": NUM, "pull_mps": NUM})
 EFFECT = {"t": "effect"}
 PAYLOAD = MAP({
     "type": R(ENUM(PAYLOAD_TYPES)), "damage": NUM, "damage_type": ENUM(DAMAGE_TYPES), "pellets": NUM, "head_mult": NUM,
-    "limb_mult": NUM, "range_m": NUM_OR_PAIR, "falloff": FALLOFF, "spread_deg": NUM_OR_PAIR,
+    "limb_mult": NUM, "range_m": NUM_OR_PAIR, "falloff": FALLOFF, "water_range_m": NUM, "spread_deg": NUM_OR_PAIR,
     "spread_shape": ENUM(["circle", "rectangle", "scatter"]), "hip_spread_mult": NUM, "penetration": PENETRATION,
     "speed_mps": NUM, "max_speed_mps": NUM, "accel_mps2": NUM, "gravity_mult": NUMN, "splash": SPLASH, "fuse": FUSE,
     "damage_gain": MAP({"mult": R(NUM), "start_s": NUM, "end_s": R(NUM)}), "knockback_ns": NUM, "blockable": BOOL,

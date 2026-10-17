@@ -144,7 +144,7 @@ def conv_aim(a):
         "drift_min_deg": deg(sp.get("Min")),
         "drift_max_deg": deg(sp.get("Max")),
         "ads_drift_mult": a.get("ADSMultiplier"),
-        "settle_s": sec(a.get("AimAdjustTime")),
+        "settle_s": sec(2 * a["AimAdjustTime"]) if num(a.get("AimAdjustTime")) else None,  # BW swings over 2 x AimAdjustTime
         "moving_settle_mult": a.get("VelocityAimAdjustMult"),
         "pose_shift_s": sec(a.get("OffsetAdjustTime")),
         "crouch_mult": a.get("CrouchMultiplier"),
@@ -215,7 +215,7 @@ def conv_effect(e, aux):
         }))
     if kind == "melee":
         out.update(clean({
-            "charge_bonus_mult": e.get("ChargeDamageBonusFactor"),
+            "charge_bonus_mult": 1 + e["ChargeDamageBonusFactor"] if num(e.get("ChargeDamageBonusFactor")) else None,  # x(1 + factor) at full hold
             "flank_mult": e.get("FlankDamageMult"),
             "back_mult": e.get("BackDamageMult"),
             "fatigue_per_hit": e.get("Fatigue"),
@@ -328,7 +328,7 @@ def conv_melee_class(cls, aux):
         "range_m": m(tr.get("Max")),
         "interval_s": sec(d.get("FireRate")),
         "max_charge_s": sec(d.get("MaxBonusHoldTime")),
-        "charge_bonus_mult": d.get("ChargeDamageBonusFactor"),
+        "charge_bonus_mult": 1 + d.get("ChargeDamageBonusFactor", 1.0),  # damage x(1 + factor * hold / max) in BW
         "flank_mult": d.get("FlankDamageMult"),
         "back_mult": d.get("BackDamageMult") if d.get("bCanBackstab", True) else None,
         "fatigue_per_hit": d.get("FatiguePerStrike"),

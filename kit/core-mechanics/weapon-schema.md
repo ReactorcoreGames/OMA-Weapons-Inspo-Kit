@@ -47,7 +47,7 @@ All lowercase, spaces become hyphens, other punctuation is dropped: `full_name` 
 |---|---|---|---|
 | `schema` | string | yes | `oma-weapon/1` |
 | `id` | slug | yes | `<designation>-<name>` lowercase, unique in the catalog, e.g. `p7-kiraric` |
-| `designation` | string | yes | maker's model code: letters, digits, hyphens, e.g. `P7`, `KR-55`, `X3` |
+| `designation` | string | yes | maker's model code: letters, digits, hyphens, e.g. `P7`, `KR-55`, `Q2` |
 | `name` | string | yes | the weapon's name, e.g. `Kiraric` |
 | `full_name` | string | yes | `<designation> <name>` exactly |
 | `maker` | string | yes | manufacturer, workshop or culture that builds it |
@@ -117,9 +117,9 @@ The barrel drifts inside a cone that widens with **chaos** (0–1). Chaos rises 
 
 | Field | Type | Req | Meaning | Typical |
 |---|---|---|---|---|
-| `drift_deg` | [min, max] | yes | half-angle of the hip drift cone at chaos 0 and 1 (already tightened from Classic, see research) | pistol [0.1, 2.2], rifle [0.05, 7.6] |
+| `drift_deg` | [min, max] | yes | half-angle of the hip drift cone at chaos 0 and 1 | pistol [0.1, 2.2], rifle [0.05, 7.6] |
 | `ads_drift_mult` | number | yes | ADS multiplies the cone by this and drops the minimum to 0 | 0.5–0.9 |
-| `settle_s` | number | yes | time the barrel takes to swing to each new drift point | 0.3–0.6 |
+| `settle_s` | number | yes | time the barrel takes to swing to each new drift point, standing | 0.6–1.2 |
 | `moving_settle_mult` | number | no (0.67) | settle time multiplier at full ground speed | |
 | `pose_shift_s` | number | no (0.27) | time to move into and out of the sprint pose | |
 | `crouch_mult` | number | no (0.8) | cone multiplier while crouched; also speeds chaos recovery | 0.6–0.9 |
@@ -161,7 +161,7 @@ Per-shot impulse lives in each fire mode; this block is the weapon's recoil hand
 | `chamber_plus_one` | bool | no (false) | tactical reload keeps a round chambered |
 | `reserve` | number | no | default carried reserve |
 | `ammo_type` | string | no | free description, e.g. ".45 high-velocity", "fuel canister" |
-| `reload_s` | number | yes unless `feed: none`/`stack` | full reload time (estimated from BW where marked in provenance) |
+| `reload_s` | number | yes unless `feed: none`/`stack` | full reload time |
 | `reload_empty_s` | number | no (= `reload_s`) | reload from empty, if different |
 | `shells_per_load` | number | `tube` only | rounds inserted per load cycle |
 | `reload_interruptible` | bool | no (false) | firing cancels the reload (tube feeds) |
@@ -173,7 +173,7 @@ Per-shot impulse lives in each fire mode; this block is the weapon's recoil hand
 
 ## Durability and jamming (`durability`)
 
-Standard feature in the kit (BW only had a dormant hook). Condition runs from 1.0 (new) to 0.0 (wrecked). See `durability-and-jamming.md` for formulas and the reliability table.
+Standard feature: every gun and melee weapon wears and every gun can jam. Condition runs from 1.0 (new) to 0.0 (wrecked). See `durability-and-jamming.md` for formulas and the reliability table.
 
 | Field | Type | Req | Meaning | Typical |
 |---|---|---|---|---|
@@ -224,7 +224,7 @@ A list. The **Fire Mode** key cycles through it in order; the first entry is the
 | `burst_repeats_on_hold` | bool | `burst` | holding the trigger keeps firing bursts (else one burst per pull) |
 | `rpm` | number | yes | sustained rate; `interval_s` = 60 / rpm |
 | `burst_rpm` | number | `burst` | rate inside a burst |
-| `burst_cooldown_s` | number | `burst` | pause after a burst (BW makes the burst cycle average out to `rpm`) |
+| `burst_cooldown_s` | number | `burst` | pause after a burst; usually chosen so a full burst cycle averages out to `rpm` |
 | `ammo_per_shot` | number | yes | |
 | `windup_s` | number | no | delay between pull and first shot (spin-up, charge) |
 | `max_charge_s` | number | `charge` | hold time for full charge |
@@ -253,6 +253,7 @@ A list. The **Fire Mode** key cycles through it in order; the first entry is the
 | `head_mult`, `limb_mult` | number | damaging | multipliers on head and limb hits (1.0 = no zones) |
 | `range_m` | number or [min, max] | hitscan, pellets, beam, melee | maximum reach (a pair means each shot rolls a reach between them) |
 | `falloff` | {start_m, end_m, min_mult} | hitscan, pellets, beam | damage falls linearly from 1.0 at `start_m` to `min_mult` at `end_m` |
+| `water_range_m` | number | hitscan, pellets, beam | reach underwater (default 3 m bullets; see `environments.md`) |
 | `spread_deg` | number or [x, y] | ranged | per-shot random spread half-angle (hip and ADS alike) |
 | `spread_shape` | enum | ranged | `circle` (default), `rectangle`, `scatter` |
 | `hip_spread_mult` | number | pellets | pellet spread multiplier from the hip |
@@ -283,7 +284,7 @@ Every key that isn't plain firing is described as a **function**. `secondary` an
 | `time_s` | number | time the action or switch takes |
 | `notes` | string | behaviour the numbers don't say |
 
-`melee` (required for every weapon that can strike; BW lets every weapon, even a launcher, strike):
+`melee` (expected on every held weapon: anything can be swung, even a launcher):
 
 | Field | Type | Meaning | Typical |
 |---|---|---|---|
@@ -292,7 +293,7 @@ Every key that isn't plain firing is described as a **function**. `secondary` an
 | `damage_type` | enum | usually `blunt` or `slash` | |
 | `range_m` | number | reach | 1.8–3 |
 | `interval_s` | number | time between strikes | 0.4–0.8 |
-| `charge` | {max_s, bonus_mult} | hold to wind up: damage × `bonus_mult` at `max_s` (1.0 = holding only times the strike) | |
+| `charge` | {max_s, bonus_mult} | hold to wind up: damage × `lerp(1, bonus_mult, held / max_s)` | max 1–1.5 s, bonus 2.0 |
 | `flank_mult`, `back_mult` | number | side / behind multipliers | 1.15 / 1.3 |
 | `effects` | list | status effects (aim displacement for gun bashes) | |
 | `lunge` | {stop, pull_mps} | | |

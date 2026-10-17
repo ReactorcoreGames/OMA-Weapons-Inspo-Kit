@@ -58,6 +58,7 @@ BR1
 BR1-NK
 BR1-NK Mod-2 LSW
 Bulldog Autocannon
+BW
 BX5
 BX5-SM
 BX5-SM Land Mine
