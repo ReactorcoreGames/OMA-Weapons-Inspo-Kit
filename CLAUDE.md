@@ -1,6 +1,6 @@
 # OMA Weapons Inspo Kit
 
-Project guide for humans and Claude sessions (local or Claude Code cloud). Decisions come from [docs/open-questions.md](docs/open-questions.md) (the author's answers are inline, prefixed "Author:") and later follow-ups. Keep this file current when decisions change.
+Project guide for humans and Claude sessions (local or Claude Code cloud). **Work queue and session protocol: [checklist-todo.md](checklist-todo.md).** Decisions come from [docs/open-questions.md](docs/open-questions.md) (the author's answers are inline, prefixed "Author:") and later follow-ups. Keep this file current when decisions change.
 
 ## What this project is
 
@@ -47,7 +47,7 @@ Full vision: [docs/project-objective.md](docs/project-objective.md).
 Per weapon, start from **Classic** (`ParamsClasses[1]`) and apply:
 
 1. **Fire modes:** union of Classic and Pro modes (Classic already has most). Each mode keeps the parameters of the ruleset it came from.
-2. **Pro buffs win:** where Pro is bigger or faster on a power stat (mag/capacity, fire rate, damage, range, projectile speed), take Pro's value. Classic's larger capacities and extra modes stay. Never import Pro's *nerfs*. (Interpretation of the author's "take the buffs, not the nerfs"; check odd results with them.)
+2. **Pro buffs win:** where Pro is bigger or faster on a power stat (mag/capacity, fire rate, damage, range, projectile speed), take Pro's value. Classic's larger capacities and extra modes stay. Never import Pro's *nerfs*. (Confirmed by the author. Flag individual results that look odd.)
 3. **Hipfire spread:** about **2.0× tighter than Classic** (Classic was overkill), scaled by weapon weight: light weapons (pistols, PDWs, SMGs, light melee) lean towards Pro's tighter cone, heavy weapons stay closer to Classic. Recoil, sprinting, jumping, dodging, sliding and parkour remain the *main* drivers of inaccuracy, and hit heavier weapons harder.
 4. **Run-while-ADS** (from Pro) becomes a per-weapon parameter, `ads_run_instability` from 0.0 (rock steady while running) to 1.0 (impossible: the weapon drops to a low-ready pose while running, but the trigger still works, firing from the hip or at the ground). Light, ergonomic weapons sit low, heavy weapons at or near 1.0.
 5. Other handling (recoil, decline, chaos, sprint/jump penalties) stays Classic, the "believable" feel the author prefers.
