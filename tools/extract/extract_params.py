@@ -16,9 +16,9 @@ import sys
 
 STYLES = ["pro", "classic", "realism", "tactical"]
 CLASS_RE = re.compile(r"^class\s+(\w+)\s+extends\s+([\w.]+)", re.M)
-OBJ_BEGIN_RE = re.compile(r'^\s*begin object name="?(\w+)"?\s+class=([\w.]+)', re.I)
+OBJ_BEGIN_RE = re.compile(r'^\s*begin object name="?([\w-]+)"?\s+class=([\w.]+)', re.I)
 PROP_RE = re.compile(r"^\s*(\w+)(?:\[(\d+)\])?=(.*)$")
-REF_RE = re.compile(r"^(\w+)'([\w.]+)'$")
+REF_RE = re.compile(r"^(\w+)'([\w.-]+)'$")
 # Weapon-level defaults worth keeping (gameplay-relevant, not cosmetic)
 WEAPON_KEYS = {
     "ItemName", "Description", "InventoryGroup", "Priority", "bWT_Bullet", "bWT_Shotgun", "bWT_Hazardous",
@@ -254,7 +254,7 @@ def main(root, cfg_dir, out_path):
             entry["styles"][style] = {"params_class": pc, "layouts": layouts}
         weapons[cls] = entry
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    with open(out_path, "w", encoding="utf-8") as fh:
+    with open(out_path, "w", encoding="utf-8", newline="\r\n") as fh:  # CRLF on every OS (repo convention)
         json.dump(weapons, fh, indent=1, ensure_ascii=False)
     print(f"{len(weapons)} weapon classes ({sum(w['registered'] for w in weapons.values())} registered) -> {out_path}")
     missing = sorted(set(reg) - set(weapons))
