@@ -5,7 +5,8 @@ Input:  sources/bw-2.9/extracted/bw_canonical.json   (merge_canonical.py)
 Output: sources/bw-2.9/extracted/bw_kit_units.json
 
 Every converted block keeps the BW fields it was built from under "_raw", so any kit number can be
-traced back. Conversions (see docs/research/unit-conversion.md for the reasoning):
+traced back. Each layout also gets "kit_estimates": bulk-based mass and hold, the tightened hip drift
+cone and ads_run_instability (tools/kit/handling_model.py), as starting points for weapon entries. Conversions (see docs/research/unit-conversion.md for the reasoning):
 
   distance   52.5 Unreal units (uu) = 1 m
   angle      65536 rotation units = 360 deg
@@ -19,8 +20,13 @@ Usage: python to_kit_units.py <bw_canonical.json> <bw_aux_classes.json> <out.jso
 """
 import json
 import math
+import os
 import re
 import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "kit"))
+import handling_model  # noqa: E402  (kit derivations: hipfire tightening, ads_run_instability)
+import recoil_model  # noqa: E402  (mass estimate, default hold)
 
 UU_PER_M = 52.5
 ROT_PER_DEG = 65536 / 360.0
@@ -386,7 +392,24 @@ def conv_layout(L, w, aux, fire_cls):
         if L.get(key):
             out[key] = [{"bw_index": x["bw_index"], "params": conv_fire(x["params"], None, aux, fire_cls[ci])} for x in L[key]]
     out["_raw"] = raw(L, keys + ["_pro_layout", "_pro_match", "_handling_from"])
+    out["kit_estimates"] = kit_estimates(out, w)
     return out
+
+
+def kit_estimates(layout, w):
+    """Starting values for kit-only fields (rules 3 and 4, impulse model inputs). They use the
+    bulk-based mass estimate; the weapon entry recomputes them with the mass it settles on."""
+    mass = recoil_model.BULK_MASS_KG.get(layout.get("bulk"), 4.0)
+    melee = bool(w["weapon"].get("bMeleeWeapon"))
+    hold = "melee" if melee else ("two_hand" if "BallisticHandgun" in w.get("class_chain", []) else
+                                  "hip_braced" if (layout.get("bulk") or 0) >= 11 and (layout.get("move_speed_mult") or 1) <= 0.85 else "shouldered")
+    zoom = layout.get("zoom_max") if layout.get("zoom_type") not in (None, "irons") else None
+    est = {"mass_kg": mass, "hold": hold, "hip_divisor": round(handling_model.hip_divisor(mass), 3),
+           "ads_run_instability": handling_model.ads_run_instability(mass, hold, zoom, melee), "hip_drift_deg": []}
+    for a in layout.get("aim", []):
+        lo, hi = handling_model.tightened_drift(a.get("drift_min_deg"), a.get("drift_max_deg"), mass)
+        est["hip_drift_deg"].append([lo, hi])
+    return est
 
 
 def conv_weapon(w, aux):

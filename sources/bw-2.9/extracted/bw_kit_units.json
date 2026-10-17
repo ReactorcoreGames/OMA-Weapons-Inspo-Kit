@@ -755,6 +755,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.168,
+        0.335
+       ]
+      ]
      }
     }
    ]
@@ -1560,6 +1572,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Standard",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.139,
+        4.458
+       ]
+      ]
      }
     },
     {
@@ -2284,6 +2308,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Elite",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.139,
+        4.458
+       ]
+      ]
      }
     }
    ]
@@ -2696,6 +2732,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Standard",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.13,
+      "hip_drift_deg": [
+       [
+        0.035,
+        4.458
+       ]
+      ]
      }
     },
     {
@@ -3070,6 +3118,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Elite",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.13,
+      "hip_drift_deg": [
+       [
+        0.035,
+        4.458
+       ]
+      ]
      }
     },
     {
@@ -3440,6 +3500,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "CQC",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.13,
+      "hip_drift_deg": [
+       [
+        0.035,
+        4.458
+       ]
+      ]
      }
     }
    ]
@@ -3871,6 +3943,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        5.563
+       ]
+      ]
      }
     }
    ]
@@ -4381,6 +4465,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        0.26
+       ]
+      ]
      }
     }
    ]
@@ -4864,6 +4960,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Standard",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        5.563
+       ]
+      ]
      }
     },
     {
@@ -5258,6 +5366,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "CQC",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        5.563
+       ]
+      ]
      }
     },
     {
@@ -5652,6 +5772,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Elite",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        5.563
+       ]
+      ]
      }
     }
    ]
@@ -5997,6 +6129,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Replacable Cells",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 16.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.397,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.503,
+        9.83
+       ]
+      ]
      }
     },
     {
@@ -6298,6 +6442,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Integrated Cells",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 16.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.397,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.503,
+        9.83
+       ]
+      ]
      }
     },
     {
@@ -6599,6 +6755,18 @@
       "ReloadAnimRate": 1.3,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 16.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.397,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.503,
+        9.83
+       ]
+      ]
      }
     }
    ]
@@ -6986,6 +7154,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        5.208
+       ]
+      ]
      }
     }
    ]
@@ -7372,6 +7552,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Iron Sights",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 2.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.222,
+      "ads_run_instability": 0.34,
+      "hip_drift_deg": [
+       [
+        0.099,
+        2.531
+       ]
+      ]
      }
     },
     {
@@ -7705,6 +7897,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Holosight",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 2.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.222,
+      "ads_run_instability": 0.34,
+      "hip_drift_deg": [
+       [
+        0.099,
+        2.531
+       ]
+      ]
      }
     }
    ]
@@ -8075,6 +8279,18 @@
       "WeaponPrice": 100,
       "_pro_layout": ".44 Laser",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.2,
+      "hip_drift_deg": [
+       [
+        0.225,
+        6.787
+       ]
+      ]
      }
     },
     {
@@ -8359,6 +8575,18 @@
       "WeaponPrice": 100,
       "_pro_layout": ".44 RDS",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.2,
+      "hip_drift_deg": [
+       [
+        0.225,
+        6.787
+       ]
+      ]
      }
     },
     {
@@ -8648,6 +8876,18 @@
       "WeaponPrice": 100,
       "_pro_layout": ".44 Marksman",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.5,
+      "hip_drift_deg": [
+       [
+        0.299,
+        6.787
+       ]
+      ]
      }
     },
     {
@@ -8932,6 +9172,18 @@
       "WeaponPrice": 100,
       "_pro_layout": ".50",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.2,
+      "hip_drift_deg": [
+       [
+        0.225,
+        6.787
+       ]
+      ]
      }
     }
    ]
@@ -9805,6 +10057,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Carbine",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.335,
+        2.682
+       ]
+      ]
      }
     },
     {
@@ -10536,6 +10800,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Suppressed",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.335,
+        2.682
+       ]
+      ]
      }
     },
     {
@@ -11270,6 +11546,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "3X Scope",
       "_pro_match": "tags"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.9,
+      "hip_drift_deg": [
+       [
+        0.335,
+        2.682
+       ]
+      ]
      }
     }
    ]
@@ -11906,6 +12194,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Iron Sights",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.348,
+        2.781
+       ]
+      ]
      }
     },
     {
@@ -12500,6 +12800,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "ACOG",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.9,
+      "hip_drift_deg": [
+       [
+        0.348,
+        2.781
+       ]
+      ]
      }
     }
    ]
@@ -13110,6 +13422,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Flash Bulb",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.139,
+        4.458
+       ]
+      ]
      }
     },
     {
@@ -13676,6 +14000,18 @@
       "bNoaltfire": true,
       "_pro_layout": "RDS + Lasersight",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.139,
+        4.458
+       ]
+      ]
      }
     },
     {
@@ -14405,6 +14741,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Combat Laser",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.139,
+        4.458
+       ]
+      ]
      }
     }
    ]
@@ -14955,6 +15303,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        0.26
+       ]
+      ]
      }
     }
    ]
@@ -15782,6 +16142,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Adv Holo",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -16558,6 +16930,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "4X Scope",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 23.0,
+      "hold": "shouldered",
+      "hip_divisor": 1.3,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.068,
+        10.817
+       ]
+      ]
      }
     },
     {
@@ -16950,6 +17334,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "8X Scope",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 23.0,
+      "hold": "shouldered",
+      "hip_divisor": 1.3,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.068,
+        10.817
+       ]
+      ]
      }
     },
     {
@@ -17519,6 +17915,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Suppressor",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -18292,6 +18700,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Iron Sights",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     }
    ]
@@ -18957,6 +19377,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 10.0,
+      "hold": "shouldered",
+      "hip_divisor": 1.601,
+      "ads_run_instability": 0.78,
+      "hip_drift_deg": [
+       [
+        0.439,
+        13.172
+       ]
+      ]
      }
     }
    ]
@@ -19556,6 +19988,22 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "fuzzy name (1.00)"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     },
     {
@@ -20070,6 +20518,22 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "fuzzy name (1.00)"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -20796,6 +21260,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 4.6,
+      "hold": "melee",
+      "hip_divisor": 1.939,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.045,
+        4.929
+       ]
+      ]
      }
     }
    ]
@@ -21378,6 +21854,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 16.0,
+      "hold": "shouldered",
+      "hip_divisor": 1.397,
+      "ads_run_instability": 0.93,
+      "hip_drift_deg": [
+       [
+        0.252,
+        2.013
+       ]
+      ]
      }
     }
    ]
@@ -21795,6 +22283,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.105,
+        2.229
+       ]
+      ]
      }
     }
    ]
@@ -22419,6 +22919,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        7.984
+       ]
+      ]
      }
     }
    ]
@@ -22716,6 +23228,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        5.208
+       ]
+      ]
      }
     }
    ]
@@ -23107,6 +23631,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Riot Shield",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "melee",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     },
     {
@@ -23455,6 +23991,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Police Shield",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "melee",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     },
     {
@@ -23803,6 +24351,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Junk Shield",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "melee",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -24180,6 +24740,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        0.26
+       ]
+      ]
      }
     },
     {
@@ -24512,6 +25084,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        0.26
+       ]
+      ]
      }
     },
     {
@@ -24847,6 +25431,18 @@
       "CockAnimRate": 1.0,
       "WeaponPrice": 100,
       "_handling_from": "Single"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.4,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        0.26
+       ]
+      ]
      }
     }
    ]
@@ -25421,6 +26017,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.174,
+        10.387
+       ]
+      ]
      }
     }
    ]
@@ -25926,6 +26534,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Cryon Spikes",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.087,
+        2.781
+       ]
+      ]
      }
     },
     {
@@ -26448,6 +27068,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "5.56mm Mod",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.087,
+        2.781
+       ]
+      ]
      }
     }
    ]
@@ -27018,6 +27650,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Seeker Spikes",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 4.6,
+      "hold": "shouldered",
+      "hip_divisor": 1.939,
+      "ads_run_instability": 0.54,
+      "hip_drift_deg": [
+       [
+        0.091,
+        5.801
+       ]
+      ]
      }
     },
     {
@@ -27610,6 +28254,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "5.56mm Mod",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 4.6,
+      "hold": "shouldered",
+      "hip_divisor": 1.939,
+      "ads_run_instability": 0.54,
+      "hip_drift_deg": [
+       [
+        0.091,
+        5.801
+       ]
+      ]
      }
     }
    ]
@@ -28190,6 +28846,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "UAW",
       "_pro_match": "fuzzy name (0.67)"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        4.191
+       ]
+      ]
      }
     },
     {
@@ -28679,6 +29347,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Budget",
       "_pro_match": "tags"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        4.191
+       ]
+      ]
      }
     },
     {
@@ -29164,6 +29844,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Firestorm",
       "_pro_match": "fuzzy name (0.90)"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        6.706
+       ]
+      ]
      }
     }
    ]
@@ -29770,6 +30462,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        5.208
+       ]
+      ]
      }
     }
    ]
@@ -30452,6 +31156,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Coach Gun",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        4.893
+       ]
+      ]
      }
     },
     {
@@ -31032,6 +31748,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Sawn Off",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.25,
+      "hip_drift_deg": [
+       [
+        0.075,
+        1.797
+       ]
+      ]
      }
     },
     {
@@ -31765,6 +32493,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Trench Custom",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        4.893
+       ]
+      ]
      }
     }
    ]
@@ -32201,6 +32941,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        0.348
+       ]
+      ]
      }
     }
    ]
@@ -32617,6 +33369,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Laser",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.07,
+        2.229
+       ]
+      ]
      }
     },
     {
@@ -32991,6 +33755,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "3X Scope",
       "_pro_match": "fuzzy name (0.88)"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.9,
+      "hip_drift_deg": [
+       [
+        0.07,
+        2.229
+       ]
+      ]
      }
     }
    ]
@@ -33374,6 +34150,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -33762,6 +34550,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Blue",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "melee",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.035,
+        5.572
+       ]
+      ]
      }
     },
     {
@@ -34106,6 +34906,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Red",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "melee",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.035,
+        5.572
+       ]
+      ]
      }
     },
     {
@@ -34450,6 +35262,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Nanoblack",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "melee",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.035,
+        5.572
+       ]
+      ]
      }
     },
     {
@@ -34794,6 +35618,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Royal Dragon",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "melee",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.035,
+        5.572
+       ]
+      ]
      }
     }
    ]
@@ -35536,6 +36372,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        5.563
+       ]
+      ]
      }
     }
    ]
@@ -36098,6 +36946,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.13,
+      "hip_drift_deg": [
+       [
+        1.306,
+        2.786
+       ]
+      ]
      }
     }
    ]
@@ -36487,6 +37347,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Perfect Steel",
       "_pro_match": "fuzzy name (0.61)"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "melee",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.035,
+        5.572
+       ]
+      ]
      }
     },
     {
@@ -36832,6 +37704,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Superheated",
       "_pro_match": "fuzzy name (0.79)"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "melee",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.035,
+        5.572
+       ]
+      ]
      }
     }
    ]
@@ -37257,6 +38141,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "6mm Smart",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 2.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.222,
+      "ads_run_instability": 0.34,
+      "hip_drift_deg": [
+       [
+        0.297,
+        0.633
+       ]
+      ]
      }
     },
     {
@@ -37753,6 +38649,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "5.7mm AP",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 2.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.222,
+      "ads_run_instability": 0.34,
+      "hip_drift_deg": [
+       [
+        0.297,
+        0.633
+       ]
+      ]
      }
     }
    ]
@@ -38268,6 +39176,22 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "fuzzy name (1.00)"
+     },
+     "kit_estimates": {
+      "mass_kg": 16.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.397,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        1.565,
+        12.079
+       ],
+       [
+        1.006,
+        12.079
+       ]
+      ]
      }
     },
     {
@@ -38914,6 +39838,22 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "fuzzy name (1.00)"
+     },
+     "kit_estimates": {
+      "mass_kg": 16.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.397,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        1.565,
+        12.079
+       ],
+       [
+        1.006,
+        12.079
+       ]
+      ]
      }
     }
    ]
@@ -39518,6 +40458,22 @@
       "WeaponPrice": 100,
       "_pro_layout": "Holosight",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 10.0,
+      "hold": "shouldered",
+      "hip_divisor": 1.601,
+      "ads_run_instability": 0.78,
+      "hip_drift_deg": [
+       [
+        0.11,
+        8.781
+       ],
+       [
+        0.22,
+        2.634
+       ]
+      ]
      }
     },
     {
@@ -40039,6 +40995,22 @@
       "WeaponPrice": 100,
       "_pro_layout": "Bipod",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 10.0,
+      "hold": "shouldered",
+      "hip_divisor": 1.601,
+      "ads_run_instability": 0.78,
+      "hip_drift_deg": [
+       [
+        0.11,
+        8.781
+       ],
+       [
+        0.22,
+        2.634
+       ]
+      ]
      }
     }
    ]
@@ -40402,6 +41374,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 14.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.455,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        1.812,
+        7.55
+       ]
+      ]
      }
     }
    ]
@@ -40849,6 +41833,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Dragon's Breath",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        4.61
+       ]
+      ]
      }
     },
     {
@@ -41208,6 +42204,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "8 Gauge Shot",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        4.61
+       ]
+      ]
      }
     }
    ]
@@ -41675,6 +42683,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        0.335
+       ]
+      ]
      }
     }
    ]
@@ -42582,6 +43602,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Amplifier",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 2.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.222,
+      "ads_run_instability": 0.34,
+      "hip_drift_deg": [
+       [
+        0.316,
+        2.531
+       ]
+      ]
      }
     },
     {
@@ -42960,6 +43992,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Suppressed",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 2.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.222,
+      "ads_run_instability": 0.34,
+      "hip_drift_deg": [
+       [
+        0.316,
+        2.531
+       ]
+      ]
      }
     },
     {
@@ -43338,6 +44382,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Holosight",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 2.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.222,
+      "ads_run_instability": 0.34,
+      "hip_drift_deg": [
+       [
+        0.316,
+        2.531
+       ]
+      ]
      }
     }
    ]
@@ -43858,6 +44914,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        5.208
+       ]
+      ]
      }
     }
    ]
@@ -44151,6 +45219,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -45171,6 +46251,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Bladed",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.418,
+        3.344
+       ]
+      ]
      }
     },
     {
@@ -45674,6 +46766,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Burst",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.418,
+        3.344
+       ]
+      ]
      }
     },
     {
@@ -46426,6 +47530,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Suppressed",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.418,
+        3.344
+       ]
+      ]
      }
     }
    ]
@@ -46790,6 +47906,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -47267,6 +48395,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -48005,6 +49145,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Adv Holo + Chaff",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        5.37
+       ]
+      ]
      }
     },
     {
@@ -48692,6 +49844,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Adv Holo + Sensor",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        5.37
+       ]
+      ]
      }
     },
     {
@@ -49379,6 +50543,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Irons + HE",
       "_pro_match": "fuzzy name (0.73)"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        5.37
+       ]
+      ]
      }
     },
     {
@@ -49885,6 +51061,18 @@
       "bNoaltfire": true,
       "_pro_layout": "3X Scope",
       "_pro_match": "fuzzy name (0.88)"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.9,
+      "hip_drift_deg": [
+       [
+        0.042,
+        5.37
+       ]
+      ]
      }
     },
     {
@@ -50392,6 +51580,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "IR Scope",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.5,
+      "hip_drift_deg": [
+       [
+        0.042,
+        5.37
+       ]
+      ]
      }
     },
     {
@@ -50896,6 +52096,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Suppressed",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        5.37
+       ]
+      ]
      }
     }
    ]
@@ -51333,6 +52545,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 14.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.455,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.076,
+        6.04
+       ]
+      ]
      }
     }
    ]
@@ -52076,6 +53300,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.13,
+      "hip_drift_deg": [
+       [
+        1.114,
+        2.229
+       ]
+      ]
      }
     }
    ]
@@ -52819,6 +54055,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Combat Laser",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.07,
+        17.831
+       ]
+      ]
      }
     },
     {
@@ -53363,6 +54611,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Flash Bulb",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.07,
+        17.831
+       ]
+      ]
      }
     },
     {
@@ -54029,6 +55289,18 @@
       "bNoaltfire": true,
       "_pro_layout": "Automatic",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.07,
+        17.831
+       ]
+      ]
      }
     },
     {
@@ -54573,6 +55845,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "RDS + Laser",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.07,
+        17.831
+       ]
+      ]
      }
     },
     {
@@ -55213,6 +56497,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Tazer",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.07,
+        17.831
+       ]
+      ]
      }
     }
    ]
@@ -55991,6 +57287,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.34,
+      "hip_drift_deg": [
+       [
+        0.084,
+        21.459
+       ]
+      ]
      }
     }
    ]
@@ -56319,6 +57627,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.391,
+        1.563
+       ]
+      ]
      }
     }
    ]
@@ -56917,6 +58237,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.2,
+      "hip_drift_deg": [
+       [
+        0.037,
+        2.396
+       ]
+      ]
      }
     }
    ]
@@ -57437,6 +58769,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Industrial Laser",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 14.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.455,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.121,
+        4.711
+       ]
+      ]
      }
     },
     {
@@ -58041,6 +59385,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Cryon Gravitron",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 14.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.455,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.121,
+        4.711
+       ]
+      ]
      }
     }
    ]
@@ -58407,6 +59763,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 14.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.455,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.121,
+        7.731
+       ]
+      ]
      }
     }
    ]
@@ -58907,6 +60275,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 14.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.455,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.566,
+        7.173
+       ]
+      ]
      }
     },
     {
@@ -59360,6 +60740,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "MK3 Tripleshot",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 14.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.455,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.566,
+        7.173
+       ]
+      ]
      }
     },
     {
@@ -59811,6 +61203,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 14.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.455,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.566,
+        7.173
+       ]
+      ]
      }
     },
     {
@@ -60266,6 +61670,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "E55 Plasma Cannon",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 14.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.455,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.566,
+        7.173
+       ]
+      ]
      }
     },
     {
@@ -60702,6 +62118,18 @@
       "CockAnimRate": 1.0,
       "WeaponPrice": 100,
       "_handling_from": "MK1 Testbed"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.393,
+        4.977
+       ]
+      ]
      }
     }
    ]
@@ -61177,6 +62605,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 26.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.3,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.212,
+        4.648
+       ]
+      ]
      }
     }
    ]
@@ -61636,6 +63076,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 20.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.3,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        2.163,
+        10.817
+       ]
+      ]
      }
     }
    ]
@@ -61957,6 +63409,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.4,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -62340,6 +63804,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     },
     {
@@ -62678,6 +64154,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     },
     {
@@ -63016,6 +64504,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -63399,6 +64899,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     },
     {
@@ -63737,6 +65249,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     },
     {
@@ -64075,6 +65599,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -64373,6 +65909,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.168,
+        1.341
+       ]
+      ]
      }
     }
    ]
@@ -64893,6 +66441,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        0.26
+       ]
+      ]
      }
     }
    ]
@@ -65243,6 +66803,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 20.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.3,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.296,
+        10.986
+       ]
+      ]
      }
     }
    ]
@@ -65900,6 +67472,18 @@
       "CockAnimRate": 1.0,
       "InitialWeaponMode": 2,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        5.894
+       ]
+      ]
      }
     },
     {
@@ -66515,6 +68099,18 @@
       "CockAnimRate": 1.0,
       "InitialWeaponMode": 2,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.9,
+      "hip_drift_deg": [
+       [
+        0.042,
+        5.894
+       ]
+      ]
      }
     },
     {
@@ -67115,6 +68711,18 @@
       "CockAnimRate": 1.0,
       "InitialWeaponMode": 2,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        5.894
+       ]
+      ]
      }
     },
     {
@@ -67854,6 +69462,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Iron Sights",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        5.894
+       ]
+      ]
      }
     },
     {
@@ -68276,6 +69896,18 @@
       "CockAnimRate": 1.25,
       "WeaponPrice": 100,
       "_handling_from": "Holosight"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        5.894
+       ]
+      ]
      }
     },
     {
@@ -68707,6 +70339,18 @@
       "CockAnimRate": 1.25,
       "WeaponPrice": 100,
       "_handling_from": "Holosight"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.5,
+      "hip_drift_deg": [
+       [
+        0.042,
+        5.894
+       ]
+      ]
      }
     }
    ]
@@ -69230,6 +70874,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Marksman",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 4.6,
+      "hold": "shouldered",
+      "hip_divisor": 1.939,
+      "ads_run_instability": 0.54,
+      "hip_drift_deg": [
+       [
+        0.057,
+        3.966
+       ]
+      ]
      }
     },
     {
@@ -69559,6 +71215,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.027,
+        2.781
+       ]
+      ]
      }
     },
     {
@@ -69863,6 +71531,18 @@
       "ReloadAnimRate": 0.8,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.087,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -70180,6 +71860,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Laser Gatling",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.087,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -70483,6 +72175,18 @@
       "CockAnimRate": 1.0,
       "WeaponPrice": 100,
       "_handling_from": "Marksman"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.5,
+      "hip_drift_deg": [
+       [
+        0.052,
+        3.667
+       ]
+      ]
      }
     }
    ]
@@ -70844,6 +72548,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.174,
+        8.344
+       ]
+      ]
      }
     }
    ]
@@ -71212,6 +72928,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.022,
+        6.953
+       ]
+      ]
      }
     }
    ]
@@ -72050,6 +73778,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Overcharger Coil",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 4.6,
+      "hold": "shouldered",
+      "hip_divisor": 1.939,
+      "ads_run_instability": 0.54,
+      "hip_drift_deg": [
+       [
+        0.091,
+        7.251
+       ]
+      ]
      }
     },
     {
@@ -72687,6 +74427,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Holosight",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 4.6,
+      "hold": "shouldered",
+      "hip_divisor": 1.939,
+      "ads_run_instability": 0.54,
+      "hip_drift_deg": [
+       [
+        0.091,
+        7.251
+       ]
+      ]
      }
     },
     {
@@ -73326,6 +75078,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Suppressor",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 4.6,
+      "hold": "shouldered",
+      "hip_divisor": 1.939,
+      "ads_run_instability": 0.54,
+      "hip_drift_deg": [
+       [
+        0.091,
+        7.251
+       ]
+      ]
      }
     }
    ]
@@ -73800,6 +75564,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.087,
+        6.953
+       ]
+      ]
      }
     }
    ]
@@ -74432,6 +76208,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Default",
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 7.5,
+      "hold": "shouldered",
+      "hip_divisor": 1.727,
+      "ads_run_instability": 0.7,
+      "hip_drift_deg": [
+       [
+        0.051,
+        4.772
+       ]
+      ]
      }
     }
    ]
@@ -75025,6 +76813,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        4.075
+       ]
+      ]
      }
     }
    ]
@@ -75899,6 +77699,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Scoped",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -76720,6 +78532,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "RDS",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     }
    ]
@@ -77484,6 +79308,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Grenadier",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -78114,6 +79950,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "A3 Suppressed",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -78744,6 +80592,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "A3 Holo",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -79372,6 +81232,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "A3 Scope",
       "_pro_match": "tags"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.9,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     }
    ]
@@ -80328,6 +82200,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 7.5,
+      "hold": "shouldered",
+      "hip_divisor": 1.727,
+      "ads_run_instability": 0.7,
+      "hip_drift_deg": [
+       [
+        0.102,
+        8.144
+       ]
+      ]
      }
     }
    ]
@@ -80704,6 +82588,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -81065,6 +82961,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "X-Ray Scope",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 20.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.3,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.034,
+        10.817
+       ]
+      ]
      }
     },
     {
@@ -81380,6 +83288,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "X75 Prototype",
       "_pro_match": "last leftover by position"
+     },
+     "kit_estimates": {
+      "mass_kg": 20.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.3,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.034,
+        10.817
+       ]
+      ]
      }
     }
    ]
@@ -81875,6 +83795,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "12ga Buckshot",
       "_pro_match": "fuzzy name (0.76)"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -82259,6 +84191,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "12ga Slug",
       "_pro_match": "tags"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     }
    ]
@@ -82855,6 +84799,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Holosight",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        6.706
+       ]
+      ]
      }
     },
     {
@@ -83411,6 +85367,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "3X Scope",
       "_pro_match": "fuzzy name (0.63)"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.5,
+      "hip_drift_deg": [
+       [
+        0.084,
+        6.706
+       ]
+      ]
      }
     },
     {
@@ -83964,6 +85932,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "5.7mm M7B2",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        6.706
+       ]
+      ]
      }
     },
     {
@@ -84517,6 +86497,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "5.7mm M7B2 Supp",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        6.706
+       ]
+      ]
      }
     }
    ]
@@ -85040,6 +87032,18 @@
       "WeaponPrice": 800,
       "_pro_layout": "Laser + Ext Mags",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.105,
+        2.229
+       ]
+      ]
      }
     },
     {
@@ -85483,6 +87487,18 @@
       "WeaponPrice": 800,
       "_pro_layout": "4X Scope",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.9,
+      "hip_drift_deg": [
+       [
+        0.105,
+        2.229
+       ]
+      ]
      }
     },
     {
@@ -86053,6 +88069,18 @@
       "WeaponPrice": 1200,
       "_pro_layout": "Shotgun",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.105,
+        2.229
+       ]
+      ]
      }
     }
    ]
@@ -86535,6 +88563,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 7.5,
+      "hold": "shouldered",
+      "hip_divisor": 1.727,
+      "ads_run_instability": 0.7,
+      "hip_drift_deg": [
+       [
+        0.051,
+        6.516
+       ]
+      ]
      }
     }
    ]
@@ -87147,6 +89187,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        5.563
+       ]
+      ]
      }
     }
    ]
@@ -87493,6 +89545,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 7.5,
+      "hold": "shouldered",
+      "hip_divisor": 1.727,
+      "ads_run_instability": 0.7,
+      "hip_drift_deg": [
+       [
+        0.407,
+        9.774
+       ]
+      ]
      }
     }
    ]
@@ -87815,6 +89879,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 16.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.397,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -88152,6 +90228,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 20.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.3,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.271,
+        8.654
+       ]
+      ]
      }
     }
    ]
@@ -88464,6 +90552,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.022,
+        5.563
+       ]
+      ]
      }
     }
    ]
@@ -88842,6 +90942,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -89499,6 +91611,18 @@
       "CockAnimRate": 1.0,
       "InitialWeaponMode": 2,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        5.365
+       ]
+      ]
      }
     },
     {
@@ -90314,6 +92438,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Smoker",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        6.706
+       ]
+      ]
      }
     },
     {
@@ -91129,6 +93265,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Tracker",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        6.706
+       ]
+      ]
      }
     },
     {
@@ -91796,6 +93944,18 @@
       "CockAnimRate": 1.0,
       "InitialWeaponMode": 2,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        6.706
+       ]
+      ]
      }
     },
     {
@@ -92463,6 +94623,18 @@
       "CockAnimRate": 1.0,
       "InitialWeaponMode": 2,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.25,
+      "hip_drift_deg": [
+       [
+        0.037,
+        5.991
+       ]
+      ]
      }
     },
     {
@@ -92977,6 +95149,18 @@
       "CockAnimRate": 1.25,
       "WeaponPrice": 100,
       "_handling_from": "Marksman"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.042,
+        5.365
+       ]
+      ]
      }
     }
    ]
@@ -93377,6 +95561,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "10mm Super",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.105,
+        2.229
+       ]
+      ]
      }
     },
     {
@@ -93687,6 +95883,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "9mm RDS",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.105,
+        2.229
+       ]
+      ]
      }
     },
     {
@@ -93997,6 +96205,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "9mm Suppressed",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.105,
+        2.229
+       ]
+      ]
      }
     },
     {
@@ -94363,6 +96583,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "9mm Tac Knife",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.557,
+        2.229
+       ]
+      ]
      }
     }
    ]
@@ -95083,6 +97315,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 2.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.222,
+      "ads_run_instability": 0.34,
+      "hip_drift_deg": [
+       [
+        0.04,
+        1.265
+       ]
+      ]
      }
     }
    ]
@@ -95675,6 +97919,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "LMG",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 7.5,
+      "hold": "shouldered",
+      "hip_divisor": 1.727,
+      "ads_run_instability": 0.7,
+      "hip_drift_deg": [
+       [
+        0.102,
+        8.144
+       ]
+      ]
      }
     },
     {
@@ -96219,6 +98475,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Assault Rifle",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 7.5,
+      "hold": "shouldered",
+      "hip_divisor": 1.727,
+      "ads_run_instability": 0.7,
+      "hip_drift_deg": [
+       [
+        0.102,
+        8.144
+       ]
+      ]
      }
     },
     {
@@ -96764,6 +99032,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Gauss Rifle",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 7.5,
+      "hold": "shouldered",
+      "hip_divisor": 1.727,
+      "ads_run_instability": 0.7,
+      "hip_drift_deg": [
+       [
+        0.102,
+        8.144
+       ]
+      ]
      }
     }
    ]
@@ -97424,6 +99704,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "LMG",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 7.5,
+      "hold": "shouldered",
+      "hip_divisor": 1.727,
+      "ads_run_instability": 0.7,
+      "hip_drift_deg": [
+       [
+        0.102,
+        8.144
+       ]
+      ]
      }
     },
     {
@@ -98036,6 +100328,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Assault Rifle",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 7.5,
+      "hold": "shouldered",
+      "hip_divisor": 1.727,
+      "ads_run_instability": 0.7,
+      "hip_drift_deg": [
+       [
+        0.051,
+        8.144
+       ]
+      ]
      }
     },
     {
@@ -98655,6 +100959,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Gauss Rifle",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 7.5,
+      "hold": "shouldered",
+      "hip_divisor": 1.727,
+      "ads_run_instability": 0.7,
+      "hip_drift_deg": [
+       [
+        0.102,
+        8.144
+       ]
+      ]
      }
     }
    ]
@@ -99118,6 +101434,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 4.6,
+      "hold": "shouldered",
+      "hip_divisor": 1.939,
+      "ads_run_instability": 0.54,
+      "hip_drift_deg": [
+       [
+        0.045,
+        7.251
+       ]
+      ]
      }
     }
    ]
@@ -99695,6 +102023,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Irons + HE",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.168,
+        1.341
+       ]
+      ]
      }
     },
     {
@@ -100217,6 +102557,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "EOtech + HE",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.168,
+        1.341
+       ]
+      ]
      }
     }
    ]
@@ -101236,6 +103588,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Suppressed",
       "_pro_match": "fuzzy name (0.82)"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -102200,6 +104564,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Holo + LAM",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -102924,6 +105300,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "3X Scope + Sabot",
       "_pro_match": "fuzzy name (0.93)"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.9,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     }
    ]
@@ -103567,6 +105955,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        1.114,
+        1.117
+       ]
+      ]
      }
     }
    ]
@@ -104023,6 +106423,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "10ga Shot",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "melee",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.042,
+        6.706
+       ]
+      ]
      }
     },
     {
@@ -104363,6 +106775,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "10ga HE Slug",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "melee",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.042,
+        6.706
+       ]
+      ]
      }
     },
     {
@@ -104703,6 +107127,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "10ga Teargas Slug",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "melee",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.042,
+        6.706
+       ]
+      ]
      }
     }
    ]
@@ -105158,6 +107594,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.25,
+      "hip_drift_deg": [
+       [
+        0.075,
+        5.991
+       ]
+      ]
      }
     }
    ]
@@ -105501,6 +107949,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     }
    ]
@@ -106018,6 +108478,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.174,
+        8.41
+       ]
+      ]
      }
     }
    ]
@@ -106465,6 +108937,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Quick Lever",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.022,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -106984,6 +109468,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Gauss Mod",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.022,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -107341,6 +109837,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Tac Supp",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.022,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -107701,6 +110209,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Tac Scope",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.9,
+      "hip_drift_deg": [
+       [
+        0.022,
+        6.953
+       ]
+      ]
      }
     }
    ]
@@ -108182,6 +110702,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Standard",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        5.563
+       ]
+      ]
      }
     },
     {
@@ -108577,6 +111109,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "CQC",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        5.563
+       ]
+      ]
      }
     },
     {
@@ -108972,6 +111516,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Elite",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        5.563
+       ]
+      ]
      }
     }
    ]
@@ -109727,6 +112283,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Grenadier",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -110354,6 +112922,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "A3 Suppressed",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -110981,6 +113561,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "A3 Holo",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -111606,6 +114198,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "A3 Scope",
       "_pro_match": "tags"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.9,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     }
    ]
@@ -112093,6 +114697,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "12ga Buckshot",
       "_pro_match": "fuzzy name (0.76)"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -112478,6 +115094,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "12ga Slug",
       "_pro_match": "tags"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     }
    ]
@@ -112870,6 +115498,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        5.208
+       ]
+      ]
      }
     }
    ]
@@ -113390,6 +116030,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        5.208
+       ]
+      ]
      }
     }
    ]
@@ -113940,6 +116592,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        0.26
+       ]
+      ]
      }
     }
    ]
@@ -114614,6 +117278,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Shotgun",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.2,
+      "hip_drift_deg": [
+       [
+        0.037,
+        0.299
+       ]
+      ]
      }
     },
     {
@@ -115123,6 +117799,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Missile",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.2,
+      "hip_drift_deg": [
+       [
+        0.037,
+        0.299
+       ]
+      ]
      }
     },
     {
@@ -115601,6 +118289,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Plague Dart",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.2,
+      "hip_drift_deg": [
+       [
+        0.037,
+        0.299
+       ]
+      ]
      }
     }
    ]
@@ -116374,6 +119074,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 7.5,
+      "hold": "shouldered",
+      "hip_divisor": 1.727,
+      "ads_run_instability": 0.7,
+      "hip_drift_deg": [
+       [
+        0.814,
+        6.516
+       ]
+      ]
      }
     }
    ]
@@ -116936,6 +119648,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Poison Auto",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        3.556
+       ]
+      ]
      }
     },
     {
@@ -117314,6 +120038,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Neurotoxin",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        3.556
+       ]
+      ]
      }
     }
    ]
@@ -117733,6 +120469,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.25,
+      "hip_drift_deg": [
+       [
+        0.037,
+        5.991
+       ]
+      ]
      }
     }
    ]
@@ -118220,6 +120968,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.25,
+      "hip_drift_deg": [
+       [
+        0.037,
+        5.991
+       ]
+      ]
      }
     }
    ]
@@ -118757,6 +121517,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 4.6,
+      "hold": "shouldered",
+      "hip_divisor": 1.939,
+      "ads_run_instability": 0.54,
+      "hip_drift_deg": [
+       [
+        0.091,
+        4.6
+       ]
+      ]
      }
     }
    ]
@@ -119310,6 +122082,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        5.324
+       ]
+      ]
      }
     }
    ]
@@ -119661,6 +122445,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.022,
+        8.344
+       ]
+      ]
      }
     },
     {
@@ -119967,6 +122763,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.022,
+        8.344
+       ]
+      ]
      }
     },
     {
@@ -120276,6 +123084,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Iron Sights",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.022,
+        8.344
+       ]
+      ]
      }
     },
     {
@@ -120551,6 +123371,18 @@
       "CockAnimRate": 1.0,
       "WeaponPrice": 100,
       "_handling_from": "Variable Scope"
+     },
+     "kit_estimates": {
+      "mass_kg": 2.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.222,
+      "ads_run_instability": 0.34,
+      "hip_drift_deg": [
+       [
+        0.02,
+        7.594
+       ]
+      ]
      }
     }
    ]
@@ -121098,6 +123930,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.174,
+        1.39
+       ]
+      ]
      }
     }
    ]
@@ -121724,6 +124568,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Iron Sights",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.022,
+        8.344
+       ]
+      ]
      }
     },
     {
@@ -122307,6 +125163,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Holosight",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.022,
+        8.344
+       ]
+      ]
      }
     },
     {
@@ -122895,6 +125763,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Hybrid Scope",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.022,
+        8.344
+       ]
+      ]
      }
     }
    ]
@@ -123462,6 +126342,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.022,
+        8.344
+       ]
+      ]
      }
     }
    ]
@@ -123859,6 +126751,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "12ga Shot",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 4.6,
+      "hold": "shouldered",
+      "hip_divisor": 1.939,
+      "ads_run_instability": 0.54,
+      "hip_drift_deg": [
+       [
+        0.045,
+        7.251
+       ]
+      ]
      }
     },
     {
@@ -124179,6 +127083,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "12ga Frag",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 4.6,
+      "hold": "shouldered",
+      "hip_divisor": 1.939,
+      "ads_run_instability": 0.54,
+      "hip_drift_deg": [
+       [
+        0.045,
+        7.251
+       ]
+      ]
      }
     }
    ]
@@ -124512,6 +127428,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.335,
+        1.341
+       ]
+      ]
      }
     }
    ]
@@ -125052,6 +127980,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Tac Light",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.073,
+        4.167
+       ]
+      ]
      }
     },
     {
@@ -125606,6 +128546,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Tac Knife",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.073,
+        4.167
+       ]
+      ]
      }
     },
     {
@@ -126044,6 +128996,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "RDS",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.073,
+        4.167
+       ]
+      ]
      }
     },
     {
@@ -126522,6 +129486,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Sensor",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.073,
+        4.167
+       ]
+      ]
      }
     }
    ]
@@ -127159,6 +130135,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Suppressable",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.105,
+        17.831
+       ]
+      ]
      }
     },
     {
@@ -127818,6 +130806,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Arena Knife",
       "_pro_match": "tags"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.105,
+        17.831
+       ]
+      ]
      }
     },
     {
@@ -128445,6 +131445,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "HV Ammo + RDS",
       "_pro_match": "tags"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.105,
+        17.831
+       ]
+      ]
      }
     }
    ]
@@ -130291,6 +133303,34 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.174,
+        5.563
+       ],
+       [
+        0.174,
+        5.563
+       ],
+       [
+        0.174,
+        5.563
+       ],
+       [
+        0.174,
+        5.563
+       ],
+       [
+        0.174,
+        5.563
+       ]
+      ]
      }
     }
    ]
@@ -131219,6 +134259,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.174,
+        5.563
+       ]
+      ]
      }
     }
    ]
@@ -131637,6 +134689,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 14.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.455,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.06,
+        5.799
+       ]
+      ]
      }
     }
    ]
@@ -132088,6 +135152,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Blast-Ray",
       "_pro_match": "last leftover by position"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        0.348
+       ]
+      ]
      }
     },
     {
@@ -132489,6 +135565,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Rapid-Ray",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        0.348
+       ]
+      ]
      }
     }
    ]
@@ -133490,6 +136578,22 @@
       "WeaponPrice": 100,
       "_pro_layout": "Flash Bulb",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        6.706
+       ],
+       [
+        0.084,
+        6.706
+       ]
+      ]
      }
     },
     {
@@ -134569,6 +137673,22 @@
       "WeaponPrice": 100,
       "_pro_layout": "Combat Laser",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        6.706
+       ],
+       [
+        0.084,
+        6.706
+       ]
+      ]
      }
     },
     {
@@ -135489,6 +138609,22 @@
       "WeaponPrice": 100,
       "_pro_layout": "3X Scope",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.9,
+      "hip_drift_deg": [
+       [
+        0.084,
+        6.706
+       ],
+       [
+        0.084,
+        6.706
+       ]
+      ]
      }
     },
     {
@@ -136409,6 +139545,22 @@
       "WeaponPrice": 100,
       "_pro_layout": "Suppressor",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        6.706
+       ],
+       [
+        0.084,
+        6.706
+       ]
+      ]
      }
     }
    ]
@@ -136874,6 +140026,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Iron Sights",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 2.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.222,
+      "ads_run_instability": 0.34,
+      "hip_drift_deg": [
+       [
+        0.04,
+        4.845
+       ]
+      ]
      }
     },
     {
@@ -137253,6 +140417,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Red Dot Sight",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 2.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.222,
+      "ads_run_instability": 0.34,
+      "hip_drift_deg": [
+       [
+        0.04,
+        4.845
+       ]
+      ]
      }
     }
    ]
@@ -138099,6 +141275,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "10ga Rotary",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        2.682
+       ]
+      ]
      }
     },
     {
@@ -138517,6 +141705,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "12ga Gatling",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        2.682
+       ]
+      ]
      }
     },
     {
@@ -138998,6 +142198,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "SRAC HE",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        2.682
+       ]
+      ]
      }
     }
    ]
@@ -139374,6 +142586,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "HEDP Warhead",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 16.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.397,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.708,
+        10.223
+       ]
+      ]
      }
     },
     {
@@ -139700,6 +142924,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "CRYO Warhead",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 16.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.397,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.708,
+        10.223
+       ]
+      ]
      }
     }
    ]
@@ -140078,6 +143314,18 @@
       "bNoaltfire": true,
       "_pro_layout": "12 Gauge Slug",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 2.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.222,
+      "ads_run_instability": 0.34,
+      "hip_drift_deg": [
+       [
+        0.04,
+        1.899
+       ]
+      ]
      }
     },
     {
@@ -140403,6 +143651,18 @@
       "bNoaltfire": true,
       "_pro_layout": "12 Gauge Shot",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 2.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.222,
+      "ads_run_instability": 0.34,
+      "hip_drift_deg": [
+       [
+        0.04,
+        1.899
+       ]
+      ]
      }
     }
    ]
@@ -141143,6 +144403,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.25,
+      "hip_drift_deg": [
+       [
+        0.084,
+        4.793
+       ]
+      ]
      }
     }
    ]
@@ -141917,6 +145189,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Adv Scope",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 4.6,
+      "hold": "shouldered",
+      "hip_divisor": 1.939,
+      "ads_run_instability": 0.54,
+      "hip_drift_deg": [
+       [
+        0.045,
+        8.702
+       ]
+      ]
      }
     },
     {
@@ -142646,6 +145930,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Holosight",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 4.6,
+      "hold": "shouldered",
+      "hip_divisor": 1.939,
+      "ads_run_instability": 0.54,
+      "hip_drift_deg": [
+       [
+        0.045,
+        8.702
+       ]
+      ]
      }
     },
     {
@@ -143375,6 +146671,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Irons",
       "_pro_match": "fuzzy name (0.62)"
+     },
+     "kit_estimates": {
+      "mass_kg": 4.6,
+      "hold": "shouldered",
+      "hip_divisor": 1.939,
+      "ads_run_instability": 0.54,
+      "hip_drift_deg": [
+       [
+        0.045,
+        8.702
+       ]
+      ]
      }
     },
     {
@@ -143862,6 +147170,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Relic",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 4.6,
+      "hold": "shouldered",
+      "hip_divisor": 1.939,
+      "ads_run_instability": 0.54,
+      "hip_drift_deg": [
+       [
+        0.045,
+        8.702
+       ]
+      ]
      }
     }
    ]
@@ -144581,6 +147901,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Iron Sight + Amp",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.022,
+        7.193
+       ]
+      ]
      }
     },
     {
@@ -145259,6 +148591,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "RDS + Amp",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.022,
+        7.193
+       ]
+      ]
      }
     },
     {
@@ -145577,6 +148921,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "3X Scope",
       "_pro_match": "tags"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.9,
+      "hip_drift_deg": [
+       [
+        0.022,
+        7.193
+       ]
+      ]
      }
     },
     {
@@ -145895,6 +149251,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "IRNV Scope",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.5,
+      "hip_drift_deg": [
+       [
+        0.022,
+        7.193
+       ]
+      ]
      }
     }
    ]
@@ -146406,6 +149774,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Iron Sights",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.2,
+      "hip_drift_deg": [
+       [
+        0.112,
+        4.793
+       ]
+      ]
      }
     },
     {
@@ -146858,6 +150238,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.105,
+        4.458
+       ]
+      ]
      }
     },
     {
@@ -147170,6 +150562,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Suppressed",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.2,
+      "hip_drift_deg": [
+       [
+        0.112,
+        4.793
+       ]
+      ]
      }
     }
    ]
@@ -147437,6 +150841,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.4,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -147947,6 +151363,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -148549,6 +151977,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "melee",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.044,
+        5.563
+       ]
+      ]
      }
     }
    ]
@@ -149402,6 +152842,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 14.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.455,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.121,
+        7.731
+       ]
+      ]
      }
     }
    ]
@@ -149924,6 +153376,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        5.208
+       ]
+      ]
      }
     }
    ]
@@ -150539,6 +154003,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Gauss Mod",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.13,
+        16.667
+       ]
+      ]
      }
     },
     {
@@ -150971,6 +154447,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Automatic Mod",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.098,
+        16.667
+       ]
+      ]
      }
     },
     {
@@ -151410,6 +154898,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Brace",
       "_pro_match": "tags"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "two_hand",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.065,
+        8.333
+       ]
+      ]
      }
     }
    ]
@@ -151878,6 +155378,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.084,
+        2.682
+       ]
+      ]
      }
     }
    ]
@@ -152608,6 +156120,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 10.0,
+      "hold": "shouldered",
+      "hip_divisor": 1.601,
+      "ads_run_instability": 0.78,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -153026,6 +156550,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     }
    ]
@@ -153429,6 +156965,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.335
+       ]
+      ]
      }
     }
    ]
@@ -153956,6 +157504,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.2,
+      "hold": "shouldered",
+      "hip_divisor": 2.097,
+      "ads_run_instability": 0.43,
+      "hip_drift_deg": [
+       [
+        0.335,
+        2.682
+       ]
+      ]
      }
     }
    ]
@@ -154539,6 +158099,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.25,
+      "hip_drift_deg": [
+       [
+        0.075,
+        1.198
+       ]
+      ]
      }
     }
    ]
@@ -155096,6 +158668,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "fuzzy name (1.00)"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     },
     {
@@ -155509,6 +159093,18 @@
       "ReloadAnimRate": 1.0,
       "CockAnimRate": 1.0,
       "WeaponPrice": 100
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     }
    ]
@@ -156010,6 +159606,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 16.0,
+      "hold": "shouldered",
+      "hip_divisor": 1.397,
+      "ads_run_instability": 0.93,
+      "hip_drift_deg": [
+       [
+        0.063,
+        3.02
+       ]
+      ]
      }
     }
    ]
@@ -156615,6 +160223,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.8,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -156999,6 +160619,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.25,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.299
+       ]
+      ]
      }
     }
    ]
@@ -157475,6 +161107,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.4,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        5.208
+       ]
+      ]
      }
     }
    ]
@@ -157866,6 +161510,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.4,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        5.208
+       ]
+      ]
      }
     }
    ]
@@ -158224,6 +161880,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "NV Scope",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 7.5,
+      "hold": "shouldered",
+      "hip_divisor": 1.727,
+      "ads_run_instability": 0.7,
+      "hip_drift_deg": [
+       [
+        0.0,
+        12.217
+       ]
+      ]
      }
     },
     {
@@ -158535,6 +162203,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "4X Scope",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 7.5,
+      "hold": "shouldered",
+      "hip_divisor": 1.727,
+      "ads_run_instability": 0.9,
+      "hip_drift_deg": [
+       [
+        0.0,
+        12.217
+       ]
+      ]
      }
     },
     {
@@ -158845,6 +162525,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Irons",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 7.5,
+      "hold": "shouldered",
+      "hip_divisor": 1.727,
+      "ads_run_instability": 0.7,
+      "hip_drift_deg": [
+       [
+        0.0,
+        12.217
+       ]
+      ]
      }
     }
    ]
@@ -159189,6 +162881,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "NV Scope",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 16.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.397,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     },
     {
@@ -159489,6 +163193,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "4X Scope",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 16.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.397,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     },
     {
@@ -159788,6 +163504,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Irons",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 16.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.397,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -160133,6 +163861,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.4,
+      "hold": "melee",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        5.208
+       ]
+      ]
      }
     }
    ]
@@ -161010,6 +164750,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Suppressed",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.052,
+        5.572
+       ]
+      ]
      }
     },
     {
@@ -161763,6 +165515,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "RDS",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.052,
+        5.572
+       ]
+      ]
      }
     }
    ]
@@ -162338,6 +166102,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Quick Charge",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.109,
+        4.889
+       ]
+      ]
      }
     },
     {
@@ -162700,6 +166476,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Prototype",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.109,
+        4.889
+       ]
+      ]
      }
     },
     {
@@ -163011,6 +166799,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Shield System",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.109,
+        4.889
+       ]
+      ]
      }
     }
    ]
@@ -163527,6 +167327,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 0.4,
+      "hold": "shouldered",
+      "hip_divisor": 2.7,
+      "ads_run_instability": 0.0,
+      "hip_drift_deg": [
+       [
+        0.033,
+        5.208
+       ]
+      ]
      }
     }
    ]
@@ -164251,6 +168063,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Dart + RDS",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.25,
+      "hip_drift_deg": [
+       [
+        0.112,
+        5.991
+       ]
+      ]
      }
     },
     {
@@ -164882,6 +168706,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Suppressed",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.347,
+      "ads_run_instability": 0.25,
+      "hip_drift_deg": [
+       [
+        0.112,
+        5.991
+       ]
+      ]
      }
     }
    ]
@@ -165540,6 +169376,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 14.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.455,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        3.775,
+        7.55
+       ]
+      ]
      }
     }
    ]
@@ -166194,6 +170042,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 16.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.397,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
      }
     }
    ]
@@ -166821,6 +170681,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Default",
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 14.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.455,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        1.932,
+        7.731
+       ]
+      ]
      }
     }
    ]
@@ -167416,6 +171288,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.087,
+        5.563
+       ]
+      ]
      }
     }
    ]
@@ -168754,6 +172638,30 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        0.348
+       ],
+       [
+        0.348,
+        2.781
+       ],
+       [
+        0.348,
+        2.781
+       ],
+       [
+        0.348,
+        2.781
+       ]
+      ]
      }
     }
    ]
@@ -169550,6 +173458,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.418,
+        3.344
+       ]
+      ]
      }
     }
    ]
@@ -170103,6 +174023,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 14.0,
+      "hold": "hip_braced",
+      "hip_divisor": 1.455,
+      "ads_run_instability": 1.0,
+      "hip_drift_deg": [
+       [
+        0.242,
+        9.438
+       ]
+      ]
      }
     }
    ]
@@ -170554,6 +174486,18 @@
       "WeaponPrice": 100,
       "_pro_layout": null,
       "_pro_match": "single layout"
+     },
+     "kit_estimates": {
+      "mass_kg": 3.8,
+      "hold": "shouldered",
+      "hip_divisor": 2.022,
+      "ads_run_instability": 0.48,
+      "hip_drift_deg": [
+       [
+        0.044,
+        6.953
+       ]
+      ]
      }
     }
    ]
@@ -170971,6 +174915,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "20ga Shot",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.07,
+        2.229
+       ]
+      ]
      }
     },
     {
@@ -171338,6 +175294,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "20ga Slug",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.07,
+        2.229
+       ]
+      ]
      }
     },
     {
@@ -171705,6 +175673,18 @@
       "WeaponPrice": 100,
       "_pro_layout": "Noisemaker",
       "_pro_match": "name"
+     },
+     "kit_estimates": {
+      "mass_kg": 1.2,
+      "hold": "two_hand",
+      "hip_divisor": 2.524,
+      "ads_run_instability": 0.1,
+      "hip_drift_deg": [
+       [
+        0.07,
+        2.229
+       ]
+      ]
      }
     }
    ]
