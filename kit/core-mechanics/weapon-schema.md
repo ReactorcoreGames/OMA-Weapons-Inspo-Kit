@@ -11,6 +11,7 @@ Schema id: `oma-weapon/1`.
 - **Real time.** All durations are real seconds. Rates are per real second.
 - **Default wielder.** Every handling number describes a trained mercenary in body armour (200 HP, 100 kg with kit) on Earth gravity. Other wielders, mounts and environments change outcomes through the formulas in the core-mechanics docs, not through the weapon file.
 - **Inheritance inside a file.** Each fire mode after the first inherits every field it doesn't set from the first mode. Each variant is a patch on the base weapon (see [Variants](#variants)).
+- **Custom fields** start with `x_` (`x_my_engine_id: 42`) and are allowed at any level; the validator skips them. Anything else it doesn't know is reported as a probable typo.
 - **Optional means omit.** Leave a field out instead of writing `null`. A missing optional field means "doesn't apply" or "use the default given here".
 
 ## File layout

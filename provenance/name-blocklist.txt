@@ -1,0 +1,372 @@
+# Private: source-material names the validator flags in kit entries. Never ship this file.
+# Regenerate with tools/kit/build_blocklist.py
+500KW
+[B] A2-W Skrith Lance
+[B] BR-99 'Thor' Lightning Cannon
+[B] Cryo Lance
+[B] TAC-30 Autocannon
+[B] Trident Splitter Machinegun
+[B] Type-76 Wendigo EMP-R
+[B] XMB-500 Smart Minigun
+A-Pod Capsule
+A2
+A2-W
+A2-W Skrith Shillelagh
+A42
+A42 Skrith Sidearm
+A49
+A49 Skrith Blaster
+A500
+A500 'Reptile' Acid Gun
+A73
+A73 Skrith Rifle
+A800
+A800 Skrith Hyperblaster
+A909
+A909 Skrith Blades
+AD-51
+AD-51 Reptile Corrosive Grenade
+AH104
+AH104 Handcannon
+AH250
+AH250 Assault Pistol
+AK-490
+AK-490 Assault Rifle
+AK-91
+AK-91 Charge Rifle
+AM67
+AM67 Assault Pistol
+AN-56
+AN-56 Akeron Launcher
+Apollo Industries
+AR23
+AR23 Heavy Rifle
+ARC-79
+ARC-79 Lightning Rifle
+AsP
+AT40
+AT40 STREAK
+AY90
+AY90 Skrith Boltcaster
+Ballistic Weapons
+Black & Wood
+Bloodhound
+BORT-85
+BORT-85 Grenade Pistol
+BR-99
+BR1
+BR1-NK
+BR1-NK Mod-2 LSW
+Bulldog Autocannon
+BX5
+BX5-SM
+BX5-SM Land Mine
+Civilian Riot Shield
+Classic Weapons Industries
+Conqueror MGL
+Cryon
+CX61
+CX61 Tactical Rifle
+CX85
+CX85 Combat Rifle
+CYLO Urban Assault Weapon
+D49
+D49 Revolver
+Dark Star
+DeerMaster
+Deployed M99 Turret
+Deployed X83 Sniper Rifle
+Dipheox
+Dipheox Combat Arms
+Drake & Co
+Drake & Co Firearms
+E-23
+E-23 'ViPeR' Plasma Rifle
+E-5
+E-5 'AsP' Plasma Pistol
+E-V Plasma Cannon 9000
+E58
+E58 Raygun
+E90
+E90-N
+E90-N Particle Accelerator
+E90-N Particle Accelerator MK.II
+EKS-43
+EKS-43 Katana
+Enravion
+Enravion Combat Solutions
+FC-01
+FC-01 Smartgun
+FG50
+FG50 Heavy Machinegun
+FG50 Turret
+FGM-70
+FGM-70 'Shockwave' LAW
+Fifty-9
+Fifty-9 Machine Pistol
+FM13
+FM13 Dragon Shotgun
+FM14
+FM14 Pitbull Blunderbuss
+FMD G28 Medicinal Aerosol
+FMD H14 Combat Defibrillator
+FMD ICIS-25 Stimpack
+FMP-2012
+FMP-2012 Machine Pistol
+FP7
+FP7 Grenade
+FP9
+FP9A5
+FP9A5 Explosive Device
+FSSG-50
+FSSG-50 Marksman Rifle
+G28
+G5
+G5 Missile Launcher
+G51
+G51 Carbine
+Gaucho and Stallion
+Gen Mo'Kai
+GRS-9
+GRS-9 Pistol
+GRS-XX Pistol
+H-V Plasma Cannon Mk5
+H14
+HAMR Turret
+HB4
+HB4 Electro Grenade Blaster
+Heavy Anti-Materiel Rifle
+HKM-26
+HKM-26 Assault Pistol
+HMC-117
+HMC-117 Photon Cannon
+Human-Skrith
+HVC-Mk9
+HVC-Mk9 Lightning Gun
+ICIS-25
+Izanagi
+JAX Industrial
+JAX Industrial Firm
+JL21
+JL21-MRL
+JL21-MRL PeaceMaker
+KF-8
+KF-8X
+KF-8X Stealth Crossbow
+Krao
+L8
+L8 GI Ammunition Pack
+Le Big XOXO
+Liandri
+LK-05
+LK-05 Advanced Carbine
+Longhorn Repeater
+LRGh-90
+LRGh-90 'Topor' Grenade Launcher
+LRX-5
+LRX-5 'Typhon' Pulse PDW
+LS-14
+LS-14 Laser Rifle
+M11
+M11-X
+M11-X Hydra MRL
+M2020
+M2020 Gauss DMR
+M290
+M290 Shotgun
+M353
+M353 Light Machine Gun
+M353 Machinegun Turret
+M46
+M46A1
+M46A1 Combat Rifle
+M50
+M50 Assault Rifle
+M575
+M575 Medium Machinegun
+M58
+M58 Smoke Grenade
+M7
+M75
+M75 Railgun
+M763
+M763 Shotgun
+M7A3
+M7A3 Battle Rifle
+M806
+M806A2
+M806A2 Pistol
+M925
+M925 Heavy Machine Gun
+M925 Machinegun Turret
+M99
+M99-ECS
+M99-ECS Anti-Material Rifle
+MAG-SAW Longsword
+Majestic Firearms
+Majestic Firearms 12
+MARS-2
+MARS-2 Assault Rifle
+MAU-52
+MAU-52 Target Designator
+MD24
+MD24 Pistol
+MDK-0331
+MDK-0331 Modular Machine Uzi
+MJ51
+MJ51 Carbine
+Mk.88
+Mk.88 Light Support Weapon
+Mk.88 Turret
+Mk5
+MK781
+MK781 Combat Shotgun
+MOA-C Chaff Grenade
+Mod-2
+MR-DR88
+MR-DR88 Machine Pistol
+MRS-138
+MRS-138 Tactical Shotgun
+MRT-6
+MRT-6 Shotgun
+MX-32
+MX-32 Rocket Machine Gun
+N-TOV
+N-TOV Emergency Bandage
+N-TOV Medical Supplies
+Necris
+NEX Plas-Edge Axe
+Nexron
+Nexron Defence
+NFUD Combat Wrench
+Nova Staff
+NRP-57
+NRP-57 'Pineapple'
+NRX-82
+NRX-82 'Scarab' Cluster Grenade
+PD-97
+PD-97 'Bloodhound'
+Phayder
+Pineapple
+PKM-420
+PKM-420 GP Machine Gun
+PS-9
+PS-9m
+PS-9m Stealth Pistol
+PSI-56
+PSI-56 Fire Sword
+PUG-M2
+PUG-M2 Riot Cannon
+PUMA-77
+PUMA-77 Repeater
+R78
+R78A1
+R78A1 Sniper Rifle
+R9
+R9 Ranger Rifle
+R9000
+R9000-E
+R9000-E Modular Sniper Rifle
+R9A1
+R9A1 Ranger Rifle
+RCS-715
+RCS-715 Assault Shotgun
+Redwood 6000 'DeerMaster'
+Redwood Coach Gun
+Redwood Firearms
+Redwood Wrenchgun
+Relics and Rayguns
+Reptile
+RPG-350
+RPG-350 Cluster Rocket Launcher
+RS04
+RS04 Compact Pistol
+RS8
+RS8 Pistol
+RSH-1034
+RSH-1034 Riot Shield
+Runestorm
+RX-22
+RX-22A
+RX-22A Flamethrower
+S.M.A.T. Infantry Cannon
+Sandbags
+Scarab
+Scavenged Junk Shield
+Shockwave
+SK-410
+SK-410 Assault Shotgun
+SKAS-21
+SKAS-21 Automatic Shotgun
+Skrith
+SP-12
+SP-12 Compact Shotgun
+SRK-205
+SRK-205 Submachinegun
+SRK-650
+SRK-650 Battle Rifle
+SRS-900
+SRS-900 Battle Rifle
+Sub-Assault Rifle 12
+SX-45
+SX-45K
+SX-45K Combat Handgun
+T10
+T10 Toxic Grenade
+T9
+T9CN
+T9CN Automatic Pistol
+TAC-30
+Thor
+Topor
+Type-76
+Typhon
+Unfireable A73 Skrith Rifle
+Unfireable M50 Assault Rifle
+Unfireable M763 Shotgun
+Unknown Skrith Engineers
+Unreal Tournament
+UTC
+UTC Defense Tech
+V-H 500KW Supercharger
+ViPeR
+VSK-42
+VSK-42 Tranquilizer Rifle
+Wilson 41
+Wot ya Packin
+Wot ya Packin Gun Corp
+X3
+X3 Knife
+X4
+X4 Knife
+X5
+X5W
+X5W Black Ops Blade
+X8
+X8 Ballistic Knife
+X83
+X83 Sniper Rifle
+XK2
+XK2 Submachine Gun
+XM20
+XM20 Laser Carbine
+XM300
+XM300 Dragon Nanoblade
+XM84
+XM84 Heavy Tech Grenade
+XMB-500
+XMB-500 Smart Minigun Turret
+XMk5
+XMk5 Submachine Gun
+XMV-850
+XMV-850 Minigun
+XMV-850 Minigun Turret
+XRS-10
+XRS-10 Machine Pistol
+Z-250
+Z-250 Minigun
+Zavod Tochnogo Voorujeniya
+Zavod Tochnogo Voorujeniya (ZTV Export)
+ZTV Export
+ZX-98
+ZX-98 Reaper Gauss Rifle
