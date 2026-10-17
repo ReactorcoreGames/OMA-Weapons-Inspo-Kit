@@ -1,0 +1,39 @@
+class M7A3PrimaryFire extends BallisticProInstantFire;
+
+defaultproperties
+{
+	TraceRange=(Min=10000.0000000,Max=12000.0000000)
+	Damage=20.0000000
+	RangeAtten=0.8000000
+	WaterRangeAtten=0.8000000
+	DamageType=Class'BWBP_JCF_Pro.DTM7A3Rifle'
+	DamageTypeHead=Class'BWBP_JCF_Pro.DTM7A3RifleHead'
+	DamageTypeArm=Class'BWBP_JCF_Pro.DTM7A3Rifle'
+	KickForce=10000
+	PenetrateForce=450
+	bPenetrate=true
+	BrassClass=Class'BWBP_JCF_Pro.Brass_M7A3AR'
+	BrassBone="tip"
+	BrassOffset=(X=-105.0000000,Y=-10.0000000,Z=-1.0000000)
+	bCockAfterEmpty=true
+	DryFireSound=(Sound=Sound'BWBP_SKC_Sounds.AH104.AH104-DryFire',Volume=1.0000000,Radius=24.0000000,Slot=0,Pitch=1.0000000,bAtten=false,bNoOverride=false)
+	MuzzleFlashClass=Class'BWBP_JCF_Pro.M7A3FlashEmitter'
+	FlashScaleFactor=0.1000000
+	AimedFireAnim="SightFire"
+	FireRecoil=60.0000000
+	XInaccuracy=32.0000000
+	YInaccuracy=32.0000000
+	BallisticFireSound=(Sound=Sound'BWBP_JCF_Sounds.M7A3.M7A3_Fire_M',Volume=1.0000000,Radius=512.0000000,Slot=0,Pitch=1.0000000,bAtten=false,bNoOverride=true)
+	bPawnRapidFireAnim=true
+	FireEndAnim="None"
+	FireRate=0.0950000
+	AmmoClass=Class'BallisticProV55.Ammo_RS762mm'
+	ShakeRotMag=(X=64.0000000,Y=32.0000000,Z=0.0000000)
+	ShakeRotRate=(X=5000.0000000,Y=5000.0000000,Z=5000.0000000)
+	ShakeRotTime=1.0000000
+	ShakeOffsetMag=(X=-5.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetRate=(X=-300.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetTime=1.0000000
+	WarnTargetPct=0.2000000
+	aimerror=900.0000000
+}

@@ -1,0 +1,13 @@
+NAME:		Emitter 9QA Minivivi
+
+--
+
+TYPE: 		Large maw-like high tech energy emitter matrix, housing various capacitors, vents, secondary ports and an array of magnetic field regulators.
+
+EFFECT: 	Hard photon blade weapon for mounting on high mobility mecha arms. Powered via a mecha's main reactor, the system uses electromagnetic fields in conjuction with exotic particles to form various configuration of sharp ethereal blades. The blades of light are peculiar in that they are physical and they do cut and impart kinetic energy wherever they strike, but unlike a solid metal sword there is no recoil or feedback back at the "hilt" of the weapon; a user can swing the sword at something and it will hit it like a real physical blade would, but the user can keep swinging the hilt past the target without being stopped by the physical obstacle sort of like they're fighting with a ghostly phantom blade that regenerates itself continuously. Moreover, the emitters along with the EM field array on the blade are highly versatile and can rearrange the blade in various ways, like splitting it into multiple blades allowing for a wide claw-like attacks or forming a phantom wall as a shield that blocks incoming attacks. This effectively allows the mech to be armed with a multitude of various variable lenght, style and intensity of melee weapons, switching between them exceptionally fast.
+
+INTENT:		Built for state-of-the-art humanoid assault mecha as a close-range weapons system, usually attached to its forearms. While most mecha operate a ranged weapon for primary attack, this blade on its own could decimate entire armies when used skillfully on a mecha that emphasizes speed and aggression.
+
+
+==
+==

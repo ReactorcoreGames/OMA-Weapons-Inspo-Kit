@@ -1,0 +1,13 @@
+NAME:		Blaster K2 Ploosnar
+
+--
+
+TYPE: 		Boxy two handed electronic gun with a wide barrel with exhaust holes on the sides. Comes with an angled grip at the bottom front, while a pistol grip with a guard at the back with the main trigger on it. Central body of the gun has cooling vents on the sides. Below middle and top back have rounded components housing internal systems with built in heatsinks.
+
+EFFECT: 	Tornado gun. Upon holding down the trigger, the weapon gradually spools up and generates a sideways tornado sticking out of of the barrel of the gun, pulling throwing and spinning any lightweight object caught in its path. Objects are pulled into the middle, start to spin and are gradually pushed outwards. The tornado isn't strong enough to lift a person, but it can throw them off balance.
+
+INTENT:		A highly situational weapon or tool that has surprising application when used against certain objects or combined with other materials. Firefighters have used these to fight fire by injecting some water at the front of the gun to make a wet mist tornado that extinguishes fires surprisingly fast. Mercenaries have instead injected liquid fuel droplets into the tornado and attached a lighter at the barrel to set in on fire, creating impressive burning tornadoes to great effect - both to set things on fire, but also to scare away foes into retreat. Adventurers have used it on its own to blow away debris, throw groups of opponents into dissarray and push people off ledges with great success.
+
+
+==
+==

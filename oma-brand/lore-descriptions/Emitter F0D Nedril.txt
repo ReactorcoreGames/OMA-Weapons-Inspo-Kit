@@ -1,0 +1,13 @@
+NAME:		Emitter F0D Nedril
+
+--
+
+TYPE: 		Somewhat bulky futuristic rifle-like device with significant electronic components housed within. The back features a large strudy buttstock, while the front has a mouth-like jaw mechanism that can close the front of the rifle by sliding upwards.
+
+EFFECT: 	Versatile relocation gravity beam for picking up, suspending, rotating and extending heavy or hazardous objects without the person needing to touch those items directly. Upon activation by holding down the trigger, the tool automatically attempts to recognize a single solid object or container, wrapping it in a gravity negating field, which allows the user to levitate, rotate and even lightly toss the held object as long as there is a clear direct line of sight between the gun and the object.
+
+INTENT:		A common tool in construction, hazmat disposal and logistics. It is quite versatile and creative minds can find interesting ways to use it. Normally the device is stable and can pick up objects that weight up to a half a ton, but it is possible to turn off safety measures to pickup even heavier objects, but doing so will cause rapid heat build-up in the gun causing it to shut down or break if used for too long at a time.
+
+
+==
+==

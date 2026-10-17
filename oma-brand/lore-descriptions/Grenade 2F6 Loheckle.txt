@@ -1,0 +1,13 @@
+NAME:		Grenade 2F6 Loheckle
+
+--
+
+TYPE: 		Ribbed hand grenade with a pin and safety lever. Contains three thick biscuits of HE-wafers.
+
+EFFECT: 	High explosive concussive hand grenade. Pull the pin, release the safety level and throw or lob the grenade to its intended destination. Causes a fiery blast that knocks everything away with great force. Highly effective against any personnel within indoor locations like bunkers and tunnels due to the spacially constrained shockwave that forcibly flushed out everything within the enclosed space. Less effective outdoors, but still lethal if lands close enough to the target.
+
+INTENT:		Standard military soldier equipment for urban assault missions. Often thrown down halls, bounced against walls to land the grenade behind a corner or lobbed at an arc to land near an exposed target without needing a direct line of sight.
+
+
+==
+==

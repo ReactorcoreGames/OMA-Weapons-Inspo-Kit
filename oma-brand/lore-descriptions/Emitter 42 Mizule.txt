@@ -1,0 +1,13 @@
+NAME:		Emitter 42 Mizule
+
+--
+
+TYPE: 		Wrist mounted high-tech projector with a notable forward magnetic field array and multiple cooling ports on the surface.
+
+EFFECT: 	To be used in conjuctions with a battlesuit, this is a close range combat plasma blade emitter for dealing a combination of incinerating and kinetic damage - almost like swinging a large two-handed sword that is also lit on fire, but longer than any physical sword is practical to exist while having the ability to use it one-handed as a wrist mounted melee weapon, making dual wielding these possible. It requires attachment via special hardpoint which provide a flow of power via a battlesuit's main reactor, as the weapon itself only has a small capacitor without any real internal power supply.
+
+INTENT:		Created for high-mobility battlesuit combatants for intense assault missions where the warrior plunges into enemy groups to tear them apart like a berserker.
+
+
+==
+==

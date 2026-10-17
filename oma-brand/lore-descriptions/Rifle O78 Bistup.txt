@@ -1,0 +1,13 @@
+NAME:		Rifle O78 Bistup
+
+--
+
+TYPE: 		Long barreled semi-automatic precision rifle with a magazine feed, extendable stock and iron sights.
+
+EFFECT: 	Fires a powerful rifle round with great accuracy over a long distance, but is actually a short-range weapon where its high muzzle velocity is leveraged for power rather than distance. Its easily swappable magazine provides extended combat time and versatility. Great against medium armor.
+
+INTENT:		Mass-production low-cost but robust and reliable basic combat weapon for civilian use in defences of settlements. Has sufficient power against everything except heavy armor, though lacks in ability to deal against small swarming enemies.
+
+
+==
+==

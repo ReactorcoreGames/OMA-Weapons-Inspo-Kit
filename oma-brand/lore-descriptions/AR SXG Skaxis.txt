@@ -1,0 +1,13 @@
+NAME:		AR SXG Skaxis
+
+--
+
+TYPE: 		Long barreled precision battle rifle with a large hunter scope with zoom, nightvision, IR and thermal vision capabilities. Features a high quality metal body with folding stock, exhaust ports, 2x side picatinny rails, magazine ammo feed and a pistol grip.
+
+EFFECT: 	Hunter-killer's best friend. This deadly gas-operated weapon fires powerful rifle rounds with exceptional accuracy, long reach and impressive damage. The only major downsides compared to other assault rifles is a lower ammo capacity due to larger bullet size and strong recoil after each shot. The weapon is capable of full-auto fire, but is most commonly used in semi-auto single shot mode. The advanced built-in hunter scope allows the operator to engage their target from a long distance, in the dark and even set up saved precise aiming positions in the scope's HUD so that its easy to aim the rifle into to the right spot again if tracking multiple locations for a hidden target to appear.
+
+INTENT:		Favored by sharpshooter mercenaries and bounty hunters that are tasked with finding and killing a specific monster. Unlike a sniper rifle that has much less ammo and no full-auto capability, this weapon can be used to hunt down a group of enemies in quick succession with accurate headshots.
+
+
+==
+==

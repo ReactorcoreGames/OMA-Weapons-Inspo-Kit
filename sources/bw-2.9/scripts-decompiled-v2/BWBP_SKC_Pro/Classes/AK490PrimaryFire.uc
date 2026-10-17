@@ -1,0 +1,35 @@
+class AK490PrimaryFire extends BallisticProInstantFire;
+
+defaultproperties
+{
+	TraceRange=(Min=12000.0000000,Max=13000.0000000)
+	DamageType=Class'BWBP_SKC_Pro.DT_AK490Bullet'
+	DamageTypeHead=Class'BWBP_SKC_Pro.DT_AK490BulletHead'
+	DamageTypeArm=Class'BWBP_SKC_Pro.DT_AK490Bullet'
+	PenetrateForce=180
+	bPenetrate=true
+	BrassClass=Class'BallisticProV55.Brass_Rifle'
+	BrassBone="tip"
+	BrassOffset=(X=-80.0000000,Y=1.0000000,Z=0.0000000)
+	DryFireSound=(Sound=Sound'BW_Core_WeaponSound.D49.D49-DryFire',Volume=0.7000000,Radius=24.0000000,Slot=0,Pitch=1.0000000,bAtten=false,bNoOverride=false)
+	MuzzleFlashClass=Class'BWBP_SKC_Pro.AK490FlashEmitter'
+	FlashScaleFactor=0.8000000
+	FireRecoil=192.0000000
+	FireChaos=0.0400000
+	FireChaosCurve=(Points=((InVal=0.0000000,OutVal=1.0000000),(InVal=0.1600000,OutVal=1.0000000),(InVal=0.2500000,OutVal=1.5000000),(InVal=0.5000000,OutVal=2.2500000),(InVal=0.7500000,OutVal=3.5000000),(InVal=1.0000000,OutVal=5.0000000)))
+	XInaccuracy=48.0000000
+	YInaccuracy=48.0000000
+	BallisticFireSound=(Sound=SoundGroup'BWBP_SKC_Sounds.AK47.AK47-Fire',Volume=1.5000000,Radius=512.0000000,Slot=3,Pitch=1.0000000,bAtten=false,bNoOverride=false)
+	bPawnRapidFireAnim=true
+	FireEndAnim="None"
+	FireRate=0.1100000
+	AmmoClass=Class'BWBP_SKC_Pro.Ammo_AK762mm'
+	ShakeRotMag=(X=32.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeRotRate=(X=480.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeRotTime=2.0000000
+	ShakeOffsetMag=(X=-10.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetRate=(X=-200.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetTime=2.0000000
+	WarnTargetPct=0.2000000
+	aimerror=900.0000000
+}

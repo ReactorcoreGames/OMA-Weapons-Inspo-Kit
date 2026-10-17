@@ -1,0 +1,13 @@
+NAME:		Grenade 9H1 Digikiki
+
+--
+
+TYPE: 		A bright translucent capsule with densely packed material within. Theres a large high visibility button in the middle on two sides.
+
+EFFECT: 	After pressing both buttons at once and throwing, the capsule will rapidly erupt to deploy about a hundred self-inflating flotating life rings within a span of a few seconds over a wide area.
+
+INTENT:		Often included on seafaring cruiseships for emergency uses when suddenly a lot of people end up overboard in the water that need rescue. Some adventures found them useful against opponents by slowing them down as they're suddenly immobilized by a hundred rubber rings deployed in a tight space around them.
+
+
+==
+==

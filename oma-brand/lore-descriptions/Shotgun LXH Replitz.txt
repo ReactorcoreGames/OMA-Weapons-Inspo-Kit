@@ -1,0 +1,13 @@
+NAME:		Shotgun LXH Replitz
+
+--
+
+TYPE: 		Double barreled pistol-sized shotgun with a magazine feed and iron sights. Feeds any type of shotgun shells, but buckshot is most common.
+
+EFFECT: 	A sidearm design taken to the extreme that combines a sawn-off shotgun, but even shorter, and a semi automatic pistol, but loaded with larger ammo - namely shotgun shells. The result is a powerful rapid fire close-range weapon. Due to lesser barrel lenght, the shots have less time to accelerate which means less speed and less stabilization is acquired, so the shotgun is less powerful and less accurate than an actual sawn-off shotgun. Despite these shortcomings, it is still a shotgun nonetheless and still plenty powerful. The recoil on this thing is strong and will often cause the gun to sharply tilt upwards with each shot. Exceptionally effective against groups of small soft enemies in close quarters.
+
+INTENT:		Merceneries that fought monsters in tunnels and indoor spaces needed something powerful, wide spreading, compact, semi automatic, hold multiple rounds before needing to reload and be relatively cheap to mass produce. This weapon ended up being the winning formula to solve that need.
+
+
+==
+==

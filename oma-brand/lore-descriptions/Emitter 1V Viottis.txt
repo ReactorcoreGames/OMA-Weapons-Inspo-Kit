@@ -1,0 +1,13 @@
+NAME:		Emitter 1V Viottis
+
+--
+
+TYPE: 		An industrial metallic ram hold device with a battery pack at the lower back, vents and buttons on the main body. The front of the device two high-energy coils and a narrow cone emitter.
+
+EFFECT: 	Short-range high-intensity x-ray laser beam. Pressing the trigger will fire a very narrow but intense energy beam with exceptional cutting potential and a peculiar ability to phase through solid matter - even if only for a short distance.
+
+INTENT:		A manual version of a spaceship hull cutting beam. Normally scrapyards and mining bases use larger vehicle mounted versions of this industrial tool to do the bulk of the work, but sometimes a smaller beam is needed for places that are hard to reach that require precision and positioning. Mercenaries have found this to be a convenient tool for boarding actions or cutting breaching holes into walls when other entrances are too risky to enter. Sometimes used a "laser chainsaw" weapon, even if its rather unwieldy for combat.
+
+
+==
+==

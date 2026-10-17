@@ -1,0 +1,18 @@
+class DT_MARSGrenadeHERadius extends DT_BWExplode
+	config(BallisticProV55);
+
+defaultproperties
+{
+	DeathStrings[0]="%o was liquified by %k's MARS grenade."
+	DeathStrings[1]="%k blasted %o apart with a MARS grenade."
+	DeathStrings[2]="%k delivered a live MARS grenade to %o."
+	SimpleKillString="MARS HE Grenade Radius"
+	DamageIdent="Grenade"
+	WeaponClass=Class'BWBP_SKC_Pro.MARSAssaultRifle'
+	DeathString="%o was liquified by %k's MARS grenade."
+	FemaleSuicide="%o tested to see if her MARS grenades worked."
+	MaleSuicide="%o tested to see if his MARS grenades worked."
+	bDelayedDamage=true
+	bExtraMomentumZ=true
+	VehicleDamageScaling=0.5000000
+}

@@ -1,0 +1,13 @@
+NAME:		Pistol 0ZI Sexatoo
+
+--
+
+TYPE: 		High caliber pistol coated in shiny material paint that mimics the appearance of a rare valuable metal for fun.
+
+EFFECT: 	Although it may seem like the gun is made entirely using a rare expensive metal, the truth is that its merely a thin coat of artificial paint, while the weapon itself is made from high grade firearm materials. It uses a break action method to load ammo and can only fit one bullet at a time, though said bullet is a large one as far as pistols are concerned.
+
+INTENT:		Popular among adventurers and freelancers whom may use the gun rarely but still enjoy carrying it because it looks cool and find it enjoyable to shoot recreationally.
+
+
+==
+==

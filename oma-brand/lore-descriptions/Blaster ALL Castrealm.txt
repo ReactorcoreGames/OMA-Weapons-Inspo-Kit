@@ -1,0 +1,13 @@
+NAME:		Blaster ALL Castrealm
+
+--
+
+TYPE: 		Enourmous shoulder mounted high-tech energy super cannon. Features a large reactor unit at the back, as well as an large sensor-camera unit, along various heat vents, electronics, capacitors, antennas and other advanced components both inside and outside.
+
+EFFECT: 	Apocalyptic mega-beam cannon for either for sweeping entire fields into vaporized ash or for ultra-long range portable artillery fire against large armored vehicles. Absurdly powerful, bright and utterly destructive. It fires an intense torrent of high-energy particles that gradually grow the main beam from a thin thread to become over a meter thick in diameter, after which the torrent gradually tapers off in power and shrinks back into a thin beam and finally dissipates. This cycle is lethal during all its stages, but most devasting during the middle point when the beam is at its most intense and largest. The weapon has an assisted aiming system and mobility thrusters to ensure safe operation and recoil mitigation. The upper sensor-camera is able to identify targets at extreme ranges and lock on to them, as well as detect and track multiple targets during near range sweep attacks. In both operation modes, the weapon will calculate an optimal mission for the weapon to sweep through or aim at and use its mobility thrusters and internal gyros to auto-aim the weapon for both enhanced accuracy, complete utilization of the full firing cycle upon available enemies and keeping the recoil controlled to ensure user safety. Beam intensity and cycle lenght can be configured, with corresponding effects on reactor draw, so higher power will lead to faster reactor fuel depletion. It is also possible to melt the barrel and render the weapon inoperable by firing too long on the highest possible setting.
+
+INTENT:		Overkill for most conflicts and can cause excessive collateral damage, so its rarely seen on the battlefield unless the situation is so dire where an annilation-class weapon is needed to secure a fast and messy victory against an overwhelming enemy.
+
+
+==
+==

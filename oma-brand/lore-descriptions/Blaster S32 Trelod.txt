@@ -1,0 +1,13 @@
+NAME:		Blaster S32 Trelod
+
+--
+
+TYPE: 		Utilitarian metallic ramhold energy cannon with a narrow firing nozzle. There are heatsinks and button on the side, while a removable powercell is located at the back below the gun. The main barrel as external energized surfaces that create electromagnetic fields.
+
+EFFECT: 	Industrial-grade tractor beam projector. This device can project a special beam that can latch onto surfaces of objects or terrain with an enveloping field that allows a user to pull or push them from a distance. Things can also be kept at a certain distance and apply sideways pushing force upon them too, so its not limited just back-and-forth movement between the operator and the target. In safe operation mode, the device will limit its pulling or pushing power to prevent accelerating objects too quickly towards itself or away from it, slowing itself down whenever things are close to the operator or too far from its reach. There is a limit cancel setting that will turn this safety feature off and allow unmitigated pulling and pushing of objects which can be quite dangerous. In unskilled hands, a person can pull a car into themselves and get accidently crushed by it, but in skilled hands it can be used as a dangerous weapon to hurl heavy objects either to attack or defend.
+
+INTENT:		Created for asteroid manipulation in zero gravity environments, but can be used anywhere as long as the operator takes into account the effect of gravity while moving things around. Some crafty scavengers use this tool as a weapon by grabbing onto large heavy objects in safe mode, then switching off limits and flinging said large heavy objects towards their targets. Its worth noting that this device is not a grapling beam and will therefore not pull the operator - it can only affect the motion of other objects that aren't itself.
+
+
+==
+==

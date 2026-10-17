@@ -1,0 +1,13 @@
+NAME:		Saw 6NC Peloozoid
+
+--
+
+TYPE: 		Big power armor-sized plated brutal chainsaw with two projectors on both sides of the blade pointing forward. Below is a detachable liquid canister as a magazine. At the back there is a grip for a hand while another overhand grip is mounted above. Along side the top grip there is a small display screen to show the status of the weapon.
+
+EFFECT: 	Battlesaw with dual flamethrowers for power armor use. Normally chainsaws are not meant as weapons, but this one is actually designed to be one. Its armored and sturdy, so it can be used to block incoming attacks with its sheer size, meanwhile the cutting edge is specially hardened to be able to cut through metal and armor on its own. The added flamethrowers can project a breath of a dragon for up to 8 meters, giving the monster both an extended ranged attack, but also as an assistance in the cutting power by heating the material that the saw is trying to cut through by making it melt or just make it softer.
+
+INTENT:		Mercenaries feel a sense of badasserry whenever they wield this weapon. It sure does look spectacular to witness a hulking power armor warrior swing and thrust this menacing flaming roaring beast of a weapon at its targets, ripping them apart mercilessly.
+
+
+==
+==

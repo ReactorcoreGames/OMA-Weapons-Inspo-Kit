@@ -1,0 +1,30 @@
+class pclImpactSmoke extends xEmitter;
+
+defaultproperties
+{
+	mRegen=false
+	mStartParticles=7
+	mMaxParticles=16
+	mDelayRange[1]=0.1000000
+	mLifeRange[0]=0.5000000
+	mLifeRange[1]=1.5000000
+	mRegenRange[0]=140.0000000
+	mRegenRange[1]=140.0000000
+	mDirDev=(X=0.1500000,Y=0.1500000,Z=0.1500000)
+	mPosDev=(X=8.0000000,Y=8.0000000,Z=8.0000000)
+	mSpeedRange[0]=10.0000000
+	mSpeedRange[1]=60.0000000
+	mRandOrient=true
+	mSpinRange[0]=-10.0000000
+	mSpinRange[1]=10.0000000
+	mSizeRange[1]=25.0000000
+	mColorRange[0]=(R=20,G=20,B=20,A=255)
+	mColorRange[1]=(R=40,G=40,B=40,A=255)
+	mRandTextures=true
+	mNumTileColumns=4
+	mNumTileRows=4
+	CullDistance=7000.0000000
+	Skins[0]=Texture'XEffects.EmitSmoke_t'
+	ScaleGlow=2.0000000
+	Style=3
+}

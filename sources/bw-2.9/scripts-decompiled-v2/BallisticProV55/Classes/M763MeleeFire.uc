@@ -1,0 +1,35 @@
+class M763MeleeFire extends BallisticMeleeFire;
+
+defaultproperties
+{
+	SwipePoints[0]=(Weight=1,offset=(Pitch=0,Yaw=5120,Roll=0))
+	SwipePoints[1]=(Weight=2,offset=(Pitch=0,Yaw=3840,Roll=0))
+	SwipePoints[2]=(Weight=3,offset=(Pitch=0,Yaw=2560,Roll=0))
+	SwipePoints[3]=(Weight=4,offset=(Pitch=0,Yaw=1280,Roll=0))
+	SwipePoints[4]=(Weight=5,offset=(Pitch=0,Yaw=-2560,Roll=0))
+	SwipePoints[5]=(Weight=4,offset=(Pitch=0,Yaw=-1280,Roll=0))
+	SwipePoints[6]=(Weight=3,offset=(Pitch=0,Yaw=-2560,Roll=0))
+	SwipePoints[7]=(Weight=2,offset=(Pitch=0,Yaw=-3840,Roll=0))
+	SwipePoints[8]=(Weight=1,offset=(Pitch=0,Yaw=-5120,Roll=0))
+	DamageType=Class'BallisticProV55.DTM763Hit'
+	DamageTypeHead=Class'BallisticProV55.DTM763HitHead'
+	DamageTypeArm=Class'BallisticProV55.DTM763Hit'
+	bIgnoreReload=true
+	bUseWeaponMag=false
+	ScopeDownOn=2
+	bReleaseFireOnDie=false
+	BallisticFireSound=(Sound=Sound'BW_Core_WeaponSound.M763.M763Swing',Volume=0.5000000,Radius=12.0000000,Slot=0,Pitch=1.0000000,bAtten=true,bNoOverride=true)
+	bAISilent=true
+	bFireOnRelease=true
+	PreFireAnim="PrepMelee"
+	FireAnim="Melee"
+	TweenTime=0.0000000
+	AmmoClass=Class'BallisticProV55.Ammo_12Gauge'
+	AmmoPerFire=0
+	ShakeRotTime=1.0000000
+	ShakeOffsetMag=(X=5.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetRate=(X=-1000.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetTime=1.0000000
+	BotRefireRate=0.9000000
+	WarnTargetPct=0.0500000
+}

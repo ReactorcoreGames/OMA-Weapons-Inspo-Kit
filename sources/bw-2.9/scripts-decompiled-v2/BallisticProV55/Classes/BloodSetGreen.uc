@@ -1,0 +1,63 @@
+class BloodSetGreen extends BloodSetDefault;
+
+defaultproperties
+{
+	MyBloodName="alien-green"
+	MyBloodColor=(R=255,G=255,B=0,A=0)
+	BloodPool=Class'BallisticProV55.AD_BloodPoolGreen'
+	WaterBloodClass=Class'BallisticProV55.IE_WaterBloodGreen'
+	DragDecal=Class'BallisticProV55.AD_BloodDragGreen'
+	LowImpactDecal=Class'BallisticProV55.AD_BloodLowImpactGreen'
+	HighImpactDecal=Class'BallisticProV55.AD_BloodHighImpactGreen'
+	BulletSplat=Class'BallisticProV55.AD_BloodBulletGreen'
+	ShotgunSplat=Class'BallisticProV55.AD_BloodShotgunGreen'
+	ExplodeSplat=Class'BallisticProV55.AD_BloodExplodeGreen'
+	SlashSplat=Class'BallisticProV55.AD_BloodSlashGreen'
+	SawSplat=Class'BallisticProV55.AD_BloodSawGreen'
+	BulletEffect=Class'BallisticProV55.BG_BulletHitAlien'
+	BulletHeadEffect=Class'BallisticProV55.BG_BulletHitHeadAlien'
+	ShotgunEffect=Class'BallisticProV55.BG_ShellHitAlien'
+	ExplodeEffect=Class'BallisticProV55.IE_BloodExplodeGreen'
+	SlashEffect=Class'BallisticProV55.BG_SlashHitAlien'
+	SlashHeadEffect=Class'BallisticProV55.BG_SlashHitHeadAlien'
+	SawEffect=Class'BallisticProV55.BG_SawHitAlien'
+	SawHeadEffect=Class'BallisticProV55.BG_SawHitAlien'
+	BluntEffect=Class'BallisticProV55.BG_BluntHitAlien'
+	WoundDripper=Class'BallisticProV55.BG_BulletWoundSpurterAlien'
+	HeadExplode=Class'BallisticProV55.BG_HeadExplodeAlien'
+	TorsoExplode=Class'BallisticProV55.BG_TorsoExplodeAlien'
+	ShoulderExplode=Class'BallisticProV55.BG_ShoulderExplodeAlien'
+	ArmExplode=Class'BallisticProV55.BG_ArmExplodeAlien'
+	HandExplode=Class'BallisticProV55.BG_HandExplodeAlien'
+	LegExplode=Class'BallisticProV55.BG_LegExplodeAlien'
+	FootExplode=Class'BallisticProV55.BG_FootExplodeAlien'
+	PelvisExplode=Class'BallisticProV55.BG_PelvisExplodeAlien'
+	ShoulderExplodeLeft=Class'BallisticProV55.BG_ShoulderExplodeLeftAlien'
+	ArmExplodeLeft=Class'BallisticProV55.BG_ArmExplodeLeftAlien'
+	StumpDripper=Class'BallisticProV55.BG_StumpSpurterAlien'
+	DefaultStump=Class'BallisticProV55.BG_StumpAlien'
+	CharredStump=Class'BallisticProV55.BWStump_CharredAlien'
+	AltStumpMesh=StaticMesh'BWGoreHardwarePro.AlienStumps.Alien-LimbStump2'
+	AltCharStumpMesh=StaticMesh'BWGoreHardwarePro.AlienStumps.Alien-StumpCharred2'
+	BulletHitSound=SoundGroup'BW_Core_WeaponSound.BulletImpacts.BulletAlien'
+	ScreenEffectMisc=Class'BallisticProV55.BG_ScnBloodAlien'
+	ScreenEffectSlice=Class'BallisticProV55.BG_ScnBloodSliceAlien'
+	ScreenEffectSaw=Class'BallisticProV55.BG_ScnBloodSawAlien'
+	DefaultGibClass=Class'BallisticProV55.BWGib_Alien'
+	HeadGibs[0]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-HeadPiece1',offset=(X=2.0000000,Y=-4.0000000,Z=3.0000000),Velocity=(X=(Min=50.0000000,Max=100.0000000),Y=(Min=-50.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=200.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.2000000)
+	HeadGibs[1]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-HeadPiece2',offset=(X=4.0000000,Y=1.0000000,Z=3.0000000),Velocity=(X=(Min=-50.0000000,Max=100.0000000),Y=(Min=25.0000000,Max=50.0000000),Z=(Min=25.0000000,Max=200.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.2000000)
+	HeadGibs[2]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-HeadPiece3',offset=(X=1.0000000,Y=2.0000000,Z=3.0000000),Velocity=(X=(Min=-20.0000000,Max=150.0000000),Y=(Min=25.0000000,Max=50.0000000),Z=(Min=0.0000000,Max=150.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.2000000)
+	HeadGibs[3]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-HeadPiece4',offset=(X=4.5000000,Y=-0.5000000,Z=-1.0000000),Velocity=(X=(Min=25.0000000,Max=10.0000000),Y=(Min=-40.0000000,Max=10.0000000),Z=(Min=50.0000000,Max=50.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.2000000)
+	TorsoGibs[0]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-RibCage-FrontRight',offset=(X=-1.0000000,Y=6.0000000,Z=16.0000000),Velocity=(X=(Min=0.0000000,Max=200.0000000),Y=(Min=0.0000000,Max=100.0000000),Z=(Min=0.0000000,Max=180.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.7000000)
+	TorsoGibs[1]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-RibCage-BackLeft',offset=(X=-1.0000000,Y=-6.0000000,Z=12.0000000),Velocity=(X=(Min=-20.0000000,Max=200.0000000),Y=(Min=-100.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=140.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.7000000)
+	TorsoGibs[2]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-Spine',offset=(X=-1.0000000,Y=0.0000000,Z=4.0000000),Velocity=(X=(Min=10.0000000,Max=150.0000000),Y=(Min=-50.0000000,Max=50.0000000),Z=(Min=0.0000000,Max=150.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.7000000)
+	TorsoGibs[3]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-Spine2',offset=(X=-1.0000000,Y=0.0000000,Z=18.0000000),Velocity=(X=(Min=10.0000000,Max=150.0000000),Y=(Min=-50.0000000,Max=50.0000000),Z=(Min=100.0000000,Max=300.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.7000000)
+	PelvsGibs[0]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-LimbPiece',offset=(X=0.0000000,Y=7.0000000,Z=-12.0000000),Velocity=(X=(Min=-50.0000000,Max=200.0000000),Y=(Min=0.0000000,Max=100.0000000),Z=(Min=0.0000000,Max=50.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=-4096),DrawScale=1.1000000)
+	PelvsGibs[1]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-LimbPiece',offset=(X=0.0000000,Y=-7.0000000,Z=-12.0000000),Velocity=(X=(Min=-50.0000000,Max=200.0000000),Y=(Min=-100.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=50.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=4096),DrawScale=1.1000000)
+	OtherGibs[0]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-LimbPiece',offset=(X=0.0000000,Y=-8.0000000,Z=0.0000000),Velocity=(X=(Min=-400.0000000,Max=50.0000000),Y=(Min=0.0000000,Max=100.0000000),Z=(Min=0.0000000,Max=200.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=8192),DrawScale=0.9000000)
+	OtherGibs[1]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-LimbPiece',offset=(X=0.0000000,Y=8.0000000,Z=0.0000000),Velocity=(X=(Min=-50.0000000,Max=400.0000000),Y=(Min=0.0000000,Max=100.0000000),Z=(Min=0.0000000,Max=200.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=-8192),DrawScale=0.9000000)
+	OtherGibs[2]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-LimbPiece',offset=(X=0.0000000,Y=-8.0000000,Z=0.0000000),Velocity=(X=(Min=0.0000000,Max=350.0000000),Y=(Min=-100.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=200.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=8192),DrawScale=0.9000000)
+	OtherGibs[3]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-LimbPiece',offset=(X=0.0000000,Y=8.0000000,Z=0.0000000),Velocity=(X=(Min=0.0000000,Max=350.0000000),Y=(Min=0.0000000,Max=100.0000000),Z=(Min=0.0000000,Max=200.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=-8192),DrawScale=0.9000000)
+	OtherGibs[4]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-LimbPiece',offset=(X=0.0000000,Y=0.0000000,Z=0.0000000),Velocity=(X=(Min=50.0000000,Max=350.0000000),Y=(Min=-50.0000000,Max=50.0000000),Z=(Min=20.0000000,Max=100.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.2000000)
+	OtherGibs[5]=(GibClass=none,Mesh=StaticMesh'BWGoreHardwarePro.AlienPieces.Alien-LimbPiece',offset=(X=0.0000000,Y=0.0000000,Z=0.0000000),Velocity=(X=(Min=50.0000000,Max=350.0000000),Y=(Min=-50.0000000,Max=50.0000000),Z=(Min=20.0000000,Max=100.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.2000000)
+}

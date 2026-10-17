@@ -1,0 +1,13 @@
+NAME:		Blaster 6WO Astauand
+
+--
+
+TYPE: 		Large high-tech energy cannon with a sizeable reactor at the back, wide box-like body, a targeting assisting sensor/optic and two handle grips on either side of the weapon.
+
+EFFECT: 	Directed thermonuclear eruption cannon. An obscenely destructive infantry-sized super weapon capable of extreme annihilation in a tight cone originating from the weapon's frontal barrel. Using its notably large reactor found at the back, the weapon builds up an intense charge-up of energy. Once fully charged-up, the weapon becomes ready to fire. A pull from the trigger will send out a volcano-like eruption of thermonuclear annihilation for upto a kilometer in distance, with a wide cone pattern that spreads the destructions over a wide area and not simply in a straight line. This also means that the weapon's payload is most powerful at the base of the cone in its first second of the eruption and weakest at the edges of the eruption maximum distance. As such, firing the weapon from a longer distance allows it to cover a wider area and destroy more targets equally. Each shot generates a lot of heat that the weapon needs to vent and it creates strong backwards recoil that the user must brace against.
+
+INTENT:		Designated as an annihilation-class weapon, this weapon is only ever used if collateral and environmental damage is not an issue. The affected area is often left ravaged, irradiated and turned into glass, making it uninhabitable without significant cleaning and restoration efforts afterwards. This weapon is not to be fielded lightly.
+
+
+==
+==

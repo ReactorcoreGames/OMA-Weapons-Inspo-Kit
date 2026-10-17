@@ -1,0 +1,13 @@
+NAME:		Emitter LPZ Geosyog
+
+--
+
+TYPE: 		One-handed bulky energy pistol with various internal and external electronics.
+
+EFFECT: 	Handheld terrain surveying scanner for mapping out surrounding geometry, detecting caves and discovering valuable or notable material deposits. Best used with augmented reality goggles or a holographic projector to wirelessly recieve data from the scanner and view it in real time. Can record data and accumulate a larger survey model when plugged into a portable computer unit.
+
+INTENT:		While intended for local geology surveys and structure inspections, bounty hunters found the scanner useful in detecting hidden traps and mines, revealing them completely where otherwise they were perfectly disguised.
+
+
+==
+==

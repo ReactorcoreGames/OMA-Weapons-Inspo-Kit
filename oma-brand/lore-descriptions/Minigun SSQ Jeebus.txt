@@ -1,0 +1,13 @@
+NAME:		Minigun SSQ Jeebus
+
+--
+
+TYPE: 		Long spinning multi-barrel portable minigun with a magazine ammo supply, foldable turret monopod, a powerful electrical motor with cooling ports and a joystick-like grip at the back. Theres also a top ram hold grip for on-the-move shooting and general transportation purposes.
+
+EFFECT: 	Speciality of this minigun is to fire many relatively smaller bullets at high velocities at an astounding rate of fire, thanks to its 6 barrels that rotate rapidly. With a portable supply of roughly a hundreds of bullets in the magazine a warrior wielding this mighty swiss cheese making machine can defeat large swarms of enemies singlehandedly before having to reload. If mounted onto a vehicle or stationary defensive position, the magazine can be exchanged in favor of a large ammo box that can supply thousands of bullets directly into the gun without having to reload as often. The weapon is expertly designed to avoid overheating even with prolonged sustained fire, though the recoil vibrations caused by the highest rate of fire setting can gradually increase inaccuracy and spread as the user gets tired of holding the weapon steady.
+
+INTENT:		A common mercenary heavy weapon taken on almost any mission unless it involves cramped spaces with lots of corners. That said, if its to guard a straight long tunnel, this weapon is unstoppable.
+
+
+==
+==

@@ -1,0 +1,13 @@
+NAME:		Grenade ZMG Aferraron
+
+--
+
+TYPE: 		Sizable blocky high tech energy containment unit. The exterior is a hardy composite material shell that has an activation button on top, meanwhile semi-transluscent energy coils both provide cooling and clear vision into the devices state and power-level.
+
+EFFECT: 	Generates a destructive localized plasma storm with strong gravitational effects, making it seem like it spawned some sort of an unstable mini-sun that incinerates, vaporizes, hurls and shreds pretty much everything around it, usually resulting in a noticable crater of glass once it has run its course. It starts off rapidly, grows more unstable as time goes on and finally explodes violently once it's own magnetic field can no longer contain the storm's core.
+
+INTENT:		Originally a portable fusion micro-reactor design gone horribly wrong, but turned out to be an excellent small scale superweapon that founds its use in the military elite forces, rarely seen due to its expensive unit cost.
+
+
+==
+==

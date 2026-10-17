@@ -1,0 +1,48 @@
+class DragonsToothPickup extends BallisticWeaponPickup;
+
+static function StaticPrecache(LevelInfo L)
+{
+	L.AddPrecacheMaterial(Texture'BWBP_SKC_Tex.DragonToothSword.DragonTooth-Main');
+	L.AddPrecacheMaterial(Texture'BWBP_SKC_Tex.DragonToothSword.DragonTooth-Red');
+	L.AddPrecacheMaterial(Texture'BWBP_SKC_Tex.DragonToothSword.DragonToothCore-Red');
+	L.AddPrecacheMaterial(Texture'BWBP_SKC_Tex.DragonToothSword.DTS-Glow');
+	L.AddPrecacheMaterial(Texture'BWBP_SKC_Tex.DragonToothSword.DTS-AlphaMask');
+	L.AddPrecacheMaterial(Texture'BWBP_SKC_Tex.DragonToothSword.DTSMask');
+	L.AddPrecacheMaterial(Texture'BW_Core_WeaponTex.Decals.KnifeCut');
+	L.AddPrecacheMaterial(Texture'BW_Core_WeaponTex.Decals.KnifeCutWood');
+	//return;	
+}
+
+simulated function UpdatePrecacheMaterials()
+{
+	Level.AddPrecacheMaterial(Texture'BWBP_SKC_Tex.DragonToothSword.DragonTooth-Main');
+	Level.AddPrecacheMaterial(Texture'BWBP_SKC_Tex.DragonToothSword.DragonTooth-Red');
+	Level.AddPrecacheMaterial(Texture'BWBP_SKC_Tex.DragonToothSword.DragonToothCore-Red');
+	Level.AddPrecacheMaterial(Texture'BWBP_SKC_Tex.DragonToothSword.DTS-Glow');
+	Level.AddPrecacheMaterial(Texture'BWBP_SKC_Tex.DragonToothSword.DTS-AlphaMask');
+	Level.AddPrecacheMaterial(Texture'BWBP_SKC_Tex.DragonToothSword.DTSMask');
+	Level.AddPrecacheMaterial(Texture'BW_Core_WeaponTex.Decals.KnifeCut');
+	Level.AddPrecacheMaterial(Texture'BW_Core_WeaponTex.Decals.KnifeCutWood');
+	//return;	
+}
+
+simulated function UpdatePrecacheStaticMeshes()
+{
+	Level.AddPrecacheStaticMesh(StaticMesh'BWBP_SKC_Static.DTS.DragonsToothPickupHi');
+	Level.AddPrecacheStaticMesh(StaticMesh'BWBP_SKC_Static.DTS.DragonsToothPickupLo');
+	//return;	
+}
+
+defaultproperties
+{
+	LowPolyStaticMesh=StaticMesh'BWBP_SKC_Static.DTS.DragonsToothPickupLo'
+	PickupDrawScale=1.0000000
+	InventoryType=Class'BWBP_SKC_Pro.DragonsToothSword'
+	RespawnTime=50.0000000
+	PickupMessage="You picked up the XM300 Dragon nanoblade."
+	PickupSound=Sound'BWBP_SKC_Sounds.NEX.NEX-Pullout'
+	StaticMesh=StaticMesh'BWBP_SKC_Static.DTS.DragonsToothPickupHi'
+	Physics=0
+	DrawScale=0.4000000
+	CollisionHeight=4.0000000
+}

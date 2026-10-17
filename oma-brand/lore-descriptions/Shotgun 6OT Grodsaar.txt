@@ -1,0 +1,13 @@
+NAME:		Shotgun 6OT Grodsaar
+
+--
+
+TYPE: 		Long double-barreled pump action shotgun. Contains a double ammo tube underneath the main firing barrels that hold several large shotgun shell rounds in reserve. Comes with a spartan stock and a pistol grip. Aimed with iron sights.
+
+EFFECT: 	Essentially a full lenght super shotgun, blasting out two shotgun shells at once for double the firepower. Notably loud, especially when both barrels are fired at the same time. Firemode can be set to fire one barrel at a time or shoot both barrels at once to better suit tactical needs during combat. Obviously uses double the ammo, but the doubled simultanous payload is a fantastic to have.
+
+INTENT:		Mercenaries were occasionally finding themselves finding more than one type of enemy, each requiring a different type of ammo to properly kill. On simpler missions users will load just one type of ammo into both tubes, but on missions where theres a need for piercing EMP slugs against bots and buckshot against soft organics, mercs can load the two tubes with different ammo and use them accordingly as they encounter their targets.
+
+
+==
+==

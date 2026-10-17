@@ -1,0 +1,34 @@
+class M50GrenadeSafe extends BallisticGrenade;
+
+defaultproperties
+{
+	UnarmedDetonateOn=4
+	ArmedDetonateOn=1
+	ArmedPlayerImpactType=1
+	ReflectImpactManager=Class'BallisticProV55.IM_GunHit'
+	bNoInitialSpin=true
+	bAlignToVelocity=true
+	ArmingDelay=0.2500000
+	DetonateDelay=0.0500000
+	ImpactDamage=100
+	ImpactDamageType=Class'BallisticProV55.DTM50Grenade'
+	WeaponClass=Class'BallisticProV55.M50AssaultRifle'
+	ImpactManager=Class'BallisticProV55.IM_M50Grenade'
+	SplashManager=Class'BallisticProV55.IM_ProjWater'
+	TrailClass=Class'BallisticProV55.M50GrenadeTrail'
+	TrailOffset=(X=-8.0000000,Y=0.0000000,Z=0.0000000)
+	ModeIndex=1
+	MyRadiusDamageType=Class'BallisticProV55.DTM50GrenadeRadius'
+	WallPenetrationForce=64.0000000
+	ShakeRadius=512.0000000
+	MotionBlurRadius=384.0000000
+	MotionBlurFactor=3.0000000
+	MotionBlurTime=4.0000000
+	Speed=3500.0000000
+	Damage=110.0000000
+	DamageRadius=512.0000000
+	MyDamageType=Class'BallisticProV55.DTM50GrenadeRadius'
+	ImpactSound=SoundGroup'BW_Core_WeaponSound.NRP57.NRP57-Concrete'
+	StaticMesh=StaticMesh'BW_Core_WeaponStatic.M900.M900Grenade'
+	bIgnoreTerminalVelocity=true
+}

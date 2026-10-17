@@ -1,0 +1,13 @@
+NAME:		Emitter 6L Nekmunnit
+
+--
+
+TYPE: 		Forked ram-hold high energy projector with powerful capacitors running through the entire lenght of the device. Includes a sizable micro reactor housed at the back and magnetic field array forks that surround the central firing aperture emitter.
+
+EFFECT: 	A fearsome particle acceleration charge field cannon. The weapon first generates a strong magnetic captivity field in front of the fork into which the main emitter will begin pumping high energy ions into, slowly building up an intense spinning orb of trapped energy. Gradually, this orb will keep growing and accumulating more and more ions, even sucking up other sources of ions, positrons and neutrons nearby - cramming it all into the suspended orb. The horrifying aspect is that there orb can keep growing into an ever bigger giant ball of doom, becoming more and more powerful with each passing second as it slowly shifts further away from the fork of the cannon. While there are indeed theoretical limits after which the accumulated energy could become critical or too large to be contained, for purposes of the weapon they never come close in operation. While active the suspended energy orb is highly destructive and lethal at anything it touches; the user can swing it around like a flail and just annihilate most materials out of the way. Finally, at the release of the firing button the weapon can be configured to release the accumulated payload either as a contained bomb that will suddenly fly forward at a high speed, detonating on impact with a hard enough surface or until the containment field becomes weak enough with distance. Alternatively, the accumulated orb can be blasted outwards with a wide spread like a giant shotgun blast, obliterating anyone in its path. Or condended into a single strong pulse forward pulse like a cannon shot that focuses all energy into penetrative power, plowing forward while gradually widening and causing microfusion blasts on the surfaces of whatever it hits.
+
+INTENT:		Very rarely seen on adventurers mostly due to its complex manufacturing requirements. As a weapon, its effectiveness for heavy siege attacks is severely limited due to how slow the charging process can be. While quick low power attacks can be prepared and fired within a few seconds - enough to be lethal to soft targets - the more stronger attacks may take many minutes or even hours to charge up to a level where they could destroy a tank or blow up an entire city block respectively.
+
+
+==
+==

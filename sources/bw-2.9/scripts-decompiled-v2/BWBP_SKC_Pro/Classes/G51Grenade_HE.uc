@@ -1,0 +1,37 @@
+class G51Grenade_HE extends BallisticGrenade;
+
+defaultproperties
+{
+	UnarmedDetonateOn=2
+	ArmedDetonateOn=1
+	ArmedPlayerImpactType=1
+	ReflectImpactManager=Class'BallisticProV55.IM_GunHit'
+	DampenFactor=0.1000000
+	DampenFactorParallel=0.3000000
+	bNoInitialSpin=true
+	bAlignToVelocity=true
+	DetonateDelay=2.0000000
+	ImpactDamage=80
+	ImpactDamageType=Class'BWBP_SKC_Pro.DT_G51HEGrenade'
+	WeaponClass=Class'BWBP_SKC_Pro.G51Carbine'
+	ImpactManager=Class'BWBP_SKC_Pro.IM_LonghornMax'
+	SplashManager=Class'BallisticProV55.IM_ProjWater'
+	TrailClass=Class'BWBP_SKC_Pro.ChaffTrail'
+	TrailOffset=(X=-8.0000000,Y=0.0000000,Z=0.0000000)
+	ModeIndex=1
+	MyRadiusDamageType=Class'BWBP_SKC_Pro.DT_G51HEGrenade'
+	WallPenetrationForce=64.0000000
+	ShakeRadius=512.0000000
+	MotionBlurRadius=384.0000000
+	MotionBlurFactor=3.0000000
+	MotionBlurTime=4.0000000
+	Speed=1750.0000000
+	MaxSpeed=4500.0000000
+	Damage=140.0000000
+	DamageRadius=512.0000000
+	MyDamageType=Class'BWBP_SKC_Pro.DT_G51HEGrenade'
+	ImpactSound=SoundGroup'BW_Core_WeaponSound.NRP57.NRP57-Concrete'
+	StaticMesh=StaticMesh'BWBP_SKC_Static.MJ51.MOACProjLaunched'
+	DrawScale=0.1200000
+	bIgnoreTerminalVelocity=true
+}

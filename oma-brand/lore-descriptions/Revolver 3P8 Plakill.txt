@@ -1,0 +1,13 @@
+NAME:		Revolver 3P8 Plakill
+
+--
+
+TYPE: 		Big double-barreled revolver with a cocking hammer, iron sights and cooling ports along both barrels.
+
+EFFECT: 	An odd but powerful novelty weapon. By default it fires both barrels simultaneously, dealing a strong concussive double blow upon the target which inflicts a unique pattern of damage that usual single hit weapons do not possess. With a small lever under the gun the second barrel's trigger mechanism can be disabled to make it fire using only the top barrel like a regular revolver. Regardless of mode, this gun has significant recoil when fired - great care is needed to hold the gun tightly or it will fly out of the hands of the user.
+
+INTENT:		A custom made gun commissioned for adventurers that care less about ammo capacity in favor of raw power.
+
+
+==
+==

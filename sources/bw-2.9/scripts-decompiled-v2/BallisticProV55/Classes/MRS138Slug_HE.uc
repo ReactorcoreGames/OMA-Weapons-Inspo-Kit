@@ -1,0 +1,31 @@
+class MRS138Slug_HE extends BallisticGrenade;
+
+defaultproperties
+{
+	UnarmedDetonateOn=4
+	ArmedDetonateOn=1
+	ArmedPlayerImpactType=1
+	ReflectImpactManager=Class'BallisticProV55.IM_BigBullet'
+	DampenFactor=1.0000000
+	DampenFactorParallel=1.0000000
+	bNoInitialSpin=true
+	bAlignToVelocity=true
+	ArmingDelay=0.0300000
+	ImpactDamage=50
+	ImpactDamageType=Class'BallisticProV55.DTMRS138ShotgunFrag'
+	WeaponClass=Class'BallisticProV55.MRS138Shotgun'
+	ImpactManager=Class'BallisticProV55.IM_MRLRocket'
+	TrailClass=Class'BallisticProV55.TraceEmitter_Default'
+	MyRadiusDamageType=Class'BallisticProV55.DTMRS138ShotgunFragRadius'
+	MotionBlurRadius=130.0000000
+	AccelSpeed=50000.0000000
+	Speed=8000.0000000
+	MaxSpeed=10000.0000000
+	Damage=110.0000000
+	DamageRadius=180.0000000
+	MomentumTransfer=30000.0000000
+	MyDamageType=Class'BallisticProV55.DTMRS138ShotgunFrag'
+	StaticMesh=StaticMesh'BW_Core_WeaponStatic.MRL.MRLRocket'
+	DrawScale=1.0000000
+	bBounce=false
+}

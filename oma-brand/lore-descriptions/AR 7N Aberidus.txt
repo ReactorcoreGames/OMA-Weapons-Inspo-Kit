@@ -1,0 +1,13 @@
+NAME:		AR 7N Aberidus
+
+--
+
+TYPE: 		Two-handed assault rifle with a long barrel. Includes iron sights, carry handle, hand guard, underslung grenade launcher, magazine ammo feed and a stock.
+
+EFFECT: 	Fully automatic combat assault rifle for short-to-medium range open field combat. Rifle rounds can penetrate through light body armor and deal damage to light vehicles. The grenade launcher is capable of launching any standardized grenade ammo - HE, Frag, Smoke, Gas, Incendiary, EMP, Sticky Foam and many more. The weapon cannot mount any external optics and is therefore not intended for long range combat - but it also doesn't use any electronics or batteries, making it immune to any EMP effects.
+
+INTENT:		An older reliable gas-operated design that is still relevant on terrestrial battlefields thanks to its pure mechanical operation and durability. Its ammo includes the propulsion charge, meaning the weapon itself serves as a mere activation platform to enable its ammo to launch cleanly out of the barrel without the weapon needing powered internal systems to launch its shots. Although less common in the battlefields of the future, its still a deadly weapon.
+
+
+==
+==

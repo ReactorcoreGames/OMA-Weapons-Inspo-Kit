@@ -1,0 +1,13 @@
+NAME:		MG CZJ Creahoof
+
+--
+
+TYPE: 		Large belt-fed machinegun with large ammo capacity and a long barrel. Can be held like a rifle using the pistol grip and stock or use a ramhold by having the supporting hand use the topside handle. Fairly heavy, loud and has a high rate of fire.
+
+EFFECT: 	Defensive long range bullet hose for mowing down incoming monsters with piercing bullets. The long barrel provides additional damage and accuracy for each shot, while the large box magazine provides extended shooting time. An ammo belt connected from an external ammo storage box can also be used for even greater ammo capacity at the cost of the operator being stuck in one position. Can also be used on the run as a makeshift assault weapon to great effect, but recoil will be harder to mitigate than from a shooting nest. Can also be mounted on light vehicles for added stability.
+
+INTENT:		An older tried and tested design of gas-operated ballistic firepower. This iteration is designed for countering hordes of soft enemies that can be gunned down in swathes using piercing ammo. The intent of the piercing ammo is to critically injure opponents to make them unable to fight, to make them fall down in pain to treat their wounds and damages, making them an obstacle for any further enemy troops that are coming over them, causing them to make a choice between saving their injured comrades - which takes multiple healthy soldiers to carry away to safety - or leave them to die.
+
+
+==
+==

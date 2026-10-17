@@ -1,0 +1,13 @@
+NAME:		Grenade 4WG Chershoe
+
+--
+
+TYPE: 		An exotic thick rounded brick-like energy grenade with an antenna component.
+
+EFFECT: 	Creates a powerful X-ray blast either in all directions like a usual grenade or narrowed into a directed ray designated via the antenna. Can link to a cyborg's neural targetting system to program remote instructions how and where the blast should go.
+
+INTENT:		Used against monster exterminating cyborgs to take out many small targets at once or to attack something from an unexpected angle by throwing the grenade over the enemy but then letting it detonate its payload towards the target from the flank to avoid its frontal defences.
+
+
+==
+==

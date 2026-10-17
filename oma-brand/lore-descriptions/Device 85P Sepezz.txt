@@ -1,0 +1,13 @@
+NAME:		Device 85P Sepezz
+
+--
+
+TYPE: 		Small two-sided waterproof electronic unit with a small digital display and a small button array. The entire unit is surrounded by six individual hardened inflated compartments with a high visibility color and properties.
+
+EFFECT: 	Location beacon as a navigational aid buoy. Rugged and protected from impacts, dirt, liquid splashes, underwater submersion, heat, cold and abrasion. Contains an ultra-long duration power unit inside the chassis that will keep the beacon operational for many years. Users can turn on/off the beacon, adjust signal type, write a label and select a category to filter the signal with. While active, the beacon can be seen on electronic maps, via head-up displays of personnel, computer screens and survey holograms to easily find them in the field. It can float in liquids and be used as a life-saving equipment at sea if no other floatation equipment is available. The floatation is adjustable, allowing users to set it to sink, float up or float still at a specific depth underwater.
+
+INTENT:		These personnel-sized beacons are common among adventurers, survey teams, explorers and science teams to create points of interest or navigational buoys to help easily understand the locations of previously visited areas. They have also been crucial in search-and-rescue missions where rescuers were easily able to detect and find stranded people both on land, water, underground and underwater.
+
+
+==
+==

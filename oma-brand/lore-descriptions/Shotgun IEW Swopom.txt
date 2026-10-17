@@ -1,0 +1,13 @@
+NAME:		Shotgun IEW Swopom
+
+--
+
+TYPE: 		Single barrel long pump action shotgun with a stock. It fits several reserve shells in the bottom tube, though the shotgun can only be refilled by sliding the shells from underneath via hatch into the tube one-by-one. Features basic iron sights, no electronic components or other extras.
+
+EFFECT: 	Trusty, accurate and powerful low-spread combat shotgun. Fires a regular shotgun shell which can contain practically anything as a projectile, be it fletchettes, buckshot, slugs, incendiary goop, micro grenades, EMP sabot and many more. Can hit targets up to 100 meters away thanks to its long barrel.
+
+INTENT:		Common as a civilian weapon as it is moderately inexpensive and versatile. Its awkward for extended combat due to limited ammo capacity and one-by-one reloading, though some skillful pro users have been known to quickly reload their shotgun on the move even under duress. That said, its nowhere near as convenient and quick as assault rifle magazines.
+
+
+==
+==

@@ -1,0 +1,13 @@
+NAME:		Grenade AUA Pounit
+
+--
+
+TYPE: 		Big blocky keg-like grenade. Has a large jug handle and a safety pin.
+
+EFFECT: 	Heavy firebomb grenade. Detonates into a sudden large blast of ignited fuel, setting fire to a large area and creating a sizable shockwave. Very powerful against any flammable targets, personnel, small monsters. Limited effect against vehicles or larger monsters unless they are susceptible to the effects of fire or shockwaves. The grenade's own fuel based fire will burn for several minutes on its own - and much longer if it also lights up any combustible material nearby. Devasting against warehouses and provides excellent area-denial against anything that fears fire.
+
+INTENT:		Nicknamed the "firekeg", soldiers have this grenade as one of the standard infantry munitions, mostly used whenever temporary effective area denial is needed or if something needs to be set on fire and burned down.
+
+
+==
+==

@@ -1,0 +1,13 @@
+NAME:		Rifle 6WH Modeflick
+
+--
+
+TYPE: 		Relatively long pressurized rectangular tube with a large opening at the front, a kin to a rifle sized rocket launcher, but its configured to shoot out globs of incendiary material instead. The back contains a rapid air compressor in the upper part, while below there is a detachable silo for fuel/ammo as a magazine. Theres a convenient rifle grip and vertical foregrip below for comfort, as well as an adaptive holographic projector light for easier aiming in arcs.
+
+EFFECT: 	Repeating fireball casting rifle. Accumulates pressure for propulsion, draws fuel into a chamber, then shoots out a literal fireball at a comfortable rate of once per second. The launched fuel glob is propelled by intense air pressure and rapidly superheated as it leaves the gun's frontal opening.
+
+INTENT:		An exotic though still effective incendiary ranged weapon for short-to-medium distances. They're akin to a full auto flaming arrow shooting bow, without the need for arrows or bows. Popular among adventurers, many customize the ammo fuel with extra additive chemicals to change the color of the fireballs or try different mixtures like sticky napalm or white phosphorus.
+
+
+==
+==

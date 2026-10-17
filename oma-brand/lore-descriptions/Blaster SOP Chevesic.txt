@@ -1,0 +1,13 @@
+NAME:		Blaster SOP Chevesic
+
+--
+
+TYPE: 		Long barreled beam rifle with a large ammo capacitor, precision smart scope, stock and pistol handle.
+
+EFFECT: 	Long range combat beam rifle, primarily against vehicle and heavy armor assets. Fires a powerful hypersonic particle beam shot that can melt through metal and cause an explosion upon impact, creating additional secondary damage in the process. Each shot has a short cooldown to allow the weapon to build up a sufficient charge for the next shot. Very reliable, accurate and powerful long gun that works both on ground and space infantry battles.
+
+INTENT:		Straightforward anti-materiel direct-fire gun issued to anti-vehicle hunter-killer soldiers in the military. Smart scope of the weapon gives the soldier almost as long of a range as some tank cannons, putting the soldier on equal footing against heavy metal adversaries range- and accuracy-wise.
+
+
+==
+==

@@ -1,0 +1,2 @@
+class ClassicMinigunFire extends MinigunFire;
+

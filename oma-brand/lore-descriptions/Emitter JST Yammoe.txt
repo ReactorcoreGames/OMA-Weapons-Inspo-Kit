@@ -1,0 +1,13 @@
+NAME:		Emitter JST Yammoe
+
+--
+
+TYPE: 		An absurdly large shoulder mounted energy weapon, powered by a massive reactor unit at the back that flows directly into a particle accelerator in the middle and finally leads to a long EM field array rail. On top there is an ultra-long range sensor/scope package. Inside there are also gyros that can automatically stabilize the gun and help with aiming/maintaining aim over the target.
+
+EFFECT: 	Effectively its best described as the infamous Hyper Beam known from the Pokemon series, packaged as the largest weapon class an unassisted human soldier could realistically wield. More commonly used with Power Armor, but not required since the weapon is self-sufficient without needing external power supply. Using a hologram, the weapon can project a Heads Up Display (HUD) in front of the user's face that gives them all the relevant information about the state of the weapon as well as complete aiming assistance for any regular situation, be it night vision, thermal or far zoom.
+
+INTENT:		A highly respected weapon among mercenaries due its standalone nature, even if it comes at the cost of being heavy, bulky and expensive to refuel its reactors. Can wipe out entire groups of armored opponents in a quick sweep as the the beam is unleashed, capable of obliterating even heavily armored fortifications.
+
+
+==
+==

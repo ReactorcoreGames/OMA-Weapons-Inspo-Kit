@@ -1,0 +1,35 @@
+class GameStyle_Classic extends BC_GameStyle_Config
+	config(BallisticProV55);
+
+defaultproperties
+{
+	StartingHealth=100
+	PlayerHealthMax=100
+	PlayerSuperHealthMax=200
+	PlayerShieldMax=200
+	bAllowDodging=true
+	bAllowDoubleJump=true
+	bAllowCrouchSliding=true
+	PlayerStrafeScale=1.0000000
+	PlayerBackpedalScale=1.0000000
+	PlayerGroundSpeed=360.0000000
+	PlayerAirSpeed=360.0000000
+	PlayerAccelRate=2048.0000000
+	PlayerJumpZ=340.0000000
+	PlayerDodgeSpeedFactor=1.5000000
+	PlayerDodgeZ=210.0000000
+	bEnableSprint=true
+	StaminaChargeRate=20
+	StaminaDrainRate=20
+	StaminaRechargeDelay=1.5000000
+	SprintSpeedFactor=1.3500000
+	JumpDrain=2.0000000
+	Index=1
+	StyleName="Classic"
+	PlayerWalkSpeedFactor=0.5000000
+	PlayerCrouchSpeedFactor=0.3500000
+	PlayerAnimationGroundSpeed=440.0000000
+	SightBobScale=0.3000000
+	ConflictWeaponSlots=20
+	ConflictEquipmentSlots=0
+}

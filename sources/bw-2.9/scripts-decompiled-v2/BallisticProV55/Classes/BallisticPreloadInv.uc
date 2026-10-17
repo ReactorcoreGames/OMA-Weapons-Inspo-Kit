@@ -1,0 +1,2 @@
+class BallisticPreloadInv extends Inventory;
+

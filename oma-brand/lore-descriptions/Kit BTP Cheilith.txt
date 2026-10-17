@@ -1,0 +1,13 @@
+NAME:		Kit BTP Cheilith
+
+--
+
+TYPE: 		Bulky high-tech suitcase carry device with noticable emission panels on its sides and a front compartment with a small door.
+
+EFFECT: 	A multifunction portable power generator with a small furnace to feed its operation by providing any carbon-containing material. It can also generate light and heat, acting as an artificial campfire except without using a hazardous open flame, thus making it functional even in the harshest of environments. Rechargable devices can be refilled wirelessly near the side panels, while the generator also features a high-capacity powerbank to store energy for later use. Can also deploy flotation aids allowing it to stay on the surface of a liquid instead of sinking. Lastly can produce breathable oxygen for two people via retractable tubes that can be pulled out of the device and placed over the mouth of a human.
+
+INTENT:		Commonly included onboard any ground, air, sea, submarine or space vehicle primarily for emergencies but can often find itself used during casual camping trips by civilians.
+
+
+==
+==

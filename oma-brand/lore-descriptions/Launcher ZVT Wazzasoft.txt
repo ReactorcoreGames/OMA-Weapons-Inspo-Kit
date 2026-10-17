@@ -1,0 +1,13 @@
+NAME:		Launcher ZVT Wazzasoft
+
+--
+
+TYPE: 		Reinforced and armored two-handed device. There is a large barrel with a sizable armor plate surrounding it, a powerdrill grip at the back and a top bar for holding the device with stability. Rugged electronic components are seen over and under the device.
+
+EFFECT: 	Pressurized free-form projectile cannon. Sturdy objects can be put into the barrel and then launched outwards with great force. The output power can be adjusted by building up the pressure before release, allowing to alternate from gentle lobs to cannon-like shots. The cannon is strongly built, capable of withstanding the pressures it endures. As a side effect it is also externally tough and resistant to damage and be used as a shield or a bludgeon to a limited degree. The firing sequence can be cancelled by venting the pressure downwards safely.
+
+INTENT:		Originally a construction tool for driving spikes or rods into walls - with a side application for demolition crews to launch hammer blows against support pillars from a safer distance. Scrappy adventurers found the device to be an excellent makeshift weapon where they can practically put anything into the barrel and fire it for great damage. People put rocks, bottles, dirt, scrap, boxes of nails, wood and other inappropriate objects into the barrel resulting in surprising diversity of effective attack styles. Depending on the content, the same weapon became a blunderbuss, cannon, shotgun or a flechette gun based on whatever "ammo" was put into it.
+
+
+==
+==

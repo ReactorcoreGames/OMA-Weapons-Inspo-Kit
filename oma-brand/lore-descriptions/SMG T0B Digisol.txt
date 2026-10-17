@@ -1,0 +1,13 @@
+NAME:		SMG T0B Digisol
+
+--
+
+TYPE: 		Lightweight one-handed submachinegun with a silencer. Magazine fed and comes with a forward facing electronic device underneath.
+
+EFFECT: 	High capacity and high rate of fire SMG for rapid surprise attacks against unsuspecting unarmored foes, while barely making any sound or visible flash. The trigger works on a two-stage system where a gentle half-pull will activate the underneath laser sight, allowing for adjusting aim for maximum accuracy before fully pullng on the trigger to let out a lethal burst of bullets upon the target. The recoil is minimal and lightweight construction allows to easily dual wield these weapons in both hands. The bullets are small and comparatively weak, so body armor or a helmet can protect against this weapon to some degree.
+
+INTENT:		Used by special forces teams or infiltrators that employ ambushes to terminate multiple hostiles quickly and silently. Covert assassins don't use the weapon due to its size and shape as it is not easy to conceal and its often overkill to use multiple bullets to kill a target when a single bullet would do the job.
+
+
+==
+==

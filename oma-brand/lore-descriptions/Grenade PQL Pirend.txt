@@ -1,0 +1,13 @@
+NAME:		Grenade PQL Pirend
+
+--
+
+TYPE: 		Larger grenade with a canister handle that doubles as a safety lever, held in place by a pin.
+
+EFFECT: 	Cluster grenade. A weapon of chaos that is essentially a grenade that explodes into many small grenades that fly all over a wide area in a random sequence, creating tiny explosions of fire sparks debris fragments and concussive shockwaves. If an opponent is somehow able to defend against a single directed attack, then this grenade will completely overwhelm them with too many projectiles and explosion to keep track of.
+
+INTENT:		Jokingly called the "grapevine", the grenade trades a single big explosion in favor of many small explosions spread widely. Suffice to say, the grenade is notoriously dangerous to everyone involved, including the thrower themselves so they're less often used by ground troop soldiers. This grenade sees more use by flying soldiers that throw or drop these grenades while they themselves are in a helicopter, using a jetpack, piloting a hoverbike or some other aerial vehicle that allows the user to remain far enough from the danger the grenade poses. Its like a personnel sized carpet bomb or infantry sized airstrike munition.
+
+
+==
+==

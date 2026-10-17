@@ -1,0 +1,32 @@
+class M99PrimaryFire extends BallisticProInstantFire;
+
+defaultproperties
+{
+	TraceRange=(Min=30000.0000000,Max=30000.0000000)
+	WallPenetrationForce=768.0000000
+	Damage=135.0000000
+	WaterRangeAtten=0.8000000
+	DamageType=Class'BWBP_JCF_Pro.DTM99Rifle'
+	DamageTypeHead=Class'BWBP_JCF_Pro.DTM99RifleHead'
+	DamageTypeArm=Class'BWBP_JCF_Pro.DTM99Rifle'
+	KickForce=95000
+	PenetrateForce=50050
+	bPenetrate=true
+	BrassClass=Class'BWBP_JCF_Pro.Brass_50BMG'
+	bBrassOnCock=true
+	BrassOffset=(X=-10.0000000,Y=1.0000000,Z=-1.0000000)
+	MuzzleFlashClass=Class'BallisticProV55.M925FlashEmitter'
+	FlashScaleFactor=2.0000000
+	FireRecoil=7000.0000000
+	BallisticFireSound=(Sound=Sound'BWBP_JCF_Sounds.M99.M99FireNew',Volume=10.0000000,Radius=512.0000000,Slot=0,Pitch=1.0000000,bAtten=false,bNoOverride=true)
+	FireRate=2.0000000
+	AmmoClass=Class'BWBP_JCF_Pro.Ammo_50ECSRifle'
+	ShakeRotMag=(X=400.0000000,Y=32.0000000,Z=0.0000000)
+	ShakeRotRate=(X=10000.0000000,Y=10000.0000000,Z=10000.0000000)
+	ShakeRotTime=2.0000000
+	ShakeOffsetMag=(X=-5.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetRate=(X=-1000.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetTime=2.0000000
+	BotRefireRate=0.3000000
+	WarnTargetPct=0.0500000
+}

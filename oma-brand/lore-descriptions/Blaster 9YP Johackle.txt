@@ -1,0 +1,13 @@
+NAME:		Blaster 9YP Johackle
+
+--
+
+TYPE: 		Sleek two-handed energy rifle. Includes a long covered barrel, aiming scope, extendable stock, pistol grip, angled vertical hybrid foregrip, a picatinny rail underneath the barrel for a variety of tactical attachments and some exposed control buttons above near the trigger.
+
+EFFECT: 	Medium-long range continuous high intensity laser cutter rifle. Fires a straight beam of instant light that cuts through soft materials with relative ease, capable of cutting off limbs with slow sweeps, creating long and deep wounds with quick swipes or piercing through armor with concentrated point fire. The intensity of the beam can be altered lower or higher, making it either consume less energy and last longer before needing to recharge or be able to burn through heavy armor much faster. Can be plugged with an external power cable for virtually limitless ammo, only limited by overheating cooldowns.
+
+INTENT:		Space trooper rifle for use in vacuum environment, as the laser has a longer range without having to burn through atmospheric gasses. On terrestrial battlegrounds, the weapon is still very effective, but its range is reduced greatly. It can even fire into the water, but again its range is massively reduced the more dense the obstructing material is. The weapon itself cannot be taken underwater as it will short circuit via the heatsinks below the gun.
+
+
+==
+==

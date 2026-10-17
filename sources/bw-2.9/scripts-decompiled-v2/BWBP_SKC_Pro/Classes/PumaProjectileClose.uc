@@ -1,0 +1,29 @@
+class PumaProjectileClose extends BallisticGrenade;
+
+defaultproperties
+{
+	bNoInitialSpin=true
+	bAlignToVelocity=true
+	DetonateDelay=0.0001000
+	ImpactDamage=100
+	ImpactDamageType=Class'BallisticProV55.DTM50Grenade'
+	WeaponClass=Class'BWBP_SKC_Pro.PumaRepeater'
+	ImpactManager=Class'BWBP_SKC_Pro.IM_PumaDetClose'
+	SplashManager=Class'BallisticProV55.IM_ProjWater'
+	TrailClass=Class'Onslaught.ONSSkyMineEffect'
+	MyRadiusDamageType=Class'BWBP_SKC_Pro.DT_PUMASelf'
+	ShakeRadius=512.0000000
+	MotionBlurRadius=300.0000000
+	Speed=6000.0000000
+	Damage=110.0000000
+	DamageRadius=360.0000000
+	MomentumTransfer=60000.0000000
+	MyDamageType=Class'BWBP_SKC_Pro.DT_PUMASelf'
+	LightHue=180
+	LightSaturation=100
+	LightBrightness=160.0000000
+	LightRadius=8.0000000
+	StaticMesh=StaticMesh'BWBP_SKC_Static.Bulldog.Frag12Proj'
+	LifeSpan=16.0000000
+	DrawScale=2.0000000
+}

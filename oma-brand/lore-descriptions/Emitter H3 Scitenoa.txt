@@ -1,0 +1,13 @@
+NAME:		Emitter H3 Scitenoa
+
+--
+
+TYPE: 		Crude and simple looking tube with a spraying nozzle at the front, offering a sidegrip that can be rotated to swing and lock to either side. At the back there is an input port for fluids or power supply.
+
+EFFECT: 	Cryogenic freezing gun. Fire a tight spray of cryogenic super-cool material that rapidly cools down any material it touches by absorbing into itself. The sprayed liquid rapidly solidifies into tough ice that may be as hard of stone. It is entirely possible to seal off tunnels with a wall of ice or create other platforms or obstacle geometry with this industrial tool. The gun is usually wielded in tandem with a worn backpack fuel tank that pumps cryoliquid into the gun from the lower back port. Given enough time and a warm environment, the hardened solid ice will eventually melt into harmless vapors.
+
+INTENT:		Surprisingly it is not used by firefighters even if it can be effective in shutting down a fire. Firefighters find the created solid material to be an unwanted obstacle so they'd rather use other equipment to extinguish flames. Instead, the tool is used to artificially create thick layers of hardened yet lightweight ice upon small shuttles that attempt to fly through asteroid fields. The added easily replaceable "shield" can help a shuttle shrug off smaller impacts as the craft flies through a hazardous area.
+
+
+==
+==

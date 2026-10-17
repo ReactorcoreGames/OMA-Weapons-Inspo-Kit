@@ -1,0 +1,38 @@
+class IM_BulletGauss extends BCImpactManager;
+
+defaultproperties
+{
+	HitEffects[0]=Class'BallisticProV55.IE_BulletGauss'
+	HitEffects[1]=Class'BallisticProV55.IE_BulletGauss'
+	HitEffects[2]=Class'BallisticProV55.IE_BulletGauss'
+	HitEffects[3]=Class'BallisticProV55.IE_BulletGauss'
+	HitEffects[4]=Class'BallisticProV55.IE_BulletGauss'
+	HitEffects[5]=Class'BallisticProV55.IE_BulletGauss'
+	HitEffects[6]=Class'BallisticProV55.IE_BulletGauss'
+	HitEffects[7]=Class'BallisticProV55.IE_BulletGauss'
+	HitEffects[8]=Class'BallisticProV55.IE_BulletGauss'
+	HitDecals[0]=Class'BallisticProV55.AD_BigBulletConcrete'
+	HitDecals[1]=Class'BallisticProV55.AD_BigBulletConcrete'
+	HitDecals[2]=none
+	HitDecals[3]=Class'BallisticProV55.AD_BigBulletMetal'
+	HitDecals[4]=Class'BallisticProV55.AD_BigBulletWood'
+	HitDecals[5]=Class'BallisticProV55.AD_BigBulletConcrete'
+	HitDecals[6]=Class'BallisticProV55.AD_BigBulletConcrete'
+	HitDecals[7]=Class'BallisticProV55.AD_BigBulletConcrete'
+	HitDecals[8]=none
+	HitDecals[9]=none
+	HitDecals[10]=Class'BallisticProV55.AD_BigBulletConcrete'
+	HitSounds[0]=SoundGroup'BW_Core_WeaponSound.Gauss.Gauss-Impact'
+	HitSounds[1]=SoundGroup'BW_Core_WeaponSound.Gauss.Gauss-Impact'
+	HitSounds[2]=SoundGroup'BW_Core_WeaponSound.Gauss.Gauss-Impact'
+	HitSounds[3]=SoundGroup'BW_Core_WeaponSound.Gauss.Gauss-Impact'
+	HitSounds[4]=SoundGroup'BW_Core_WeaponSound.Gauss.Gauss-Impact'
+	HitSounds[5]=SoundGroup'BW_Core_WeaponSound.Gauss.Gauss-Impact'
+	HitSounds[6]=SoundGroup'BW_Core_WeaponSound.Gauss.Gauss-Impact'
+	HitSounds[7]=SoundGroup'BW_Core_WeaponSound.Gauss.Gauss-Impact'
+	HitSounds[8]=SoundGroup'BW_Core_WeaponSound.Gauss.Gauss-Impact'
+	HitSounds[9]=none
+	HitSounds[10]=SoundGroup'BW_Core_WeaponSound.Gauss.Gauss-Impact'
+	HitSoundVolume=1.5000000
+	HitSoundRadius=174.0000000
+}

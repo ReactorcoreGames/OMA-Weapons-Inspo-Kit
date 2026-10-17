@@ -1,0 +1,2 @@
+class DamTypeMinigunAlt extends DamTypeMinigunBullet;
+

@@ -1,0 +1,13 @@
+NAME:		Pistol SSL Printure
+
+--
+
+TYPE: 		Bulky heavy pistol with a small tarp partially covering the gun's top part. Has a top picatinny rail for optic mounts.
+
+EFFECT: 	An unusual voice controlled multi-ammo pistol that will listen to its user's voice that has been preprogrammed into the guns memory beforehand and will automatically switch and cycle the currently loaded ammo type. The magazine for this pistol is a specialized compartamentalized container that holds a number of tiny situationally tactical bullets - like armor piercing, explosive, electrifying and concussive. The gun itself uses EM coils to propel the projectiles at high velocities, so the bullets dont need their own propellant and are thus able to be so small. Optionally the voice module can be turned off and operated through a neural interface or use manual button presses on the gun instead when stealth is necessary or if the environment is too loud.
+
+INTENT:		Best suited for raiding space stations where using the environment to the user's advantage is key. Space mercenaries may often shoot special components inside a space station or a spaceship with the correct ammo type to cause various hazardous events that will defeat their opponents without having to shoot at them directly.
+
+
+==
+==

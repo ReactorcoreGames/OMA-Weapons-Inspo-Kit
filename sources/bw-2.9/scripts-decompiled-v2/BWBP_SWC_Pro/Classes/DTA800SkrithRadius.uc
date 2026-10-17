@@ -1,0 +1,22 @@
+class DTA800SkrithRadius extends DT_BWMiscDamage
+	config(BallisticProV55);
+
+defaultproperties
+{
+	DeathStrings[0]="%k burned a hole through %o with the Y11."
+	DeathStrings[1]="%o was scorched in half by %k's Y11."
+	DeathStrings[2]="%o saw the light of %k's Y11."
+	DeathStrings[3]="%k lit up %o with the Y11."
+	SimpleKillString="Y11 Power Bomb Radius"
+	BloodManagerName="BallisticProV55.BloodMan_A73Burn"
+	bIgniteFires=true
+	DamageDescription=",Plasma,"
+	WeaponClass=Class'BWBP_SWC_Pro.A800SkrithMinigun'
+	DeathString="%k burned a hole through %o with the Y11."
+	FemaleSuicide="%o's Y11 turned on her."
+	MaleSuicide="%o's Y11 turned on him."
+	bAlwaysSevers=true
+	bSpecial=true
+	GibPerterbation=0.2000000
+	KDamageImpulse=1000.0000000
+}

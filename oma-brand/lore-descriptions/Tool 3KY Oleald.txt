@@ -1,0 +1,13 @@
+NAME:		Tool 3KY Oleald
+
+--
+
+TYPE: 		Modern electronics powered binocular unit. Uses specialized cameras and lenses to capture and project a video feed to the viewer via digital screen.
+
+EFFECT: 	Comes with multiple functions to enhance the user's ability to see and detect things that normal human eyes can't - thermal vision, zoom magnification, night vision as well as EM spectrum vision for viewing UV light and radiation. Operates on battery power.
+
+INTENT:		Developed for military use originally, but soon found itself commercially available to all industry/civilian applications too.
+
+
+==
+==

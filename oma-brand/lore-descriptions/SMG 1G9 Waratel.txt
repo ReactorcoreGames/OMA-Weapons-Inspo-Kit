@@ -1,0 +1,13 @@
+NAME:		SMG 1G9 Waratel
+
+--
+
+TYPE: 		One-handed UZI inspired submachinegun with iron sights, an extended magazine and a gnarly slasher blade. There is also a foldable stock over top of the gun.
+
+EFFECT: 	Despite its size its built from such lightweight materials that make dual wielding this weapon - blades and all - the intended way to use it. Its quite easy to hold up and swing with. Its effective against numerous unarmored targets where the bullets control and kill hostiles at range, while the blades provide an always-ready melee option, dealing deep cuts against flesh. When more accuracy and stability is needed to hit targets at a further range, the foldable stock can be flipped over and back to do so. Otherwise the SMG is somewhat inaccurate due to short barrel lenght and one-handed operation.
+
+INTENT:		Favorite among adventurers that enjoy a high ammo capacity versatile all-rounder weapon for short range combat.
+
+
+==
+==

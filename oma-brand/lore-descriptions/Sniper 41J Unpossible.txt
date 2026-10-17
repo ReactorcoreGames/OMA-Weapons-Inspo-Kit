@@ -1,0 +1,13 @@
+NAME:		Sniper 41J Unpossible
+
+--
+
+TYPE: 		Electronically powered hypersonic coil rifle. Uses special magazines that are both a battery and an ammo supply, containing specialized super-dense ultra-piercing bullets with tiny nuclear surprise. Includes a stock, scope, carry handle and an electronics assembly for transferring and distributing power around the gun. Theres also a tiny beam emitter for aiming assistance near the front of the gun, below the barrel.
+
+EFFECT: 	A powerful railgun that has been shrunk into a rifle that a soldier can carry. Each shot takes a brief moment to power up, after which a powerful anti-armor shot rings out of the barrel of the gun with a loud bang. This weapon is built for one purpose only - to pierce through the hardest of armors, meanwhile delivering a shockingly powerful micro-nuclear blow to whatever this weapon will tear through. Each bullet is built with a depleted uranium penetrator front section, while housing a tiny tactical micro nuke payload. Its small enough that it isn't as big as most other conventional explosive rounds, but it does have a special quirk of creating a car sized fireball that lingers in the area before dissipating, incinerating things caught within and around it into burnt crisp.
+
+INTENT:		Devised as the ultimate counter to heaviest of armors, the military usually resorts to these weapons only when all other infantry weapons have failed to penetrate an armor. While the weapon itself and its operator is safe from radiation, the resulting nuclear fireball unfortunately does contaminate the immediate area with some fallout, rendering it hazard to go into afterwards.
+
+
+==
+==

@@ -1,0 +1,25 @@
+class DTBulldog extends DT_BWBullet
+	config(BallisticProV55);
+
+defaultproperties
+{
+	DeathStrings[0]="%k's Bulldog chewed up and spat out %o."
+	DeathStrings[1]="%k ripped apart %o with %kh Bulldog."
+	DeathStrings[2]="%o couldn't run fast enough from %k's Bulldog."
+	DeathStrings[3]="%k's Bulldog mercilessly blasted %o into little bits."
+	DeathStrings[4]="%o's life was ended by %k's rabid Bulldog."
+	DeathStrings[5]="%k's Bulldog bit huge chunks out of %o."
+	DeathStrings[6]="%k tore %o's limbs off with a menacing Bulldog."
+	TagMultiplier=0.5000000
+	TagDuration=0.2500000
+	bIgniteFires=true
+	InvasionDamageScaling=2.0000000
+	DamageIdent="Ordnance"
+	WeaponClass=Class'BWBP_SKC_Pro.BulldogAssaultCannon'
+	DeathString="%k's Bulldog chewed up and spat out %o."
+	FemaleSuicide="%o rocked her world with the Bulldog."
+	MaleSuicide="%o's Bulldog rocked his world."
+	bExtraMomentumZ=true
+	VehicleDamageScaling=1.0000000
+	VehicleMomentumScaling=0.5000000
+}

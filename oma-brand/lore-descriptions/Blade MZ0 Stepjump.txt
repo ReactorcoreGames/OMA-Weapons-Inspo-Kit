@@ -1,0 +1,13 @@
+NAME:		Blade MZ0 Stepjump
+
+--
+
+TYPE: 		Sizeable sharp blade that is held along the forearm, similar to a tonfa weapon. Has a pointy frontal tip suited for stabbing and a long wide edge with a mild serrated section near the back for some serious slashing action. The foregrip and soft foam rest at the back ensure a comfortable hold of the weapon.
+
+EFFECT: 	Large tactical blade that can used in confined spaces more reliably, with less of a problem of bumping into walls and corners how a regular sword would. The trade-off is a shorter reach though. The lightweight blade is easy to swing and push, while being much more substantial in blade size compared to a simple knife - allowing for more severe damage per slash or stab.
+
+INTENT:		Favored by tunnel mercenaries that often fight in caves and indoor spaces, usually going up against soft or lightly-armored monsters in CQB fights where ranged weapons are too obstructed by the environment to be used effectively.
+
+
+==
+==

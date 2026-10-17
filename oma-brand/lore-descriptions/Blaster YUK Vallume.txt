@@ -1,0 +1,13 @@
+NAME:		Blaster YUK Vallume
+
+--
+
+TYPE: 		Big ominous energy cannon with a special emitter as its main barrel end. The back houses a reactor unit, while the front barrel has several coils visible underneath with a couple heat vents above. Theres a large smart scope unit with advanced targetting capabilities.
+
+EFFECT: 	Super plasma storm projector cannon. The weapon detects targets through its scope and projects invisible weak electron beams towards them from the tip of the guns barrel that independently rotates using a gyroscope. Shortly after, the main cannon will fire a series of lightning bolts that ride the trail of this electron beam and deliver repeated ultra hot plasma burn impacts upon the target, causing massive damage in the process. The weapon is able to do this process rapidly and cycle through multiple targets, dispensing another electron beam, followed by another burst of lightning strikes before repeating the attack on the next target on the list determined by the smart scope. The weapon doesn't even have to be directly pointed at the target as long as the gun is pointing in the general direction, since the electron beam emitter gyroscope unit will do most of the work aiming the weapon. The weapon's operation looks particularly spectacular in a target-rich environments, blasting out lighting and plasma everywhere, seemingly hitting everything relevant like some sort of godly superpower that can take on an army all on its own.
+
+INTENT:		An annihilation-class wonder weapon designed to stop massive swarms of monsters during severe invasion events where there may be too many targets to otherwise keep track of. Each lightning strike caused by this weapon causes a lot of collateral damage and can take out entire groups of enemies if they're close enough and sometimes the lightning can chain jump from target to target, killing and destroying even more additional targets. Due to its chaotic nature, it should not be used below a safe distance or there is a risk of backlash from the fired lightning blasts. The weapon does project an "umbrella shield" at the front of the gun to try prevent this, but in rare circumstances an unfortunate chain-lightning might curve past it.
+
+
+==
+==

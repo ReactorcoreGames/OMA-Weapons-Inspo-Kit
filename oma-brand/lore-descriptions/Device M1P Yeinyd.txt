@@ -1,0 +1,13 @@
+NAME:		Device M1P Yeinyd
+
+--
+
+TYPE: 		Small tactical anti-personnel mine with many possible detection electronics and sensors within. Contains a compact but potent explosive charge within.
+
+EFFECT: 	Can be used to create deadly explosive traps against human sized enemies. Can be triggered by laser, proximity, motion, timer, vibration or impact.
+
+INTENT:		Versatile tool for soldiers, assassins and intruders alike to take down pursuing targets, create distractions or lay ambushes. Mercenaries usually just throw them like regular grenades at enemies. Works.
+
+
+==
+==

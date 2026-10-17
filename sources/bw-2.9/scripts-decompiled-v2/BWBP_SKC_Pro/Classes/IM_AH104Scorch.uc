@@ -1,0 +1,9 @@
+class IM_AH104Scorch extends BCImpactManager;
+
+defaultproperties
+{
+	HitDecals[0]=Class'BWBP_SKC_Pro.AD_AH104Scorch'
+	HitSoundVolume=1.0000000
+	HitSoundRadius=1024.0000000
+	EffectBackOff=96.0000000
+}

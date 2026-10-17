@@ -1,0 +1,32 @@
+class AR23PrimaryFire extends BallisticProInstantFire;
+
+defaultproperties
+{
+	TraceRange=(Min=12000.0000000,Max=15000.0000000)
+	KickForce=16000
+	bPenetrate=true
+	BrassClass=Class'BallisticProV55.Brass_M46AR'
+	BrassOffset=(X=0.0000000,Y=10.0000000,Z=0.0000000)
+	bCockAfterEmpty=true
+	DryFireSound=(Sound=Sound'BW_Core_WeaponSound.D49.D49-DryFire',Volume=0.7000000,Radius=24.0000000,Slot=0,Pitch=1.0000000,bAtten=false,bNoOverride=false)
+	MuzzleFlashClass=Class'BallisticProV55.M925FlashEmitter'
+	FlashScaleFactor=0.5000000
+	AimedFireAnim="Fire"
+	FireRecoil=512.0000000
+	FirePushbackForce=250.0000000
+	XInaccuracy=1.5000000
+	YInaccuracy=1.5000000
+	BallisticFireSound=(Sound=SoundGroup'BWBP_SKC_Sounds.AR23.AR23-HFire',Volume=1.7500000,Radius=512.0000000,Slot=3,Pitch=1.0000000,bAtten=false,bNoOverride=false)
+	bPawnRapidFireAnim=true
+	FireEndAnim="None"
+	FireRate=0.1700000
+	AmmoClass=Class'BallisticProV55.Ammo_50CalBelt'
+	ShakeRotMag=(X=48.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeRotRate=(X=640.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeRotTime=2.0000000
+	ShakeOffsetMag=(X=-20.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetRate=(X=-400.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetTime=2.0000000
+	WarnTargetPct=0.2000000
+	aimerror=900.0000000
+}

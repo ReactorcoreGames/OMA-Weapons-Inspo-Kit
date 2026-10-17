@@ -1,0 +1,13 @@
+NAME:		Blade 6V5 Tupacase
+
+--
+
+TYPE: 		A sharp combat knife with a rugged reinforced composite handle.
+
+EFFECT: 	Simple and effective close range weapon as well as a versatile tool for all cutting, slicing and stabbing needs.
+
+INTENT:		Standard issue melee weapon issued to all military troops. Massively widespread among mercenaries, adventurers and civilians too.
+
+
+==
+==

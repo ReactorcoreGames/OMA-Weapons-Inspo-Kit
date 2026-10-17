@@ -1,0 +1,13 @@
+NAME:		Projector HTO Burder
+
+--
+
+TYPE: 		Large industrial energy projector device with a rectangular main body with numerous technological components, vents and a protruding nozzle at the front. The device is held with a ram-hold position using the two grips at the top of the device.
+
+EFFECT: 	High-energy plasma welder/plasma torch heavy duty multitool. Projects a short range focused jet of intense plasma that can either cut through hardened heavy hull armor plates or melt their seams enough to allow two or more pieces to fuse together once the heat is turned off. Has a small internal reserve battery for short operations, but is more commonly supplied with an external power cable attached to the back to allow extended operation.
+
+INTENT:		Used to repair exterior starship hulls or other industrial construction project that involve welding or detaching large armor plates of vehicles, ships or megastructures. At an effective distance of 3 meters, the plasma torch can work as a melee weapon in a pinch, though a rather heavy and bulky one - similar to bringing a jackhammer power tool to a battlefield.
+
+
+==
+==

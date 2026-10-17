@@ -1,0 +1,13 @@
+NAME:		Cannon LHD Feandra
+
+--
+
+TYPE: 		Bulky shoulder mounted magazine fed assault cannon. Comes with a pistol grip, underside grip for the supporting hand, a cooling vent at the back, exhaust ports at the sides of the barrel and advanced recoil compensation mechanisms on the inside.
+
+EFFECT: 	Wall-breaker armor piercer assault cannon. Fires large ultra dense cannon-caliber tungsten "bullets" straight ahead that punch through and shatter heavy armor. The rounds are electrically propelled and gas assisted to accelerate the rounds to great speeds with less recoil and less dangerous gas exhaust than pure gas-propelled cannons. The cannon rounds are supersonic and create a sonic boom that enhances the damage done by the shot that comes at a slight delay after the intial impact. This phenomenon only happens in environments with an atmosphere though. In space the cannon round just flies much farther without slowing down.
+
+INTENT:		Used by mercenaries to demolish fortified targets, be it obstacles, concrete walls, heavy armor, dense carapace. Also very effective against large vehicles since the shot will tear through multiple sections instead of just damaging the outer surface.
+
+
+==
+==

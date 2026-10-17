@@ -1,0 +1,13 @@
+NAME:		Revolver F9D Pegmode
+
+--
+
+TYPE: 		An intricately decorated revolver pistol with a fanning hammer and iron sights.
+
+EFFECT: 	Specialty of this revolver is that it uses extra small cheap bullets and thus has a large ammo capacity that is multiplied that of traditional 6 shot revolvers. It does less damage per shot, but users can fan the hammer for rapid fire action. Effective against unarmored soft targets. When aimed down sights it can be quite accurate too.
+
+INTENT:		Adventurers often commission these as a custom order from renowned old school gunsmiths. They're not intended as offensive weapons but as defensive social tools to intimidate, distract and dissuade potential threats from making trouble against its user, often by issuing loud warning shots into the air, shooting near someone's feet as a scare tactic and for making accurate trickshots at close distances. Since the ammo is cheap and plentiful, it allows the user to not worry about conserving shots and issue warnings more liberally.
+
+
+==
+==

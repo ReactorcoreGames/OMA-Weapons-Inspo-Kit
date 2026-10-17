@@ -1,0 +1,12 @@
+NAME:		Projector 3RM Glowl
+
+--
+
+TYPE: 		Tall profile two handed gun that is to be held tilted slightly upwards. Theres a small ignition flame positioned over the main barrel with the intent to light up any passing projectile. Below the gun is a removable fuel canister that supplies liquid ammo for the weapon. On the side there is a liquid inlet port that allows plugging in a hose to supply extended ammo via external silo. The large fin on the back houses a trajectory computer and a holographic projector to assist with aiming the weapon.
+
+EFFECT: 	Fireball barrage gun. Fires globs of fuel that travel in an arc giving the user sort of a short range combat mortar that they can use to rain multiple successive fireballs over obstacles. The fireballs will splash upon impact and set flammable objects on fire in their vicinity. Since the weapon doesn't shoot far if held straight forward, its meant to be tilted upwards most of the time. To help with aiming, the weapon's onboard computer will detect local gravity conditions and then draw a holographic curved line where the shot is going to land. This line is only seen from the user's side of the gun, while it is invisible for those on the wrong end of the barrel.
+
+INTENT:		An alternative take on a flamethrower with more range, indirect fire capability and overall more efficient use of ammo. With an average rate of fire, it can still bombard a fairly wide area in a few seconds. Its ammo can be changed for other types, such as white phosphorus, acid or even cryogenic ammunition - provided the ignition flame is turned off first.
+
+==
+==

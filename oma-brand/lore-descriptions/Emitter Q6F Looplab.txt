@@ -1,0 +1,13 @@
+NAME:		Emitter Q6F Looplab
+
+--
+
+TYPE: 		A long unusual rifle with a peculiar rubber nozzle with two prongs that hover over it. The middle of the rifle houses a bulky generator device. There are also vacuum tubes behind the generator and a cone pylon emitter at the front below the generator.
+
+EFFECT: 	An electrifying proton storm cannon. Holding down the trigger unleashes a continuous wide spray of particles and electrical arcs that violently push thing away while causing electrical burns and minor lacerations. Anything below the weight of 100 kilograms is easily pushed away and shocked in the process. The weapon requires an external high-voltage power supply via cable that must be attached at the back, otherwise the gun won't work.
+
+INTENT:		Its an industrial tool for testing out energy shields of vehicles and starships. The specific disruption the weapon causes can give an excellent estimate of a more dangerous impact without having to actually simulate it.
+
+
+==
+==

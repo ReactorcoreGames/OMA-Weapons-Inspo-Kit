@@ -1,0 +1,33 @@
+class MGLGrenadeImpactSafe extends BallisticGrenade;
+
+defaultproperties
+{
+	UnarmedDetonateOn=4
+	ArmedDetonateOn=1
+	ArmedPlayerImpactType=1
+	ReflectImpactManager=Class'BallisticProV55.IM_GunHit'
+	DampenFactorParallel=0.3000000
+	bNoInitialSpin=true
+	bAlignToVelocity=true
+	ArmingDelay=0.1000000
+	DetonateDelay=0.5000000
+	TrailWhenStill=false
+	ImpactDamage=100
+	ImpactDamageType=Class'BWBP_SKC_Pro.DTMGLGrenade'
+	WeaponClass=Class'BWBP_SKC_Pro.MGLauncher'
+	ImpactManager=Class'BWBP_SKC_Pro.IM_MGLGrenade'
+	SplashManager=Class'BallisticProV55.IM_ProjWater'
+	TrailClass=Class'BWBP_SKC_Pro.MGLNadeTrail'
+	MyRadiusDamageType=Class'BWBP_SKC_Pro.DTMGLGrenadeRadius'
+	WallPenetrationForce=64.0000000
+	ShakeRadius=512.0000000
+	MotionBlurRadius=400.0000000
+	MotionBlurFactor=3.0000000
+	MotionBlurTime=4.0000000
+	Speed=4500.0000000
+	Damage=140.0000000
+	DamageRadius=768.0000000
+	MyDamageType=Class'BWBP_SKC_Pro.DTMGLGrenadeRadius'
+	ImpactSound=Sound'BWBP_SKC_Sounds.Misc.FLAK-GrenadeBounce'
+	StaticMesh=StaticMesh'BW_Core_WeaponStatic.M900.M900Grenade'
+}

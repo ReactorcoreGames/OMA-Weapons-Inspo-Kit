@@ -1,0 +1,13 @@
+NAME:		Emitter B5X Chillpal
+
+--
+
+TYPE: 		Large exosuit-sized high energy rifle. Held by a large grip at the back end like one-handed weapon, it connects to a large complex device housing a big central reactor, large capacitor/cooling bank below, magnetic acceleration rails, energy amplifier boosters. Below the grip is the auxiliary battery and electronics that control the diagnostics of the weapon. Large armor segments cover parts of the gun for increased protection against elements while the main housing of the weapon is made from strenghtened materials for added structural integrity.
+
+EFFECT: 	Alternating shield/cannon battle weapon for exosuits or small mecha. When in combat, the user can activate the weapon and it will generate a powerful dome shaped energy barrier/shield in front of it, protecting the user from most physical and energy based projectiles and hazards like an umbrella. While active, the user can choose to fire the weapon offensively, sending a powerful armor piercing and exploding bolt of energy with great accuracy and speed but momentarily discarding the shield with the fired shot.
+
+INTENT:		Althought its rated to be one-handed by larger exosuits or smaller mecha, mercenaries in smaller power armor have been seen using it as an absurdly oversized two-handed rifle, usually in combination with a jury-rigged power supply unit to compensate for the lack of mecha-sized reactor to use weapon to its full potential. Without this addon, the weapon can only work at a lesser power level where rate of fire, damage, shield strenght, delay to recharge shield and range is greatly reduced.
+
+
+==
+==

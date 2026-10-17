@@ -1,0 +1,35 @@
+class AS50PrimaryFire extends BallisticProInstantFire;
+
+defaultproperties
+{
+	TraceRange=(Min=30000.0000000,Max=30000.0000000)
+	DamageType=Class'BWBP_SKC_Pro.DT_AS50Torso'
+	DamageTypeHead=Class'BWBP_SKC_Pro.DT_AS50Head'
+	DamageTypeArm=Class'BWBP_SKC_Pro.DT_AS50Limb'
+	KickForce=1000
+	PenetrateForce=450
+	bPenetrate=true
+	PDamageFactor=0.8000000
+	WallPDamageFactor=0.8500000
+	BrassClass=Class'BWBP_SKC_Pro.Brass_BMGInc'
+	BrassBone="breach"
+	BrassOffset=(X=-10.0000000,Y=1.0000000,Z=-1.0000000)
+	MuzzleFlashClass=Class'BallisticProV55.M925FlashEmitter'
+	FireRecoil=450.0000000
+	FirePushbackForce=255.0000000
+	FireChaos=1.0000000
+	BallisticFireSound=(Sound=SoundGroup'BWBP_SKC_Sounds.AS50.AS50-Fire',Volume=5.1000000,Radius=512.0000000,Slot=3,Pitch=1.0000000,bAtten=false,bNoOverride=false)
+	FireAnim="CFire"
+	FireEndAnim="None"
+	FireRate=0.8000000
+	AmmoClass=Class'BWBP_SKC_Pro.Ammo_50Inc'
+	ShakeRotMag=(X=450.0000000,Y=64.0000000,Z=0.0000000)
+	ShakeRotRate=(X=12400.0000000,Y=12400.0000000,Z=12400.0000000)
+	ShakeRotTime=2.5000000
+	ShakeOffsetMag=(X=-5.5000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetRate=(X=-1000.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetTime=2.2500000
+	BotRefireRate=0.5000000
+	WarnTargetPct=0.4000000
+	aimerror=950.0000000
+}

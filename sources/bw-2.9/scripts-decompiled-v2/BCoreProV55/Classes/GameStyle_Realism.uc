@@ -1,0 +1,35 @@
+class GameStyle_Realism extends BC_GameStyle_Config
+	config(BallisticProV55);
+
+defaultproperties
+{
+	bAlternativePickups=true
+	StartingHealth=100
+	PlayerHealthMax=100
+	PlayerSuperHealthMax=200
+	StartingShield=50
+	PlayerShieldMax=100
+	bPlayerDeceleration=true
+	bAllowDodging=true
+	bAllowCrouchSliding=true
+	PlayerStrafeScale=1.0000000
+	PlayerBackpedalScale=1.0000000
+	PlayerGroundSpeed=200.0000000
+	PlayerAirSpeed=200.0000000
+	PlayerAccelRate=1536.0000000
+	PlayerJumpZ=294.0000000
+	PlayerDodgeSpeedFactor=1.3500000
+	PlayerDodgeZ=170.0000000
+	bEnableSprint=true
+	StaminaChargeRate=10
+	StaminaDrainRate=10
+	StaminaRechargeDelay=1.5000000
+	SprintSpeedFactor=1.4000000
+	JumpDrain=2.0000000
+	Index=2
+	StyleName="Realism"
+	PlayerWalkSpeedFactor=0.5000000
+	PlayerCrouchSpeedFactor=0.3500000
+	PlayerAnimationGroundSpeed=260.0000000
+	ConflictEquipmentSlots=3
+}

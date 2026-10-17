@@ -1,0 +1,2 @@
+class TransEffectBlue extends TransEffect;
+

@@ -1,0 +1,13 @@
+NAME:		SMG GF4 Luwest
+
+--
+
+TYPE: 		Two-handed submachinegun with iron sights, a firemode selector, extendable stock, a curved magazine and pistol grip.
+
+EFFECT: 	Excellent urban combat weapon against small groups of lightly armored personnel, especially when paired with armor piercing bullets. The magazine system allows for quick reloads to refill ammo, though as usual for such systems it is necessary to have magazines and ammo prepared in advance before any combat. As such, the weapon has a limit before it becomes a useless piece of metal until a new supply of prefilled magazines can be arranged. The weapon has a mild recoil which is gracefully mitigated to almost nothing thanks to its internal design. The fire selector allows firemodes of single shot, burst fire and full auto.
+
+INTENT:		Intended for armed security guards or special police forces (like SWAT) against dangerous armed opponents in urban locations or indoor battles.
+
+
+==
+==

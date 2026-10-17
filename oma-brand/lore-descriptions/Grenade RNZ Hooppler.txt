@@ -1,0 +1,13 @@
+NAME:		Grenade RNZ Hooppler
+
+--
+
+TYPE: 		A compact block with large uniform emission ports on both sides.
+
+EFFECT: 	Portable heat source that can be easily pulled out and activated to provide heat in cold and harsh environments, regardless of dust, liquids, gas or other obstacles. Very reliable, durable and can be configured to provide more or less heat output, even upto +100'C temperatures for multiple hours, thought lower settings will allow for a vastly extended multiple days of use. Can be recharged.
+
+INTENT:		Standard universal camping and survival equipment, usable practically anywhere by anyone where there is a need for a safe source of heat.
+
+
+==
+==

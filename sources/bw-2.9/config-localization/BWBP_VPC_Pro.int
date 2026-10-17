@@ -1,0 +1,107 @@
+[Albatross]
+VehiclePositionString="in an Albatross"
+VehicleNameString="Albatross"
+
+[AlbatrossBomberPawn]
+VehiclePositionString="in an Albatross Bomber Compartment"
+VehicleNameString="Albatross Bomber Station"
+
+[DCTVThorTank]
+VehiclePositionString="in a Thor Tank"
+VehicleNameString="XC943B-22 Thor Tank"
+
+[DCTVThorTankMGPawn]
+VehiclePositionString="operating a Thor Machinegun"
+VehicleNameString="Thor Machinegun Turret"
+
+[DT_ThorTankMG]
+DeathString="%o was denounced by %k's Thor tank MG."
+FemaleSuicide="%o machinegunned herself."
+MaleSuicide="%o machinegunned himself."
+
+[DT_ThorTankShell]
+DeathString="%o was blasted to hell by %k's Thor tank."
+FemaleSuicide="%o shot herself with a tank."
+MaleSuicide="%o shot himself with a tank."
+
+[KHMKII]
+VehiclePositionString="Flying a KH MarkII"
+VehicleNameString="KH MarkII Cobra"
+
+[KHMKIIDamTypeBarrage]
+DeathStrings=("%o couldn't stop dancing in %k's Missile rain.","%o got caught in %k's fire rain.","%k's TOW Missiles helped %o loosen up.","%o couldn't get out of %k's firestorm.")
+FemaleSuicides=("%o couldn't get enough of her own Missile rain.","%o's fire barrage button got stuck, or so she says.","%o defied the laws of physics and caught her own Missiles.","%o proved why children shouldn't play with loaded Cobras.")
+MaleSuicides=("%o couldn't get enough of his own Missile rain.","%o's fire barrage button got stuck, or so he says.","%o defied the laws of physics and caught his own Missiles.","%o proved why children shouldn't play with loaded Cobras.")
+
+[KHMKIIDamTypeMinigun]
+DeathStrings=("%o is now leaking like a colander thanks to %k's Cobra machinegun.","%k's Cobra machinegun punctured %o like a pin cushion.","%o couldn't take the number of holes that %k's Cobra machinegun delivered.")
+FemaleSuicides=("%o shot herself with a Cobra machinegun in hopes of becoming a colander.","%o was all too curious when it came to inspecting Cobra machinegun barrels.")
+MaleSuicides=("%o shot himself with a Cobra machinegun in hopes of becoming a colander.","%o was all too curious when it came to inspecting Cobra machinegun barrels.")
+
+[KHMKIIDamTypePancake]
+DeathStrings=("%o squealed like a pig when trapped under %k's landing bars.","%o was pinned down by %k's landing bars.","%o got pasted to the ground by %k's landing bars.")
+FemaleSuicides=("%o got her moronic self trapped under her own landing bars.","%o got rolled on by her own Cobra.","%o wasn't watching the skies for the Cobra she abandoned.")
+MaleSuicides=("%o got his moronic self trapped under his own landing bars.","%o got rolled on by his own Cobra.","%o wasn't watching the skies for the Cobra he abandoned.")
+
+[KHMKIIDamTypeRoadKill]
+DeathStrings=("%o lept into %k's rotor blades.","%k's rotor blades satisfied %o's craving for sushi.","%k's landing bars caught a foreign object called %o.","%o should have checked both sides of the road for %k's Cobra.")
+FemaleSuicides=("%o made sushi of herself.","%o forget to put her Cobra's handbrake on.")
+MaleSuicides=("%o made sushi of himself.","%o forget to put his Cobra's handbrake on.")
+
+[KHMKIIDamTypeRocket]
+DeathStrings=("%o got caught in %k's underTOW.","%o's limp body got TOWed away by %k.","%o with his foot fetish mistook %k's TOW for a toe.","%o was splattered like so many spanish tomatos by %k's TOW Missiles.")
+FemaleSuicides=("%o stuck her ugly face infront of her own TOW Missiles.","%o was inspecting the integrity of her TOW Missiles with her obscene face.","%o got carried away with the little red button that launches TOW Missiles.","%o proved why children shouldn't play with loaded Cobras.")
+MaleSuicides=("%o stuck his ugly face infront of his own TOW Missiles.","%o was inspecting the integrity of his TOW Missiles with his obscene face.","%o got carried away with the little red button that launches TOW Missiles.","%o proved why children shouldn't play with loaded Cobras.")
+
+[KHMKIINoseGunPawn]
+VehiclePositionString="Manning a KH AutoCannon"
+VehicleNameString="KH MarkII AutoCannon"
+
+[LeopardDamType50Calibre]
+DeathStrings=("%o was drilled by %k's TMV .50 Calibre machinegun.","%k's TMV .50 Cal softened %o into a lifeless pile.","%o couldn't hide before %k's TMV .50 Cal got him down.","%o was overcome by the power of %k's TMV .50 Cal.")
+FemaleSuicides=("%o shot herself with a TMV .50 Cal.","%o was all too curious when it came to inspecting TMV .50 Cal barrels.")
+MaleSuicides=("%o shot himself with a TMV .50 Cal.","%o was all too curious when it came to inspecting TMV .50 Cal barrels.")
+
+[LeopardDamTypePancake]
+DeathStrings=("%o should have looked up in case of %k's flying TMV.","%o's head was shaved by %k's TMV tracks.","%o got pasted to the ground by %k's TMV underside.")
+FemaleSuicides=("%o should have been more carefull when abandoning her TMV on the edge of a precipice.","%o got rolled on by her own TMV.")
+MaleSuicides=("%o should have been more carefull when abandoning his TMV on the edge of a precipice.","%o got rolled on by his own TMV.")
+
+[LeopardDamTypeRoadKill]
+DeathStrings=("%o was tenderized by %k's TMV Tracks.","%k's TMV tracks caught %o in a lock.","%k's TMV tracks ground %o's twig like bones.","%k's TMV tracks proved why children like %o shouldn't walk off road.","%o couldn't run from %k's scary TMV tracks.","%o's boney little arms got stuck in %k's TMV engine cogs.","%o got aquainted with %k's TMV tracks.")
+FemaleSuicides=("%o made one fine peice of tenderized steak out of herself.","%o forget to put her TMV's handbrake on.")
+MaleSuicides=("%o made one fine peice of tenderized steak out of himself.","%o forget to put his TMV's handbrake on.")
+
+[LeopardDamTypeShell]
+DeathStrings=("%o was popped by %k's TMV Shell.","%k's TMV Shell turned %o into a crispy critter.","%o pulled off a 'flying grass hopper' impression with the aid of %k's TMV Shell.","%o saw the pretty light's of %k's TMV Shell.","%o was splattered like so many italian tomatos by %k's TMV Shell.")
+FemaleSuicides=("%o's TMV and it's fire button where all too big for her childish self.","%o tried to shoot through walls with her TMV Shell.","%o blew her top off with a TMV Shell.")
+MaleSuicides=("%o's TMV and it's fire button where all too big for his childish self.","%o tried to shoot through walls with his TMV Shell.","%o blew his top off with a TMV Shell.")
+
+[LeopardMGPawn]
+VehiclePositionString="Manning a TM V .50"
+VehicleNameString="Leopard TM V .50 Cal"
+
+[LeopardTank]
+VehiclePositionString="Driving a Leopard TM V"
+VehicleNameString="Leopard TankMaster V"
+
+[Mut_BWVehicles]
+FriendlyName="BallisticPro: Vehicles"
+Description="Replaces vehicles with ones modified to fit in better with Ballistic Weapons."
+
+[Rhino]
+VehiclePositionString="in a Rhino"
+VehicleNameString="Rhino"
+
+[RhinoMGPawn]
+VehiclePositionString="in a Rhino's MG turret"
+VehicleNameString="Rhino Machinegun"
+
+[StingRay]
+VehiclePositionString="in a StingRay"
+VehicleNameString="StingRay"
+
+[Tarantula]
+VehiclePositionString="in a Tarantula"
+VehicleNameString="Tarantula"
+

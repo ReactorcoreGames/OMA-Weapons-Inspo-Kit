@@ -1,0 +1,13 @@
+NAME:		Blade 1AK Olielle
+
+--
+
+TYPE: 		Super sharp one-handed sword with an ornate cross-guard and comfortable stylish hilt.
+
+EFFECT: 	Lethal and elegant extended melee weapon against medium soft targets. The sword can be used by slashing, chopping or lunging. Thanks to its light weight, it can also be dual-wielded. If used against hard targets, the blade may gradually dull and require sharpening to maintain its lethality.
+
+INTENT:		Popular among adventurers. Some pair it with a one-handed ranged weapon or a shield for a balanced load-out, while some may two-hand or dual wield the weapon and use it as their primary while being protected by some form of shield armor or gadget that allows them to get up close.
+
+
+==
+==

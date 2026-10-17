@@ -1,0 +1,13 @@
+NAME:		Launcher ZCL Modgone
+
+--
+
+TYPE: 		Big metal tube with beehive-like front with multiple launching holes for small missiles. The back of the tube has exhaust pipes for dealing with the backblast of each missile launch. Top side includes a pistol grip and two magazines that feed small missiles into the weapon.
+
+EFFECT: 	Large-capacity rapid-fire micromissile auto-launcher. Each small missile has a rocket engine, ability to maneuver, high explosive warhead and basic circuit board to program the missiles behaviour. The launcher can be set to fire its missiles in different patterns - whether its straight forward, fly drunkenly in chaotic patterns, fly in a spiral, fly at an arc like an mortar. The missiles can also be set to detonate on impact or with a timer.
+
+INTENT:		Mercenary favorite for versatile crowd control. Even a short burst of a few micromissiles can kill a group of soft targets within seconds. The missiles do not have homing capabilities or sensors for proximity detonation, so attempting to shoot down small or fast flying targets can prove to be difficult.
+
+
+==
+==

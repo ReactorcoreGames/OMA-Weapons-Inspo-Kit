@@ -1,0 +1,13 @@
+NAME:		Saw HSQ Voov
+
+--
+
+TYPE: 		Professional lightweight woodcutting chainsaw. Gripped via back and top, the motor is engaged by holding down the trigger causing the segmented saw chain to rapidly cycle around its track. The main body of the tool houses a battery, fuel tank, motor and basic electronics to comply with safety standards.
+
+EFFECT: 	It cuts through wood, light carapase, flesh and bone. May eventually break itself prematurely if used on rigid metal, rock or anything else hard enough to resist the saw. Has a fairly long operation time on a full tank of fuel and is fairly loud, especially when cutting.
+
+INTENT:		Instructions clearly state that this is not a weapon and isn't supposed to be used as one, but it doesn't stop some mercenaries from doing it anyway. Some teams exclusively use chainsaws as their primary weapon as a matter of preference. They look both spectacular and terrifying when several mercs are running after a group of monsters, with all their chainsaw out on front and roaring in unison.
+
+
+==
+==

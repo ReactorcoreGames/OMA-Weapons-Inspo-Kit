@@ -1,0 +1,13 @@
+NAME:		Grenade OFC Biasdo
+
+--
+
+TYPE: 		Cylindrical canister grenade with a stick handle for assisted throwing power.
+
+EFFECT: 	A modern HE (High Explosive) grenade that can be thrown further thanks to its stick handle which provides extra leverage. Exceptionally lightweight yet reliable in its construction.
+
+INTENT:		Common military equipment for ground soldiers on open battlefields against groups of armored enemies or entrenched positions.
+
+
+==
+==

@@ -1,0 +1,13 @@
+NAME:		Cannon 4BQ Grynn
+
+--
+
+TYPE: 		Obscenely large and heavy shell cannon with a long segmented barrel. Big shells are loaded via rack located at the top back of the gun and cycled into the gun's firing chamber. Can be shoulder mounted or placed on a surface and used as a manual turret.
+
+EFFECT: 	Ultra-heavy siege cannon of absurd power. Fires big explosive shells that first crushes and demolishes its target with their sheer kinetic impact force and then detonates after a short delay, unleashing a strong explosive blast, ripping apart of whats left. The weapon tries its best to mitigate the recoil with its segmented cannon barrel - among other internal mechanisms - but its still tough to handle, either requiring a particularly strong soldier or a powered exoskeleton to use it from a shoulder mounted position. For everyone else, its just best to plant it on the ground and use it as a stationary turret.
+
+INTENT:		The weapon is a result of a mad idea of "what if took an artillery cannon and made it portable enough for a soldier to carry". Many just shy away from this weapon all together, calling it "hazardous" - mainly being concerned about the well being of their upper body due to the strong recoil - but there are some grizzled mercenaries that embrace this siege cannon with open arms.
+
+
+==
+==

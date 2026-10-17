@@ -1,0 +1,238 @@
+[A2WPickup]
+PickupMessage="You picked up the A42 Skrith sidearm."
+
+[A2WSkrithLance]
+ManualLines=(,,)
+ItemName="[B] A2-W Skrith Lance"
+
+[A51Grenade]
+Description="A51 Skrith Acid Grenade||Manufacturer: Unknown Skrith Engineers|Primary: Throw Grenade|Secondary: Roll Grenade|Special: Timed Detonation||Based on the same technology and chemicals sported by the A500 'Reptile' gun, the A51 grenade is often used by Skrith who want to wittle down their opponent's armor before attacking up close. Upon detonation, the A51 creates a pool of acid that eats through anything in its way. Whoever designed this clearly took the Skrith saying ''Don't just kill humans, make them suffer first'' to heart."
+ItemName="AD-51 Reptile Corrosive Grenade"
+
+[A51GrenadeWeaponParamsTactical]
+TacticalParams.WeaponModes=((ModeName="Fixed Throw"),(ModeName="Charged Throw"),)
+
+[A51Pickup]
+PickupMessage="You picked up the AD-51 Reptile Corossive Grenade"
+
+[A800MinigunPickup]
+PickupMessage="You picked up the A800 Skrith HyperBlaster"
+
+[A800SkrithMinigun]
+WeaponModes=((ModeName="600 RPM"),(ModeName="Rapid Fire"),(ModeName="2400 RPM"))
+Description="One of the more devastating skrith tools of destruction, the Y11 is their answer to the XMV-850 Minigun. Able to spit out a deluge of plasma bolts at a rapid pace of fire, the Y11 can cut down anyone who isn't prepared; such was the case when only 3 skrith warriors were able to mow down a small battalion of UTC troops in the dense forests. Without their armor, the soldiers fell quickly, leaving only a few scarred survivors to tell the tale; calling them 'Warthogs' due to the voracious firepower and speed. Newer models of the Y11 have the capabilities to fire HV Plasma Rockets, making it even more potent against personnel."
+ItemName="A800 Skrith Hyperblaster"
+
+[A800SkrithMinigunWeaponParamsClassic]
+ClassicParams_Elite.WeaponModes=((ModeName="Reflect Fire"),(ModeName="Rapid Fire"),(ModeName="2400 RPM"))
+
+[AP_A800Clip]
+PickupMessage="You picked up a Skrith energy cell"
+
+[AP_APod]
+PickupMessage="You picked up 2 A-Pod Capsules"
+
+[AP_MDKClip]
+PickupMessage="You picked up MDK SubMachine gun rounds."
+
+[AP_NTov]
+PickupMessage="You picked up 3 N-TOV bandages"
+
+[AP_STANAGShockwave]
+PickupMessage="You picked up two BR1-NK magazines."
+
+[AP_SkrithStaffClip]
+PickupMessage="You picked up an energy cell"
+
+[APodCapsule]
+Description="A-Pod Electro Adrenaline Discharge Capsule||Manufacturer: UTC Defense Tech. The UTC has long required its soldiers to use adrenaline pods in order to stay alert and focused. The most common ''A-Pod'' has proven to be fairly safe, with no known short-term side effects. The capsule can be thrown to allies, or it can be applied directly (in which case slightly more adrenaline enters the recipient's system)."
+ItemName="A-Pod Capsule"
+
+[APodPickup]
+PickupMessage="You picked up the A-Pod Adrenaline Capsule"
+
+[Ammo_545mmSTANAG]
+ItemName="5.45mm STN Ammo"
+
+[Ammo_A51Grenades]
+ItemName="AD-51 Reptile Corossive Grenade"
+
+[Ammo_A800Cells]
+ItemName="Skrith Heavy Cell Ammo"
+
+[Ammo_APod]
+ItemName="Adrenaline Capsule"
+
+[Ammo_BRINKGrenades]
+ItemName="BRINK Grenades"
+
+[Ammo_MDK9mm]
+ItemName="9mm Ammo"
+
+[Ammo_NTov]
+ItemName="N-TOV Bandages"
+
+[Ammo_SSCells]
+ItemName="Skrith Heavy Cell Ammo"
+
+[BRINKAssaultRifle]
+WeaponModes=((ModeName="Semi"),(ModeName="Double Barrel"),(ModeName="Single Barrel"))
+ManualLines=("5.56mm fire. Has a fast fire rate and high sustained DPS, but high recoil, limiting its hipfire.","Launches a cryogenic grenade. Upon impact, freezes nearby enemies, slowing their movement. The effect is proportional to their distance from the epicentre. This attack will also extinguish the fires of an FP7 grenade.","The Weapon Special key attaches a suppressor. This reduces the recoil, but also the effective range. The flash is removed and the gunfire becomes less audible.||Effective at close to medium range.")
+Description="BR1-NK Light Support Weapon||Manufacturer: Black & Wood|Primary: Variable bullets (fully automatic)|Secondary: Launch Grenade|Special: Motion Tracker||The UTC space station 'Argent' was responsible for reverse engineering Skrith technology for use in the war. When Argent was taken by a regiment of Krao, the UTC commissioned Black & Wood to create a new weapon that would allow a small strike team to reclaim the outpost. The BR1-NK was given smaller rounds and a high rate of fire in order to quickly dispatch Krao swarms, as well as piercing rounds that could be shot through the Kraos' newly erected barriers. The high-velocity grenades were intentionally made less potent so as not to damage the facility. The one thing that made the weapon invaluable against the Krao, however, was the advanced motion tracker that the UTC soldiers used to avoid ambushes and any roaming Krao that hid in vents. Thanks to the BR1-NK, the UTC reclaimed the station with minimal damage and zero loss of life."
+ItemName="BR1-NK Mod-2 LSW"
+
+[BRINKPickup]
+PickupMessage="You picked up the BR1-NK Mod-2 LSW."
+
+[DTA51Grenade]
+DeathStrings=("%k bounced an A51 off %o's head.")
+DeathString="%k bounce an A51 off %o's head."
+FemaleSuicide="%o tripped on her own A51."
+MaleSuicide="%o tripped on his own A51."
+
+[DTA51Held]
+DeathStrings=("%o got a share of %k's suicide.","%o came too close to acidify crazy %k.","%k killed %o with a Self Propelled Grenade.")
+FemaleSuicides=("%o forgot to let go of her A51.","%o couldn't part with her A51 so it parted her.")
+MaleSuicides=("%o forgot to let go of his A51.","%o couldn't part with his A51 so it parted him.")
+DeathString="%o got a share of %k's suicide."
+FemaleSuicide="%o forgot to let go of her A51."
+MaleSuicide="%o forgot to let go of his A51."
+
+[DTA51Pool]
+DeathStrings=("%o waddled into %k's noxious acid pool and melted.","%k's acid pool turned %o into a slurred puddle.","%o tripped into %k's acidic A51 puddle and melted %vs. ","%o got liquidised by %k's Skrith Reptile acid.")
+DeathString="%o waddled into %k's noxious acid pool and melted."
+FemaleSuicide="%o dissolved herself in her own gooey A51 acid pool."
+MaleSuicide="%o dissolved himself in his own gooey A51 acid pool."
+
+[DTA800MG]
+DeathStrings=("%o was ripped apart by %k's A800.","%k put a hail of energy beams through %o.","%o was ribbonized by %k's A800 Hyperblaster.","%o was torn asunder by the might of %k's A800.")
+DeathString="%o was ripped apart by %k's A800."
+FemaleSuicide="%o minigunned her feet into tatters."
+MaleSuicide="%o minigunned his feet into tatters."
+
+[DTA800MGHead]
+DeathStrings=("%k's monster gun tore %o's head off.","%o's head was turned to slag by %k's Hyperblaster.","%o found %vh cranium being vapourised by %k's A800.","%k pumped A800 plasma into %o's twitchy head.")
+DeathString="%k's monster gun tore %o's head off."
+FemaleSuicide="%o minigunned her own head off."
+MaleSuicide="%o minigunned his own head off."
+
+[DTA800Skrith]
+DeathStrings=("%k burned a hole through %o with the Hyperblaster.","%o was scorched in half by %k's Hyperblaster.","%o saw the light of %k's Hyperblaster.","%k lit up %o with the Hyperblaster.")
+SimpleKillString="A800 Power Bomb"
+DeathString="%k burned a hole through %o with the Hyperblaster."
+FemaleSuicide="%o's Hyperblaster turned on her."
+MaleSuicide="%o's Hyperblaster turned on him."
+
+[DTA800SkrithRadius]
+DeathStrings=("%k burned a hole through %o with the Y11.","%o was scorched in half by %k's Y11.","%o saw the light of %k's Y11.","%k lit up %o with the Y11.")
+SimpleKillString="Y11 Power Bomb Radius"
+DeathString="%k burned a hole through %o with the Y11."
+FemaleSuicide="%o's Y11 turned on her."
+MaleSuicide="%o's Y11 turned on him."
+
+[DTA800Skrith_BoltDirect]
+DeathStrings=("%k's hyperblaster tagged a fleeing %o.","%o couldn't escape %k's homing Hyperblaster charge.","%o couldn't outrun %k's hyperblaster and %kh homing bolts.","%o couldn't hide from $k's hyperblaster homing barrage.")
+SimpleKillString="A800 Sticky Impact"
+DeathString="%k's hyperblaster tagged a fleeing %o."
+FemaleSuicide="%o caught her own A800 sticky bomb."
+MaleSuicide="%o caught his own A800 sticky bomb."
+
+[DTA800Skrith_BoltStuckExplode]
+DeathStrings=("%k fused a sticky bomb to a screaming %o.","%o couldn't pull off %k's hyperblaster sticky bombs.","%o's limbs were exploded by %k's hyperblaster barrage.","%k's seeking hyperblaster bolts hunted down %o.","%k tagged a terrified %o with a sticky bomb barrage.","%o happily caught several of %k's hyperblaster bombs.")
+SimpleKillString="A800 Sticky"
+DeathString="%k fused parts of %o with the AY90."
+FemaleSuicide="%o masterfully stuck herself."
+MaleSuicide="%o masterfully stuck himself."
+
+[DTA800Skrith_BoltStuckExplodeRadius]
+DeathStrings=("%k's original hyperblaster target spread the fun to %o.","%o should have run away from the soldier covered in %k's homing bombs.","%k's hyperblaster got a free kill off of %o.","%o was just another number to %k's hyperblaster.")
+SimpleKillString="Hyperblaster Sticky Bonus"
+DeathString="%o was just another number to %k's hyperblaster."
+FemaleSuicide="%o's stuck target came back to haunt her."
+MaleSuicide="%o's stuck target came back to haunt him."
+
+[DTBRINKAssault]
+DeathStrings=("%o was brutally gunned down by %k's rabid BR1NK assault rifle.","%k's BR1NK shredded %o with bullets.","%o got shredded by %k's BR1NK.","%k pumped lead into %o with %kh BR1NK.")
+DeathString="%o was brutally gunned down by %k's rabid BR1NK assault rifle."
+FemaleSuicide="%o's Brink tore her to shreds."
+MaleSuicide="%o's Brink tore him to shreds."
+
+[DTBRINKAssaultHead]
+DeathStrings=("%o's head was ripped of by %k's Brink rifle.","%k pulled out %kh Brink and %o's head fell off in terror.","%o got %vh head blown clean off by %k's BR1NK assault rifle.")
+DeathString="%o's head was ripped of by %k's Brink rifle."
+FemaleSuicide="%o looked down the mouth of her Brink."
+MaleSuicide="%o looked down the mouth of his Brink."
+
+[DTBRINKGrenade]
+DeathStrings=("%o was tagged by %k's M980 Grenade.","%o was playing with %k's live M980 Grenade.")
+SimpleKillString="BR1-NK Mod-2 Cryo Grenade"
+DeathString="%o was tagged by %k's M980 Grenade."
+FemaleSuicide="%o tagged herself with her own grenade."
+MaleSuicide="%o tagged himself with his own grenade."
+
+[DTMDKSMG]
+DeathStrings=("%k found the right setup to take down %o without swapping weapons.","%o was a victim of %k's modularity, taking silent bullets without ever realizing.","%k murdered %o to death, killing them with ease.","%o got slain from %k's 9mm bullet from a distance quietly.")
+DeathString="%o was put out by %k's MDK."
+FemaleSuicide="%o silenced herself."
+MaleSuicide="%o silenced himself."
+
+[DTMDKSMGHead]
+DeathStrings=("%k's modular SMG drilled a small hole into %o's skull.","%o got murdered in their skull by %k's MDK.","%k cleared %o's ears of wax and excess brains with a scoped SMG.","%o didn't find %k's SMG a joke after taking a bullet up the nose canal.")
+DeathString="%o was stung in the head by %k's MDK."
+FemaleSuicide="%o silenced herself."
+MaleSuicide="%o silenced himself."
+
+[DT_SkrithStaff]
+DeathStrings=("%o got a night light from %k as he fell to eternal sleep.","%k lit up %o in the dark, all without being seen.","%o became a corpse candle thanks to %k.","%k fired up %o with plasma bolts.")
+DeathString="%k fused parts of %o with the Shillelagh."
+FemaleSuicide="%o's Shillelagh turned on her."
+MaleSuicide="%o's Shillelagh turned on him."
+
+[DT_SkrithStaffHead]
+DeathStrings=("%o failed to see %k's plasma bolt to the face.","%k made a jack-o-lantern with %o's skull and a plasma bolt.","%o got a bolt to the bonce by %k's Shillelagh.","%k bopped %o's skull with a plasma bolt.")
+DeathString="%k burned through %o's scalp with the Shillelagh."
+FemaleSuicide="%o's Shillelagh turned on her."
+MaleSuicide="%o's Shillelagh turned on him."
+
+[DT_SkrithStaffPower]
+DeathStrings=("%o was the epicenter of %k's light show.","%k made %o a skeleton with a meat dress.","%o's corpse made a nice lantern for %k to see in the dark.","%k roasted %o with a plasma bomb.")
+DeathString="%k's plasma ball burned through %o."
+FemaleSuicide="%o attempted to shoot her feet."
+MaleSuicide="%o attempted to shoot his feet."
+
+[DT_SkrithStaffStab]
+DeathStrings=("%o was impaled on the blades of %k's Shillelagh.","%o was split like a pear by %k's Shillelagh blades.","%k skewered %o with the Shillelagh.")
+DeathString="%o was impaled on the blades of %k's Shillelagh."
+FemaleSuicide="%o cut herself on her Shillelagh."
+MaleSuicide="%o cut himself on his Shillelagh."
+
+[DT_SkrithStaffStabHead]
+DeathStrings=("%k rammed the blades of %kh Shillelagh into %o's head.","%o was jabbed in the jaw by %k's Shillelagh.","%o tried to chew on %k's Shillelagh.")
+DeathString="%k rammed the blades of an Shillelagh into %o's head."
+FemaleSuicide="%o sliced her own head in half with the Shillelagh."
+MaleSuicide="%o sliced his own head in half with the Shillelagh."
+
+[MDKPickup]
+PickupMessage="You picked up the MDK Modular SubMachine Gun."
+
+[MDKSubMachinegun]
+WeaponModes=((ModeName="Semi"),(ModeName="Burst of Three"),(ModeName="Burst of Six"),(ModeName="Full Auto"))
+ManualLines=("Low-velocity submachinegun fire. Low recoil, lower damage output than other submachineguns but controllable and excellent hipfire.","Activates the internal compressor when firing. Rounds will inflict less damage, but will slow the target.","The Weapon Function key attaches or removes the suppressor. When active, the suppressor reduces recoil and noise output and hides the muzzle flash, but reduces range.||Effective from the hip and at close range.")
+Description="Primary: 9mm Fire||Alt Add/Remove Scope/Silencer||The MDK Modular SMG was created to fill a variety of roles, featuring different rates of fire and varying degrees of accuracy and power to go with them. Though it is fairly compact compared to larger guns, it is quite heavy and cannot be dual-wielded. Black & Wood saw particularly high sales among soldiers and law enforcement officers on fringe colonies that had previously been attacked by the Skrith, as it fills a variety of roles that would normally require multiple weapons."
+ItemName="MDK-0331 Modular Machine Uzi"
+
+[NTOVBandage]
+Description="N-TOV Emergency Bandage||Manufacturer: N-TOV Medical Supplies||N-TOV medical supplies are a common sight for almost every human soldier, no matter where they're stationed. Field medics often carry a small supply with them in order to patch up their allies. The bandages can be thrown, but they are more effective when applied directly."
+ItemName="N-TOV Emergency Bandage"
+
+[NTovPickup]
+PickupMessage="You picked up the N-TOV Emergency Bandage"
+
+[SkrithStaff]
+WeaponModes=((ModeName="Plasma Charge"),(ModeName="Plasma Bomb"),(ModeName="ALaser"),(ModeName="BLaser"),(ModeName="CLaser"))
+Description="In Skrith culture, staffs are given to those who showed fearsome prowess and cunning in the field, usually fitted with blades and nothing more. Although these days, with bullet weaponry and other fancy tech, the Skrith had to adapt or else be humiliated by their terran enemies. Modifying their old staffs with the A73 tech, these can now contend with their mortal enemies with plasma bolts, bombs and a continuous beam, the Skrith can reward their elite few with this new staff. Few have seen this weapon in action, those who do have dubbed it the 'Shillelagh' due to its power to knock people down and out, permanently."
+ItemName="A2-W Skrith Shillelagh"
+
+[SkrithStaffPickup]
+PickupMessage="You picked up the Skrith Shillelagh"
+

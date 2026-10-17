@@ -1,0 +1,13 @@
+NAME:		Blaster HRP Singlewave
+
+--
+
+TYPE: 		Smooth body two-handed energy rifle with a built-in auto scope that raises and lowers from the press of a button while automatically adjusting weapon power output from long range to short range modes. Includes an extendable stock, main pistol grip with a hand guard, vertical foregrip and cooling vents at the front, top of the barrel.
+
+EFFECT: 	Ranged microwave beam emitter aka "pain ray" - a demoralization weapon that can be used non-lethally with a strong psychological impact or as a lethal weapon that will cook a person from the inside where the beam passes through. The default mode fires a narrow beam, but it can also be set to fire in a cone to cover a wider area, to suppress an entire group of organic beings at once, albeit at lesser severity and with more power draw.
+
+INTENT:		A creepy terror weapon used by SWAT forces to make hostiles surrender without bloodshed at the cost of making the opponents feel agonizing pain and discomfort. Can be a horrific tool for sadism in the wrong hands.
+
+
+==
+==

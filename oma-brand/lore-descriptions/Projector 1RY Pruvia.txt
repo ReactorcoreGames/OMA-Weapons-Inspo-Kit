@@ -1,0 +1,13 @@
+NAME:		Projector 1RY Pruvia
+
+--
+
+TYPE: 		Rugged two-handed ram-hold device with a large front nozzle. Main body features heat vents, a bulged compartment for a micro-reactor, with an auxiliary electronic unit sticking out the lower back.
+
+EFFECT: 	Industrial heat gun for melting ice for places that vehicles can't reach. Tough and self-sufficient, the device's own micro-reactor can produce plentiful and long lasting thermal energy for the gun's primary nozzle. Output heat intensity can be configured to adjust to the need with the hottest setting capable of melting soft metal with prolonged use.
+
+INTENT:		A preferred alternative to a shovel or a snowplow in arctic environments, as well as being useful when exploring ice caves or doing rescue missions involving snow/ice based obstacles.
+
+
+==
+==

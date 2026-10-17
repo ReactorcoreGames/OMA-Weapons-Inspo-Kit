@@ -1,0 +1,29 @@
+class GoopSparks extends xEmitter;
+
+defaultproperties
+{
+	mParticleType=2
+	mRegen=false
+	mStartParticles=10
+	mMaxParticles=10
+	mLifeRange[0]=0.5000000
+	mLifeRange[1]=0.8000000
+	mRegenRange[0]=0.0000000
+	mRegenRange[1]=0.0000000
+	mDirDev=(X=0.8000000,Y=0.8000000,Z=0.8000000)
+	mSpawnVecB=(X=8.0000000,Y=0.0000000,Z=0.0400000)
+	mSpeedRange[0]=80.0000000
+	mSpeedRange[1]=240.0000000
+	mMassRange[0]=1.5000000
+	mMassRange[1]=2.0000000
+	mAirResistance=2.0000000
+	mSizeRange[0]=4.0000000
+	mSizeRange[1]=4.0000000
+	mGrowthRate=-2.0000000
+	mColorRange[0]=(R=160,G=160,B=180,A=255)
+	mColorRange[1]=(R=160,G=160,B=180,A=255)
+	mAttenKa=0.0000000
+	Skins[0]=Texture'XEffectMat.Link.link_spark_green'
+	ScaleGlow=2.0000000
+	Style=6
+}

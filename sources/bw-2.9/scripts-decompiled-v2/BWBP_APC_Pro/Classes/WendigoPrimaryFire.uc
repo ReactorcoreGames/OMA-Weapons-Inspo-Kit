@@ -1,0 +1,40 @@
+class WendigoPrimaryFire extends BallisticProInstantFire;
+
+defaultproperties
+{
+	TraceRange=(Min=8000.0000000,Max=12000.0000000)
+	WallPenetrationForce=24.0000000
+	Damage=35.0000000
+	RangeAtten=0.6500000
+	WaterRangeAtten=0.8000000
+	DamageType=Class'BWBP_SKC_Pro.DTCYLORifle'
+	DamageTypeHead=Class'BWBP_SKC_Pro.DTCYLORifleHead'
+	DamageTypeArm=Class'BWBP_SKC_Pro.DTCYLORifle'
+	PenetrateForce=180
+	bPenetrate=true
+	RunningSpeedThresh=1000.0000000
+	bCockAfterEmpty=true
+	ClipFinishSound=(Sound=Sound'BW_Core_WeaponSound.Misc.ClipEnd-1',Volume=0.8000000,Radius=48.0000000,Slot=0,Pitch=1.0000000,bAtten=true,bNoOverride=false)
+	DryFireSound=(Sound=Sound'BW_Core_WeaponSound.Misc.DryRifle',Volume=0.7000000,Radius=24.0000000,Slot=0,Pitch=1.0000000,bAtten=false,bNoOverride=false)
+	MuzzleFlashClass=Class'BallisticProV55.XK2FlashEmitter'
+	FlashScaleFactor=0.5000000
+	FireRecoil=220.0000000
+	FireChaos=0.0320000
+	FireChaosCurve=(Points=((InVal=0.0000000,OutVal=1.0000000),(InVal=0.1600000,OutVal=1.0000000),(InVal=0.2500000,OutVal=1.5000000),(InVal=0.5000000,OutVal=2.2500000),(InVal=0.7500000,OutVal=3.5000000),(InVal=1.0000000,OutVal=5.0000000)))
+	XInaccuracy=64.0000000
+	YInaccuracy=64.0000000
+	BallisticFireSound=(Sound=Sound'BWBP_SKC_Sounds.Misc.LS14-CarbineFire',Volume=1.6000000,Radius=512.0000000,Slot=3,Pitch=1.0000000,bAtten=false,bNoOverride=false)
+	bPawnRapidFireAnim=true
+	PreFireAnim="None"
+	FireEndAnim="None"
+	FireRate=0.0631500
+	AmmoClass=Class'BWBP_SKC_Pro.Ammo_CYLO'
+	ShakeRotMag=(X=48.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeRotRate=(X=640.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeRotTime=2.0000000
+	ShakeOffsetMag=(X=-3.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetRate=(X=-70.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetTime=2.0000000
+	WarnTargetPct=0.2000000
+	aimerror=900.0000000
+}

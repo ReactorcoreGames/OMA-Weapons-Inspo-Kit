@@ -1,0 +1,41 @@
+class IM_Wrench extends BCImpactManager;
+
+defaultproperties
+{
+	HitEffects[0]=Class'BallisticProV55.IE_GunConcrete'
+	HitEffects[1]=Class'BallisticProV55.IE_GunConcrete'
+	HitEffects[2]=Class'BallisticProV55.IE_BulletDirt'
+	HitEffects[3]=Class'BallisticProV55.IE_BulletMetal'
+	HitEffects[4]=Class'BallisticProV55.IE_BulletWood'
+	HitEffects[5]=Class'BallisticProV55.IE_BulletGrass'
+	HitEffects[6]=Class'BallisticProV55.IE_BulletDirt'
+	HitEffects[7]=Class'BallisticProV55.IE_BulletIce'
+	HitEffects[8]=Class'BallisticProV55.IE_BulletIce'
+	HitEffects[9]=Class'BallisticProV55.IE_ProjWater'
+	HitEffects[10]=Class'BallisticProV55.IE_BulletGlass'
+	HitDecals[0]=Class'BallisticProV55.AD_GunBash'
+	HitDecals[1]=Class'BallisticProV55.AD_GunBash'
+	HitDecals[2]=Class'BallisticProV55.AD_GunBash'
+	HitDecals[3]=Class'BallisticProV55.AD_GunBash'
+	HitDecals[4]=Class'BallisticProV55.AD_GunBashWood'
+	HitDecals[5]=Class'BallisticProV55.AD_GunBashWood'
+	HitDecals[6]=Class'BallisticProV55.AD_GunBash'
+	HitDecals[7]=Class'BallisticProV55.AD_GunBash'
+	HitDecals[8]=Class'BallisticProV55.AD_GunBash'
+	HitDecals[9]=none
+	HitDecals[10]=Class'BallisticProV55.AD_GunBash'
+	HitSounds[0]=SoundGroup'BWBP_OP_Sounds.Wrench.Wrench-Concrete'
+	HitSounds[1]=SoundGroup'BWBP_OP_Sounds.Wrench.Wrench-Concrete'
+	HitSounds[2]=SoundGroup'BWBP_OP_Sounds.Wrench.Wrench-Dirt'
+	HitSounds[3]=SoundGroup'BWBP_OP_Sounds.Wrench.Wrench-Metal'
+	HitSounds[4]=SoundGroup'BWBP_OP_Sounds.Wrench.Wrench-Wood'
+	HitSounds[5]=SoundGroup'BWBP_OP_Sounds.Wrench.Wrench-Dirt'
+	HitSounds[6]=SoundGroup'BWBP_OP_Sounds.Wrench.Flesh-AvgBlunt'
+	HitSounds[7]=SoundGroup'BWBP_OP_Sounds.Wrench.Wrench-Dirt'
+	HitSounds[8]=SoundGroup'BWBP_OP_Sounds.Wrench.Wrench-Dirt'
+	HitSounds[9]=Sound'BWBP_OP_Sounds.Wrench.Water-Avg'
+	HitSounds[10]=SoundGroup'BWBP_OP_Sounds.Wrench.Wrench-Concrete'
+	HitSoundVolume=1.3000000
+	HitSoundRadius=48.0000000
+	HitDelay=0.1300000
+}

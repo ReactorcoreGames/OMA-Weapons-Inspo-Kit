@@ -1,0 +1,13 @@
+NAME:		Launcher 8RN Sinpad
+
+--
+
+TYPE: 		Big rectangular shoulder mounted missile launcher. The inner shaft of the barrel has magnetic acceleration coils that are powered by the bulky generator and electronics in the middle section of the launcher.
+
+EFFECT: 	Magnetically boosted reusable thermonuclear missile/torpedo launcher, a serious Weapon of Mass Destruction (WMD). Fires a specially designed big nuclear missile that fills up the entire lenght of the launcher barrel. The missile uses a type of propulsion that works both in air, space and water, allowing it to move through any medium and maneuver itself using its side thrusters. The missile has programmable flight destinations and guidance system to guide the missile to its target - even home in on it if the target is moving. The explosive thermonuclear payload is powerful enough to vaporize a small city with one shot.
+
+INTENT:		Reserved for only the most extreme cases where no other option is available as the nuclear missile will create a huge mess wherever it detonates, contaminating the local area with radiation for years to come.
+
+
+==
+==

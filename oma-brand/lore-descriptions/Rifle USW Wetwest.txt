@@ -1,0 +1,13 @@
+NAME:		Rifle USW Wetwest
+
+--
+
+TYPE: 		High quality big-caliber rifle. Comes with authentic wooden stock and forward grip. Has iron sights, cocking hammer and an internal ammo tube for spare ammo. Lever action operation.
+
+EFFECT: 	Punches a big hole into soft targets and knocks back anything with armor onto its ass. Fairly loud, accurate, easy to use and high quality manual rifle.
+
+INTENT:		Built for hunting large animals, but works equally well against monsters, people and even robots. Many offworld locations may not have the exact wood used in the original design, so gunsmiths may improvise with local flora or anything else that fits the bill instead.
+
+
+==
+==

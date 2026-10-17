@@ -1,0 +1,13 @@
+NAME:		Blaster 6EQ Kizerain
+
+--
+
+TYPE: 		High-tech long gun with stock, pistol grip and an advanced targetting unit with an info readout screen at the back. Middle of the barrel has an window to visualize energy intensity flow in the gun's firing chamber. Lights above the pistol grip indicate weapon status of its components.
+
+EFFECT: 	Slow rate of fire semi-auto buster rifle. Exceptionally destructive, accurate, long ranged and penetrating. It fires an intense bolt of energy that looks like a beam shot due its long trail. Compared to the size of the barrel, this shot is shocking large, being almost as wide in diameter as the gun itself is long. This projectile effectively barrels down the range at supersonic speeds like a big freight train locomotive that is loaded with high explosives. Most lighter objects are straight up vaporized out of the way, meanwhile heavy vehicles, heavy armor and bunker walls are obliterated into thousand pieces. The weapon houses a powerful micro-reactor that powers the weapon and feeds it ammo directly into its main capacitor. This ammo is then emptied into its firing chamber which then gets blasted out the front barrel via its main launch aperture. Preparing each shot in the capacitor takes time and at full shot power settings it can take minutes to do so. The micro-reactor burns through its fuel quickly due to the intense nature of this gun, so replacing fuel rods maybe be necessary much sooner than with most other reactor-powered weapons. The weapon also features mild aim-assistance via internal gyros to achieve limited aimbot capabilities. The gun's smart scope and internal computer are able to detect and lock on to targets on various EM bands - even providing X-ray detection and view to find targets behind walls.
+
+INTENT:		Intended as an all-aspect anti-armor anti-vehicle super gun that is easy to use, since it shoots straight and mildly can even aim itself. Eats fuel rods like they're AA batteries in a flashlight. Mercenaries use the weapon extensively against anything, since it can wipe out a whole group of lesser enemies if they're grouped in a straight line - the shot will just plow through them all in one go. Excellent weapon in zero-gravity space combat too.
+
+
+==
+==

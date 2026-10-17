@@ -1,0 +1,13 @@
+NAME:		HMG I67 Bumooxa
+
+--
+
+TYPE: 		Monstrously oversized full-auto assault cannon submachinegun. Featuring a comically large rectangular magazine that locks into a giant boxy frame, featuring a big casing ejection port, big pistol grip, an extendable stock, a top handle for transport, a short smoothbore barrel covered by an armored shield and a giant light projector below the barrel.
+
+EFFECT: 	Powerful short-medium vehicle destroyer SMG for power armor use. Can trash heavily armored vehicles with oversized bullets that can penetrate armor and explode on impact causing significant damage.
+
+INTENT:		Used primarily by mercenary power armored shock troops that drop onto a battlefield amid enemy vehicle groups and shred them apart at close range.
+
+
+==
+==

@@ -1,0 +1,2 @@
+class TransTrailBlue extends TransTrail;
+

@@ -1,0 +1,13 @@
+NAME:		Blaster RA1 Neoskizzle
+
+--
+
+TYPE: 		Double-barreled medium weight high-tech rifle that can be both two-handed or one-handed. Theres a stock that houses a miniature reactor, a removable canister below the gun and a picatinny rail above for various tactical attachments.
+
+EFFECT: 	Dual plasmajet napalm thrower close combat assault weapon. Holding down the trigger will allow a steady spray of plasmafied gel from the weapon's removable canister fuel unit into its two barrels, creating a double plasma torrent of sticky napalm that burns even in a vacuum environment, making the weapon suitable for zero gravity space combat. On terrestrial battlefields it can fire a stream of plasmafied gel over many tens of meters, especially when shot at an arc by pointing the gun slightly upwards.
+
+INTENT:		A monster hunter's favorite that is sometimes nicknamed the "cyberdragon" due to distinct neon color of the plasma fire created by the weapon. Some armories even provide altered ammo canisters where specific chemicals or materials have been added to the gel to change the color of flames.
+
+
+==
+==

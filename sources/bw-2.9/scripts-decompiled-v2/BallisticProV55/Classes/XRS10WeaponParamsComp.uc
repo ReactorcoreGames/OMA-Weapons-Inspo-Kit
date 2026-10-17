@@ -1,0 +1,217 @@
+class XRS10WeaponParamsComp extends BallisticWeaponParams;
+
+defaultproperties
+{
+	// Reference: WeaponParams'BallisticProV55.XRS10WeaponParamsComp.ArenaParams'
+	begin object name="ArenaParams" class=BCoreProV55.WeaponParams
+		InventorySize=3
+		CockAnimRate=1.2500000
+		ReloadAnimRate=1.2500000
+		SightingTime=0.2000000
+		DisplaceDurationMult=0.5000000
+		MagAmmo=25
+		bDualBlocked=true
+		RecoilParams[0]=RecoilParams'BallisticProV55.XRS10WeaponParamsComp.ArenaRecoilParams'
+		AimParams[0]=AimParams'BallisticProV55.XRS10WeaponParamsComp.ArenaAimParams'
+		FireParams[0]=FireParams'BallisticProV55.XRS10WeaponParamsComp.ArenaPriFireParams'
+		AltFireParams[0]=FireParams'BallisticProV55.XRS10WeaponParamsComp.ArenaSecFireParams'
+	end object
+	Layouts[0]=ArenaParams
+	// Reference: WeaponCamo'BallisticProV55.XRS10WeaponParamsComp.XRS_Silver'
+	begin object name="XRS_Silver" class=BCoreProV55.WeaponCamo
+		Weight=30
+		CamoName="Silver"
+	end object
+	Camos[0]=XRS_Silver
+	// Reference: WeaponCamo'BallisticProV55.XRS10WeaponParamsComp.XRS_Black'
+	begin object name="XRS_Black" class=BCoreProV55.WeaponCamo
+		Weight=15
+		CamoName="Black"
+		WeaponMaterialSwaps[0]=(Material=Shader'BW_Core_WeaponTex.Hands.Hands-Shiny',MaterialName="",Index=0,pIndex=-1,AIndex=-1)
+		WeaponMaterialSwaps[1]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS-MainBlack",Index=1,pIndex=0,AIndex=0)
+		Index=1
+	end object
+	Camos[1]=XRS_Black
+	// Reference: WeaponCamo'BallisticProV55.XRS10WeaponParamsComp.XRS_Desert'
+	begin object name="XRS_Desert" class=BCoreProV55.WeaponCamo
+		Weight=15
+		CamoName="Desert"
+		WeaponMaterialSwaps[0]=(Material=Shader'BW_Core_WeaponTex.Hands.Hands-Shiny',MaterialName="",Index=0,pIndex=-1,AIndex=-1)
+		WeaponMaterialSwaps[1]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS-MainDesert",Index=1,pIndex=0,AIndex=0)
+		WeaponMaterialSwaps[2]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS-SuppDesert",Index=3,pIndex=5,AIndex=2)
+		Index=2
+	end object
+	Camos[2]=XRS_Desert
+	// Reference: WeaponCamo'BallisticProV55.XRS10WeaponParamsComp.XRS_Purple'
+	begin object name="XRS_Purple" class=BCoreProV55.WeaponCamo
+		Weight=5
+		CamoName="Purple"
+		WeaponMaterialSwaps[0]=(Material=Shader'BW_Core_WeaponTex.Hands.Hands-Shiny',MaterialName="",Index=0,pIndex=-1,AIndex=-1)
+		WeaponMaterialSwaps[1]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS-MainPurple",Index=1,pIndex=0,AIndex=0)
+		Index=3
+	end object
+	Camos[3]=XRS_Purple
+	// Reference: WeaponCamo'BallisticProV55.XRS10WeaponParamsComp.XRS_CandyCane'
+	begin object name="XRS_CandyCane" class=BCoreProV55.WeaponCamo
+		Weight=3
+		CamoName="Candy Cane"
+		WeaponMaterialSwaps[0]=(Material=Shader'BW_Core_WeaponTex.Hands.Hands-Shiny',MaterialName="",Index=0,pIndex=-1,AIndex=-1)
+		WeaponMaterialSwaps[1]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS10RS-Main-Shine",Index=1,pIndex=0,AIndex=0)
+		WeaponMaterialSwaps[2]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS10RS-Sil-Shine",Index=3,pIndex=5,AIndex=2)
+		Index=4
+	end object
+	Camos[4]=XRS_CandyCane
+	// Reference: WeaponCamo'BallisticProV55.XRS10WeaponParamsComp.XRS_GoldTiger'
+	begin object name="XRS_GoldTiger" class=BCoreProV55.WeaponCamo
+		Weight=1
+		CamoName="Tiger"
+		WeaponMaterialSwaps[0]=(Material=Shader'BW_Core_WeaponTex.Hands.Hands-Shiny',MaterialName="",Index=0,pIndex=-1,AIndex=-1)
+		WeaponMaterialSwaps[1]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS10Gold-Main-Shine",Index=1,pIndex=0,AIndex=0)
+		WeaponMaterialSwaps[2]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS10Gold-LAM-Shine",Index=2,pIndex=3,AIndex=1)
+		WeaponMaterialSwaps[3]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS10Gold-Sil-Shine",Index=3,pIndex=5,AIndex=2)
+		Index=5
+	end object
+	Camos[5]=XRS_GoldTiger
+	// Reference: WeaponCamo'BallisticProV55.XRS10WeaponParamsComp.XRS_Gold'
+	begin object name="XRS_Gold" class=BCoreProV55.WeaponCamo
+		Weight=1
+		CamoName="Gold"
+		WeaponMaterialSwaps[0]=(Material=Shader'BW_Core_WeaponTex.Hands.Hands-Shiny',MaterialName="",Index=0,pIndex=-1,AIndex=-1)
+		WeaponMaterialSwaps[1]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS-MainGold",Index=1,pIndex=0,AIndex=0)
+		WeaponMaterialSwaps[2]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS10Gold-LAM-Shine",Index=2,pIndex=3,AIndex=1)
+		WeaponMaterialSwaps[3]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS10Gold-Sil-Shine",Index=3,pIndex=5,AIndex=2)
+		Index=6
+	end object
+	Camos[6]=XRS_Gold
+}
+
+// ===== Sub-objects owned by this class (referenced from defaultproperties above) =====
+// Reference: InstantEffectParams'BallisticProV55.XRS10WeaponParamsComp.ArenaPriEffectParams'
+begin object name="ArenaPriEffectParams" class=BCoreProV55.InstantEffectParams
+	TraceRange=(Min=3072.0000000,Max=3072.0000000)
+	DecayRange=(Min=525.0000000,Max=1225.0000000)
+	RangeAtten=0.5000000
+	Damage=20
+	DamageType=Class'BallisticProV55.DTXRS10SMG'
+	DamageTypeHead=Class'BallisticProV55.DTXRS10SMGHead'
+	DamageTypeArm=Class'BallisticProV55.DTXRS10SMG'
+	PenetrationEnergy=16.0000000
+	PenetrateForce=135
+	bPenetrate=true
+	MuzzleFlashClass=Class'BallisticProV55.XK2FlashEmitter'
+	FireSound=(Sound=Sound'BW_Core_WeaponSound.TEC.RSMP-Fire',Volume=0.9000000,Radius=384.0000000,Slot=0,Pitch=1.0000000,bAtten=false,bNoOverride=true)
+	Recoil=220.0000000
+	Inaccuracy=(X=64,Y=64)
+end object
+// Reference: FireParams'BallisticProV55.XRS10WeaponParamsComp.ArenaPriFireParams'
+begin object name="ArenaPriFireParams" class=BCoreProV55.FireParams
+	FireInterval=0.0900000
+	BurstFireRateFactor=0.8500000
+	AimedFireAnim="SightFire"
+	FireEffectParams[0]=InstantEffectParams'BallisticProV55.XRS10WeaponParamsComp.ArenaPriEffectParams'
+end object
+// Reference: FireEffectParams'BallisticProV55.XRS10WeaponParamsComp.ArenaSecEffectParams'
+begin object name="ArenaSecEffectParams" class=BCoreProV55.FireEffectParams
+	BotRefireRate=0.3000000
+	EffectString="Laser sight"
+end object
+// Reference: FireParams'BallisticProV55.XRS10WeaponParamsComp.ArenaSecFireParams'
+begin object name="ArenaSecFireParams" class=BCoreProV55.FireParams
+	FireInterval=0.7000000
+	AmmoPerFire=0
+	FireEffectParams[0]=FireEffectParams'BallisticProV55.XRS10WeaponParamsComp.ArenaSecEffectParams'
+end object
+// Reference: RecoilParams'BallisticProV55.XRS10WeaponParamsComp.ArenaRecoilParams'
+begin object name="ArenaRecoilParams" class=BCoreProV55.RecoilParams
+	XCurve=(Points=((InVal=0.0000000,OutVal=0.0000000),(InVal=0.1500000,OutVal=0.0500000),(InVal=0.3000000,OutVal=-0.0700000),(InVal=0.5500000,OutVal=0.0900000),(InVal=0.8000000,OutVal=-0.1500000),(InVal=1.0000000,OutVal=0.1000000)))
+	YCurve=(Points=((InVal=0.0000000,OutVal=0.0000000),(InVal=0.2000000,OutVal=0.2200000),(InVal=0.4000000,OutVal=0.4000000),(InVal=0.6000000,OutVal=0.6500000),(InVal=0.8000000,OutVal=0.8000000),(InVal=1.0000000,OutVal=1.0000000)))
+	XRandFactor=0.0500000
+	YRandFactor=0.0500000
+	MaxRecoil=6144.0000000
+	ClimbTime=0.0400000
+	DeclineTime=0.7500000
+	DeclineDelay=0.1300000
+	ViewBindFactor=0.5000000
+	HipMultiplier=1.5000000
+end object
+// Reference: AimParams'BallisticProV55.XRS10WeaponParamsComp.ArenaAimParams'
+begin object name="ArenaAimParams" class=BCoreProV55.AimParams
+	AimSpread=(Min=64,Max=256)
+	AimAdjustTime=0.4500000
+	ADSMultiplier=0.5000000
+	SprintOffset=(Pitch=-2048,Yaw=-2048,Roll=0)
+	ChaosSpeedThreshold=300
+end object
+// Reference: WeaponParams'BallisticProV55.XRS10WeaponParamsComp.ArenaParams'
+begin object name="ArenaParams" class=BCoreProV55.WeaponParams
+	InventorySize=3
+	CockAnimRate=1.2500000
+	ReloadAnimRate=1.2500000
+	SightingTime=0.2000000
+	DisplaceDurationMult=0.5000000
+	MagAmmo=25
+	bDualBlocked=true
+	RecoilParams[0]=RecoilParams'BallisticProV55.XRS10WeaponParamsComp.ArenaRecoilParams'
+	AimParams[0]=AimParams'BallisticProV55.XRS10WeaponParamsComp.ArenaAimParams'
+	FireParams[0]=FireParams'BallisticProV55.XRS10WeaponParamsComp.ArenaPriFireParams'
+	AltFireParams[0]=FireParams'BallisticProV55.XRS10WeaponParamsComp.ArenaSecFireParams'
+end object
+// Reference: WeaponCamo'BallisticProV55.XRS10WeaponParamsComp.XRS_Silver'
+begin object name="XRS_Silver" class=BCoreProV55.WeaponCamo
+	Weight=30
+	CamoName="Silver"
+end object
+// Reference: WeaponCamo'BallisticProV55.XRS10WeaponParamsComp.XRS_Black'
+begin object name="XRS_Black" class=BCoreProV55.WeaponCamo
+	Weight=15
+	CamoName="Black"
+	WeaponMaterialSwaps[0]=(Material=Shader'BW_Core_WeaponTex.Hands.Hands-Shiny',MaterialName="",Index=0,pIndex=-1,AIndex=-1)
+	WeaponMaterialSwaps[1]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS-MainBlack",Index=1,pIndex=0,AIndex=0)
+	Index=1
+end object
+// Reference: WeaponCamo'BallisticProV55.XRS10WeaponParamsComp.XRS_Desert'
+begin object name="XRS_Desert" class=BCoreProV55.WeaponCamo
+	Weight=15
+	CamoName="Desert"
+	WeaponMaterialSwaps[0]=(Material=Shader'BW_Core_WeaponTex.Hands.Hands-Shiny',MaterialName="",Index=0,pIndex=-1,AIndex=-1)
+	WeaponMaterialSwaps[1]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS-MainDesert",Index=1,pIndex=0,AIndex=0)
+	WeaponMaterialSwaps[2]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS-SuppDesert",Index=3,pIndex=5,AIndex=2)
+	Index=2
+end object
+// Reference: WeaponCamo'BallisticProV55.XRS10WeaponParamsComp.XRS_Purple'
+begin object name="XRS_Purple" class=BCoreProV55.WeaponCamo
+	Weight=5
+	CamoName="Purple"
+	WeaponMaterialSwaps[0]=(Material=Shader'BW_Core_WeaponTex.Hands.Hands-Shiny',MaterialName="",Index=0,pIndex=-1,AIndex=-1)
+	WeaponMaterialSwaps[1]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS-MainPurple",Index=1,pIndex=0,AIndex=0)
+	Index=3
+end object
+// Reference: WeaponCamo'BallisticProV55.XRS10WeaponParamsComp.XRS_CandyCane'
+begin object name="XRS_CandyCane" class=BCoreProV55.WeaponCamo
+	Weight=3
+	CamoName="Candy Cane"
+	WeaponMaterialSwaps[0]=(Material=Shader'BW_Core_WeaponTex.Hands.Hands-Shiny',MaterialName="",Index=0,pIndex=-1,AIndex=-1)
+	WeaponMaterialSwaps[1]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS10RS-Main-Shine",Index=1,pIndex=0,AIndex=0)
+	WeaponMaterialSwaps[2]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS10RS-Sil-Shine",Index=3,pIndex=5,AIndex=2)
+	Index=4
+end object
+// Reference: WeaponCamo'BallisticProV55.XRS10WeaponParamsComp.XRS_GoldTiger'
+begin object name="XRS_GoldTiger" class=BCoreProV55.WeaponCamo
+	Weight=1
+	CamoName="Tiger"
+	WeaponMaterialSwaps[0]=(Material=Shader'BW_Core_WeaponTex.Hands.Hands-Shiny',MaterialName="",Index=0,pIndex=-1,AIndex=-1)
+	WeaponMaterialSwaps[1]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS10Gold-Main-Shine",Index=1,pIndex=0,AIndex=0)
+	WeaponMaterialSwaps[2]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS10Gold-LAM-Shine",Index=2,pIndex=3,AIndex=1)
+	WeaponMaterialSwaps[3]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS10Gold-Sil-Shine",Index=3,pIndex=5,AIndex=2)
+	Index=5
+end object
+// Reference: WeaponCamo'BallisticProV55.XRS10WeaponParamsComp.XRS_Gold'
+begin object name="XRS_Gold" class=BCoreProV55.WeaponCamo
+	Weight=1
+	CamoName="Gold"
+	WeaponMaterialSwaps[0]=(Material=Shader'BW_Core_WeaponTex.Hands.Hands-Shiny',MaterialName="",Index=0,pIndex=-1,AIndex=-1)
+	WeaponMaterialSwaps[1]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS-MainGold",Index=1,pIndex=0,AIndex=0)
+	WeaponMaterialSwaps[2]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS10Gold-LAM-Shine",Index=2,pIndex=3,AIndex=1)
+	WeaponMaterialSwaps[3]=(Material=none,MaterialName="BWBP_Camos_Tex.XRS10Camos.XRS10Gold-Sil-Shine",Index=3,pIndex=5,AIndex=2)
+	Index=6
+end object

@@ -1,0 +1,13 @@
+NAME:		Kit J72 Hysleria
+
+--
+
+TYPE: 		Sturdy case with a handle and some external connector points for cables to plug into.
+
+EFFECT: 	A portable compact healing station specially designed for cyborgs and androids. It has limited to use to natural humans, since the materials and functions provided within this first aid kit are intended for artificial and cybernetic beings. Its not useless to natural humans, but natural humans should still use a regular medkit to heal any damages instead of this one. Cyborgs can connect to the case via its ports on the sides with their personal cables to run diagnostics and recieve treatment recommendations, while the tools, bandages and medicines inside will service the cyborg's health well enough to help them survive severe injuries. It is always recommended to eventually visit proper medical facilities after any major damage, since sustaining one's health on first aid kits alone is not possible infinitely.
+
+INTENT:		Always nearby any location where cyborgs or androids may be present as a part of basic emergency supply logistics.
+
+
+==
+==

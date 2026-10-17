@@ -1,0 +1,13 @@
+NAME:		Cannon TEJ Boaconic
+
+--
+
+TYPE: 		A positively monstrous mega cannon that hangs on the shoulder of its operator to stay upright. In the top middle of the gun there is a large hatch that can be opened, revealing an industrial blender which funnels any material fed into it into a silo below it. Next to the silo is a tiny assembler machine that uses the blended material to make ammo for the gun. Lastly, this ammo is then crammed into the lower front section of the gun for later use. Meanwhile in the firing chamber there are superheating igniters that will rapidly make a prepared shot become half-molten upon firing the gun. There is a small reactor powering the all the components of the gun, just behind the blender, complete with heat vents for cooling.
+
+EFFECT: 	Gigantic mega shotgun, super-sized frag cannon or molten shrapnel ejection cannon of doom - all labels are valid for this monster of a gun. Its a scavenger design that feeds primarily on scrap metals, but it can be fed pretty much any solid material as long as it isn't liquid or gas or doesn't easily turn into either of those before even reaching the firing chamber if heated slightly. Either way, upon firing the weapon it erupts into a loud roar as it sends a dense storm of hot molten shrapnel and gasses out of its main barrel, causing massive damage to anything in its way at short range. Technically the sharpnel will fly a few hundred meters, but by that point it will have spread so much that it is unlikely to hit anything accurately. Either way, most soft targets are practically vaporized in an instant, while medium targets that torn to shreds, while heavily protected targets recieve a strong disfiguring blow that is difficult to withstand if followed up by another shot or two.
+
+INTENT:		Developed by scavengers who wanted to play with the idea of the ultimate "I can get my ammo anywhere I go" weapon concept, but taken to the absolute extreme. Its so heavy that for most scavengers its just a cool trophy, but for those who seriously want to use it on a battlefield usually need a powered exoskeleton to handle the mass and recoil of this destructive weapon.
+
+
+==
+==

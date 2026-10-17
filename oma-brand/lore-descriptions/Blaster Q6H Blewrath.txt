@@ -1,0 +1,13 @@
+NAME:		Blaster Q6H Blewrath
+
+--
+
+TYPE: 		Chonky ramhold energy cannon with a large frontal emitter. Theres a big capacitor at the back, a digital display near the back grip, coils at the bottom of the gun as well as various electronics and buttons on the sides.
+
+EFFECT: 	Gamma-ray radiation cannon. Has a similar effect as the infamous "elephants foot of chernobyl" - nigh instantly killing electronics, giving organic beings a lethal dose of radiation in a second and generally irradiating and sterilizing things in its path. Fires in bursts of 2 second emissions, projecting a wide ray over a short distance - if used in an environment with an atmosphere. Ray width/spread can be altered and will result in a more intense output if made narrower. The weapon itself is not radioactive, so using it is safe as long as the user doesn't end up on the wrong side of the gun.
+
+INTENT:		Originally derived from an industrial sterilization machine and made into a portable combat version for use by the military against foes that were more susceptible to gamma radiation induced damage than other damage types.
+
+
+==
+==

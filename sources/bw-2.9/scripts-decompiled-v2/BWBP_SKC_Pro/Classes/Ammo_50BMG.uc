@@ -1,0 +1,13 @@
+class Ammo_50BMG extends BallisticAmmo;
+
+defaultproperties
+{
+	MaxAmmo=30
+	InitialAmount=15
+	bTryHeadShot=true
+	IconFlashMaterial=Shader'BW_Core_WeaponTex.Icons.AmmoIconsFlashing'
+	PickupClass=Class'BWBP_SKC_Pro.AP_50BMGClip'
+	IconMaterial=Texture'BW_Core_WeaponTex.Icons.AmmoIconPage'
+	IconCoords=(X1=64,Y1=64,X2=127,Y2=127)
+	ItemName=".50 N6-BMG HEAP Rifle Rounds"
+}

@@ -1,0 +1,13 @@
+NAME:		Blaster 4XZ Bumola
+
+--
+
+TYPE: 		Ram-hold type medium size energy weapon with electronic panels, coils, cooling ports and wide exposed firing aperture.
+
+EFFECT: 	Obstacle destroying plasma eruption cannon. Holding down the trigger will begin charging the weapon's capacitors to build up powerful compression of energy. Upon releasing the trigger - based on how long it was held down - a forceful eruption of high pressure vaporising plasma will be rapidly released with some recoil imparted upon the user. The weapon cannot be overcharged thanks to a safety feature that will simply vent any excess charge when the capacitor is maxed out. If the capacitor degrages enough to endanger the user - a catastrophic explosive event that could happen if the user will keep holding a maximum charge for a long time - an onboard sensor will detect this and flush the capacitor's energy safely through the vents and main aperture without allowing harm to the user and render the gun inoperable until the capacitor is replaced.
+
+INTENT:		Made for excavation crews to obliterate debris out of the way during time-sensitive jobs, its power was noticed by combat personnel in how it can blast through walls, destroy cover, break doors, remove blockages and obstacles out of the way in close quarter environments - as well as destroy or greatly damage pretty much any medium sized foe at close range.
+
+
+==
+==

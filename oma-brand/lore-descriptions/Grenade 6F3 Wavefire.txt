@@ -1,0 +1,13 @@
+NAME:		Grenade 6F3 Wavefire
+
+--
+
+TYPE: 		Spherical high tech energy grenade that is surprisingly lightweight for its size.
+
+EFFECT: 	Causes a temporary intense gravity sink at its point of detonation that pulls objects towards it and crushes them against each other. Can be configured for non-lethal power to anchor a group of targets in place, but can also be used as a devastating weapon to pull, smash and squeeze automobiles against each other.
+
+INTENT:		A custom weapon of bounty hunter origin, whom often use exotic weapons to catch their prey. Can be thrown like a volleyball, bowling ball or handball due to its round shape, durable shell and light mass.
+
+
+==
+==

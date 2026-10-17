@@ -1,0 +1,735 @@
+[AP_FM14Box]
+PickupMessage="You picked up a box of 12 Slug Shells."
+
+[AP_GASCClip]
+PickupMessage="You picked up two Gaucho magazines."
+
+[AP_HB4Batteries]
+PickupMessage="You got 2 Grenade Batteries."
+
+[AP_HKMKSG]
+PickupMessage="You picked up two HKMK shotgun shell sets."
+
+[AP_HKMKSpecBullets]
+PickupMessage="You got 32 .45 ACP rounds & 12 Buckshot Rounds for the HKM-26 Pistol"
+
+[AP_HydraAmmo]
+PickupMessage="You picked up a box of Hydra rocket propelled grenades."
+
+[AP_PKMBelt]
+PickupMessage="You picked up a belt of PKM bullets."
+
+[AP_R9000EClip]
+PickupMessage="You picked up .42E sniper rifle rounds."
+
+[AP_SHADRACHChaff]
+PickupMessage="You got two 108 round 10mm HV magazines"
+
+[AP_STANAG]
+PickupMessage="You got two 30 round 5.56mm CAP magazines"
+
+[AP_ThorLC]
+PickupMessage="You picked up a Thorb."
+
+[AP_WrenchgunBox]
+PickupMessage="You picked up a box of Super Magnum WRENCH Shells."
+
+[AP_XMV500Ammo]
+PickupMessage="You got 400 rounds of 7.62mm incendiary ammo"
+
+[AP_ZX98Clip]
+PickupMessage="You picked up ZX98 rounds."
+
+[Ammo_42ERifle]
+ItemName=".42E Rifle Rounds"
+
+[Ammo_45APC]
+ItemName="10mm HV Rounds"
+
+[Ammo_556mmSTANAG]
+ItemName="5.56mm CAP Ammo"
+
+[Ammo_FM14SlugGauge]
+ItemName="12 Gauge Slug Shells"
+
+[Ammo_GASCClip]
+ItemName="9mm super Gaucho Bullets"
+
+[Ammo_HB4Blaster]
+ItemName="HB4 Battery Packs"
+
+[Ammo_HKMKSG]
+ItemName="12 Gauge Magnum Shells"
+
+[Ammo_HKMKSpecBullets]
+ItemName="45. ACP Bullets"
+
+[Ammo_HRPG]
+ItemName="Hydra Rockets"
+
+[Ammo_MinigunInc]
+ItemName="7.62mm Incendiary Minigun Rounds"
+
+[Ammo_PKMBelt]
+ItemName="7.62mm MG Belt Ammo"
+
+[Ammo_SHADRACH]
+ItemName="SHADRACH Chaff Ammo"
+
+[Ammo_SRK]
+ItemName=".45 High Velocity Bullets"
+
+[Ammo_ThorLC]
+ItemName="Thorb"
+
+[Ammo_WrenchgunShells]
+ItemName="Coach Gun Shells"
+
+[Ammo_ZX98Rifle]
+ItemName="7.62mm Caseless Ammo"
+
+[CryoLanceLauncher]
+WeaponModes=((ModeName="Semi"),(ModeName="Burst"),(ModeName="Auto"))
+ManualLines=(,,)
+ItemName="[B] Cryo Lance"
+
+[CryoLanceLauncherPickup]
+PickupMessage="You picked up the Cryo Lance"
+
+[DTE5Laser]
+DeathStrings=("%o had %vh lower spine beamed in half by %k's ASP.","%k carved %kh name in %o's stomach with a mini plasma pistol.","%o's fingers made for good finger food for %k's viper.","%o took %k's small but potent beam to the groin.","%k burrowed a decent sized hole into %o's belly despite %kh pistol being miniature.")
+SimpleKillString="E-5 'ViPeR' Laser"
+AimedString="Scoped"
+DeathString="%o was burnt in two by %k's sacred fire."
+FemaleSuicide="%o accidentally scorched her own legs off with the E-5 laser."
+MaleSuicide="%o accidentally scorched his own legs off with the E-5 laser."
+
+[DTE5LaserHead]
+DeathStrings=("%o had %vh head decapitated by %k's miniature beam of death.","%k gave %o a plasma power tracheostomy, still was fatal though.","%o didn't read the fine print before getting lethal eye laser surgery by Dr. %k.","%k drew a smiley face on %o before dying, %ve didn’t appreciate it.")
+SimpleKillString="E-5 'ViPeR' Laser"
+AimedString="Scoped"
+DeathString="%k swept %kh ViPeR laser across %o's stunned face."
+FemaleSuicide="%o scorched her own head off with an E-5."
+MaleSuicide="%o scorched his own head off with an E-5."
+
+[DTE5Plasma]
+DeathStrings=("%o got pricked by %k's miniature viper, it still was lethal.","%k's plasma pistol might be small, but still burned a hole through %o's thorax.","%o got bit by %k's viper in the leg, not even a plasma amputation could save them.","%k eventually put %o to rest after blasting them with a plasma pistol repeatedly.","%o ran into all of %k's small bolts of plasma doom.")
+DeathString="%k melted a burning hole through %o with the E-5 ViPeR."
+FemaleSuicide="%o's ASP bit her in half."
+MaleSuicide="%o's ASP bit him in half."
+
+[DTE5PlasmaHead]
+DeathStrings=("%o had their brain imprinted with %k's plasma bolts and death.","%k sunk their viper's fangs into %o's skull and injected them with plasma.","%o's visage turned into glowing syrup thanks to %k's miniature viper.","%k ripped open a yellow portal right through %o's face.","There's no antivenom for %o to take after getting blasted by %k's plasma viper.")
+DeathString="%k left %o stumped with %kh E-5."
+FemaleSuicide="%o stumped herself with the E-5."
+MaleSuicide="%o stumped himself with the E-5."
+
+[DTE5Shotgun]
+DeathStrings=("%o fell down after taking %k's ring of plasma bolts to the chest.","%k was in spitting distance to spit some plasma bolts towards %o.","%o has several scorching holes as a gift from %k.","%k's viper sunk it's fangs into %o's ribcage.","%o's limbs atrophied after getting bit by %k.")
+DeathString="%k melted a burning hole through %o with the E-5 ViPeR."
+FemaleSuicide="%o's ASP bit her in half."
+MaleSuicide="%o's ASP bit him in half."
+
+[DTE5ShotgunHead]
+DeathStrings=("%o's head was pumped full of %k's plasma until it exploded in a ball of light.","%k filled %o's head with shotgun pulses before %ve succumbed to the ASP.","%o's mind was full of thoughts and dreams, now it's home to %k's plasma bolts.","%k sicced %kh ASP on %o, biting %vh head off.")
+DeathString="%k left %o stumped with %kh E-5."
+FemaleSuicide="%o stumped herself with the E-5."
+MaleSuicide="%o stumped himself with the E-5."
+
+[DTFM14Dart]
+DeathStrings=("%o was nailed by %k's FM14 stun dart.","%o was drilled by %k's FM14 dart.","%o was implanted with %k's FM14 dart.")
+SimpleKillString="FM14 Dart"
+DeathString="%o was nailed by %k's FM14 stun dart."
+FemaleSuicide="%o became her own FM14 dartboard."
+MaleSuicide="%o became his own FM14 dartboard."
+
+[DTFM14DartPoison]
+DeathStrings=("%k's FM14 dart poisoned %o to an agonizing death.","%o suffered boils and poisoning from %k's stun dart.","%k's dart poison eventually overcame %o's fragile constitution.")
+SimpleKillString="FM14 Dart Poison"
+DeathString="%k's FM14 dart poisoned %o to an agonizing death."
+FemaleSuicide="%o pricked herself with an FM14 dart."
+MaleSuicide="%o pricked himself with an FM14 dart."
+
+[DTFM14Grenade]
+DeathStrings=("%o was tagged by %k's S900 grenade.","%o played with %k's live S900 grenade.")
+SimpleKillString="FM14 Grenade"
+DeathString="%o was tagged by %k's S900 grenade."
+FemaleSuicide="%o tagged herself with her own grenade."
+MaleSuicide="%o tagged himself with his own grenade."
+
+[DTFM14GrenadeRadius]
+DeathStrings=("%o lost a few teeth to %k's S900 grenade.","%k's S900 grenade turned %o into chunky red ash.","%o found %k's S900 grenade.")
+SimpleKillString="FM14 Grenade"
+DeathString="%o lost a few teeth to %k's S900 grenade."
+FemaleSuicide="%o found one of her S900 grenades."
+MaleSuicide="%o found one of his S900 grenades."
+
+[DTFM14Hit]
+DeathStrings=("%k bludgeoned %o to death in a wild frenzy with the FM14.","%o was pummelled into a heap by %k with the FM14.","%k beat %o to a pulp with the FM14.")
+DeathString="%k bludgeoned %o to death in a wild frenzy with the FM14."
+FemaleSuicide="%o beat herself to death with the FM14."
+MaleSuicide="%o beat himself to death with the FM14."
+
+[DTFM14HitHead]
+DeathStrings=("%k smashed %kh FM14 into %o's face.","%o headbutted %k in the shotgun.","%k swatted a bug off %o's head using the FM14.","%o's head moved in the way of %k's speeding FM14.")
+DeathString="%k smashed the FM14 into %o's face."
+FemaleSuicide="%o swatted a fly on her head using the FM14."
+MaleSuicide="%o swatted a fly on his head using the FM14."
+
+[DTFM14Shotgun]
+DeathStrings=("%o managed to blunder %vh way right in front of %k's blunderbuss.","%k managed to hunt %o down and open up a massive hole where %vh spine used to be.","%o never saw %ks 8 gauge slug from several feet away, taking one straight to the lungs.","%k opened a window to %o's heart with a high powered blunderbuss.","%o was a victim of gnasher brutality, %k's gnasher to be precise.")
+DeathString="%k blasted a pound of lead into %o with the FM14."
+FemaleSuicide="%o nailed herself with the FM14."
+MaleSuicide="%o nailed himself with the FM14."
+
+[DTFM14ShotgunHead]
+DeathStrings=("%k turned %o's gray matter bait for any aviary prey to snack on.","%o had %vh skull shattered into fine dust by %k's big ass shotgun.","%k’s gnasher lived up to the moniker by gnashing &o's visage off.","%o’s head will be mounted on %k's wall after getting decapped by a slug.")
+DeathString="%k uncorked %o with the FM13."
+FemaleSuicide="%o nailed herself with the FM13."
+MaleSuicide="%o nailed himself with the FM13."
+
+[DTGASCMelee]
+DeathStrings=("%o was beaten like an egg by %k and %kh GASC.","%k used %kh GASC pistol to tenderise %o.")
+DeathString="%o was beaten like an egg by %k's GASC."
+FemaleSuicide="%o beat herself up with an GASC."
+MaleSuicide="%o beat himself up with an GASC."
+
+[DTGASCPistol]
+DeathStrings=("%o was stuffed like a turkey by %k's GASC.","%k passed a few GASC rounds into %o's stomach.","%o got %vs greased by %k's GASC pistol.")
+DeathString="%o was stuffed like a turkey by %k's GASC."
+FemaleSuicide="%o blasted herself with an GASC."
+MaleSuicide="%o blasted himself with an GASC."
+
+[DTGASCPistolHead]
+DeathStrings=("%o's head was whisked away by %k's GASC round.","%k whipped %o's head off with %kh GASC pistol.","%k's GASC round cleared away %o's cranium.")
+DeathString="%o's head was whisked away by %k's GASC round."
+FemaleSuicide="%o blew her ugly face off with an GASC."
+MaleSuicide="%o blew his ugly face off with an GASC."
+
+[DTHKMKSpecPistol]
+DeathStrings=("%o's escape velocity was pitiful compared to the .45HV bullets that %k's slinging.","%k took out the prime suspect, %o, with several bullets to the kidneys.","%o won't be running from the law anymore, or living at all thanks to %k.","%k tore into %o's ankles with some very speedy .45 bullets.","%o not only had their body armor pierced, but their lungs as well due to taking %k's bullets.","%k blew through %o's armor like a laser cutter through butter.")
+DeathString="%k drew %kh HKM-26 too fast for %o to react."
+FemaleSuicide="%o prosecuted herself with the HKM-26."
+MaleSuicide="%o prosecuted himself with the HKM-26."
+
+[DTHKMKSpecPistolAlt]
+DeathStrings=("%o's rib cage has some vacancy now that %k cleared it out with some buckshot.","%k might've had no bullets in the mag, but a single shotgun shell buried %o.","%o had their armor compromised, now they’re finished off by %k's shotgun from their HKM.","%k's HKM mangled %o's shooting hand with some 00 Buckshot.","%o took a lungful of %k's buckshot from their baby shotgun.")
+DeathString="%k drew %kh HKM-26 too fast for %o to react."
+FemaleSuicide="%o prosecuted herself with the HKM-26."
+MaleSuicide="%o prosecuted himself with the HKM-26."
+
+[DTHKMKSpecPistolHead]
+DeathStrings=("%o's helmet and gray matter has a shiny new hole thanks to %k.","%k managed to stop %o with a headshot before they did something highly illegal.","%o couldn't catch %k's speeding bullet coming right towards their gray matter.","%k ripped right through %o's ears even though there was a helmet protecting them.","%o was stopped from doing bad things by taking %k's armor piercing bullet to the dome.","%k broke through thick glass and %o’s nose with a single bullet.")
+DeathString="%k put %kh HKM-26 to %o's temple and fired."
+FemaleSuicide="%o litigated her own head off."
+MaleSuicide="%o litigated his own head off."
+
+[DTHKMKSpecPistolHeadAlt]
+DeathStrings=("%o had their mugshot taken by %k, giving them a literal mug shot.","%k destroyed %o's face so viciously that it doesn’t match their wanted poster.","%o didn't feel so lucky when they assumed that %k's mag was empty. Boom, headshot.","%k's HKM took a bite out of crime and %o's face with a small shottie.","%o found out the hard way that staring down %k's shotgun would leave them blind and dead.")
+DeathString="%k put %kh HKM-26 to %o's temple and fired."
+FemaleSuicide="%o litigated her own head off."
+MaleSuicide="%o litigated his own head off."
+
+[DTHydraBazooka]
+DeathStrings=("%o thought %ve could avoid one rocket, but %ve couldn't avoid %k's six rocket storm.","%k's Multi-barreled Hydra slayed the warrior %o with an explosive barrage.","%o found out that %k's launcher Hydra is versatile in exploding enemies in many ways.","%k might’ve missed with one rocket, but a couple more reduced %o into a light mist.","%o was the willing assistant, disappearing in a cloud because of %k's explosive magic show.","%k brought down multiple rockets unto %o, who couldn't accept them all.")
+DeathString="%o was blown to pieces by %k's Hydra."
+FemaleSuicide="%o splattered the walls with her gibs using a Hydra."
+MaleSuicide="%o splattered the walls with his gibs using a Hydra."
+
+[DTHydraBazookaRadius]
+DeathStrings=("%o almost escaped %k's Hydra rocket.","%o was blown in half by %k's Hydra rocket.","%k completely vaporized %o with a Hydra rocket.","%k's Hydra rocket turned %o into tomato soup.")
+FemaleSuicides=("%o splattered the walls with her gibs using a Hydra.","%o blasted herself across the map with a Hydra.","%o blew herself into a chunky haze with the Hydra.")
+MaleSuicides=("%o splattered the walls with his gibs using a Hydra.","%o blasted himself across the map with a Hydra.","%o blew himself into a chunky haze with the Hydra.")
+DeathString="%o almost escaped %k's Hydra rocket."
+FemaleSuicide="%o splattered the walls with her gibs using a Hydra."
+MaleSuicide="%o splattered the walls with his gibs using a Hydra."
+
+[DTHydraBazookaSeeker]
+DeathStrings=("%o ran so far away, only to be annihilated by %k's lock on rockets.","%k made sure that %o couldn't escape from the cacophony of explosions.","%o tried to hide, but it was fruitless as %ve were reduced to a puddle by %k's Hydra.","%k's rockets tracked %o down and devastated %vm to the point of no return.")
+DeathString="%o was blown to pieces by %k's Hydra."
+FemaleSuicide="%o splattered the walls with her gibs using a Hydra."
+MaleSuicide="%o splattered the walls with his gibs using a Hydra."
+
+[DTHydraBazookaSwoop]
+DeathStrings=("%o was swooped off to Hell by %k's swooping rockets.","%k got around some barricades to blow %o to smithereens.","%o got swept off the mortal coil thanks to %k and %kh multi-purpose Hydra.","%k sweeped the floor with the blood and guts of %o.")
+DeathString="%o was blown to pieces by %k's Hydra."
+FemaleSuicide="%o thought multiple rockets could be useful for a powerful rocket jump."
+MaleSuicide="%o thought multiple rockets could be useful for a powerful rocket jump."
+
+[DTHydraUnarmed]
+DeathStrings=("%o had several of %vh bones fractured by %k's Unarmed Hydra.","%k made sure that %o can never, EVER repopulate by annihiliating %vh groin with unarmed rockets.")
+SimpleKillString="Hydra Bazooka Impact"
+HipString="Luck"
+AimedString="Scoped"
+DeathString="%o was knocked into next week by %k's unarmed Hydra."
+FemaleSuicide="%o somehow managed to hit herself with her own Hydra rocket."
+MaleSuicide="%o somehow managed to hit himself with his own Hydra rocket."
+
+[DTMJ51Assault]
+DeathString="%k shot through %o with the MJ51."
+FemaleSuicide="%o nailed herself with the MJ51."
+MaleSuicide="%o nailed himself with the MJ51."
+
+[DTMJ51AssaultHead]
+DeathString="%o got %vh brain shredded by %k's MJ51."
+FemaleSuicide="%o saw a bullet coming up the barrel of her MJ51."
+MaleSuicide="%o saw a bullet coming up the barrel of his MJ51."
+
+[DTMJ51AssaultLimb]
+DeathString="%k's MJ51 made sure %o couldn't feel %vh legs."
+FemaleSuicide="%o nailed herself with the MJ51."
+MaleSuicide="%o nailed himself with the MJ51."
+
+[DTPKM]
+DeathStrings=("%o raged against %k's Soviet Machine and was gunned down.","%k's PKMA ripped %o into 420 bloody pieces","%o made a futile effort against the might of %k's PKMA.","%k's rimmed bullets ripped off %o's ankles.","%o got distributed around 4-5 bullets in the gut thanks to %k.")
+DeathString="%o was torn to shreds by %k's PKM."
+FemaleSuicide="%o shot herself in the foot with the PKM."
+MaleSuicide="%o shot himself in the foot with the PKM."
+
+[DTPKMHead]
+DeathStrings=("%o's head was cleaned out of any political thoughts by %k's PKMA.","%k purged %o's mind of negative feelings and gray matter.","%o got %vh skull shattered by %k's heavy PKMA boolets.","%k's PKMA cleared %k's pores and brains.")
+DeathString="%k furiously machinegunned %o's head off."
+FemaleSuicide="%o shot herself in the head with the PKM."
+MaleSuicide="%o shot himself in the head with the PKM."
+
+[DTR9000EImmolation]
+DeathStrings=("%o was cooked just right for %k's Chimera of a rifle.","Through %k's scope, %ke watch %o fail to put the flames out.","%o never saw %k's bullets, or the fires that cremated %vm.","%k rendered %o into ashes from half a mile away.")
+SimpleKillString="R9000-E Immolation"
+DeathString="%o was immolated by %k."
+FemaleSuicide="%o immolated herself."
+MaleSuicide="%o immolated himself."
+
+[DTR9000EPlague]
+DeathStrings=("%o couldn't escape being a green goo pile after being tagged by %k's Chimera.","%k let their Chimera do all the heavy lifting to irradiate %o to death.","%o had a good life before succumbing to %k's radiation.","%k watched as %o perished from terminal radiation poisoning.","%o's corpse is a reminder that %k's Chimera can kill even beyond the grave.","%k might've grazed %o with a radioactive bullet, but it's all it takes to kill someone.")
+SimpleKillString="Raygun Irradiation"
+DeathString="%k's radiation overdose was too much for %o."
+FemaleSuicide="%o irradiated herself."
+MaleSuicide="%o irradiated himself."
+
+[DTR9000ERifle]
+DeathStrings=("%o couldn't keep track which form %k's Chimera was in and got a hole for %vh troubles.","%k managed to pop %o's spleen from a mile and a half away.","%o failed to see %k's bullet headed right towards %vm and died as a result.","%k didn't need to amp up the Chimera to put %o in the grave.","%o had %vh toes fed to %k's Chimera.","%k took off %o's middle finger after getting flipped off.")
+AimedString="Scoped"
+DeathString="%o was silenced by %k's R9000-E."
+FemaleSuicide="%o held her R9000-E the wrong way around."
+MaleSuicide="%o held his R9000-E the wrong way around."
+
+[DTR9000ERifleHead]
+DeathStrings=("%o got some unwanted tracheotomy from %k's sniper rifle.","%k adapted to the situation and sniped off %o's head.","%o failed to see the glint of %k's Chimera and got a bullet to the eye.","%k's Chimera was a carnivore and took a bite out of %o's brains.","%o took %k's .338 to the teeth, shattering the cavities to pieces.","%k had no reason to amp %kh rifle to nail %o right between the eyes.")
+HipString="Luck"
+AimedString="Scoped"
+DeathString="%o's head was removed from the scene by %k's R9000-E."
+FemaleSuicide="%o sniped off her own head."
+MaleSuicide="%o sniped off his own head."
+
+[DTR9000ERifleInc]
+DeathStrings=("%o was purged in the fire of %k's Chimera without even seeing them.","%k can now see %o from a mile away thanks to some fiery bullets.","%o had %vh heart roasted by %k's modular rifle.","%k reduced %o's kneecaps into ashes from well placed shots with a fiery Chimera.","%o not only failed to save the princess, but was burned to cinders by %k.","%k lit up %o while abiding by the 6 feet rule.")
+AimedString="Scoped"
+DeathString="%o was silenced by %k's R9000-E."
+FemaleSuicide="%o held her R9000-E the wrong way around."
+MaleSuicide="%o held his R9000-E the wrong way around."
+
+[DTR9000ERifleIncHead]
+DeathStrings=("%o had %vh brains sizzling by %k's incendiary magnum bullet to the head.","%k roasted %o so much that %vh head exploded in a fiery ball.","%o's gray matter was the primary ingredient of %k's crispy brains recipe.","%k singed %o's tongue after force feeding %vm a very hot bullet down their throat.","%o's cheeks were bright red after %k shot %vm with an incendiary amped Chimera.","%k turned %o's head into a beacon after igniting %vh cranium.")
+HipString="Luck"
+AimedString="Scoped"
+DeathString="%o's head was removed from the scene by %k's R9000-E."
+FemaleSuicide="%o sniped off her own head."
+MaleSuicide="%o sniped off his own head."
+
+[DTR9000ERifleRad]
+DeathStrings=("%o didn’t need to be in close proximity for %k to irradiate %vm.","%k rearranged %o's DNA from a distance away.","%o mutated into a pile of goop from %k's radioactive Chimera.","%k forced a evolutionary virus into %o with a rad amped Chimera.","%o is pissing neon green from getting shot by %k's Chimera.","%k turned %o into a ghoul, then had to put %vm down for going feral.")
+AimedString="Scoped"
+DeathString="%o was silenced by %k's R9000-E."
+FemaleSuicide="%o held her R9000-E the wrong way around."
+MaleSuicide="%o held his R9000-E the wrong way around."
+
+[DTR9000ERifleRadHead]
+DeathStrings=("%o received brain cancer from %k's Chimera.","%k found that radioactive magnum bullets are good for melting the flesh off of %o's face.","%o's cranium was splattered and scattered by %k and their irradiated Chimera.","%k made radioactive soup out of %o, using radiation and gray matter respectively.","%o had %vh atoms and head separated from %vh shoulder by %k.","%k's Chimera slurped %o's brains down like a milkshake.")
+HipString="Luck"
+AimedString="Scoped"
+DeathString="%o's head was removed from the scene by %k's R9000-E."
+FemaleSuicide="%o sniped off her own head."
+MaleSuicide="%o sniped off his own head."
+
+[DTSRKSmg]
+DeathStrings=("%k ran into %o within close proximity, putting holes into %vh torso.","%o couldn't withstand %k's super 10mm bullets entering %vh lungs.","%k didn't need a full sized gun to kill %o, the 205 does the job.","%o had t%vh kneecaps resemble broken stumps because of %k.","%k's super bullets destroyed the villainous %o.","%o couldn't run or escape from %k's 205 in a confined space.")
+DeathString="%k shot through %o with the SRK-205."
+FemaleSuicide="%o nailed herself with the SRK-205."
+MaleSuicide="%o nailed himself with the SRK-205."
+
+[DTSRKSmgHead]
+DeathStrings=("%k used %kh super 205 to remove %o's head clean off.","%o's brains were entombed in %k's 10mm lead casket.","%k got backsplattered from headshotting %o in CQC.","%o had some dental work by %k, having %vh teeth replaced by 10mm bullets.","%k put two bullets in %o's eyes to blind %vm before dying.")
+DeathString="%o got %vh brain shredded by %k's SRK-205."
+FemaleSuicide="%o saw a bullet coming up the barrel of her SRK-205."
+MaleSuicide="%o saw a bullet coming up the barrel of his SRK-205."
+
+[DTScarabGrenade]
+DeathStrings=("%o found %k's explosive Scarab right under %vh feet, %ve couldn't stomp it out in time.","%k created a bloody meal for the scarabs using %o's exploded corpse.","%o's ankles made a good appetizer for %k's explosive Scarab.","%k's Scarab scurried onto %o before blowing %vm up to tiny bits.","%o should've brought a bigger net to contain the explosion of %k's Scarab.")
+DeathString="%k rammed a pineapple down %k's throat."
+FemaleSuicide="%o tripped on her own pineapple."
+MaleSuicide="%o tripped on his own pineapple."
+
+[DTScarabGrenadeCluster]
+DeathStrings=("%o had a plague of explosive scarabs brought down by %k.","%k's swarm of scarabs devoured %o alive.","%o couldn't outrun %k's swarm and was eaten up as a result.","%k caught %o in a storm of cluster bombs, the hidden 11th plague.","%o had %vh shins shredded by %k's cluster bombs.")
+DeathString="%k rammed a pineapple down %k's throat."
+FemaleSuicide="%o held onto their explosive treasure a bit too long."
+MaleSuicide="%o became a meal for their own swarm of Scarabs."
+
+[DTScarabGrenadeRadius]
+DeathStrings=("%o discovered a nest of %k's Scarabs way too late.","%Surprise, %o! It's a swarm of scarabs courtesy of %k!","%o couldn't get enough pineapples, so %k brought a Scarab as a gift.")
+DeathString="%o discovered one of %k's lurking pineapples."
+FemaleSuicide="%o blew herself apart with a pineapple."
+MaleSuicide="%o blew himself apart with a pineapple."
+
+[DTScarabHeld]
+DeathStrings=("%o and %k were both eaten alive by %k's horde of Scarabs.","%o came too close to Scarab crazy %k.","%k shared %kh love of Scarabs with %o, too bad it devoured %vm.")
+FemaleSuicides=("%o held onto their explosive treasure a bit too long.","%o became a meal for their own swarm of Scarabs.","%o walked right into a swarm of clusters, their own to be exact.")
+MaleSuicides=("%o held onto their explosive treasure a bit too long.","%o became a meal for their own swarm of Scarabs.","%o walked right into a swarm of clusters, their own to be exact.")
+DeathString="%o got a share of %k's suicide."
+FemaleSuicide="%o forgot to let go of her NRX-82."
+MaleSuicide="%o forgot to let go of his NRX-82."
+
+[DTScarabRolledRadius]
+DeathStrings=("%o walked down the street, failing to see %k's rolling Scarabs.","%k bowled a Scarab towards %o's direction, getting an explosive strike.")
+DeathString="%k rolled a pineapple into %o's town."
+FemaleSuicide="%o blew herself apart with a pineapple."
+MaleSuicide="%o blew himself apart with a pineapple."
+
+[DTTridentMG]
+DeathStrings=("%o was torn to shreds by %k's Trident.","%o was blasted into ribbons by %k's Trident.","%o was machinegunned in half by %k's Trident.")
+HipString="HIP SPAM"
+DeathString="%o was torn to shreds by %k's Trident."
+FemaleSuicide="%o shot herself in the foot with the Trident."
+MaleSuicide="%o shot himself in the foot with the Trident."
+
+[DTTridentMGHead]
+DeathStrings=("%k furiously machinegunned %o's head off.","%o bit the bullet from %k's Trident.","%o's head was destroyed by %k's Trident.")
+HipString="HIP SPAM"
+DeathString="%k furiously machinegunned %o's head off."
+FemaleSuicide="%o shot herself in the head with the Trident."
+MaleSuicide="%o shot himself in the head with the Trident."
+
+[DTWrenchgunBleed]
+DeathStrings=("%o bled to death from %k's fragmented wrench shot.")
+SimpleKillString="Redwood Wrenchgun Bleed"
+DeathString="%o bled to death from %k's fragmented wrench shot."
+FemaleSuicide="%o doesn't know how to aim."
+MaleSuicide="%o can't aim very well."
+
+[DTWrenchgunMelee]
+DeathStrings=("%k wrench-pummeled %o with %kh wrenchgun wrench bayonet.","%o was wrenched down by %k's wrenchgun wrench.","%k's wrenchgun wrenched a couple of %o's ribs.")
+DeathString="%k wrench-pummeled %o with %kh wrenchgun wrench bayonet."
+FemaleSuicide="%o bashed herself with the wrenchgun."
+MaleSuicide="%o headbutted his wrenchgun."
+
+[DTWrenchgunMeleeHead]
+DeathStrings=("%k wrenched %kh wrenchgun wrench bayonet into %o's teeth.","%o fell as %k's wrenchgun wrench bayonet crushed %vh face.","%k cracked %o's skull with %kh trusty wrenchgun.","%k's wrenchgun wrench bayonet wrenched %o's head.")
+DeathString="%k smashed %kh wrenchgun wrench bayonet into %o's teeth."
+FemaleSuicide="%o swatted a fly on her own brain."
+MaleSuicide="%o put his eye out with a wrenchgun wrench bayonet."
+
+[DTWrenchgunShot]
+DeathStrings=("%k redefined terminal velocity by fatally lobbing a wrench at %o.","%o proved to be no match for %k's patented flying wrench technique.","%o mistakenly brought a gun to %k's ballistic wrench fight.")
+SimpleKillString="Redwood Wrenchgun Wrenchshot"
+DeathString="%k hunted down a cowering %o with %kh wrenchgun."
+FemaleSuicide="%o doesn't know how to aim."
+MaleSuicide="%o can't aim very well."
+
+[DTWrenchgunShotHead]
+DeathStrings=("%k's high velocity wrench shattered %o's non-wrench proof skull.","%k masterfully shot a wrench into %o's face.","%o fondly remembers a time when %k's wrench wasn't lodged in their skull.")
+
+[DTX8KnifeMGLaunched]
+DeathStrings=("%o never saw %k's small ballistic knife on %kh big PKMA.","%k showed %o it's not the size that matters, it's how you use it.","%o mistakenly brought a gun to %k's ballistic knife fight, again.")
+SimpleKillString="PKMA - X8 Ballistic Knife"
+DeathString="%k showed %o how in %kh country, KNIFE SHOOTS YOU."
+FemaleSuicide="%o played Russian roulette with her knife launcher."
+MaleSuicide="%o played Russian roulette with his knife launcher."
+
+[DTX8KnifeMGLaunchedHead]
+DeathStrings=("%k ran out of bullets, but %kh small knife pierced %o's retina.","%o stared down the wrong end of %k's MG, should've seen the ballistic knife poking %vh eye.","%k had one last surprise for %o, a ballistic knife to the dome.")
+SimpleKillString="PKMA - X8 Ballistic Knife"
+DeathString="%k's knife defied all odds to enter %o's vodka-blurred eye."
+FemaleSuicide="%o's PKM bayonet gave her a surprise."
+MaleSuicide="%o's PKM bayonet gave him a surprise."
+
+[DTXMV500MG]
+DeathStrings=("%o was gunned down by %k's XMB-500.","%k filled %o with XMB-500 lead.","%o was shredded by %k's XMB-500 minigun.","%o was at the business end of %k's minigun.")
+DeathString="%o was gunned down by %k's XMB-500."
+FemaleSuicide="%o was rejected by her own minigun."
+MaleSuicide="%o was rejected by his own minigun."
+
+[DTXMV500MGHead]
+DeathStrings=("%k's smart minigun blew %o's brain.","%o's head was replaced with %k's XMB-500 bullets.","%o lost %vh head in a fight with %k's XMB-500.","%k's XMB-500 smashed rounds through %o's cranium.")
+DeathString="%k's smart minigun blew %o's brain."
+FemaleSuicide="%o minigunned her own head off."
+MaleSuicide="%o minigunned his own head off."
+
+[DTXMVCHEAT]
+DeathStrings=("%o was gunned down by %k's XMB-500.","%k filled %o with XMB-500 lead.","%o was shredded by %k's XMB-500 minigun.","%o was at the business end of %k's minigun.")
+FemaleSuicides=("%o forgot to read her XMB instruction manual.","%o broke her wrists with a malfunctioning XMB-500.","%o tried firing an uncontrollable XMB-500.")
+MaleSuicides=("%o forgot to read his XMB instruction manual.","%o broke his wrists with a malfunctioning XMB-500.","%o tried firing an uncontrollable XMB-500.")
+DeathString="%o was gunned down by %k's XMB-500."
+FemaleSuicide="%o forgot to read her XMB instruction manual."
+MaleSuicide="%o forgot to read his XMB instruction manual."
+
+[DTZX98Gauss]
+DeathStrings=("%o was gaussed to the point of no return by %k's Reaper.","%k opened several wormholes into %o's torso.","%o was ferried to the afterlife, %k's gauss powered reaper helped speed it along.","%k took %o's soul using newfound gauss technology.")
+DeathString="%o was perforated by %k's ZX-98 fire."
+FemaleSuicide="OH NO YOU SOMEHOW SHOT YOURSELF. WHYYYY."
+MaleSuicide="OH GOD YOU SHOT YOURSELF. HOW DID YOU DO THAT."
+
+[DTZX98GaussHead]
+DeathStrings=("%o went dark on %k due to having %vh mind blown by the Reaper.","%k's Reaper punched a fist-sized hole into %o's tiny head.","%o's mind couldn't handle the gauss tech used by %k's Reaper.","%k popped off on %o, taking his head off %vh shoulders.")
+DeathString="%k badgered %o's head off."
+FemaleSuicide="%o routed herself."
+MaleSuicide="%o routed himself."
+
+[DTZX98Rifle]
+DeathStrings=("%o feared %k's Reaper and was sent to the great beyond.","%k harvested %o's soul and organs with the Reaper.","%o donated %vh bullet filled organs to %k's Reaper for science.","%k's Reaper collected %o's life with a hailstorm of lead.")
+DeathString="%o was perforated by %k's ZX-98 fire."
+FemaleSuicide="OH NO YOU SOMEHOW SHOT YOURSELF. WHYYYY."
+MaleSuicide="OH GOD YOU SHOT YOURSELF. HOW DID YOU DO THAT."
+
+[DTZX98RifleHead]
+DeathStrings=("The soul and brains in %o's head was freed thanks to %k.","%o put two bullets in %k's eyes, %ke had no drachma to pay the ferryman.","%k's gray matter was reaped due to %o's Reaper.","%o's Reaper took %k's head off with a couple of bullets.")
+DeathString="%k badgered %o's head off."
+FemaleSuicide="%o routed herself."
+MaleSuicide="%o routed himself."
+
+[DT_HB4Bolt]
+DeathStrings=("%k deadened %o's arms, then their legs, and finally, their heart.","%o was stunned long enough for them to be murdered by %k.","%k fried %o to a nice, crispy, well done with a stun bolt.","%o got blasted to bits by %k's grenade blaster.")
+SimpleKillString="HB4 Electric Bolt"
+DeathString="%k plugged %o into an X-007 bolt."
+FemaleSuicide="%o brought a capacitor to a wall fight."
+MaleSuicide="%o brought a capacitor to a wall fight."
+
+[DT_RadGrenadeDirect]
+DeathStrings=("%k whipped a rad grenade at %o's face.","%o took %k's explosive rad grenade to the face.")
+DeathString="%k whipped a rad grenade at %o's face."
+FemaleSuicide="%o beat the walls with her grenade like a lunatic."
+MaleSuicide="%o beat the walls with his grenade like a lunatic."
+
+[DT_SHADRACHGrenadeRadius]
+DeathStrings=("%k forced evolved %o into a radioactive mess.","%o got disoriented and died into %k's radioactive chaff cloud.","%k made %o sniff their green cloud, warping their DNA strands into a Dali painting.","%o was redirected into %k's radioactive mist and got lost.","%k scrambled %o so much, that they became a pile of green goo.")
+DeathString="%o unexpectedly died to %k's SHADRACH chaff grenade."
+FemaleSuicide="%o shouldn't huff in that radioactive cloud, whatever gets them high amirite?"
+MaleSuicide="%o tried to redirect incoming missiles into the cloud, but they got lost instead."
+
+[DT_SHADRACHPlague]
+DeathStrings=("%o force evolved into a corpse after being exposed to %k's virus.","%k took notes while %o succumbed to lethal radiation poisoning.","%o ran out of time and became irradiated to death by %k.","%k turned %o into a radioactive beacon to guide lost ships home.")
+SimpleKillString="SRK-205 Irradiation"
+DeathString="%k's radiation overdose was too much for %o."
+FemaleSuicide="%o irradiated herself."
+MaleSuicide="%o irradiated himself."
+
+[E5Pickup]
+PickupMessage="You picked up the E-5 'ViPeR'."
+
+[E5PlasmaRifle]
+WeaponModes=((ModeName="Series Pulse"),(ModeName="Multi Pulse"),(ModeName="Sniper Pulse"))
+ManualLines=("Series mode fires a continuous stream of high damage projectiles, which gain damage over range.|Multi mode fires three projectiles simultaneously in a spread pattern, mimicking a shotgun.","Projects a hitscan beam with almost no recoil but low damage output.",)
+Description="Following the success of the E23 Plasma Rifle, Frontier Tech began another prototype, originally it was to be a modular system and an improvement to the original model.  But lack of finances among other technical issues forced the company to make drastic alterations.  It took a lot of work, but soon, the E5 Advanced Science Pistol or 'ASP' was born.  Firing the same variable high-power plasma bolts like the E23, it comes in a more portable package at the cost of losing a powerful single shot bolt and night vision scope. Instead, it comes with a pop up reflex sight, a requested change from the various light infantry sectors across the galaxy, the E5 should do well during the next year if all goes to plan."
+ItemName="E-5 'AsP' Plasma Pistol"
+
+[E5WeaponParamsClassic]
+ClassicParams.WeaponModes=((ModeName="Series Pulse"),(ModeName="Multi Pulse"),(ModeName="Sniper Pulse"))
+
+[E5WeaponParamsRealistic]
+RealisticParams.WeaponModes=((ModeName="Series Pulse"),(ModeName="Multi Pulse"),(ModeName="Sniper Pulse"))
+
+[FM14Pickup]
+PickupMessage="You picked up the FM14 Pitbull Blunderbuss."
+
+[FM14Shotgun]
+WeaponModes=((ModeName="Single Fire"),(ModeName="Burst"),(ModeName="Auto"))
+ManualLines=("Long-ranged pump-action shotgun fire. Slug rounds and high damage, but relatively slow fire rate. Sustained damage output is lower than that of shorter-ranged shotguns.","Loads a Flak shell. Once loaded, the Flak shell can be fired, generating an array of shrapnel when it explodes. This shrapnel can poisen the target and deal damage over time","Has a melee attack. The damage of the attack increases the longer altfire is held, up to 1.5 seconds for maximum damage output. As a blunt attack, has lower base damage compared to bayonets but inflicts a short-duration blinding effect when striking. This attack inflicts more damage from behind.||As a shotgun, has poor penetration.||Most effective at medium range.")
+Description="With each successful project Black and Woods releases, the more funding they get to go back and revisit some of their older projects, the FM14 'Gnasher' Blunderbuss being one of them.  Originally designed as a high powered hunting shotgun chambered in 8 gauge slugs, it was left abandoned due to not enough interest in the project. Now with their latest Pitbull design seeing widespread adoption by several armed forces across the galaxy, the Gnasher has been brought back and improved. Better rifling and the ability to fire 'flaktox' grenades; specialized grenades that unleash poisonous darts that fragment out like flak shrapnel.  Expected projections are looking good, especially with the upcoming siege on the Cryon capital on Eden-25."
+ItemName="FM14 Pitbull Blunderbuss"
+
+[GASCPickup]
+PickupMessage="You picked up the Gaucho and Stallion"
+
+[GASCPistol]
+WeaponModes=((ModeName="Burst of Four"),(ModeName="Burst"),(ModeName="Semi-Auto"),(ModeName="Full Auto"))
+ManualLines=("High Fire Rate Burst Pistol and Dagger. 4 Round Burst. Low Recoil.","Prepares a bludgeoning attack, which will be executed upon release. The damage of the attack increases the longer altfire is held, up to 1.5 seconds for maximum damage output. This attack inflicts more damage from behind.","The Weapon Function key toggles a laser sight, which reduces the spread of the weapon's hipfire, but exposes the user's position to the enemy. This laser sight makes the MD24 a strong choice for dual wielding.||Effective at close range.")
+Description="An interesting pair of weapons, a pistol and a dagger.  The GP-X22 'Gaucho' is no stranger to the public, a burst fire pistol that was supposed to be in the civilian market for its self-defense prowess. It didn't pan out as there were more deadly options to protect the user, but it did find use in the hands of various scouts across the universe. The dagger, however, is an enigma all on it's own, speculated that it came from the 1800's, wielded by a member of Tchernobog's clan before one of his own turned on him and killed him.  Known as the 'Stallion,' it has been paired with the Gaucho to become a deadly duo in CQB."
+ItemName="Gaucho and Stallion"
+
+[GASCPistolWeaponParamsClassic]
+ClassicParams.WeaponModes=((ModeName="Burst of Four"),,(ModeName="Semi-Auto"),(ModeName="Full Auto"))
+
+[GASCPistolWeaponParamsRealistic]
+RealisticParams.WeaponModes=((ModeName="Semi-Auto"),(ModeName="Burst of Four"),(ModeName="Semi-Auto"),(ModeName="Full Auto"))
+
+[GASCPistolWeaponParamsTactical]
+TacticalParams.WeaponModes=((ModeName="Semi-Auto"),(ModeName="Burst of Four"),(ModeName="Semi-Auto"),(ModeName="Full Auto"))
+
+[HB4GrenadeBlaster]
+WeaponModes=((ModeName="Semi"),(ModeName="Burst"),(ModeName="Auto"))
+ManualLines=("High-powered Blaster fire. Recoil is high.")
+Description="Maramu Tek might've joined the war against the Skrith late, but their arrival couldn't have come at a better time after the Cryon attack on Neo York.  The situation of having tough armored warriors in an urban situation full of civilians was tough and delicate, if it weren't for Maramu Tek's first offering of the HB4 Grenade Blaster, things would've gone awry very fast. Firing compact stun bolts akin to the Electrobolts that MK781 fires, they disabled the Cyron's intricate wiring systems quickly, and the flash temporarily scrambled their visual processing units, making it handy to have. Neo York was saved while the HB4 went on to perform in situations similar to the Cryon crisis."
+ItemName="HB4 Electro Grenade Blaster"
+
+[HB4Pickup]
+PickupMessage="You picked up the HB4 Electro Grenade Blaster."
+
+[HKMKSpecPickup]
+PickupMessage="You picked up the HKM-26 pistol."
+
+[HKMKSpecPistol]
+WeaponModes=((ModeName="Semi"),(ModeName="Burst"),(ModeName="Auto"))
+ManualLines=("Semi-automatic .45 fire. Moderate damage and fire rate.","Alt fire is a potent close range shotgun attachment.","Weapon Function attaches a suppressor, reducing the flash and reducing the noise output.")
+Description="There's always trouble on the homefront, no matter if it's peaceful or a war is raging on. Criminals are running rampant like the infamous pirate Var Dehidra and other ne'er do-wells, and while there are plenty of personal protection weapons, not a lot can pack a punch.  One such exception is the HKM-26 Assault Pistol, an upgrade kit to the original H&K MK23 which not only allows the use for the .45HVAP rounds, but comes with a miniature shotgun mounted on the underside of the pistol. The idea is to penetrate through whatever armor the bad guys are wearing before putting them down with some double 00 buckshot. It's worked on some of the most dangerous criminals, but as always; Var Dehidra has managed to elude such a fate."
+ItemName="HKM-26 Assault Pistol"
+
+[HydraBazooka]
+WeaponModes=((ModeName="HV Rockets"),(ModeName="Guided Rockets"),(ModeName="Auto"))
+ManualLines=("Fires a rocket. These rockets have an arming delay and will ricochet off surfaces when unarmed.|In Laser mode, the rocket flies directly to the point of aim.","Builds up between One and Six rockets to be shot. The beep indicates the addition of a rocket into the charged shot. Upon fired, the rockets will cone around the target in the shape of a hexagon, to ensure the rockets dont colide and enclose the target. These rockets are affected by the guidance laser.","Weapon Function Toggles the guidance laser. With the guidance laser active, rockets will fly towards the point indicated by the laser at any given time.|The Robotic Arm enables the weapon to be reloaded while aiming down sights. This reload will be much faster than standard reload and can be used in a defensive position")
+Description="Many centuries have gone by since the introduction of the rocket, though the method has remained the same of launching explosive ordinance through tubes, the tech has improved tenfold.  Now as the second skrith wars rage on, the pinnacle of rocket launchers has reached its pinnacle with the M-11X ''Hydra'' MRL.  With 6 barrels ready to launch rockets, it is a multi-purpose launcher, able to lock on to anything, or it can fire them unguided or even in a swooping manner to get over obstacles.  Normally the user would have to load the rockets by hand, taking valuable time in the battlefield, but the Hydra comes with a Hytek arm that automatically pulls the ammo and loads it into the chamber without the user's input whatsoever."
+ItemName="M11-X Hydra MRL"
+
+[HydraPickup]
+PickupMessage="You picked up the Hydra missile launcher."
+
+[MJ51Carbine]
+WeaponModes=((ModeName="Semi-Auto"),(ModeName="Burst Fire"),(ModeName="Auto"),(ModeName="Automatic"))
+Description="MJ51 Carbine"
+ItemName="MJ51 Carbine"
+
+[MJ51Pickup]
+PickupMessage="You picked up the MJ51 Carbine"
+
+[MJ51WeaponParamsArena]
+ArenaParams_EOtech.WeaponModes=((ModeName="Semi"),(ModeName="Auto"))
+ArenaParams_HE.WeaponModes=((ModeName="Semi"),(ModeName="Burst"))
+
+[MJ51WeaponParamsClassic]
+ClassicParams_EOtech.WeaponModes=((ModeName="Semi"),(ModeName="Auto"))
+ClassicParams_HE.WeaponModes=((ModeName="Semi"),(ModeName="Burst"))
+
+[MJ51WeaponParamsRealistic]
+RealisticParams_EOtech.WeaponModes=((ModeName="Semi"),(ModeName="Auto"))
+RealisticParams_HE.WeaponModes=((ModeName="Semi"),(ModeName="Burst"))
+
+[MJ51WeaponParamsTactical]
+TacticalParams_EOtech.WeaponModes=((ModeName="Semi"),(ModeName="Auto"))
+TacticalParams_HE.WeaponModes=((ModeName="Semi"),(ModeName="Burst"))
+
+[PKMMachinegun]
+WeaponModes=((ModeName="Semi"),(ModeName="Burst of Three"),(ModeName="Burst of Five"),(ModeName="Full Auto"))
+ManualLines=("Automatic 7.62mm fire. Has a high rate of fire, moderate damage and good sustained damage output. As a machinegun, it has a very long effective range. Large magazine capacity allows the weapon to fire for a long time, but the reload time is long."," If a knife is attached, it will be launched, dealing high damage. This attack is hip-accurate and has no recoil. If no knife is attached, one will be attached if available.||This weapon is effective at medium range.","Rugged, reliable, no fancy attachments needed.  That's the mantra of ZTV Exports PKMA-420 General Purpose Machine Gun, an old timey design brought back from the glory days of the MSR (Merged States Republic).  A 7.62mm belt-fed machine gun that can get the job done even without the frills of optics and other attachments, however there have been upgrades so that it can mount the infamous X8 seen on the AK-490. The PKMA can fight, no matter how harsh the conditions are or how many Krao come surging, nothing can stop this machine gun from performing above and beyond.")
+Description="Rugged, reliable, no fancy attachments needed.  That's the mantra of ZTV Exports PKM-420 General Purpose Machine Gun, an old timey design brought back from the glory days of the MSR (Merged States Republic).  A 7.62mm belt-fed machine gun that can get the job done even without the frills of optics and other attachments, however there have been upgrades so that it can mount the infamous X8 seen on the AK-490. The PKM can fight, no matter how harsh the conditions are or how many Krao come surging, nothing can stop this machine gun from performing above and beyond."
+ItemName="PKM-420 GP Machine Gun"
+
+[PKMPickup]
+PickupMessage="You picked up the PKMA machinegun."
+
+[ParticleStreamPickup]
+PickupMessage="You picked up the mk.II E90-N particle accelerator."
+
+[ParticleStreamer]
+WeaponModes=((ModeName="Gravity Proton Stream"),(ModeName="Burst"),(ModeName="Auto"))
+Description="E90-N mk.II Proton Pack||Manufacturer: Apollo Industries|Primary: Wrangling Beam|Secondary: Healing Beam||Originally built for calibrating various scientifice instruments in the field, the rugged E90-N Particle Accelerator is able to emit measured streams of exotic particles in a fairly controlled manner with minimal risk of radiation exposure to its operator!||Its utility on the battlefield was put to the test on the arctic research station 379-B61 when a then unknown Cryon menace infected several of the researchers and turned them against the rest. The Cryon threat is now classified as as Class 5 free roaming nano-vapor, and due to its rather incorporeal nature, standard weapons would destroy the hosts it inhabited, but left the nano-swarm itself free to inhabit the next victim. The E90-N Particle Acclerator was on hand at the time, and it has proven highly effective at thoroughly and completely neutronizing the Cryon nanobots directly, and the savior scientist was able to quickly adjust the radiation outp
+ItemName="E90-N Particle Accelerator MK.II"
+
+[R9000EPickup]
+PickupMessage="You picked up the R9000E modular sniper rifle."
+
+[R9000ERifle]
+WeaponModes=((ModeName="Ammo: FMJ"),(ModeName="Ammo: Incendiary"),(ModeName="Ammo: Radiation"))
+ManualLines=("Bolt-action sniper rifle fire with Regular, Incendiary & Radiation rounds. High damage, long range, slow fire rate and deals damage to targets near the struck target.","Engages the scope.","Be wary of tracer rounds due to different variations of ammo. Effective at long range and against clustered enemies.")
+Description="Precision weapons often haven't had the need to get with the times, that was until the second Skrith war broke out. While the regular marksman weapons and sniper rifles did their job against high value targets, the ever-changing situation eventually cultivated a need to upgrade their long ranged capabilities.  Enravion, hearing the call, managed to upgrade their old R98 platform into a new breed, the R9000-E 'Chimera' Modular Sniper Rifle or 'MSR' for short. In addition to much needed upgrades like being chambered in .338 Lapua Magnum, cold bore floating barrel and picatinny rails, the Chimera earns it's nickname for its ability to accept the AMP system that's prevalent on several weapon systems already. Though it can be outfitted for different environments, the traditional long rifle is the way to go, with the amp to either ignite Krao or fry Cryons with radiation, the Chimera is a force to be reckoned with."
+ItemName="R9000-E Modular Sniper Rifle"
+
+[SHADRACHPickup]
+PickupMessage="You picked up the MOA-C chaff grenade."
+
+[SRKSmgPickup]
+PickupMessage="You picked up the SRK-205 Sub-Machine Gun"
+
+[SRKSmgWeaponParamsClassic]
+ClassicParams.WeaponModes=((ModeName="Semi"),(ModeName="Burst"),(ModeName="Auto"))
+
+[SRKSmgWeaponParamsRealistic]
+RealisticParams.WeaponModes=((ModeName="Semi"),(ModeName="Burst"),(ModeName="Auto"))
+
+[SRKSmgWeaponParamsTactical]
+TacticalParams.WeaponModes=((ModeName="Semi"),(ModeName="Burst"),(ModeName="Auto"))
+
+[SRKSubMachinegun]
+WeaponModes=((ModeName="Semi-Auto"),(ModeName="Burst Fire"),(ModeName="Auto"),(ModeName="Automatic"))
+Description="Primary: 10mm Burst Fire||Secondary: Load/Fire Radioactive Chaff Grenade||With projected success rates for the SRK-650 reaching the minimum requirements, NDTR Industries had already gotten the green light to work on their sister project that originally was supposed to coincide with the SRK-650. The SRK-205 is an SMG version of the 650, chambered in the 10mm Super Auto cartridge to get maximum damage within close quarters confinements. Like it's older brother, the 205 has the same red dot and ammo counter, along with a threaded barrel.  Unlike the 650, the 205 doesn't have any AMP modules made for it, but it does come with radioactive chaff grenades to fry Cryon units and irradiated fleshy targets alike."
+ItemName="SRK-205 Submachinegun"
+
+[ScarabGrenade]
+ManualLines=("Throws a grenade overarm. The grenade will explode after 3 seconds, dealing high damage in a moderate radius. Grenade Clusters are also released and explode within an impact radius, increasing the radius and damage dealt","As primary, except the grenade is rolled underarm.","As with all grenades, Weapon Function or Reload can be used to release the clip and cook the grenade in the user's hand. Care must be taken not to overcook the grenade, lest the user be blown up. The NRX-82 grenade is effective on the move or against static positions.")
+Description="Black and Woods has been seeing massive success during the Skrith Wars, their weapons and devices being used across the galaxy to drive back the alien hordes and even against their fellow man in some cases.  They could rest on their laurels, but they're still going strong with a sidegrade to their long-standing hand grenade. Recently unveiled is the NRX-82 Cluster Grenade, known affectionately as the ''Scarab.'' It has earned that moniker thanks to the cluster bombs it spews out after the main explosion, wiping out small crowds of Skrith or anyone in the blast zone. While it hasn't been out in the field quite yet, they're getting painted yellow to match their older models, tricking Skrith into thinking they're pineapples just like before."
+ItemName="NRX-82 'Scarab' Cluster Grenade"
+
+[ScarabPickup]
+PickupMessage="You picked up the NRX-82 'Scarab' grenade."
+
+[ScarabWeaponParams]
+UniversalParams.WeaponModes=((ModeName="Fixed Throw"),(ModeName="Charged Throw"),)
+
+[ThorLCPickup]
+PickupMessage="You picked up the BR-99 'Thor' Lightning Cannon."
+
+[ThorLightningCannon]
+WeaponModes=((ModeName="Gravity Proton Stream"),(ModeName="Burst"),(ModeName="Auto"))
+Description="To Add"
+ItemName="[B] BR-99 'Thor' Lightning Cannon"
+
+[TridentMachinegun]
+WeaponModes=((ModeName="800 RPM"),(ModeName="1200 RPM"),(ModeName="1800 RPM"))
+ManualLines=(,,)
+ItemName="[B] Trident Splitter Machinegun"
+
+[TridentPickup]
+PickupMessage="You picked up the Trident Splitter Machinegun."
+
+[WendigoPickup]
+PickupMessage="You picked up the Wendigo SMG."
+
+[WendigoSMG]
+WeaponModes=((ModeName="Semi"),(ModeName="Burst Fire"),(ModeName="Ion Impulse Array"))
+ManualLines=("Automatic 7.62mm fire. High power, but shorter effective range and suffers from high recoil.","Engages the secondary shotgun. Has a shorter range than other shotguns and moderate spread.","Effective at close to medium range.")
+Description="Dipheox's most popular weapon, the CYLO Versatile Urban Assault Weapon is designed with one goal in mind: Brutal close quarters combat. The CYLO accomplishes this goal quite well, earning itself the nickname of Badger with its small frame, brutal effectiveness, and unpredictability. UTC refuses to let this weapon in the hands of its soldiers because of its erratic firing and tendency to jam.||The CYLO Versatile UAW is fully capable for urban combat. The rifle's caseless 7.62mm rounds can easily shoot through doors and thin walls, while the shotgun can clear a room quickly with its semi-automatic firing. Proper training with the bayonet can turn the gun itself into a deadly melee weapon."
+ItemName="[B] Type-76 Wendigo EMP-R"
+
+[Wrenchgun]
+WeaponModes=((ModeName="Wrench. There is only Wrench."),(ModeName="Burst"),(ModeName="Auto"))
+ManualLines=("Primary fires two shots with high power and moderate spread. Enemies hit by the shot bleed, dealing damage over time. Bleed duration is proportional to the number of pellets which struck the target.|Alternate fires two wrenches at the enemy. Don't plan on it really being useful but imagine if you do get the kill! Recoil is moderate with both modes.","Prepares a bludgeoning attack, which will be executed upon release. The damage of the attack increases the longer altfire is held, up to 1.5 seconds for maximum damage output. As a blunt attack, has lower base damage compared to bayonets but inflicts a short-duration blinding effect when striking. This attack inflicts more damage from behind.","Special deploys a five-second barrier of infinite durability.")
+Description="Deep in the mud filled trenches of Indorix Paraxii, the Carcosan Greasers, short on weapons and only days away from a full force Cryon advance, were desperate for a way to weather the impending invasion. A number of the soldiers were able to improvise a rather novel ammo, utilizing their surplus of pocket sized NFUD wrenches as a rather unconventional ammo type that proved to wreak absolute havoc on the mechanical elements of the Cryon soldiers, throwing a literal monkey wrench into their plan and rendering scores of them into immobile obstacles, effectively funneling the remaining grunts into narrow columns easily dispatched with some old fashioned trench guns. Furthermore, they further adapted their signature wrenches into makeshift bayonets, giving them easy access to their energy barriers without having to put down their main combat weapons."
+ItemName="Redwood Wrenchgun"
+
+[WrenchgunPickup]
+PickupMessage="You picked up the Redwood WrenchGun."
+
+[XMV500AutoTurret]
+VehiclePositionString="manning a Link Turret"
+VehicleNameString="[B] XMB-500 Sentry Gun"
+
+[XMV500Minigun]
+WeaponModes=((ModeName="600 RPM"),(ModeName="1200 RPM"),(ModeName="2400 RPM"),(ModeName="3600 RPM"),(ModeName="4800 RPM"))
+Description="XMB-500 Smart Minigun|Manuacturer: Enravion Combat Solutions|Primary: Auto fire||The XMB-500 Personal Suppression System is a prototype weapon being developed by Enravion as a low-recoil, precision minigun. The XMB-500 has been designed for ease of use with infantry and boasts firerates of 600 to 2400 RPM; combined with the potent incendiary rounds, the accurate XMB-500 is perfect for cutting down large amounts of enemy troops. This weapon has excellent accuracy when stationary but unfortunately cannot be fired safely at the higher speeds while moving. To prevent damage to the user and the weapon, the XMB-500 will automatically lock when mobile at cyclic speeds over 600 RPM. It should be noted that the speed sensor will malfunction if submerged in liquid or not properly cared for."
+ItemName="[B] XMB-500 Smart Minigun"
+
+[XMV500Minigun_TW]
+ItemName="XMB-500 Smart Minigun Turret"
+
+[XMV500Pickup]
+PickupMessage="You picked up the XMB-500 Smart Minigun"
+
+[XMV500WeaponParamsClassic]
+ClassicParams.WeaponModes=(,(ModeName="600 RPM"),(ModeName="1200 RPM"),(ModeName="2400 RPM"))
+
+[ZX98AssaultRifle]
+WeaponModes=((ModeName="600 RPM"),(ModeName="1200 RPM"),(ModeName="1800 RPM"))
+ManualLines=("Automatic fire. Moderate power, fire rate and recoil.","Automatic Gauss fire. High Power, Slower fire rate and Lower recoil.","Effective at medium range.")
+Description="In the field of gauss weaponry, things are rapidly evolving to deal with growing threats like Cryons and heavily armored Skrith. Though precision weapons do help, in the frontlines, there hasn't been anything to deal with close range enemies until now.  The ZX-98 Combat Gauss Rifle is a new development, firing 7.62 rounds continuously through a gauss battery which has been made to stand up to full auto fire without overheating. Nicknamed the 'Reaper' for it's demonic appearance and it's prowess to take the lives of those who stand on the wrong end, this gauss combat rifle is ready to defend from any threat."
+ItemName="ZX-98 Reaper Gauss Rifle"
+
+[ZX98Pickup]
+PickupMessage="You picked up the ZX98 Reaper Gauss Minigun."
+

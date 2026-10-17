@@ -1,0 +1,13 @@
+NAME:		Emitter N7M Seiliu
+
+--
+
+TYPE: 		Small lightweight energy field projector mounted on a pistol grip.
+
+EFFECT: 	Energy based grappling hook, allowing the user project a line between them and a target. If its target is light enough in mass it will be pulled in, but if its heavier then the user will be pulled towards it instead. The emitted energy line may inflict burns, but it doesn't have a risk of being entagled like a real rope would.
+
+INTENT:		Space scrapyard workers use it to move debris in zero gravity environments or assist in moving themselves around the scrapyard.
+
+
+==
+==

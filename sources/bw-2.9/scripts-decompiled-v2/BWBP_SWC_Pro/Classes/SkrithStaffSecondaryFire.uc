@@ -1,0 +1,266 @@
+class SkrithStaffSecondaryFire extends BallisticProInstantFire;
+
+var bool bLaserFiring;
+var Actor MuzzleFlashBeam;
+var Sound FireSoundLoop;
+var byte SuccessiveHits;
+
+simulated function DestroyEffects()
+{
+	super(WeaponFire).DestroyEffects();
+	Class'BCoreProV55.BUtil'.static.KillEmitterEffect(MuzzleFlashBeam);
+	//return;	
+}
+
+simulated function bool AllowFire()
+{
+	// End:0x1C
+	if(!super(BallisticFire).AllowFire())
+	{
+		// End:0x1A
+		if(bLaserFiring)
+		{
+			StopFiring();
+		}
+		return false;
+	}
+	return true;
+	//return;	
+}
+
+simulated function bool CheckWeaponMode()
+{
+	return true;
+	//return;	
+}
+
+function DoFireEffect()
+{
+	SkrithStaff(Weapon).SwitchLaser(true);
+	super(BallisticInstantFire).DoFireEffect();
+	//return;	
+}
+
+function ApplyDamage(Actor Target, int Damage, Pawn Instigator, Vector HitLocation, Vector MomentumDir, Class<DamageType> DamageType)
+{
+	local int AdjustedDamage;
+	local DestroyableObjective HealObjective;
+	local Vehicle HealVehicle;
+
+	// End:0x57
+	if(Instigator != none)
+	{
+		AdjustedDamage = int((float(Damage) * Instigator.DamageScaling) * DamageType.default.VehicleDamageScaling);
+		// End:0x57
+		if(Instigator.HasUDamage())
+		{
+			AdjustedDamage *= float(2);
+		}
+	}
+	HealObjective = DestroyableObjective(Target);
+	// End:0x8B
+	if(HealObjective == none)
+	{
+		HealObjective = DestroyableObjective(Target.Owner);
+	}
+	// End:0xE2
+	if((HealObjective != none) && HealObjective.TeamLink(Instigator.GetTeamNum()))
+	{
+		HealObjective.HealDamage(AdjustedDamage, Instigator.Controller, DamageType);
+		return;
+	}
+	HealVehicle = Vehicle(Target);
+	// End:0x149
+	if((HealVehicle != none) && HealVehicle.TeamLink(Instigator.GetTeamNum()))
+	{
+		HealVehicle.HealDamage(AdjustedDamage, Instigator.Controller, DamageType);
+		return;
+	}
+	Class'BCoreProV55.BallisticDamageType'.static.GenericHurt(Target, FMin(float(Damage + int(SuccessiveHits)), 16.0000000), Instigator, HitLocation, MomentumDir, DamageType);
+	//return;	
+}
+
+function DoTrace(Vector InitialStart, Rotator Dir)
+{
+	local Vector End, X, HitLocation, HitNormal, Start, LastHitLoc;
+
+	local Material HitMaterial;
+	local float dist;
+	local Actor Other, LastOther;
+	local bool bHitWall;
+
+	dist = MaxRange();
+	Start = InitialStart;
+	X = Normal(Vector(Dir));
+	End = Start + (X * dist);
+	LastHitLoc = End;
+	Weapon.bTraceWater = true;
+	J0x5B:
+
+	// End:0x2C1 [Loop If]
+	if(dist > float(0))
+	{
+		Other = Trace(HitLocation, HitNormal, End, Start, true,, HitMaterial);
+		Weapon.bTraceWater = false;
+		dist -= VSize(HitLocation - Start);
+		// End:0x100
+		if((int(Level.NetMode) == int(NM_Client)) && (int(Other.Role) != int(ROLE_Authority)) || Other.bWorldGeometry)
+		{
+			// [Explicit Break]
+			goto J0x2C1;
+		}
+		// End:0x2A8
+		if(Other != none)
+		{
+			// End:0x172
+			if((FluidSurfaceInfo(Other) != none) || (PhysicsVolume(Other) != none) && PhysicsVolume(Other).bWaterVolume)
+			{
+				bHitWall = ImpactEffect(HitLocation, HitNormal, HitMaterial, Other);
+				SuccessiveHits = 0;
+				// [Explicit Break]
+				goto J0x2C1;
+			}
+			LastHitLoc = HitLocation;
+			// End:0x24A
+			if(!Other.bWorldGeometry && Other != LastOther)
+			{
+				OnTraceHit(Other, HitLocation, InitialStart, X, 0, 0, 0);
+				// End:0x1D6
+				if(Pawn(Other) != none)
+				{
+					++SuccessiveHits;
+				}
+				// End:0x20A
+				if(Vehicle(Other) != none)
+				{
+					bHitWall = ImpactEffect(HitLocation, HitNormal, HitMaterial, Other);					
+				}
+				else
+				{
+					// End:0x24A
+					if(Mover(Other) == none)
+					{
+						bHitWall = true;
+						SendFireEffect(Other, HitLocation, HitNormal, int(HitMaterial.SurfaceType));
+						// [Explicit Break]
+						goto J0x2C1;
+					}
+				}
+			}
+			// End:0x29A
+			if(Other.bWorldGeometry || Mover(Other) != none)
+			{
+				bHitWall = ImpactEffect(HitLocation, HitNormal, HitMaterial, Other);
+				SuccessiveHits = 0;
+				// [Explicit Break]
+				goto J0x2C1;
+			}
+			SuccessiveHits = 0;
+			// [Explicit Break]
+			goto J0x2C1;			
+		}
+		else
+		{
+			LastHitLoc = End;
+			SuccessiveHits = 0;
+			// [Explicit Break]
+			goto J0x2C1;
+		}
+		// [Loop Continue]
+		goto J0x5B;
+	}
+	J0x2C1:
+
+	// End:0x2E1
+	if(!bHitWall)
+	{
+		NoHitEffect(X, InitialStart, LastHitLoc);
+	}
+	//return;	
+}
+
+function PlayFiring()
+{
+	ClientPlayForceFeedback(FireForce);
+	FireCount++;
+	CheckClipFinished();
+	// End:0xB4
+	if(!bLaserFiring)
+	{
+		// End:0x42
+		if(FireSoundLoop != none)
+		{
+			Instigator.AmbientSound = FireSoundLoop;
+		}
+		Instigator.SoundVolume = byte(255);
+		Instigator.SoundRadius = 280.0000000;
+		// End:0xAC
+		if(MuzzleFlashBeam == none)
+		{
+			Class'BCoreProV55.BUtil'.static.InitMuzzleFlash(MuzzleFlashBeam, Class'BWBP_SWC_Pro.SkrithStaffLaserFlashEmitter', Weapon.DrawScale * FlashScaleFactor, Weapon, FlashBone);
+		}
+		bLaserFiring = true;
+	}
+	//return;	
+}
+
+function ServerPlayFiring()
+{
+	CheckClipFinished();
+	// End:0x61
+	if((FireSoundLoop != none) && !bLaserFiring)
+	{
+		Instigator.SoundVolume = byte(255);
+		Instigator.SoundRadius = 280.0000000;
+		Instigator.AmbientSound = FireSoundLoop;
+		bLaserFiring = true;
+	}
+	//return;	
+}
+
+function StopFiring()
+{
+	Class'BCoreProV55.BUtil'.static.KillEmitterEffect(MuzzleFlashBeam);
+	MuzzleFlashBeam = none;
+	SkrithStaff(Weapon).SwitchLaser(false);
+	bLaserFiring = false;
+	Instigator.AmbientSound = none;
+	Instigator.SoundVolume = Instigator.default.SoundVolume;
+	Instigator.SoundRadius = Instigator.default.SoundRadius;
+	//return;	
+}
+
+simulated function SendFireEffect(Actor Other, Vector HitLocation, Vector HitNormal, int Surf, optional Vector WaterHitLoc)
+{
+	BallisticAttachment(Weapon.ThirdPersonActor).BallisticUpdateHit(Other, HitLocation, HitNormal, Surf, true, WaterHitLoc);
+	//return;	
+}
+
+defaultproperties
+{
+	TraceRange=(Min=10000.0000000,Max=10000.0000000)
+	Damage=8.0000000
+	WaterRangeAtten=0.8000000
+	DamageType=Class'BWBP_SWC_Pro.DT_SkrithStaff'
+	DamageTypeHead=Class'BWBP_SWC_Pro.DT_SkrithStaffHead'
+	DamageTypeArm=Class'BWBP_SWC_Pro.DT_SkrithStaff'
+	PenetrateForce=200
+	bPenetrate=true
+	FlashBone="Muzzle"
+	MuzzleFlashClass=Class'BWBP_SWC_Pro.SkrithStaffFlashEmitter'
+	FlashScaleFactor=0.2000000
+	AimedFireAnim="SecFireLoopSight"
+	FireRecoil=5.0000000
+	FireChaos=0.0100000
+	XInaccuracy=2.0000000
+	YInaccuracy=2.0000000
+	BallisticFireSound=(Sound=Sound'BW_Core_WeaponSound.VPR.VPR-Fire',Volume=1.2000000,Radius=512.0000000,Slot=3,Pitch=1.0000000,bAtten=false,bNoOverride=false)
+	bPawnRapidFireAnim=true
+	FireAnim="None"
+	FireLoopAnim="SecFireLoop"
+	FireEndAnim="SecFireEnd"
+	FireRate=0.0850000
+	AmmoClass=Class'BallisticProV55.Ammo_Cells'
+	BotRefireRate=0.9900000
+	WarnTargetPct=0.2000000
+}

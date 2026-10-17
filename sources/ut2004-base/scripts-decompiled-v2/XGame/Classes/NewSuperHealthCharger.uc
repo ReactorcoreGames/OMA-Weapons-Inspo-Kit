@@ -1,0 +1,2 @@
+class NewSuperHealthCharger extends SuperHealthCharger;
+

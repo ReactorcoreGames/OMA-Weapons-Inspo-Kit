@@ -1,0 +1,13 @@
+NAME:		Device KEA Didiza
+
+--
+
+TYPE: 		Rectangular backup battery unit with slot inserts. Has a dense energy cell structure within its thick composite shell.
+
+EFFECT: 	Holds a sizable electrical charge that can be used to power various medium sized electronic machines. Despite the energy density, its structure has been intelligently designed to discharge and nullify its charge safely, without risk of explosion. The sturdy cover can allow the battery to survive high falls or other hard impacts without affecting its stability or breaking apart too easily.
+
+INTENT:		Often used in temporary situations where regular power supply is unavailable. For low-power energy weapons it is possible to jury rig the battery to provide energy to them, but the battery's design prevents it from being useful for high-energy weapons, unless the battery's energy is first transferred into an intermediate capacitor.
+
+
+==
+==

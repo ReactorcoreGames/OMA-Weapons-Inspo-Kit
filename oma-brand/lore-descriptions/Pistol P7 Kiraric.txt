@@ -1,0 +1,13 @@
+NAME:		Pistol P7 Kiraric
+
+--
+
+TYPE: 		Compact pistol with an attached electronic device underneath with a forward facing emitter.
+
+EFFECT: 	Reliable personal defence sidearm against soft unarmored targets. The attached device under the gun is a versatile multifunction device; It can provide LED driven red-light illumination for preserving a human's dark vision ability that a normal lamp would interrupt. It also can project a laser sight for easier aiming. If attached via cable to an external power battery, the laser emitter can be weaponized to set objects on fire at a distance, permanently blind foes with an invisble beam and burn holes through thin non-reflective materials.
+
+INTENT:		Anti-intruder weapon for indoor security guards against potential assassins, with readiness to adapt to emergency situations where the lights are turned off suddenly. The eerie red light emitter can scare intruders and allow security guards to ambush attackers in dark environments instead of being disadvantaged by it. Guards using the powered up laser often wear special laser protective goggles to make themselves immune to the dangerous blinding beam they shoot.
+
+
+==
+==

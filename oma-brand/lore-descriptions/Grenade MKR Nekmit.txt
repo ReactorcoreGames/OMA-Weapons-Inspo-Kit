@@ -1,0 +1,13 @@
+NAME:		Grenade MKR Nekmit
+
+--
+
+TYPE: 		Oval shaped segmented hand grenade with a standard safety lever and pin.
+
+EFFECT: 	Anti-personnel fragmentation grenade. Explodes into a shower of small sharp hot metal debris that shred and perforate soft targets in a sizable radius. When the pin is pulled out and safety lever is popped off the grenade's fuse (top part) starts a mechanism to count down which cannot be stopped. After exactly 5 seconds the grenade will explode. Skilled users can "cook" the grenade by letting the fuse count down a few seconds before throwing the grenade to make it detonate in mid air or leave less time for the opponent to react to the grenade of them trying to grab it and throw it back.
+
+INTENT:		One of the most common soldier weapons in any military, used in any situation where enemies are behind a corner, in a ditch, grouped together or in an open area with no cover.
+
+
+==
+==

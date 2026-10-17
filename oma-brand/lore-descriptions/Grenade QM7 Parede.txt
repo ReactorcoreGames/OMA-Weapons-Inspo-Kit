@@ -1,0 +1,13 @@
+NAME:		Grenade QM7 Parede
+
+--
+
+TYPE: 		Cylindrical fluid container grenade with a pressure dispersal nozzle.
+
+EFFECT: 	A dastardly area denial weapon that sprays a mixture of liquid acid mist and poison gas, creating a lingering noxious cloud and dealing caustic damage to the surrounding area making it untraversable for any organic being for an extended time.
+
+INTENT:		Used to stop swarms of small monsters from flooding through a tunnel passage and kill them in groups.
+
+
+==
+==

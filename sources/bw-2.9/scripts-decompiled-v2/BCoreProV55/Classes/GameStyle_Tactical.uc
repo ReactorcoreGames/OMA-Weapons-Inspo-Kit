@@ -1,0 +1,40 @@
+class GameStyle_Tactical extends BC_GameStyle_Fixed
+	config(BallisticProV55);
+
+defaultproperties
+{
+	StartingHealth=100
+	PlayerHealthMax=100
+	PlayerSuperHealthMax=100
+	StartingShield=50
+	PlayerShieldMax=50
+	bPlayerDeceleration=true
+	bAllowDodging=true
+	bAllowCrouchSliding=true
+	PlayerStrafeScale=1.0000000
+	PlayerBackpedalScale=1.0000000
+	PlayerGroundSpeed=210.0000000
+	PlayerAirSpeed=210.0000000
+	PlayerAccelRate=2048.0000000
+	PlayerJumpZ=294.0000000
+	PlayerDodgeSpeedFactor=1.3500000
+	PlayerDodgeZ=170.0000000
+	bEnableSprint=true
+	StaminaChargeRate=25
+	StaminaDrainRate=20
+	StaminaRechargeDelay=1.0000000
+	SprintSpeedFactor=1.4000000
+	JumpDrain=10.0000000
+	ShieldKillReward=25
+	KillRewardShieldMax=50
+	Index=3
+	StyleName="Tactical"
+	RecoilScale=0.5000000
+	MaxInventoryCapacity=12
+	bBrightPlayers=true
+	PlayerWalkSpeedFactor=0.6000000
+	PlayerCrouchSpeedFactor=0.3500000
+	PlayerAnimationGroundSpeed=270.0000000
+	bForceViewShake=true
+	SightBobScale=0.5000000
+}

@@ -1,0 +1,13 @@
+NAME:		Grenade YZ3 Glomtom
+
+--
+
+TYPE: 		Cylinder grenade containing dense compressed reactive but safe material.
+
+EFFECT: 	Tunnel blocking foam grenade. Upon detonation it will rapidly release a surprising amount of compressed soft foam that will grow in size and create a large thick obstacle that can fully block a tunnel passage with a hardened mud barrier once a few seconds have passed. Getting through will require digging tools as the resulting material is somewhat resistant and dense.
+
+INTENT:		Originally designed for firefighters to seal off sections of a burning building, but the ability to quickly dump a bunch of hardened fire-resistant thick mud in a convenient compact canister found its use in a lot of hands, both in various civilian and military applications.
+
+
+==
+==

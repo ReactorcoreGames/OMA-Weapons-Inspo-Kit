@@ -1,0 +1,36 @@
+class XMK5PrimaryFire extends BallisticProInstantFire;
+
+defaultproperties
+{
+	TraceRange=(Min=4096.0000000,Max=4096.0000000)
+	DamageType=Class'BallisticProV55.DTXMK5SubMachinegun'
+	DamageTypeHead=Class'BallisticProV55.DTXMK5SubMachinegunHead'
+	DamageTypeArm=Class'BallisticProV55.DTXMK5SubMachinegun'
+	PenetrateForce=175
+	bPenetrate=true
+	BrassClass=Class'BallisticProV55.Brass_XMK5SMG'
+	bCockAfterEmpty=true
+	ClipFinishSound=(Sound=Sound'BW_Core_WeaponSound.Misc.ClipEnd-2',Volume=0.8000000,Radius=48.0000000,Slot=0,Pitch=1.0000000,bAtten=true,bNoOverride=false)
+	DryFireSound=(Sound=Sound'BW_Core_WeaponSound.D49.D49-DryFire',Volume=0.7000000,Radius=24.0000000,Slot=0,Pitch=1.0000000,bAtten=false,bNoOverride=false)
+	MuzzleFlashClass=Class'BallisticProV55.XMk5FlashEmitter'
+	FlashScaleFactor=0.8000000
+	AimedFireAnim="AimedFire"
+	FireRecoil=110.0000000
+	FireChaos=0.0350000
+	FireChaosCurve=(Points=((InVal=0.0000000,OutVal=1.0000000),(InVal=0.2400000,OutVal=1.0000000),(InVal=0.3500000,OutVal=1.5000000),(InVal=0.6600000,OutVal=2.2500000),(InVal=1.0000000,OutVal=3.5000000)))
+	XInaccuracy=64.0000000
+	YInaccuracy=64.0000000
+	BallisticFireSound=(Sound=Sound'BW_Core_WeaponSound.OA-SMG.OA-SMG_Fire1',Volume=1.3500000,Radius=512.0000000,Slot=3,Pitch=1.0000000,bAtten=false,bNoOverride=false)
+	bPawnRapidFireAnim=true
+	FireEndAnim="None"
+	FireRate=0.0850000
+	AmmoClass=Class'BallisticProV55.Ammo_XMK5Clip'
+	ShakeRotMag=(X=24.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeRotRate=(X=360.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeRotTime=2.0000000
+	ShakeOffsetMag=(X=-5.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetRate=(X=-100.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetTime=2.0000000
+	WarnTargetPct=0.2000000
+	aimerror=900.0000000
+}

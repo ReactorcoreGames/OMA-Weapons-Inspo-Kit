@@ -1,0 +1,13 @@
+NAME:		MG LON Drirathiel
+
+--
+
+TYPE: 		Long barreled belt-fed heavy machinegun with a sturdy metal monopod for shooting at a stationary grounded position. Also includes a stock and foregrip area for firing the weapon from a standing position either from the hip or aimed like a rifle. Also has a top carry handle for easier transportation.
+
+EFFECT: 	Tried and tested old design for a reliable high-caliber support or assault weapon. Featuring no electronic components whatsoever and having a relatively simple construction, the weapon is easy to maintain, fix and manufacture in basic factories. Thanks to the long barrel and larger bullets, each round can penetrate medium armor and inflict serious damage. Ammunition can be supplied by an attached magazine or just have a long belt of ammunition be fed directly into the gun from a larger ammo box nearby.
+
+INTENT:		Widely used by soldiers and mercenaries alike despite its lack of futuristic features that other weapons of the era benefit greatly from. Even though many modern electronics-enabled weapons have varying degrees of EMP protection, militaries still keep an arsenal of manual gunpowder weapons in case of freak accidents or anomalies that could render more technologically advanced weapons inoperable.
+
+
+==
+==

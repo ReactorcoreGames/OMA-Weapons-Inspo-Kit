@@ -1,0 +1,13 @@
+NAME:		Sniper ELD Sertave
+
+--
+
+TYPE: 		Long barreled sturdy magazine fed heavy rifle with a large muzzle break, large scope and a monopod on a pivot. Features a shock absorbing stock for recoil mitigation and comfort as well as a rugged pistol grip.
+
+EFFECT: 	High power anti-material sniper rifle - a light armored vehicle killing weapon. Fires an armor piercing high explosive bullet that can travel up to a kilometer away in an earth-like surface environment, easily able to punch through light or even medium vehicle-class armor, exploding inside the machine to kill the crew or to detonate ammo stores. The advanced scope system provides excellent targeting aid to accurately land a shot even from an extreme distance. Against infantry, it can even break heavy armor of a soldier or damage a power armor suit with confidence.
+
+INTENT:		Common support weapon for sniper teams in the military, used both against enemy soldiers and vehicles alike. Some may argue its a bit overkill against human enemies and that the weapon should only be used against vehicles, but since ammo is plentiful and cheap, its not like its power is being wasted; at the end of the day its still supposed to hit the enemy troop, regardless if they're hiding behind a layer or armor or not.
+
+
+==
+==

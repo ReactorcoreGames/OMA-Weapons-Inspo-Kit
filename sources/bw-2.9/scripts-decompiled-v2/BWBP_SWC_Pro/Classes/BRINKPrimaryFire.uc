@@ -1,0 +1,41 @@
+class BRINKPrimaryFire extends BallisticProInstantFire;
+
+defaultproperties
+{
+	TraceRange=(Min=15000.0000000,Max=15000.0000000)
+	DecayRange=(Min=2048.0000000,Max=5120.0000000)
+	WallPenetrationForce=16.0000000
+	Damage=18.0000000
+	RangeAtten=0.3500000
+	DamageType=Class'BWBP_SWC_Pro.DTBRINKAssault'
+	DamageTypeHead=Class'BWBP_SWC_Pro.DTBRINKAssaultHead'
+	DamageTypeArm=Class'BWBP_SWC_Pro.DTBRINKAssault'
+	PenetrateForce=150
+	BrassClass=Class'BallisticProV55.Brass_MG'
+	BrassOffset=(X=-80.0000000,Y=1.0000000,Z=0.0000000)
+	bCockAfterEmpty=true
+	DryFireSound=(Sound=Sound'BW_Core_WeaponSound.Misc.DryRifle',Volume=1.0000000,Radius=24.0000000,Slot=0,Pitch=1.0000000,bAtten=false,bNoOverride=false)
+	MuzzleFlashClass=Class'BWBP_SWC_Pro.BRINKFlashEmitter'
+	FlashScaleFactor=0.5000000
+	AimedFireAnim="SightFire"
+	BurstFireRateFactor=0.1000000
+	FireRecoil=140.0000000
+	FireChaos=0.0200000
+	FireChaosCurve=(Points=((InVal=0.0000000,OutVal=1.0000000),(InVal=0.1600000,OutVal=1.0000000),(InVal=0.2500000,OutVal=1.5000000),(InVal=0.5000000,OutVal=2.2500000),(InVal=0.7500000,OutVal=3.5000000),(InVal=1.0000000,OutVal=5.0000000)))
+	XInaccuracy=48.0000000
+	YInaccuracy=48.0000000
+	BallisticFireSound=(Sound=Sound'BWBP_SWC_Sounds.BR1NK.BR1NK-Fire',Volume=1.0000000,Radius=512.0000000,Slot=3,Pitch=1.0000000,bAtten=false,bNoOverride=false)
+	bPawnRapidFireAnim=true
+	FireEndAnim="None"
+	FireAnimRate=0.8500000
+	FireRate=0.0800000
+	AmmoClass=Class'BWBP_SWC_Pro.Ammo_545mmSTANAG'
+	ShakeRotMag=(X=128.0000000,Y=64.0000000,Z=0.0000000)
+	ShakeRotRate=(X=10000.0000000,Y=10000.0000000,Z=10000.0000000)
+	ShakeRotTime=2.0000000
+	ShakeOffsetMag=(X=-20.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetRate=(X=-1000.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetTime=2.0000000
+	WarnTargetPct=0.2000000
+	aimerror=900.0000000
+}

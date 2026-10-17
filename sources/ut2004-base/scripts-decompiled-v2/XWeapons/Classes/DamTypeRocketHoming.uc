@@ -1,0 +1,2 @@
+class DamTypeRocketHoming extends DamTypeRocket;
+

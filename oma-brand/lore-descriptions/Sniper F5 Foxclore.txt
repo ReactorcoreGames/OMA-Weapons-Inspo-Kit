@@ -1,0 +1,13 @@
+NAME:		Sniper F5 Foxclore
+
+--
+
+TYPE: 		Large-caliber sniper rifle with a massive scope pre-built into the frame. Magazine fed, has a stock and a pistol grip.
+
+EFFECT: 	Shoots a big lethal bullet at high speeds that travels very far - a quintessential sniper rifle. The large super scope provides extreme zoom, nightvision mode and target highlighting.
+
+INTENT:		Standard military sharpshooter weapon assigned to reconnaissance teams to find, track and kill targets (up to medium armor), shooting from hidden positions at long distances.
+
+
+==
+==

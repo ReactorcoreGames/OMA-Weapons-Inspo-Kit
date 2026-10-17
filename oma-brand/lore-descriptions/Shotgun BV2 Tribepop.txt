@@ -1,0 +1,13 @@
+NAME:		Shotgun BV2 Tribepop
+
+--
+
+TYPE: 		Long two-handed pump-action shotgun with an internal ammo tube, iron sights and a small picatinny rail on top.
+
+EFFECT: 	A versatile shotgun shell firing platform that is sturdy, stable, accurate and has a long range when it comes to shotguns.
+
+INTENT:		Common multi-use civilian-class weapon. Can be fed with variety of ammo types - be it slugs, buckshot, birdshot, dragon's breath, EMP, flechette, explosive frag and many more.
+
+
+==
+==

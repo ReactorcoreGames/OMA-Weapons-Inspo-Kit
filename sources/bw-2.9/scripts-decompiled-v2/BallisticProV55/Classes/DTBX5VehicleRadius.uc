@@ -1,0 +1,18 @@
+class DTBX5VehicleRadius extends DT_BWExplode
+	config(BallisticProV55);
+
+defaultproperties
+{
+	DeathStrings[0]="%o drove %vs into %k's mine field."
+	DeathStrings[1]="%o tried to crush %k's mine with %vh tyre."
+	DeathStrings[2]="%o rolled %vh vehicle into %k's mine."
+	DeathStrings[3]="%o was peering out the window as %vh vehicle rolled into %k's mine."
+	DeathStrings[4]="%o's beady little eyes didn't see %k's mine hiding in the road."
+	WeaponClass=Class'BallisticProV55.BX5Mine'
+	DeathString="%o drove %vs into %k's mine field."
+	FemaleSuicide="%o reversed over one of her mines."
+	MaleSuicide="%o reversed over one of his mines."
+	bDelayedDamage=true
+	VehicleDamageScaling=3.0000000
+	VehicleMomentumScaling=3.0000000
+}

@@ -1,0 +1,13 @@
+NAME:		Shotgun RE4 Chacaka
+
+--
+
+TYPE: 		Lightweight two-handed compact tactical pump-foregrip shotgun with an melee electroshock module connected underneath.
+
+EFFECT: 	Uses smaller ammo than larger shotguns and is shorter than longer shotguns, making it less powerful by comparison. It compensates by being easy to maneuver due its light weight and compact size factor. It can fit plenty of small shotgun shells inside its internal ammo tube, giving it slightly more ammo capacity than its larger pump action cousins. The electroshock module provides a powerful stunning jolt of electricity to incapacitate a target or cause a short circuit against a robotic enemy.
+
+INTENT:		Designed for non-lethal riot police missions where they're loaded with rubber rounds and use a low-voltage setting for the electroshock melee module. Mercenaries usually swap out the ammo for something more lethal and set the underslung module to overloaded voltages, making it a lethal weapon against soft targets.
+
+
+==
+==

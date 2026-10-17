@@ -1,0 +1,13 @@
+NAME:		Tool XEY Bioyino
+
+--
+
+TYPE: 		Foam-based pressured fire extinguisher with a gauge, tank, spray nozzle and trigger handle.
+
+EFFECT: 	Shoots a torrent of rapidly expanding foam that has excellent fire extinguishing potential while being safe to human beings and electronics. The foam is chemically special as its not simply a wet bubbly substance that ends up as a frosting, but instead it balloons into a thick cushion that neutralizes flames and heat through its special properties. While firefighting is the primary use of this tool, it can also create fire-proof mattresses that can genuinely soften landings and prevent injury if someone were to jump on it from a higher floor. Likewise, since the foam is dense, opaque and mildly sticky, it can be used to create walls/piles/barriers that block vision, allowing people to hide behind them - or even inside them. The foam may resist mild concussive forces but its fairly easy to rip, tear and cut through, so even if someone were to be encased with the foam, they could get out of it easily with some effort.
+
+INTENT:		Massively common where ever a rare risk of a minor fire hazard is present. It doesn't replace a proper sprinkler system to extinguish larger fires nor any other heavy-duty extinguishing equipment, but it can handle most small fires reliably and quickly. Its also excellent in creating makeshift barriers at door ways to prevent fire from spreading room to room. Sometimes also used to escape burning buildings by spraying it out of a balcony or window down below onto the street, creating a big rescue mattress to jump on.
+
+
+==
+==

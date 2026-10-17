@@ -1,0 +1,13 @@
+NAME:		Launcher YFR Swoquix
+
+--
+
+TYPE: 		Big shoulder mounted rocketlauncher. Has a long barrel with the back end for blowing out dangerous fiery backblast exhaust. Central body features a hardened rectangular shell that houses electronics and a transciever to communicate with the rocket after it has left the launcher.
+
+EFFECT: 	Programmable guided smart rocketlauncher. Each rocket carries an explosive anti-tank payload but they also have a camera-sensor eye on the front and a special rocket engine assembly that allows the rocket to turn during its flight. Topping it off, it features an electronic circuit and a tiny wireless transciever that can be used to recieve commands, allowing for manual drone-like control of the rocket's flight, sending video feed back to the operator to be shown as a hologram projected from the launcher or via HUD in the user's combat helmet using a wireless link. The rocket can also perform automatic top-attack operations or told to fly to its target via specified waypoints, striking targets behind cover or corners, even guiding the rocket inside buildings and navigating to itself to a target as long as the indoor spaces are wide enough for the rocket to make its turn without crashing into a wall or other obstacle. Lastly, the rocket may also be manually guided via laser pointer to avoid frontal defences of an enemy.
+
+INTENT:		Rockets and launchers are both expensive and heavy to carry, so there was an effort to make each shot count. The military developed this weapon to guarantee that each rocket will have such high level of versatility that it will always offer atleast one or more options to succeed at completing its mission at maximizing the most amount of damage it can cause for any given scenario. As a curious anecdote, some mercenaries modified their rockets by removing its explosives and simply using them as make-shift RC drones that they race with in first person view. As long as they don't crash into a hard wall, they can eventually retrieve and reuse the rocket for another go.
+
+
+==
+==

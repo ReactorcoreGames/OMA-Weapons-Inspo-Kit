@@ -1,0 +1,13 @@
+NAME:		Blaster 1XO Unelind
+
+--
+
+TYPE: 		Two-handed dual energy blaster with two external capacitors on the top back, a heat vent at middle top, a picatinny rail for lasers, lights and other non-optic attachements, a comfortable back control grip and a bottom front support grip. There is also a built-in rechargable battery unit below, button controls on the side and a few auxiliary vents.
+
+EFFECT: 	Continuous double photon beam gun. Fires a nigh-instantanous white wide double beam of photon particles that microscopically shred the surface of a target at a rapid pace. Can be continually fired for as long as capacitors hold a charge. When not firing, capacitors will refill. A fully charged battery holds several minutes worth of firing time. The battery can be recharged from an external outlet via cable. It is possible to plug in an external power source via cable attached into a socket underneath the gun, which will provide with unlimited firing time, thought still limited by capacitors. It can gradually peel off armor and severely damage soft targets within seconds.
+
+INTENT:		Though seemingly weak if only fired for a second, the weapon is actually horrifying due to the lightspeed beam that will hit a target practically instantly as soon as the trigger is pressed down, projecting a ghostly white light that seemingly "eats" away at material like a thousands of invisible splintering needles rapidly poking at it continuously. Used on space stations as a powerful defence weapon that is easy to control and plug into any outlet nearby for virtually infinite ammo.
+
+
+==
+==

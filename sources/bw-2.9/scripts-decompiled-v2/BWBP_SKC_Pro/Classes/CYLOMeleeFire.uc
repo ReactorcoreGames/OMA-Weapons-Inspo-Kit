@@ -1,0 +1,34 @@
+class CYLOMeleeFire extends BallisticMeleeFire;
+
+defaultproperties
+{
+	SwipePoints[0]=(Weight=3,offset=(Pitch=2048,Yaw=2048,Roll=0))
+	SwipePoints[1]=(Weight=1,offset=(Pitch=1000,Yaw=1000,Roll=0))
+	SwipePoints[2]=(Weight=2,offset=(Pitch=0,Yaw=0,Roll=0))
+	SwipePoints[3]=(Weight=1,offset=(Pitch=-1000,Yaw=-1000,Roll=0))
+	SwipePoints[4]=(Weight=3,offset=(Pitch=-2048,Yaw=-2048,Roll=0))
+	DamageType=Class'BWBP_SKC_Pro.DTCYLOStab'
+	DamageTypeHead=Class'BWBP_SKC_Pro.DTCYLOStabHead'
+	DamageTypeArm=Class'BWBP_SKC_Pro.DTCYLOStabLimb'
+	KickForce=100
+	HookStopFactor=1.7000000
+	HookPullForce=100.0000000
+	bIgnoreReload=true
+	bUseWeaponMag=false
+	ScopeDownOn=2
+	bReleaseFireOnDie=false
+	BallisticFireSound=(Sound=SoundGroup'BW_Core_WeaponSound.A73.A73Stab',Volume=0.5000000,Radius=12.0000000,Slot=0,Pitch=1.0000000,bAtten=true,bNoOverride=true)
+	bAISilent=true
+	bFireOnRelease=true
+	PreFireAnim="PrepMelee1"
+	FireAnim="Melee1"
+	TweenTime=0.0000000
+	AmmoClass=Class'BWBP_SKC_Pro.Ammo_CYLO'
+	AmmoPerFire=0
+	ShakeRotTime=1.0000000
+	ShakeOffsetMag=(X=5.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetRate=(X=-1000.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetTime=1.0000000
+	BotRefireRate=0.7000000
+	WarnTargetPct=0.0500000
+}

@@ -1,0 +1,30 @@
+class SK410MeleeFire extends BallisticMeleeFire;
+
+defaultproperties
+{
+	TraceRange=(Min=130.0000000,Max=130.0000000)
+	DamageType=Class'BWBP_SKC_Pro.DT_SK410Hit'
+	DamageTypeHead=Class'BWBP_SKC_Pro.DT_SK410HitHead'
+	DamageTypeArm=Class'BWBP_SKC_Pro.DT_SK410Hit'
+	bIgnoreReload=true
+	bUseWeaponMag=false
+	ScopeDownOn=2
+	bReleaseFireOnDie=false
+	BallisticFireSound=(Sound=Sound'BW_Core_WeaponSound.M763.M763Swing',Volume=0.5000000,Radius=12.0000000,Slot=0,Pitch=0.8000000,bAtten=true,bNoOverride=true)
+	bAISilent=true
+	bFireOnRelease=true
+	PreFireAnim="PrepBash"
+	FireAnim="Bash"
+	PreFireAnimRate=2.0000000
+	FireAnimRate=1.5000000
+	TweenTime=0.0000000
+	FireRate=0.6500000
+	AmmoClass=Class'BWBP_SKC_Pro.Ammo_8GaugeHE'
+	AmmoPerFire=0
+	ShakeRotTime=1.0000000
+	ShakeOffsetMag=(X=5.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetRate=(X=-1000.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetTime=1.0000000
+	BotRefireRate=0.9000000
+	WarnTargetPct=0.0500000
+}

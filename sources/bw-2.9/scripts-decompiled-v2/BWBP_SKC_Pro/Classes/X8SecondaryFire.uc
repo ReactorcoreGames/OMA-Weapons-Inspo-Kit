@@ -1,0 +1,22 @@
+class X8SecondaryFire extends BallisticProjectileFire;
+
+defaultproperties
+{
+	SpawnOffset=(X=15.0000000,Y=10.0000000,Z=-9.0000000)
+	MuzzleFlashClass=Class'BWBP_SKC_Pro.VSKSilencedFlash'
+	BallisticFireSound=(Sound=Sound'BWBP_SKC_Sounds.AK47.AK47-KnifeFire',Volume=1.0000000,Radius=32.0000000,Slot=0,Pitch=1.0000000,bAtten=true,bNoOverride=true)
+	bAISilent=true
+	bFireOnRelease=true
+	bWaitForRelease=true
+	PreFireAnim="PrepShoot"
+	FireAnim="Shoot"
+	FireRate=1.7000000
+	AmmoClass=Class'BWBP_SKC_Pro.Ammo_X8Knife'
+	ShakeRotMag=(X=32.0000000,Y=8.0000000,Z=0.0000000)
+	ShakeRotRate=(X=10000.0000000,Y=10000.0000000,Z=10000.0000000)
+	ShakeRotTime=1.5000000
+	ShakeOffsetMag=(X=-8.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetRate=(X=-1000.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetTime=1.5000000
+	ProjectileClass=Class'BWBP_SKC_Pro.X8ProjectileHeld'
+}

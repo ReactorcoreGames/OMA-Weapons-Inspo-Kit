@@ -1,0 +1,41 @@
+class GameStyle_Pro extends BC_GameStyle_Fixed
+	config(BallisticProV55);
+
+defaultproperties
+{
+	bUniversalMineLights=true
+	StartingHealth=100
+	PlayerHealthMax=100
+	PlayerSuperHealthMax=200
+	bShieldRegeneration=true
+	StartingShield=100
+	PlayerShieldMax=200
+	bAllowDodging=true
+	bAllowDoubleJump=true
+	bAllowCrouchSliding=true
+	PlayerStrafeScale=1.0000000
+	PlayerBackpedalScale=1.0000000
+	PlayerGroundSpeed=315.0000000
+	PlayerAirSpeed=270.0000000
+	PlayerAccelRate=2048.0000000
+	PlayerJumpZ=294.0000000
+	PlayerDodgeSpeedFactor=1.5000000
+	PlayerDodgeZ=210.0000000
+	bEnableSprint=true
+	StaminaChargeRate=15
+	StaminaDrainRate=10
+	StaminaRechargeDelay=1.5000000
+	SprintSpeedFactor=1.4000000
+	JumpDrain=5.0000000
+	HealthKillReward=25
+	KillRewardHealthMax=100
+	StyleName="Pro"
+	RecoilScale=0.7000000
+	MaxInventoryCapacity=14
+	bBrightPlayers=true
+	PlayerAnimationGroundSpeed=340.0000000
+	bRunInADS=true
+	SightBobScale=0.3000000
+	ConflictWeaponSlots=11
+	ConflictEquipmentSlots=3
+}

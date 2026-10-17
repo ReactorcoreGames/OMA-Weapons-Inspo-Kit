@@ -1,0 +1,29 @@
+class TransDeRes extends xEmitter;
+
+defaultproperties
+{
+	mParticleType=2
+	mSpawningType=8
+	mStartParticles=10
+	mMaxParticles=150
+	mDelayRange[1]=0.1000000
+	mLifeRange[0]=0.3000000
+	mLifeRange[1]=0.3000000
+	mRegenRange[0]=550.0000000
+	mRegenRange[1]=550.0000000
+	mPosDev=(X=6.0000000,Y=6.0000000,Z=6.0000000)
+	mSpawnVecB=(X=4.0000000,Y=0.0000000,Z=0.0700000)
+	mSpeedRange[0]=100.0000000
+	mSpeedRange[1]=200.0000000
+	mAirResistance=0.0000000
+	mSizeRange[0]=2.5000000
+	mSizeRange[1]=1.5000000
+	mGrowthRate=-4.0000000
+	mColorRange[0]=(R=235,G=15,B=15,A=255)
+	mColorRange[1]=(R=235,G=15,B=15,A=255)
+	mAttenKa=0.1000000
+	bAttenByLife=true
+	LifeSpan=1.0000000
+	Skins[0]=Texture'XEffects.GreySpark'
+	Style=6
+}

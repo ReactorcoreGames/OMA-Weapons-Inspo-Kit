@@ -1,0 +1,13 @@
+NAME:		Grenade 5O4 Peachflame
+
+--
+
+TYPE: 		Throwable cylindrical canister grenade with multiple embedded nozzles.
+
+EFFECT: 	An incendiary grenade that uses a highly sticky and flammable gel. It can be detonated in two modes; first option will simply burst out all of the burning gel everywhere in a sudden big burst, meanwhile the second mode will cause the grenade to slowly spray away the burning gel from all sides for several seconds. In the latter mode the grenade can be activated, thrown and it will spray the gel over a long area as it travels.
+
+INTENT:		Used as a tactical area-denial grenade by soldiers to set enemies and flammable things on fire with nasty sticky gel that can't be easily shrugged off or extinguished.
+
+
+==
+==

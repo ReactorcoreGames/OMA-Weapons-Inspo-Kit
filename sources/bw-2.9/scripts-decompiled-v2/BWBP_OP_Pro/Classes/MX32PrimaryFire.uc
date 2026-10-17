@@ -1,0 +1,36 @@
+class MX32PrimaryFire extends BallisticProInstantFire;
+
+defaultproperties
+{
+	TraceRange=(Min=12000.0000000,Max=15000.0000000)
+	DamageType=Class'BWBP_OP_Pro.DTMX32Primary'
+	DamageTypeHead=Class'BWBP_OP_Pro.DTMX32PrimaryHead'
+	DamageTypeArm=Class'BWBP_OP_Pro.DTMX32PrimaryLimb'
+	PenetrateForce=150
+	bPenetrate=true
+	BrassClass=Class'BallisticProV55.Brass_Rifle'
+	BrassBone="tip"
+	BrassOffset=(X=-80.0000000,Y=1.0000000,Z=0.0000000)
+	bCockAfterEmpty=true
+	DryFireSound=(Sound=Sound'BW_Core_WeaponSound.D49.D49-DryFire',Volume=0.7000000,Radius=24.0000000,Slot=0,Pitch=1.0000000,bAtten=false,bNoOverride=false)
+	MuzzleFlashClass=Class'BallisticProV55.M50FlashEmitter'
+	FlashScaleFactor=0.3000000
+	AimedFireAnim="SightFire"
+	FireRecoil=128.0000000
+	FireChaos=0.0300000
+	FireChaosCurve=(Points=((InVal=0.0000000,OutVal=1.0000000),(InVal=0.1600000,OutVal=1.0000000),(InVal=0.2500000,OutVal=1.5000000),(InVal=0.5000000,OutVal=2.2500000),(InVal=0.7500000,OutVal=3.5000000),(InVal=1.0000000,OutVal=5.0000000)))
+	XInaccuracy=32.0000000
+	YInaccuracy=32.0000000
+	BallisticFireSound=(Sound=Sound'BWBP_SKC_Sounds.M51.M51-Fire444',Volume=1.8000000,Radius=512.0000000,Slot=3,Pitch=1.0000000,bAtten=false,bNoOverride=false)
+	bPawnRapidFireAnim=true
+	FireEndAnim="None"
+	FireRate=0.1150000
+	AmmoClass=Class'BallisticProV55.Ammo_556mm'
+	ShakeRotMag=(X=48.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeRotRate=(X=640.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeRotTime=2.0000000
+	ShakeOffsetMag=(X=-5.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetRate=(X=-100.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetTime=2.0000000
+	WarnTargetPct=0.2000000
+}

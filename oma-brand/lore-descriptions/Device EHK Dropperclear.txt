@@ -1,0 +1,13 @@
+NAME:		Device EHK Dropperclear
+
+--
+
+TYPE: 		Pylon-like device with handles on both sides. Theres an antenna both above and below the unit.
+
+EFFECT: 	Creates an special electronic field to jam signals or disables unprotected devices in a short ranged area, rendering them temporarily inoperable or glitched.
+
+INTENT:		Used by infiltrators to bypass nearby security electronics. Mercenaries have been known to toss these at robots and cyborg enemies to confuse or paralyze them. Doesn't always work if they're protected against its effects, but it can make combat considerably easier if it does work.
+
+
+==
+==

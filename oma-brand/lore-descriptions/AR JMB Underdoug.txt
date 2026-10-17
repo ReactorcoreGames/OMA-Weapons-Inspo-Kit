@@ -1,0 +1,13 @@
+NAME:		AR JMB Underdoug
+
+--
+
+TYPE: 		Armored and sturdy assault rifle that is slightly shorter than most long rifles. Features a blunt ramming head on the front while the end of the barrel is mildly shaped like a spike with saw-like teeth around its edge. Theres a carry handle and a picatinny rail between the ramhead and the handle, mainly intended for tactical non-optic accessories. Other features include an extendable stock, fire mode selector switch, magazine ammo feed and a combo of pistol/rifle grips for two-handed operation.
+
+EFFECT: 	Breaching full-auto assault rifle for close quarter assaults against medium armored opponents. The ramming head with the spike-like barrel end and be firmly pressed against a locked door's lock and shot at to forcefully unlock the door. Same ramming head can also be used as a rough melee attack to shove opponents or latch onto them to shoot them at point blank range with penetrating rifle rounds. The weapon is structurally reinforced to withstand rough handling and impacts, so users don't need to worry about breaking their gun when they bludgeon stuff with it.
+
+INTENT:		Specifically designed for urban assault military missions where the goal is to in hard and loud to clear out a building from armored hostiles, smashing away obstacles and locked doors out of the way to reach the target. When paired with electrical overload bullets, the weapon becomes exceptionally lethal against robots.
+
+
+==
+==

@@ -1,0 +1,8 @@
+class IM_Supercharge extends BCImpactManager;
+
+defaultproperties
+{
+	HitEffects[0]=Class'BWBP_SKC_Pro.IE_Supercharge'
+	HitDecals[0]=Class'BallisticProV55.AD_MRLExplosion'
+	HitSounds[0]=Sound'BWBP_SKC_Sounds.Misc.XM84-Aftershock'
+}

@@ -1,0 +1,13 @@
+NAME:		HMG GDW Mofoblitz
+
+--
+
+TYPE: 		Beefy assault rifle with an underslung secondary weapon tube. The primary rifle being supplied by a large keg at the back for ammo supply, meanwhile the secondary underslung weapon being supplied by a drum magazine at the bottom. The weapon uses a special autoloader system with caseless ammunition to quickly cycle and load ammunition into the upper firing barrel.
+
+EFFECT: 	High capacity motorized caseless assault rifle system with an underslung multipurpose launcher. A speciality with this weapon is the large cylinder ammo silo that can hold hundreds of small capsule bullets that are easy to refill by pouring them in from the top. The underslung launcher can take a variety of special shells that can result in payloads that either create shotgun blasts, flamethrower emissions, launched explosive grenades and many others.
+
+INTENT:		Exceptionally widespread and reliable workhorse battle weapon for any soldier, mercenary or other combat personnel. The ammunition is plentiful and easy to manufacture though it is smaller and thus less powerful compared to other battle rifles and has a shorter effective range. Its best used against large swarms of soft or lightly armored targets and medium to short range.
+
+
+==
+==

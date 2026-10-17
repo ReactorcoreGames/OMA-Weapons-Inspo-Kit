@@ -1,0 +1,22 @@
+[BallisticProInteractions]
+MenuName="Ballistic Binds"
+MenuHelp="Ballistic Bind Menu"
+ConfigBWText="Please set Ballistic Weapons keys. Keys set affect this server only and do not overwrite."
+
+[BallisticProMenuPanel]
+ADSText="Iron Sights"
+ReloadText="Reload"
+WpnSpcText="Wep Function"
+SprintText="Sprint"
+DualSelectText="Dual Wield"
+LoadoutText="Loadout Menu"
+FireModeText="Fire Mode"
+StreakText="Claim Killstreak"
+MeleeText="Melee Attack"
+PreferencesText="Preferences Menu"
+CaptionText="Key Assignments"
+
+[MutBWInteractions]
+FriendlyName="Ballistic Weapons: Bind Menu"
+Description="Adds bind support to Ballistic."
+

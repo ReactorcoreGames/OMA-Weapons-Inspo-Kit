@@ -1,0 +1,13 @@
+NAME:		LMG 7SH Claster
+
+--
+
+TYPE: 		A submachine gun that almost feels like an assault rifle due to its lenght and shape. It features a pistol grip, a cylindrical bullet silo at the back, a motorized autoloader mechanism and a top laser projector sight that paints an entire crosshair with splitted laser light. Theres a tiny pressure chamber at the bottom of the gun next to the trigger.
+
+EFFECT: 	Full auto paintball gun. Not a weapon but more a handy tool for marking points of interest quickly - like designating which trees to cut down in a forest, which rocks to mine for resources, which wrecks to process, which maze/cave path leads to the exit and such. Different paintballs can be loaded into the cylinder that can leave bioluminescent marks, dispense compressed live moss, neon colors to attract attention or dull grey paint to cover up something.
+
+INTENT:		Repurposed by bored miners that wanted to make marking rocks and hazards more fun. Adventurer and explorers found the tool useful for navigating unknown caves, meanwhile mercenaries use them for safe combat training.
+
+
+==
+==

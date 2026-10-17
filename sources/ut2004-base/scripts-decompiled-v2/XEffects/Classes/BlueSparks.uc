@@ -1,0 +1,29 @@
+class BlueSparks extends xEmitter;
+
+defaultproperties
+{
+	mParticleType=2
+	mRegen=false
+	mStartParticles=20
+	mMaxParticles=10
+	mLifeRange[0]=0.8000000
+	mLifeRange[1]=1.2000000
+	mRegenRange[0]=0.0000000
+	mRegenRange[1]=0.0000000
+	mDirDev=(X=0.4000000,Y=0.4000000,Z=0.4000000)
+	mPosDev=(X=0.2000000,Y=0.2000000,Z=0.2000000)
+	mSpawnVecB=(X=2.0000000,Y=0.0000000,Z=0.0600000)
+	mSpeedRange[0]=250.0000000
+	mSpeedRange[1]=350.0000000
+	mMassRange[0]=1.5000000
+	mMassRange[1]=2.5000000
+	mAirResistance=0.2000000
+	mSizeRange[0]=1.0000000
+	mSizeRange[1]=2.0000000
+	mGrowthRate=-1.0000000
+	mAttenKa=0.1000000
+	bHighDetail=true
+	Skins[0]=Texture'XEffects.Skins.pcl_BlueSpark'
+	ScaleGlow=2.0000000
+	Style=6
+}

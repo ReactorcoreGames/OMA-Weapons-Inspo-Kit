@@ -1,0 +1,39 @@
+class IM_HMCBlast extends BCImpactManager;
+
+defaultproperties
+{
+	HitEffects[0]=Class'BWBP_SKC_Pro.IE_HMCImpact'
+	HitEffects[1]=Class'BWBP_SKC_Pro.IE_HMCImpact'
+	HitEffects[2]=Class'BWBP_SKC_Pro.IE_HMCImpact'
+	HitEffects[3]=Class'BWBP_SKC_Pro.IE_HMCImpact'
+	HitEffects[4]=Class'BWBP_SKC_Pro.IE_HMCImpact'
+	HitEffects[5]=Class'BWBP_SKC_Pro.IE_HMCImpact'
+	HitEffects[6]=Class'BWBP_SKC_Pro.IE_HMCImpact'
+	HitEffects[7]=Class'BWBP_SKC_Pro.IE_HMCImpact'
+	HitEffects[8]=Class'BWBP_SKC_Pro.IE_HMCImpact'
+	HitEffects[9]=Class'BallisticProV55.IE_BulletWater'
+	HitEffects[10]=Class'BWBP_SKC_Pro.IE_HMCImpact'
+	HitDecals[0]=Class'BWBP_SKC_Pro.AD_HMCBlast'
+	HitDecals[1]=Class'BWBP_SKC_Pro.AD_HMCBlast'
+	HitDecals[2]=Class'BWBP_SKC_Pro.AD_HMCBlast'
+	HitDecals[3]=Class'BWBP_SKC_Pro.AD_HMCBlast'
+	HitDecals[4]=Class'BWBP_SKC_Pro.AD_HMCBlast'
+	HitDecals[5]=Class'BWBP_SKC_Pro.AD_HMCBlast'
+	HitDecals[6]=Class'BWBP_SKC_Pro.AD_HMCBlast'
+	HitDecals[7]=Class'BWBP_SKC_Pro.AD_HMCBlast'
+	HitDecals[8]=Class'BWBP_SKC_Pro.AD_HMCBlast'
+	HitDecals[9]=none
+	HitDecals[10]=Class'BWBP_SKC_Pro.AD_HMCBlast'
+	HitSounds[0]=none
+	HitSounds[1]=none
+	HitSounds[2]=none
+	HitSounds[3]=none
+	HitSounds[4]=none
+	HitSounds[5]=none
+	HitSounds[6]=none
+	HitSounds[7]=none
+	HitSounds[8]=none
+	HitSounds[9]=SoundGroup'BW_Core_WeaponSound.BulletImpacts.BulletWater'
+	HitSoundVolume=1.4000000
+	HitSoundRadius=256.0000000
+}

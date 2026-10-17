@@ -1,0 +1,31 @@
+class GoopSmoke extends xEmitter;
+
+defaultproperties
+{
+	mRegen=false
+	mStartParticles=10
+	mMaxParticles=10
+	mDelayRange[1]=0.1500000
+	mLifeRange[0]=1.0000000
+	mLifeRange[1]=2.0000000
+	mDirDev=(X=0.2500000,Y=0.2500000,Z=0.2500000)
+	mPosDev=(X=8.0000000,Y=8.0000000,Z=8.0000000)
+	mSpeedRange[0]=20.0000000
+	mSpeedRange[1]=80.0000000
+	mAirResistance=1.1000000
+	mRandOrient=true
+	mSpinRange[0]=-100.0000000
+	mSpinRange[1]=100.0000000
+	mSizeRange[0]=20.0000000
+	mSizeRange[1]=30.0000000
+	mGrowthRate=10.0000000
+	mColorRange[0]=(R=20,G=120,B=20,A=255)
+	mColorRange[1]=(R=20,G=150,B=20,A=255)
+	mAttenKa=0.1000000
+	mRandTextures=true
+	mNumTileColumns=4
+	mNumTileRows=4
+	bHighDetail=true
+	Skins[0]=Texture'XEffects.EmitSmoke_t'
+	Style=3
+}

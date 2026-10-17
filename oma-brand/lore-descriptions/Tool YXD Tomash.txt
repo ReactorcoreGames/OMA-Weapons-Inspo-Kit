@@ -1,0 +1,13 @@
+NAME:		Tool YXD Tomash
+
+--
+
+TYPE: 		Compact two-handed frame with a pistol grip, large internally rotating magazine and a maw-like front exit for projectiles. On top there is an extra-large information display unit.
+
+EFFECT: 	Advanced sticky mine dispensing weapon. Each mine dispensed by the weapon has a variety of sensors to trigger the detonation or deactivation - be it remote detonation, laser trip, proximity detection, vibration detection or touch detection. The mines can be attached via multiple methods - be it glue, spikes, magnet or claw. The user can both select the attach method as well as detonation method before launching each mine. The mines can be simply slotted to a wall by holding the gun against a said wall or they can be propelled a short distance and gracefully attach to a surface. The gun also comes with safety features to prevent mines from detonating if the gun is close to them, if the user sends a signal to suppress detonation until a better moment arrives or if the user send a disarming signal to active mines to make them reusable by collecting them and placing them back into the magazine.
+
+INTENT:		Used by hunters to set up elaborate traps and ambushes against monsters roaming a known area. Most common mine type is a regular explosive, though other ammo types also exist for the weapon to disable electronics, temporarily stun or dazzle opponents, fire sharp needles everywhere as well as mines with incendiary or gas payloads.
+
+
+==
+==

@@ -1,0 +1,13 @@
+NAME:		Cannon Q6O Sassee
+
+--
+
+TYPE: 		Menacing ramhold long cannon with a side door for ammunition loading. Also includes a range finder sensor on top, a recoil and exhaust relief mechanism that pops out the back of the gun, some electronics with a big battery unit and a reinforced cannon barrel.
+
+EFFECT: 	Portable tank cannon for infantry use. Can destroy tanks, groups of enemies, damage buildings and hit targets in defilade using air-burst detonation of explosive rounds. The smart range finder allows the gunner to measure the distance to their target and help them adjust the pitch of the cannon to hit the target - as well as program the cannon round to detonate mid-air at a specific point instead of exploding on impact.
+
+INTENT:		A relatively medium-tech heavy weapon for long range battlefield combat in the military. Used by mercenaries to great effect against monster groups or big monsters, wiping them out from a long distance from locations where actual tanks wouldn't be able to traverse to.
+
+
+==
+==

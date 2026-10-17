@@ -1,0 +1,20 @@
+class DT_RCS715Frag extends DT_BWShell
+	config(BallisticProV55);
+
+defaultproperties
+{
+	DeathStrings[0]="%k fired an explosive slug into a terrified %o."
+	DeathStrings[1]="%o took a direct hit from %k's RCS frag."
+	DeathStrings[2]="%k tagged and fragged %o with an RCS-715."
+	DeathStrings[3]="%k slugged %o out with %kh RCS-715's explosive shell."
+	DeathStrings[4]="%k exploded %o's guts out with %kh RCS-715."
+	InvasionDamageScaling=2.0000000
+	DamageIdent="Shotgun, Ordnance"
+	WeaponClass=Class'BWBP_OP_Pro.RCS715Shotgun'
+	DeathString="%k fired an explosive slug into a terrified %o."
+	FemaleSuicide="%o caught her own frag round."
+	MaleSuicide="%o caught his own frag round."
+	bExtraMomentumZ=true
+	GibPerterbation=0.7000000
+	KDamageImpulse=25000.0000000
+}

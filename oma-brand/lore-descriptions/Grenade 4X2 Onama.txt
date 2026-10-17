@@ -1,0 +1,13 @@
+NAME:		Grenade 4X2 Onama
+
+--
+
+TYPE: 		A sizable high-tech spherical thermobaric bomb that can be rolled down slopes or tubes thanks to its hardened shell.
+
+EFFECT: 	Can be shoved into a ventilation tube or rolled down a long tunnel, then detonated with an intense blast of heat and pressure, capable of clearing out underground interior spaces with extreme lethality. Can also be dropped from the air as a compact airburst bomb or dropped from a back of a ground vehicle as a timed bomb to knock out chasing enemy cars.
+
+INTENT:		Normally dropped by Unmanned Aerial Combat Drones in tactical strikes, but due to its versatile shape and electronics, mercenaries have used it as a portable "grenade bowling ball hybrid" against monster hive invested tunnels to quickly clear them out in a fun yet risky way.
+
+
+==
+==

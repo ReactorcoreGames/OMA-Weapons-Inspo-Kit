@@ -1,0 +1,100 @@
+[DamTypeBLU82Bomb]
+SimpleKillString="BLU-82 'Daisy Cutter'"
+DeathString="%o didn't notice %k's BLU82 drifting towards him. "
+FemaleSuicide="%o forgot to get out of the way of her BLU82."
+MaleSuicide="%o forgot to get out of the way of his BLU82."
+
+[DamTypeBLU96Bomb]
+SimpleKillString="BLU-96 Fuel-Air Bomb'"
+DeathString="%o was obliterated by %k's fuel air bomb. "
+FemaleSuicide="%o was pulverized by her fuel air bomb."
+MaleSuicide="%o was pulverized by his fuel air bomb."
+
+[DamTypeCBU100Bomb]
+SimpleKillString="CBU-100 Cluster Bomb"
+DeathString="%o didn't see %k's bomblets from his cluster bomb."
+FemaleSuicide="%o cluster bombed herself."
+MaleSuicide="%o cluster bombed himself."
+
+[DamTypeCBU30Bomb]
+SimpleKillString="CBU-30 Chemical Cluster Bomb"
+DeathString="%o choked on %k's poison gas. "
+FemaleSuicide="%o forgot to check which way the wind was blowing. "
+MaleSuicide="%o forgot to check which way the wind was blowing. "
+
+[DamTypeCBU58Bomb]
+SimpleKillString="CBU-58 Incendiary Cluster Bomb"
+DeathString="%o was caught in %k's napalm strike."
+FemaleSuicide="%o immolated herself."
+MaleSuicide="%o immolated himself."
+
+[DamTypeCBU72Bomb]
+SimpleKillString="CBU-72 Cluster Bomb"
+DeathString="%o was pulverized by %k's multiple fuel-air explosive shockwaves."
+FemaleSuicide="%o didn't get out of the way of her fuel-air explosives fast enough."
+MaleSuicide="%o didn't get out of the way of his fuel-air explosives fast enough."
+
+[DamTypeGBU38Bomb]
+SimpleKillString="GBU-38 JDAM'"
+DeathString="%o was struck down by %k's JDAM."
+FemaleSuicide="%o forgot where she targeted her JDAM."
+MaleSuicide="%o forgot where she targeted his JDAM."
+
+[DamTypeGBU43Bomb]
+SimpleKillString="GBU-43 MOAB"
+DeathString="%o didn't notice %k's MOAB guided towards him. "
+FemaleSuicide="%o forgot to get out of the way of her MOAB."
+MaleSuicide="%o forgot to get out of the way of his MOAB."
+
+[DamTypeGBU57Bomb]
+SimpleKillString="GBU-43 Massive Ordnance Penetrator"
+DeathString="%k dropped a MOP on %o's head. "
+FemaleSuicide="%o dropped a MOP on her own head."
+MaleSuicide="%o dropped a MOB on his own head."
+
+[DamTypeJSOW]
+SimpleKillString="AGM-154 JSOW"
+DeathString="%o was bombed into oblivion by %k's JSOW."
+FemaleSuicide="%o forgot that the JSOW was an area effect weapon."
+MaleSuicide="%o forgot that the JSOW was an area effect weapon."
+
+[DamTypeMC1Bomb]
+SimpleKillString="MC1 Chemical Bomb"
+DeathString="%o choked on %k's poison gas. "
+FemaleSuicide="%o forgot to check which way the wind was blowing. "
+MaleSuicide="%o forgot to check which way the wind was blowing. "
+
+[DamTypeMK77Bomb]
+SimpleKillString="MK-77 Incendiary Bomb"
+DeathString="%o ran around covered in %k's burning napalm."
+FemaleSuicide="%o set herself on fire."
+MaleSuicide="%o set himself on fire."
+
+[DamTypeNapalm]
+SimpleKillString="Napalm Carpet Bombing"
+DeathString="%o ran around covered in %k's burning napalm."
+FemaleSuicide="%o set herself on fire."
+MaleSuicide="%o set himself on fire."
+
+[DamTypeW54Bomb]
+SimpleKillString="W54 Nuclear Warhead"
+DeathString="%o was wiped off the map by %k's tactical nuke."
+FemaleSuicide="%o didn't duck and cover."
+MaleSuicide="%o didn't duck and cover."
+
+[TargetDesignator]
+WeaponModes=((ModeName="Carpet Bombing"),(ModeName="CBU-100 Cluster Bomb"),(ModeName="GBU-57 MOP"),(ModeName="AGM-154 JSOW"),(ModeName="MLRS Rocket Barrage"))
+ManualLines=("Projects a laser, which must be kept aimed at a given point on the map to call in the active airstrike.","Raises the scope. The color of the scope changes from green to red, depending on whether or not the player is sufficiently far away from the aim point to call in the current airstrike.","Switch modes by holding down the Fire Mode key and scrolling the mouse.||Effective at medium range. Extremely effective at long range, against cover, and against groups.")
+Description="The Target Designator is a unique weapon which can call in various types of airstrike on a position by using Target Painter mechanics. This weapon is of no use in environments where there is no access to the sky."
+ItemName="MAU-52 Target Designator"
+
+[TargetDesignatorPickup]
+PickupMessage="You picked up the MAU-52 Target Designator."
+
+[X93Painter]
+Description="The X-93A Orbital Weapon Designator is the most spectacular weapon in the Tournament's inventory. An upgraded version of the VAPOR WeP orbital ion cannon, the X-93A sports a wider blast area, longer designation distance, and a color shift from pink to blue due to the usage of ions traveling at lower velocity but with greater mass."
+ItemName="X-93A Orbital Weapon Designator"
+
+[X93PainterPickup]
+PickupMessage="You got the X-93A Orbital Weapon Designator."
+

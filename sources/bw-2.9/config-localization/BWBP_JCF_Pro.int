@@ -1,0 +1,160 @@
+[AP_HKMKSG]
+PickupMessage="You picked up two HKMK shotgun shell sets."
+
+[AP_HKMKSpecBullets]
+PickupMessage="You got 32 .45 ACP rounds & 12 Buckshot Rounds for the HKM-26 Pistol"
+
+[AP_M7A3Clip]
+PickupMessage="You got 100 rounds of 4.47mm ammo for the M7A3"
+
+[AP_M99Clip]
+PickupMessage="You got 3 rounds of .55 Cal Rifle ammo for the M99-ECS"
+
+[Ammo_447mm]
+ItemName="4.77mm Ammo"
+
+[Ammo_50ECSRifle]
+ItemName=".55-ECS Rifle Rounds"
+
+[Ammo_HKMKSG]
+ItemName="12 Gauge Magnum Shells"
+
+[Ammo_HKMKSpecBullets]
+ItemName="45. ACP Bullets"
+
+[DTHKMKSpecPistol]
+DeathStrings=("%o's escape velocity was pitiful compared to the .45HV bullets that %k's slinging.","%k took out the prime suspect, %o, with several bullets to the kidneys.","%o won't be running from the law anymore, or living at all thanks to %k.","%k tore into %o's ankles with some very speedy .45 bullets.","%o not only had their body armor pierced, but their lungs as well due to taking %k's bullets.","%k blew through %o's armor like a laser cutter through butter.")
+DeathString="%k drew %kh HKM-26 too fast for %o to react."
+FemaleSuicide="%o prosecuted herself with the HKM-26."
+MaleSuicide="%o prosecuted himself with the HKM-26."
+
+[DTHKMKSpecPistolAlt]
+DeathStrings=("%o's rib cage has some vacancy now that %k cleared it out with some buckshot.","%k might've had no bullets in the mag, but a single shotgun shell buried %o.","%o had their armor compromised, now they’re finished off by %k's shotgun from their HKM.","%k's HKM mangled %o's shooting hand with some 00 Buckshot.","%o took a lungful of %k's buckshot from their baby shotgun.")
+DeathString="%k drew %kh HKM-26 too fast for %o to react."
+FemaleSuicide="%o prosecuted herself with the HKM-26."
+MaleSuicide="%o prosecuted himself with the HKM-26."
+
+[DTHKMKSpecPistolHead]
+DeathStrings=("%o's helmet and gray matter has a shiny new hole thanks to %k.","%k managed to stop %o with a headshot before they did something highly illegal.","%o couldn't catch %k's speeding bullet coming right towards their gray matter.","%k ripped right through %o's ears even though there was a helmet protecting them.","%o was stopped from doing bad things by taking %k's armor piercing bullet to the dome.","%k broke through thick glass and %o’s nose with a single bullet.")
+DeathString="%k put %kh HKM-26 to %o's temple and fired."
+FemaleSuicide="%o litigated her own head off."
+MaleSuicide="%o litigated his own head off."
+
+[DTHKMKSpecPistolHeadAlt]
+DeathStrings=("%o had their mugshot taken by %k, giving them a literal mug shot.","%k destroyed %o's face so viciously that it doesn’t match their wanted poster.","%o didn't feel so lucky when they assumed that %k's mag was empty. Boom, headshot.","%k's HKM took a bite out of crime and %o's face with a small shottie.","%o found out the hard way that staring down %k's shotgun would leave them blind and dead.")
+DeathString="%k put %kh HKM-26 to %o's temple and fired."
+FemaleSuicide="%o litigated her own head off."
+MaleSuicide="%o litigated his own head off."
+
+[DTM7A3Rifle]
+DeathStrings=("%o's torso was ripped to shreds by %k's M7A3.","%k preforated %o with %kh M7A3.","%k's M7A3 filled %o with bloody holes.","%k's M7A3 cut down a fleeing %o.","%k tactically deleted %o with %kh M7A3.","%k hailstormed %o with M7A3 bullets.","%k's M7A3 cleared the room %o was hiding in.")
+DeathString="%o's torso was ripped to shreds by %k's M7A3."
+FemaleSuicide="%o murdificated herself."
+MaleSuicide="%o murdurified himself."
+
+[DTM7A3RifleHead]
+DeathStrings=("%o's melon was popped by %k's M7A3.","%k exploded %o's head with %kh M7A3 AR.","%k's M7A3 dismantled poor %o's head.","%o got %vh head removed by %k's M7A3.","%k put a round through %o's head.")
+DeathString="%o's melon was popped by %k's M7A3."
+FemaleSuicide="%o headshottificated herself."
+MaleSuicide="%o headshottified himself."
+
+[DTM7A3Tazer]
+DeathStrings=("%o got shocked by %k's M7A3 tazer.","%k defibrillated %o with a M7A3 tazer.","%o got zapped hard by %k's pistol tazer.")
+SimpleKillString="M7A3 Tazer"
+DeathString="%o got shocked by %k's M7A3 tazer."
+FemaleSuicide="%o struck herself."
+MaleSuicide="%o struck himself."
+
+[DTM99Rifle]
+DeathStrings=("%o was gutted by %k's huge M99-ECS round.","%k directed a .55 cal M99-ECS slug into %o's chest.","%k pierced an unfortunate %o with %kh M99-ECS.","%k assassinated %o with a single M99 shot.")
+DeathString="%o was silenced by %k's M99-ECS."
+FemaleSuicide="%o held her M99-ECS the wrong way around."
+MaleSuicide="%o held his M99-ECS the wrong way around."
+
+[DTM99RifleHead]
+DeathStrings=("%o's head was completely destroyed by %k's M99-ECS.","%k's M99 popped %o's juicy, watermelon-like head.","%k blasted %o's head right off %vh shoulders with a M99-ECS round.")
+DeathString="%o's head was completely destroyed by %k's M99-ECS."
+FemaleSuicide="%o sniped off her own head."
+MaleSuicide="%o sniped off his own head."
+
+[DTRGPXBazooka]
+DeathStrings=("%k got a bullseye on %o, and was rewarded with chunks of gibs.","%o was in the wrong place at the wrong time, getting tagged by %k's bazooka.","%k managed to drill %o in the groin before they went boom.","%o caught %k's red hot potato just mere seconds before exploding into a modern art piece.","%k lodged a rocket into %o's exhaust pipe, exploding them to pieces.","%o used to be an adventurer before taking %k's rocket to the knee caps.")
+DeathString="%o was blown to pieces by %k's Bazooka."
+FemaleSuicide="%o splattered the walls with her gibs using a Bazooka."
+MaleSuicide="%o splattered the walls with his gibs using a Bazooka."
+
+[DTRGPXBazookaRadius]
+DeathStrings=("Even on the fringe, %o couldn't escape %k's explosion.","%k showed %o how jank rocket jumping is by blowing up their feet.","%o became red mist in the wind thanks to %k's bazooka.","%k assisted %o in a magic trick, transforming into a fine red paste.","%o went splat on the ceiling after %k blew him up with the RGX.","%k might've missed the direct hit, but the impending explosion destroyed %o.")
+FemaleSuicides=("%o splattered the walls with her gibs using a G5.","%o blasted herself across the map with a G5.","%o blew herself into a chunky haze with the G5.")
+MaleSuicides=("%o splattered the walls with his gibs using a G5.","%o blasted himself across the map with a G5.","%o blew himself into a chunky haze with the G5.")
+DeathString="%o almost escaped %k's G5 rocket."
+FemaleSuicide="%o splattered the walls with her gibs using a G5."
+MaleSuicide="%o splattered the walls with his gibs using a G5."
+
+[DTRGPXUnarmed]
+DeathStrings=("%o was a victim of taking %k's unarmed rocket to the groin, no more children for them.","%k found that not even dislocating %o's jaw was good enough to swallow their rocket.","%o had their windpipe crushed by %k's unarmed RGX rocket.","%k was danger close, but still managed to end %o's life without blowing themselves up.","%o captured %k's unarmed rocket with their teeth.")
+SimpleKillString="RGPX Bazooka Impact"
+DeathString="%o was knocked into next week by %k's unarmed G5."
+FemaleSuicide="%o somehow managed to hit herself with her own G5 rocket."
+MaleSuicide="%o somehow managed to hit himself with his own G5 rocket."
+
+[DTSPASShotgun]
+DeathStrings=("%k subdued %o with a 12-Gauge SPAS shell.","%k's SPAS gut-shot forced %o to %vh knees.","%o's protest was quelled by %k's SPAS-12.","%o protested in front of %k's unforgiving SPAS-12.","%k restored peace by filling %o with SPAS buckshot.")
+DeathString="%k subdued %o with a 12-Gauge SPAS shell."
+FemaleSuicide="%o nailed herself with the SPAS."
+MaleSuicide="%o nailed himself with the SPAS."
+
+[DTSPASShotgunHead]
+DeathStrings=("%o got his face right up in %k's SPAS barrel.","%k's SPAS-12 relocated %o's brain to a wall.","%k had no choice but to discharge his SPAS into %o's face.")
+DeathString="%o got his face right up in %k's SPAS barrel."
+FemaleSuicide="%o nailed herself with the SPAS."
+MaleSuicide="%o nailed himself with the SPAS."
+
+[HKMKSpecPickup]
+PickupMessage="You picked up the HKM-26 pistol."
+
+[HKMKSpecPistol]
+WeaponModes=((ModeName="Semi"),(ModeName="Burst"),(ModeName="Auto"))
+ManualLines=("Semi-automatic .45 fire. Moderate damage and fire rate.","Alt fire is a potent close range shotgun attachment.","Weapon Function attaches a suppressor, reducing the flash and reducing the noise output.")
+Description="There's always trouble on the homefront, no matter if it's peaceful or a war is raging on. Criminals are running rampant like the infamous pirate Var Dehidra and other ne'er do-wells, and while there are plenty of personal protection weapons, not a lot can pack a punch.  One such exception is the HKM-26 Assault Pistol, an upgrade kit to the original H&K MK23 which not only allows the use for the .45HVAP rounds, but comes with a miniature shotgun mounted on the underside of the pistol. The idea is to penetrate through whatever armor the bad guys are wearing before putting them down with some double 00 buckshot. It's worked on some of the most dangerous criminals, but as always; Var Dehidra has managed to elude such a fate."
+ItemName="HKM-26 Assault Pistol"
+
+[M7A3AssaultRifle]
+WeaponModes=((ModeName="Single Fire"),(ModeName="Burst"),(ModeName="Auto"))
+Description="M7A3 Battle Rifle||Manufacturer: UTC Defense Tech|Primary: Automatic 7.62mm Fire|Secondary: Activate Zooming Scope||The M7A3 Assault Rifle, made by UTC Defense Tech, is one of the newer additions to the modern day battlefield. Using a special bullpup magazine and specialized 4.77mm rounds, the M7A3 can accurately pick off long range targets with ease. The low recoil and good controllability of the rounds more than make up for their subpar damage ratings, and soldiers on average can bring twice as many clips into the field with minimal added fatigue. The M7A3 is a good alternative for those who deem the M50 uncontrollable and who dislike its tendency to buck when firing."
+ItemName="M7A3 Battle Rifle"
+
+[M7A3Pickup]
+PickupMessage="You picked up the M7A3 Assault Rifle"
+
+[M99Pickup]
+PickupMessage="You picked up the M99-ECS Anti Material Rifle"
+
+[M99Rifle]
+WeaponModes=((ModeName="Bolt-Action"),(ModeName="Burst"),(ModeName="Auto"))
+Description="M99 ECS .55 Anti Material Rifle||Manufacturer: Enravion Combat Solutions|Primary: Single Powerful Shot|Secondary: Activate Zooming Scope||In the 21st century the M99 was an effective long range sniper rifle, with a high penetration power. During the Skrith wars however the M99 lost its relevance due to its slow fire rate and old ammunition. Weapons like the M75-TIC Railgun were far more effective and feared. In the middle of the war the production of the M75 was too expensive to arm every sniper with it. Thus Enravion Combat Solutions started to do researches on how to improve old firearms and they succeeded. The M99-ECS was the result. Many improvements like better materials and a high quality scope made the rifle useful again. The major improvement however was the ammunition. The new 55.cal ECS armor piercing round easily penetrates concrete wall, with minimal deformations. Due to its nano coating the 55.cal ECS projectile glides through the air with minimal aerodynamic drag. This way it keeps its high V0"
+ItemName="M99-ECS Anti-Material Rifle"
+
+[M99Turret]
+VehicleNameString="M99 Mounted ECS Anti-MaterialRifle"
+
+[M99_TW]
+ItemName="Deployed M99 Turret"
+
+[RGPXBazooka]
+WeaponModes=((ModeName="Rocket"),(ModeName="Burst"),(ModeName="Auto"))
+ManualLines=("Fires a rocket. These rockets have an arming delay and will ricochet off surfaces when unarmed.","Flak Shot","Regular Laser (Non Guidance)")
+Description="Every country on Earth has their own way to deal with the looming Skrith threat, ZTV Exports has several eastern offerings to combat the foriegn invaders from beyond the stars.  While most of them have armor penetrating capabilities, not a lot of them can tackle heavy threats like the Cryons, suffering several defeats at the hands of the mechanical behemoths. Looking back at their history, ZTV managed to unearth some old RPGs and modified them into the new RPG-350 Cluster Rocket Launcher.  While it doesn't have much explosive prowess, the blast has been known to disorient Cyron troops, stunning them long enough for them to be exposed to getting flaked by it's secondary function. It's a devastating weapon, even some brave ZTV Rocket Soldats have been insane enough to get in close and unleash a storm of flak, reducing the enemy to scraps."
+ItemName="RPG-350 Cluster Rocket Launcher"
+
+[RGPXPickup]
+PickupMessage="You picked up the RGK-350 H-V Flak Bazooka."
+
+[SPASPickup]
+PickupMessage="You picked up the SP-12 Compact Shotgun"
+
+[SPASShotgun]
+WeaponModes=((ModeName="Semi-Automatic"),(ModeName="Burst"),(ModeName="Auto"))
+Description="SP-12 Shotgun||Manufacturer: Classic Weapons Industries|Primary: Pump Shot|Secondary: Semi-Auto Shot||The SP is  well known firearm brought back to life by Classic Weapons Industries. A highly accurate 12-gauge shotgun, the 8 shell SP 2 was originally produced by Enravion in the pre-war period. It was a formidible dual-mode shotgun that could be fired in both semi-automatic and pump-action firemodes. CWI has worked to improve this venerable classic and has overhauled the original pump action firemode for improved accuracy and range. Users have the option of quickly switching between these modes to deal with different tactical situations. Comes with a variety of pre-war attachments for all your shooting needs."
+ItemName="SP-12 Compact Shotgun"
+

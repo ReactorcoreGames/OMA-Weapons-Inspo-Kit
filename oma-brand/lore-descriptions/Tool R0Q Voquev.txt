@@ -1,0 +1,13 @@
+NAME:		Tool R0Q Voquev
+
+--
+
+TYPE: 		Spray bottle made from lightweight metals. Has a capsule like cylinder for storing fuel.
+
+EFFECT: 	Small portable mini-flamethrower that can fit in a pocket. Fire output can be configured between a small lighter flame upto a sizable continuous fireblast that can travel a few meters before dissolving. Fuel tank can be easily refilled and the spray unit has a safety feature to lock the operation from triggering accidently.
+
+INTENT:		Some industries needed a way to project a some amount of fire in their tasks - something between a small lighter and a full sized flamethrower - and this tool ended up as the result. It can barely be used as a weapon, but it cannot compete against actual combat flamethrowers.
+
+
+==
+==

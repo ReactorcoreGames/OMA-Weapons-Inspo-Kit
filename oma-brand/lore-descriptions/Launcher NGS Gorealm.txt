@@ -1,0 +1,13 @@
+NAME:		Launcher NGS Gorealm
+
+--
+
+TYPE: 		A large frame with large rail mounts on both sides. On top of the frame there is a sleeve compartment for one arm that has a trigger mechanism and a handle deep inside. Theres another ram handle on top for another arm for added stability.
+
+EFFECT: 	Portable double cruise missile launcher. Two advanced missiles can be loaded on the sides of the launcher system from where they will start their rocket engine, build up enough thrust potential for their flight and launch on whatever mission they were programmed to complete. Usually paired with a computer, AR goggles or another command interface in conjuction with a satellite or another recon data link, the user can preconfigure a plan that the missile will follow after which the missiles will operate on a fire-and-forget basis, needing no further guidance from the user and with no way to stop them once they're on their way, apart from shooting them down. The missiles hold an artillery grade warhead and can cause serious damage over a large area. The missiles have sophisticated sensors and electronics, along with fins and a vector thrustable rocket engine, which allow the missile to change its trajectory, track targets and detonate smartly, making them an intelligent and accurate automated weapon overall.
+
+INTENT:		Carried by soldiers squads, this supplemental heavy weapon allows the army to fire tactical missiles against buildings, bunkers, vehicles, aircraft, boats and other larger targets or tightly grouped targets from a long distance away, pretty much from anywhere, fired by a single soldier and with great accuracy. The only requirement for its operation is to preprogram the missile before launch, usually with the assistance of a satellite or a spotter who relays the coordinates to the weapon holder elsewhere via comlink. That said, in the absence of target data the missile can be programmed to fly straight or at an arc as a dumb weapon too, when the target is within visual range and there is a direct line of sight to it.
+
+
+==
+==

@@ -1,0 +1,13 @@
+NAME:		Grenade ZUB Besloor
+
+--
+
+TYPE: 		Small cylinder battery unit with connector poles. Uses a hybrid technology of dense solid and liquid cells within to store electrical power.
+
+EFFECT: 	Its a recyclable battery. Standardized for use in many small portable machines and heavy powered tools, it can provide long lasting energy before becoming spent. Not rechargable.
+
+INTENT:		Despite being a mundane consumable, it has seen use as an actual grenade when shot at after being thrown near its target, though it takes skill or an auto-targetting system to succeed at this. Since batteries are plentiful, cheap and found everywhere, this has happened more often than necessary despite the manufacturer's plea for people to stop doing this.
+
+
+==
+==

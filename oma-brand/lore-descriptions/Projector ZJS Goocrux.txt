@@ -1,0 +1,13 @@
+NAME:		Projector ZJS Goocrux
+
+--
+
+TYPE: 		Heavy chemical sprayer projector with an underslung flame positioned in front of the main barrel. Features a tuning valve at the back that is next to an input port for recieving liquid fuel into the projector.
+
+EFFECT: 	Heavy-duty napalm flamethrower with a simple yet sturdy design, capable of sending a long stream of burning napalm over a relatively long distance as far as flamethrowers go. Requires an external fuel tank to feed the weapon, usually as a backpack model that contains enough napalm for extended continuous fire.
+
+INTENT:		Mercenary favorite when it comes to swarms of soft targets that are limited to melee attack capabilities only. Then again, it is equally effective against lightly armored targets and excells nicely in close-quarter combat spaces like buildings, bunkers or caves. The napalm sticks to surfaces, which will usually cause the victim to become too panicked to fight back, focusing on putting out the fire, usually with little success.
+
+
+==
+==

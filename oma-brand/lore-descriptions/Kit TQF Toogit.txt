@@ -1,0 +1,13 @@
+NAME:		Kit TQF Toogit
+
+--
+
+TYPE: 		Laptop bag sized medical first aid case with a carry handle.
+
+EFFECT: 	Standard medkit for natural human being use. Contained within the case are a complete set of medical tools, bandages, medicines and injectors to deal with most common physical damage - cuts, wounds, burns, abrasion, poisonings, cold, bruises, impacts and more. Best when used by someone with basic training, but it does come with well designed instructions to help even a clueless novice to get the job done.
+
+INTENT:		Found as standard emergency equipment at every home, every vehicle and every public building or other relevant location.
+
+
+==
+==

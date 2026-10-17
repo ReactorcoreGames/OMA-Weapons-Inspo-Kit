@@ -1,0 +1,13 @@
+NAME:		AR HFG Reiltas
+
+--
+
+TYPE: 		High-tech medium-lenght pulse rifle made from lightweight materials, a micro-reactor unit at the back stock, a picatinny rail with a tactical sensor mounted above. Is magazine fed. Front bottom features an extended grip surface allowing for comfortable two-handed operation, though this weapon's low weight and ergonomics allow for one-handed dual wield use too.
+
+EFFECT: 	An advanced all-rounded full-auto assault rifle. Its magazine holds metal bullets that are notably smaller than of older gas-operated rifles, but still hit hard enough to outperform them. The weapon runs an internal process for each shot where it first retrieves a bullet from the magazine into a small chamber where upon pressing the trigger, the chamber will charge and infuse the bullet with a plasma field, then rapidly eject the bullet into an acceleration array that speeds the bullet to a high speed, sending it out of the barrel of the gun. This fast superheated powered projectile burns, penetrates, explodes and splinters into razors, wrecking havok against medium armored infantry, light vehicles and with extended fire can even destroy heavily armored infantry. Has a high ammo capacity and an average rate of fire, but great damage and accuracy. The top mounted electronic unit isn't just a scope - its also an info readout for ammo count, weapon status as well as shows sensor information from the smart optical eye at the front of the gun that can identify points of interest and lock on them. Internal gyros housed within the gun can even lightly nudge the weapon onto a locked on target, giving the user assisted aimbot capabilities.
+
+INTENT:		One of the most common battle weapons wherever advanced automated high-tech manufacturing is available, finding its use amongst well-equipped military assault troops most prominently. Some mercenaries have stories of using the weapon against a group of monsters in pitch black darkness and successfully hitting most of their shots thanks to the weapon's aimbot feature and muzzle flash illumination. It is certainly not a stealthy weapon.
+
+
+==
+==

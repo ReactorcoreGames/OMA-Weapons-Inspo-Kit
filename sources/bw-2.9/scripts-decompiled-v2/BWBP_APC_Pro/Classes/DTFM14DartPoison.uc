@@ -1,0 +1,21 @@
+class DTFM14DartPoison extends DT_BWMiscDamage
+	config(BallisticProV55);
+
+defaultproperties
+{
+	DeathStrings[0]="%k's FM14 dart poisoned %o to an agonizing death."
+	DeathStrings[1]="%o suffered boils and poisoning from %k's stun dart."
+	DeathStrings[2]="%k's dart poison eventually overcame %o's fragile constitution."
+	SimpleKillString="FM14 Dart Poison"
+	DamageDescription=",Poison,GearSafe,NonSniper,"
+	WeaponClass=Class'BWBP_APC_Pro.FM14Shotgun'
+	DeathString="%k's FM14 dart poisoned %o to an agonizing death."
+	FemaleSuicide="%o pricked herself with an FM14 dart."
+	MaleSuicide="%o pricked himself with an FM14 dart."
+	bArmorStops=false
+	bFastInstantHit=true
+	bDirectDamage=true
+	GibPerterbation=0.1000000
+	KDamageImpulse=3000.0000000
+	VehicleDamageScaling=0.6500000
+}

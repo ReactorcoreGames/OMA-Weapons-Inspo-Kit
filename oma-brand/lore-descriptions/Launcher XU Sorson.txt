@@ -1,0 +1,13 @@
+NAME:		Launcher XU Sorson
+
+--
+
+TYPE: 		Rectangular ram-hold multi missile launcher. Front of the gun accomodates for multiple simultanous projectiles, while the back houses two exhaust units to disperse the hazardous rocket engine burn safely behind.
+
+EFFECT: 	Anti-UAV homing mini-missile launcher, capable of destroying/incapacitating drones or light vehicles with a small explosive airbursting warhead. The weapon can work in three modes that determine how the missiles will reach their intended target. First mode has the weapon itself scan and determine a target to lock on to using its internal sensors, after which the missiles are automatically programmed in the gun and launched at their target doing their best to home in on them. Second mode launches the missiles and lets them lock on to whatever valid targets they notice on their own relying on the missiles own sensors to make the decision. This mode is great for quick use when time is off the essence, but the missiles are more likely to lock on to unintended targets. Third mode will simply launch the missiles straight ahead, without any homing functionality - aside from basic flight stabilization to ensure a flight in a straight line. All missiles do not explode on impact, but always use a proximity sensor to detonate near the target - also known as airburst. There is a safety feature that prevents the missiles from detonating if they're too close to the user.
+
+INTENT:		With lightweight and mobile UAVs drones as well as light manned vehicles like bikes, jetskis and microcopters, they're sometimes immune or resistant to EMP/jamming/disruption attacks, so something man-portable that can easily hit a moving target with a regular lethal explosive is just what this weapon delivers.
+
+
+==
+==

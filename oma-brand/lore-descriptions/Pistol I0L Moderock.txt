@@ -1,0 +1,13 @@
+NAME:		Pistol I0L Moderock
+
+--
+
+TYPE: 		Medium sized pistol with a small electronic under attachement.
+
+EFFECT: 	Strong dependable sidearm with enough impact power and magazine capacity to knock out several lightly armored foes on their asses. The small device underneath provides both an auto-adjusting laser pointer and tactical light for added accuracy and advantage. Depending on how far the target is, the laser and lamp will automatically tilt to compensate so that both are always pointing exactly where the bullet is going to hit.
+
+INTENT:		Primary sidearm of most soldiers and mercenaries alike.
+
+
+==
+==

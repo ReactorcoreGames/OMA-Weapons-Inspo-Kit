@@ -1,0 +1,64 @@
+class BloodSetPurple extends BloodSetDefault;
+
+defaultproperties
+{
+	MyBloodName="bot-purple"
+	MyBloodColor=(R=255,G=150,B=255,A=0)
+	BloodPool=Class'BallisticProV55.AD_BloodPoolPurple'
+	WaterBloodClass=Class'BallisticProV55.IE_WaterBloodPurple'
+	DragDecal=Class'BallisticProV55.AD_BloodDragPurple'
+	LowImpactDecal=Class'BallisticProV55.AD_BloodLowImpactPurple'
+	HighImpactDecal=Class'BallisticProV55.AD_BloodHighImpactPurple'
+	BulletSplat=Class'BallisticProV55.AD_BloodBulletPurple'
+	ShotgunSplat=Class'BallisticProV55.AD_BloodShotgunPurple'
+	ExplodeSplat=Class'BallisticProV55.AD_BloodExplodePurple'
+	SlashSplat=Class'BallisticProV55.AD_BloodSlashPurple'
+	SawSplat=Class'BallisticProV55.AD_BloodSawPurple'
+	BulletEffect=Class'BallisticProV55.BG_BulletHitBot'
+	BulletHeadEffect=Class'BallisticProV55.BG_BulletHitHeadBot'
+	ShotgunEffect=Class'BallisticProV55.BG_ShellHitBot'
+	ExplodeEffect=Class'BallisticProV55.IE_BloodExplodePurple'
+	SlashEffect=Class'BallisticProV55.BG_SlashHitBot'
+	SlashHeadEffect=Class'BallisticProV55.BG_SlashHitHeadBot'
+	SawEffect=Class'BallisticProV55.BG_SawHitBot'
+	SawHeadEffect=Class'BallisticProV55.BG_SawHitBot'
+	BluntEffect=Class'BallisticProV55.BG_BluntHitBot'
+	WoundDripper=Class'BallisticProV55.BG_BulletWoundSpurterBot'
+	HeadExplode=Class'BallisticProV55.BG_HeadExplodeBot'
+	TorsoExplode=Class'BallisticProV55.BG_TorsoExplodeBot'
+	ShoulderExplode=Class'BallisticProV55.BG_ShoulderExplodeBot'
+	ArmExplode=Class'BallisticProV55.BG_ArmExplodeBot'
+	HandExplode=Class'BallisticProV55.BG_HandExplodeBot'
+	LegExplode=Class'BallisticProV55.BG_LegExplodeBot'
+	FootExplode=Class'BallisticProV55.BG_FootExplodeBot'
+	PelvisExplode=Class'BallisticProV55.BG_PelvisExplodeBot'
+	ShoulderExplodeLeft=Class'BallisticProV55.BG_ShoulderExplodeLeftBot'
+	ArmExplodeLeft=Class'BallisticProV55.BG_ArmExplodeLeftBot'
+	StumpDripper=Class'BallisticProV55.BG_StumpSpurterBot'
+	DefaultStump=none
+	CharredStump=none
+	BulletHitSound=SoundGroup'BW_Core_WeaponSound.BulletImpacts.BulletBot'
+	ScreenEffectMisc=Class'BallisticProV55.BG_ScnBloodBot'
+	ScreenEffectSlice=Class'BallisticProV55.BG_ScnBloodSliceBot'
+	ScreenEffectSaw=Class'BallisticProV55.BG_ScnBloodSawBot'
+	DefaultGibClass=Class'BallisticProV55.BWGib_Bot'
+	HeadGibs[0]=(GibClass=none,Mesh=StaticMesh'XEffects.GibBotHead',offset=(X=2.0000000,Y=-4.0000000,Z=3.0000000),Velocity=(X=(Min=50.0000000,Max=100.0000000),Y=(Min=-50.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=200.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=0.4500000)
+	HeadGibs[1]=(GibClass=none,Mesh=none,offset=(X=4.0000000,Y=1.0000000,Z=3.0000000),Velocity=(X=(Min=-50.0000000,Max=100.0000000),Y=(Min=25.0000000,Max=50.0000000),Z=(Min=25.0000000,Max=200.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.2000000)
+	HeadGibs[2]=(GibClass=none,Mesh=none,offset=(X=1.0000000,Y=2.0000000,Z=3.0000000),Velocity=(X=(Min=-20.0000000,Max=150.0000000),Y=(Min=25.0000000,Max=50.0000000),Z=(Min=0.0000000,Max=150.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.2000000)
+	HeadGibs[3]=(GibClass=none,Mesh=none,offset=(X=4.5000000,Y=-0.5000000,Z=-1.0000000),Velocity=(X=(Min=25.0000000,Max=10.0000000),Y=(Min=-40.0000000,Max=10.0000000),Z=(Min=50.0000000,Max=50.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.2000000)
+	TorsoGibs[0]=(GibClass=none,Mesh=StaticMesh'XEffects.GibBotTorso',offset=(X=-1.0000000,Y=6.0000000,Z=16.0000000),Velocity=(X=(Min=0.0000000,Max=200.0000000),Y=(Min=0.0000000,Max=100.0000000),Z=(Min=0.0000000,Max=180.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=0.4250000)
+	TorsoGibs[1]=(GibClass=none,Mesh=none,offset=(X=-1.0000000,Y=-6.0000000,Z=12.0000000),Velocity=(X=(Min=-20.0000000,Max=200.0000000),Y=(Min=-100.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=140.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.7000000)
+	TorsoGibs[2]=(GibClass=none,Mesh=none,offset=(X=-1.0000000,Y=0.0000000,Z=4.0000000),Velocity=(X=(Min=10.0000000,Max=150.0000000),Y=(Min=-50.0000000,Max=50.0000000),Z=(Min=0.0000000,Max=150.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.7000000)
+	TorsoGibs[3]=(GibClass=none,Mesh=none,offset=(X=-1.0000000,Y=0.0000000,Z=18.0000000),Velocity=(X=(Min=10.0000000,Max=150.0000000),Y=(Min=-50.0000000,Max=50.0000000),Z=(Min=100.0000000,Max=300.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=1.7000000)
+	PelvsGibs[0]=(GibClass=none,Mesh=none,offset=(X=0.0000000,Y=7.0000000,Z=-12.0000000),Velocity=(X=(Min=-50.0000000,Max=200.0000000),Y=(Min=0.0000000,Max=100.0000000),Z=(Min=0.0000000,Max=50.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=-4096),DrawScale=1.1000000)
+	PelvsGibs[1]=(GibClass=none,Mesh=none,offset=(X=0.0000000,Y=-7.0000000,Z=-12.0000000),Velocity=(X=(Min=-50.0000000,Max=200.0000000),Y=(Min=-100.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=50.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=4096),DrawScale=1.1000000)
+	OtherGibs[0]=(GibClass=none,Mesh=StaticMesh'XEffects.GibBotUpperArm',offset=(X=0.0000000,Y=-8.0000000,Z=0.0000000),Velocity=(X=(Min=-400.0000000,Max=50.0000000),Y=(Min=0.0000000,Max=100.0000000),Z=(Min=0.0000000,Max=200.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=8192),DrawScale=0.4000000)
+	OtherGibs[1]=(GibClass=none,Mesh=StaticMesh'XEffects.GibBotUpperArm',offset=(X=0.0000000,Y=8.0000000,Z=0.0000000),Velocity=(X=(Min=-50.0000000,Max=400.0000000),Y=(Min=0.0000000,Max=100.0000000),Z=(Min=0.0000000,Max=200.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=-8192),DrawScale=0.4000000)
+	OtherGibs[2]=(GibClass=none,Mesh=StaticMesh'XEffects.GibBotForearm',offset=(X=0.0000000,Y=-8.0000000,Z=0.0000000),Velocity=(X=(Min=0.0000000,Max=350.0000000),Y=(Min=-100.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=200.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=8192),DrawScale=0.4000000)
+	OtherGibs[3]=(GibClass=none,Mesh=StaticMesh'XEffects.GibBotForearm',offset=(X=0.0000000,Y=8.0000000,Z=0.0000000),Velocity=(X=(Min=0.0000000,Max=350.0000000),Y=(Min=0.0000000,Max=100.0000000),Z=(Min=0.0000000,Max=200.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=-8192),DrawScale=0.4000000)
+	OtherGibs[4]=(GibClass=none,Mesh=StaticMesh'XEffects.GibBotCalf',offset=(X=0.0000000,Y=0.0000000,Z=0.0000000),Velocity=(X=(Min=50.0000000,Max=350.0000000),Y=(Min=-50.0000000,Max=50.0000000),Z=(Min=20.0000000,Max=100.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=0.4000000)
+	OtherGibs[5]=(GibClass=none,Mesh=StaticMesh'XEffects.GibBotCalf',offset=(X=0.0000000,Y=0.0000000,Z=0.0000000),Velocity=(X=(Min=50.0000000,Max=350.0000000),Y=(Min=-50.0000000,Max=50.0000000),Z=(Min=20.0000000,Max=100.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=0.4000000)
+	OtherGibs[6]=(GibClass=none,Mesh=none,offset=(X=0.0000000,Y=0.0000000,Z=0.0000000),Velocity=(X=(Min=0.0000000,Max=0.0000000),Y=(Min=0.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=0.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=0.0000000)
+	OtherGibs[7]=(GibClass=none,Mesh=none,offset=(X=0.0000000,Y=0.0000000,Z=0.0000000),Velocity=(X=(Min=0.0000000,Max=0.0000000),Y=(Min=0.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=0.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=0),DrawScale=0.0000000)
+	OtherGibs[8]=(GibClass=none,Mesh=StaticMesh'XEffects.GibBotHand',offset=(X=0.0000000,Y=8.0000000,Z=0.0000000),Velocity=(X=(Min=0.0000000,Max=350.0000000),Y=(Min=0.0000000,Max=100.0000000),Z=(Min=0.0000000,Max=200.0000000)),Pivot=(Pitch=0,Yaw=0,Roll=-8192),DrawScale=0.4500000)
+}

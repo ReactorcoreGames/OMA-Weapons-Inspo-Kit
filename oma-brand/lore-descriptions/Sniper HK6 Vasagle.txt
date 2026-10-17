@@ -1,0 +1,13 @@
+NAME:		Sniper HK6 Vasagle
+
+--
+
+TYPE: 		Sleek long barrel sniper rifle with a clean, simple design. Magazine fed. It has a stock, but it is not adjustable. It has a large adjustable far-range scope with a high magnification value. Theres also a pistol grip and a vertical foregrip, allowing for tactical on-the-go shooting for short-to-medium ranges.
+
+EFFECT: 	Ultra-accurate assasin's anti-personnel high caliber sniper rifle. Its recoil retracting long barrel makes it suitable for extreme distance shots, just over a 1000 meters, where its scope assists with lining up the perfect shot, meanwhile the magazine allows for a series of successive shots in quite quickly, along with easy reloads. The bullets fly at a high velocity and can penetrate light armor, though they're designed to expand or spread on impact to maximize wound size on the target. Alternatively if its a robot enemy, EMP dart ammo can be used instead to deliver a disabling shock instead.
+
+INTENT:		This elegant weapon serves a more tactical role in dealing only the precise damage necessary, hence its more suited for police/SWAT roles or for assasins that want to mitigate collateral damage to a minimum.
+
+
+==
+==

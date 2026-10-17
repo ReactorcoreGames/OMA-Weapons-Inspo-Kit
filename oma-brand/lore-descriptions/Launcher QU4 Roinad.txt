@@ -1,0 +1,13 @@
+NAME:		Launcher QU4 Roinad
+
+--
+
+TYPE: 		Two handed blaster that launches sizeable wooden spikes from the wide bottom front barrel. Spike are loaded from the top port and are cycled down automatically with each shot.
+
+EFFECT: 	Specialized 'magnetic defence bypassing' weapon. Although not common, there exist magnetic-field shields and redirectors that can bend the trajectories of metal projectiles, while jamming/locking up metallic components of a weapon or outright pulling them out of the hands of soldiers, effectively disarming them. This weapon counters those types of defences by neither being made from any metallic materials nor firing any projectiles that could be affected by a magnet-based defence system. Using composite organic or carbon-based materials, this weapon contains no metal in its construction yet is still lightweight and sturdy. It may not look like its organic, biological or "grown" and that is thanks to the advanced materials have been refined and processed so heavily that it appears to be like any other firearm. The weapon fires a large wooden - or any other hardened biomaterial stake - as a linear catapult. If an opponent relied fully on a magnetic defence system to keep them safe, then this weapon will ignore all that and deal serious damage outright. Usually this is the case since the use of magnetic defences may interfere with other forms of protection.
+
+INTENT:		Adventurers often found themselves fighting the most bizarre of opponents with the most outlandish of defence system, so there was a market for specialized weapons against specialized targets. Dubbed by some as the "Van Helsing gun" capable of killing "supernatural" monsters, it still found plenty of use against most other regular mundane opponents due to the weapon's basic principle still being valid whetever there was a magnetic defence or not. Can't go wrong with a big lethal propelled pointy projectile.
+
+
+==
+==

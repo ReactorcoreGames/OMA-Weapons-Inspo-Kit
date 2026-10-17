@@ -1,0 +1,13 @@
+NAME:		Sniper BSO Crestboot
+
+--
+
+TYPE: 		Bulky high-tech rifle with a long railgun-like barrel, an enlarged central section that houses a small generator and a specialized chamber for preparing projectiles. Theres a buttstock at the back, a pistol grip below, a large high-power scope above and a laser sighting device below at the front. Above the pistol grip is a small LCD screen with control buttons.
+
+EFFECT: 	Fusion plasma rail driver sniper rifle. The weapon is capable of generating a dense plasma projectile encased with a strong magnetic field that is infused with high energy protons. In action the weapon essentially fires a destructive armor piercing and explosive energy needle at high velocities while simultaneously delivering a powerful lightning blast. As the weapon fires, arcs of electricity can be seen surging within the barrel as the projectile travels through it culiminating with a lightning tendril extending from the front of the gun as the projectile leaves the barrel. While in flight, the projectile emits electrical arcs like an aura, frying and shocking objects in the path of the flight even if the projectile only passed them by.
+
+INTENT:		An advanced self-sustaining support weapon that doesn't require reloading or ammunition as long as a nuclear fuel rod is installed inside the generator. The weapon will provide virtually infinite ammo and devasting firepower, though at the cost of slow rate of fire and long charge-up time. Its best used against individual heavy-armor targets, picking them off one at a time from a long distance while moving from one position to another.
+
+
+==
+==

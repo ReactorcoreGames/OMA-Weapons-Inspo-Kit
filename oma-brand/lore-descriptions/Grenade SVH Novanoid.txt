@@ -1,0 +1,13 @@
+NAME:		Grenade SVH Novanoid
+
+--
+
+TYPE: 		Small capsule-like grenade with a button. The shell is made from a light but sturdy composite metal, while the interior contains a dense powercell with various tiny electronic components.
+
+EFFECT: 	Energy based stun grenade against organic targets. Creates a lingering field that causes temporary paralysis, loss of conciousness, disorientation and confusion to any being with muscles or a nervous system. Optionally can also be set to cause a flashbang-like loud noise and a bright flash. By default these are disabled for stealthier operation.
+
+INTENT:		Used by SWAT teams to safely neutralize groups of human hostiles, effectively making a room safe for entry without worry of anyone shooting back.
+
+
+==
+==

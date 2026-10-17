@@ -1,0 +1,12 @@
+NAME:		Cannon ZP9 Pepelexa
+
+--
+
+TYPE: 		Large ram hold fixed twin cannon with a detachable canister magazine below. The vertically placed two extra long barrels are attached to a bulky device with cooling ports above and electronics within, with a few button controls on the outside.
+
+EFFECT: 	Multi-mode twin turbolaser heavy weapon. The weapon can be configured to fire powerful laser bolts from its two main barrels in an alternating mode at rapid fire, having enough strength to damage strong armor with sustained fire. Alternatively, the weapon can be configured into a double anti-personnel beam that can slice through groups of people or other lightly armored soft targets within seconds. The weapon heats up with use which limits the beam mode to burst of half a minute before needing to cool down for 5 seconds before firing again, meanwhile the alternating bolt mode can continue firing at a steady rate of fire thanks to one barrel getting a change to cool down while the other one is firing. The weapon can either be powered by an attachable giant battery pack or fed via power cable that can be pulled from behind the weapon for virtually infinite ammo.
+
+INTENT:		Usually seen on vehicles as turreted weapons, but also carried by soldiers in power armor. Effective both defensively and offensively, the weapon can take on a variety of enemy threats - even against entire groups or heavy armor on its own.
+
+==
+==

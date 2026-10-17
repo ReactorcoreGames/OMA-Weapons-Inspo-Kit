@@ -1,0 +1,13 @@
+NAME:		Grenade NEE Yboiveth
+
+--
+
+TYPE: 		A pipe-like throwable grenade with electrical emitter ribs.
+
+EFFECT: 	Upon detonation, the grenade disperses a cloud of electrons or conductive particle mist, where after a one second delay the grenade will rapidly discharge powerful lightning strikes at any nearby conductive materials like metallic objects, electronics and magnets. This will often fry electronics or cause spalling damage upon metal armor plates.
+
+INTENT:		Used by anti-robot battle commandos to defeat unmanned drones or AI controlled robotank enemy forces.
+
+
+==
+==

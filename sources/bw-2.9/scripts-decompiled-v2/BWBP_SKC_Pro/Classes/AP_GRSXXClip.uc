@@ -1,0 +1,13 @@
+class AP_GRSXXClip extends BallisticAmmoPickup;
+
+defaultproperties
+{
+	InventoryType=Class'BWBP_SKC_Pro.Ammo_GRSXX'
+	PickupMessage="You picked up GRS-9 rounds."
+	PickupSound=Sound'BW_Core_WeaponSound.Ammo.ClipPickup'
+	StaticMesh=StaticMesh'BW_Core_WeaponStatic.Glock.Glock-Ammo'
+	DrawScale=0.1600000
+	PrePivot=(X=0.0000000,Y=0.0000000,Z=50.0000000)
+	CollisionRadius=8.0000000
+	CollisionHeight=16.0000000
+}

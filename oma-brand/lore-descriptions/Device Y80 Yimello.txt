@@ -1,0 +1,13 @@
+NAME:		Device Y80 Yimello
+
+--
+
+TYPE: 		Powerful anti-structure explosive bundle with a digital panel. Each segment contains a dense concentration of explosive putty that is otherwise safe unless sparked with an electric current.
+
+EFFECT: 	Can blast through a wall, knock out a concrete pillar, damage a bridge or disable a machine. Must be placed on-site and activated via timer or remote signal.
+
+INTENT:		Used by explosives experts in military operations to destroy or disable important stationary targets with a bomb that usually cannot be accessed or hit by a combat vehicle's weaponry. Some extremely bored mercenaries have been seen taking the putty out of the bundle and shaping it to look like little cute animals.
+
+
+==
+==

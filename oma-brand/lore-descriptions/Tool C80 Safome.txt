@@ -1,0 +1,13 @@
+NAME:		Tool C80 Safome
+
+--
+
+TYPE: 		Long body ram-hold heavy energy cannon type of device. Features an array of capacitors at the back for building up a lot of energy, a micro reactor unit at the middle top of the gun, a large main power bank under the joystick grip, along with a smaller auxiliary power bank underneath the gun. 
+
+EFFECT: 	Industrial grade underground tunneling bore. By holding down the trigger, the tool will begin to build up energy and upon releasing it, it will create a power blast of energy that will simultanously superheat and push/compress any material in an outward cylinder pattern, creating hardened tunnel walls in the process while making an actual hold to walk through. The device can be configured to create holes as wide as two meters or focus more on depth/lenght of the tunnel; trade-off is more distance or wider tunnel size means longer energy build-up time is required before releasing the trigger. Softer materials like sand, clay, soil, mud will be easier to tunnel through, while rock, stone, obsidian and other hard materials will require more time and more power to dig through.
+
+INTENT:		Originally developed as an emergency rescue tool for saving people trapped in a cave underground, mercenaries found it be a powerful weapon to create entrances, dig tunnels to bypass enemy defences or just blowing up a tank up close.
+
+
+==
+==

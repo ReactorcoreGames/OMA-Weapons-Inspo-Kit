@@ -1,0 +1,13 @@
+NAME:		Grenade 380 Resaix
+
+--
+
+TYPE: 		Compact electronic grenade unit with an easy activation switch.
+
+EFFECT: 	A small but potent EMP generator, capable of continuously disabling vulnurable devices around it in a 5 meter radius as long as the internal battery lasts.
+
+INTENT:		Used by technicians to disable faulty electronic security systems, either by holding the generator on themselves or throwing it near the problem. Works well against robots and cyborgs too.
+
+
+==
+==

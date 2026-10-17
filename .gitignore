@@ -1,0 +1,14 @@
+# Local-only: Epic's UT2004 runtime (Windows binaries, not needed in cloud sessions)
+tools/ut2004-oldunreal-runtime/
+
+# BW HUD icons: dev reference only, never shipped, not needed in cloud sessions
+sources/bw-2.9/weapon-icons/
+
+# Superseded or judged-useless material (user keeps a full backup)
+trash/
+
+# Python / OS noise
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini

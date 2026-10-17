@@ -1,0 +1,13 @@
+NAME:		Blade 1R Chesture
+
+--
+
+TYPE: 		High-energy laser sword built with an ultra-light reinforced nanocarbon frame. The hilt contains a nano-reactor to power the cutting beam, as well as the array of EM field amplifiers along the outer edge of the blade.
+
+EFFECT: 	Advanced metal cutting primary melee weapon. Does not possess the weaknesses of a common metal blade of only being usable against soft targets and dulling with use. The intense laser projected by the emitters at the two ends of the blades is powerful to instantly slice through hardened steel and rock like a hot knife through butter. While it may seem like the visible laser beam between the emitters is the actual cutting surface it is not the case; the array of small EM field amplifiers along the backside of the blade actually generate an invisible field that extends the cutting surface of the blade to cover the entire lenght of the blade. If the blade is slowly moved towards an object, you'd notice it start to get cut long before the actual physical blade or even the visible laser collides with it.
+
+INTENT:		Robot hunting mercenaries love this weapon as it reduces the usually metal-body protected monsters into soft targets that are just as easy to slice down as a melon with a sword. Its also great against hard carapace of toughened organic beasts, having the same effect as with slicing metal. Contrary to popular belief, these swords are not great for cinematic duels as they cannot block their own kind; the moment two of these swords clash against each other, they'll both get immediately cut in half, short circuit and stop functioning, leaving two dissapointed duelists with expensive useless hilts left in their hand.
+
+
+==
+==

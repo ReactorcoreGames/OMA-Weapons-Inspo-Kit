@@ -1,0 +1,34 @@
+class ThumperSmokeGrenade extends BallisticGrenade;
+
+defaultproperties
+{
+	UnarmedDetonateOn=2
+	ArmedDetonateOn=1
+	ArmedPlayerImpactType=1
+	ReflectImpactManager=Class'BallisticProV55.IM_GunHit'
+	bNoInitialSpin=true
+	bAlignToVelocity=true
+	ArmingDelay=0.2000000
+	DetonateDelay=1.0000000
+	ImpactDamage=25
+	ImpactDamageType=Class'BWBP_SKC_Pro.DTTOPORSmokeGrenade'
+	WeaponClass=Class'BWBP_SKC_Pro.ThumperGrenadeLauncher'
+	ImpactManager=Class'BWBP_SKC_Pro.IM_ChaffGrenade'
+	SplashManager=Class'BallisticProV55.IM_ProjWater'
+	TrailClass=Class'BallisticProV55.MRLTrailEmitter'
+	TrailOffset=(X=-4.0000000,Y=0.0000000,Z=0.0000000)
+	ModeIndex=1
+	MyRadiusDamageType=Class'BWBP_SKC_Pro.DTTOPORSmokeGrenadeRadius'
+	ShakeRadius=256.0000000
+	MotionBlurRadius=384.0000000
+	MotionBlurFactor=3.0000000
+	MotionBlurTime=4.0000000
+	Speed=3500.0000000
+	Damage=30.0000000
+	DamageRadius=256.0000000
+	MyDamageType=Class'BWBP_SKC_Pro.DTTOPORSmokeGrenade'
+	ImpactSound=SoundGroup'BW_Core_WeaponSound.NRP57.NRP57-Concrete'
+	StaticMesh=StaticMesh'BW_Core_WeaponStatic.BOGP.BOGP_Grenade'
+	DrawScale=0.3000000
+	bIgnoreTerminalVelocity=true
+}

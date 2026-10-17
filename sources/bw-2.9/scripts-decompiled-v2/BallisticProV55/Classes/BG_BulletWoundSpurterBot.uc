@@ -1,0 +1,254 @@
+class BG_BulletWoundSpurterBot extends DGVEmitter;
+
+var bool bKillingTime;
+
+simulated function PostBeginPlay()
+{
+	super.PostBeginPlay();
+	SetTimer(0.1000000, true);
+	//return;	
+}
+
+simulated event Timer()
+{
+	// End:0x0E
+	if(bKillingTime)
+	{
+		Destroy();
+		return;
+	}
+	super.Timer();
+	Emitters[0].InitialParticlesPerSecond -= float(Rand(2));
+	// End:0x89
+	if(((Emitters[0].InitialParticlesPerSecond < float(12)) || Pawn(Owner) == none) || Pawn(Owner).Health < 1)
+	{
+		SetTimer(6.0000000, false);
+		bKillingTime = true;
+		Kill();
+	}
+	//return;	
+}
+
+defaultproperties
+{
+	bAutoAlignVelocity=true
+	DisableDGV[0]=0
+	DisableDGV[1]=1
+	DisableDGV[2]=1
+	// Reference: SpriteEmitter'BallisticProV55.BG_BulletWoundSpurterBot.SpriteEmitter5'
+	begin object name="SpriteEmitter5" class=Engine.SpriteEmitter
+		UseDirectionAs=1
+		UseCollision=true
+		UseMaxCollisions=true
+		UseSpawnedVelocityScale=true
+		FadeOut=true
+		RespawnDeadParticles=false
+		SpinParticles=true
+		UseSizeScale=true
+		UseRegularSizeScale=false
+		UniformSize=true
+		AutomaticInitialSpawning=false
+		Acceleration=(X=0.0000000,Y=0.0000000,Z=-140.0000000)
+		ExtentMultiplier=(X=0.5000000,Y=0.5000000,Z=0.5000000)
+		MaxCollisions=(Min=1.0000000,Max=1.0000000)
+		SpawnFromOtherEmitter=1
+		SpawnAmount=1
+		SpawnedVelocityScaleRange=(X=(Min=-0.1000000,Max=-0.1000000),Y=(Min=-0.1000000,Max=-0.1000000),Z=(Min=-0.1000000,Max=-0.1000000))
+		ColorScale[0]=(RelativeTime=0.0000000,Color=(R=255,G=255,B=255,A=255))
+		ColorScale[1]=(RelativeTime=1.0000000,Color=(R=255,G=255,B=255,A=255))
+		ColorMultiplierRange=(X=(Min=0.0000000,Max=0.0000000),Y=(Min=0.3500000,Max=0.6500000),Z=(Min=0.4000000,Max=0.7000000))
+		FadeOutStartTime=0.2500000
+		MaxParticles=24
+		StartSpinRange=(X=(Min=0.5000000,Max=0.5000000),Y=(Min=0.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=0.0000000))
+		SizeScale[0]=(RelativeTime=0.0000000,RelativeSize=0.0000000)
+		SizeScale[1]=(RelativeTime=0.2500000,RelativeSize=1.0000000)
+		SizeScale[2]=(RelativeTime=1.0000000,RelativeSize=1.0000000)
+		StartSizeRange=(X=(Min=2.0000000,Max=3.0000000),Y=(Min=2.0000000,Max=3.0000000),Z=(Min=2.0000000,Max=3.0000000))
+		InitialParticlesPerSecond=24.0000000
+		DrawStyle=1
+		Texture=Texture'BallisticBloodPro.Particles.BloodDrip1'
+		SecondsBeforeInactive=0.0000000
+		LifetimeRange=(Min=3.0000000,Max=3.0000000)
+		StartVelocityRange=(X=(Min=12.0000000,Max=16.0000000),Y=(Min=-2.0000000,Max=2.0000000),Z=(Min=10.0000000,Max=20.0000000))
+	end object
+	Emitters[0]=SpriteEmitter5
+	// Reference: SpriteEmitter'BallisticProV55.BG_BulletWoundSpurterBot.SpriteEmitter6'
+	begin object name="SpriteEmitter6" class=Engine.SpriteEmitter
+		UseDirectionAs=3
+		FadeOut=true
+		RespawnDeadParticles=false
+		SpinParticles=true
+		UseSizeScale=true
+		UseRegularSizeScale=false
+		UniformSize=true
+		AutomaticInitialSpawning=false
+		ColorScale[0]=(RelativeTime=0.0000000,Color=(R=255,G=255,B=255,A=255))
+		ColorScale[1]=(RelativeTime=1.0000000,Color=(R=255,G=255,B=255,A=255))
+		FadeOutStartTime=9.0000000
+		MaxParticles=12
+		StartSpinRange=(X=(Min=0.0000000,Max=1.0000000),Y=(Min=0.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=0.0000000))
+		SizeScale[0]=(RelativeTime=0.0000000,RelativeSize=0.1000000)
+		SizeScale[1]=(RelativeTime=0.1700000,RelativeSize=1.0000000)
+		SizeScale[2]=(RelativeTime=0.9000000,RelativeSize=1.0000000)
+		SizeScale[3]=(RelativeTime=1.0000000,RelativeSize=0.0000000)
+		StartSizeRange=(X=(Min=4.0000000,Max=5.0000000),Y=(Min=4.0000000,Max=5.0000000),Z=(Min=4.0000000,Max=5.0000000))
+		DrawStyle=1
+		Texture=Texture'BallisticBloodPro.Bot.Bot-Splat6'
+		SecondsBeforeInactive=0.0000000
+		LifetimeRange=(Min=10.0000000,Max=10.0000000)
+	end object
+	Emitters[1]=SpriteEmitter6
+	// Reference: SpriteEmitter'BallisticProV55.BG_BulletWoundSpurterBot.SpriteEmitter11'
+	begin object name="SpriteEmitter11" class=Engine.SpriteEmitter
+		FadeOut=true
+		Disabled=true
+		Backup_Disabled=true
+		UniformSize=true
+		ColorScale[0]=(RelativeTime=0.0000000,Color=(R=255,G=255,B=255,A=255))
+		ColorScale[1]=(RelativeTime=1.0000000,Color=(R=255,G=255,B=255,A=255))
+		FadeOutStartTime=3.1200000
+		CoordinateSystem=1
+		MaxParticles=1
+		StartSizeRange=(X=(Min=7.0000000,Max=7.0000000),Y=(Min=7.0000000,Max=7.0000000),Z=(Min=7.0000000,Max=7.0000000))
+		DrawStyle=1
+		Texture=Texture'BallisticBloodPro.Bot.Bot-Splat6'
+		SecondsBeforeInactive=0.0000000
+	end object
+	Emitters[2]=SpriteEmitter11
+	// Reference: SpriteEmitter'BallisticProV55.BG_BulletWoundSpurterBot.SpriteEmitter28'
+	begin object name="SpriteEmitter28" class=Engine.SpriteEmitter
+		UseDirectionAs=1
+		UseColorScale=true
+		FadeOut=true
+		RespawnDeadParticles=false
+		SpinParticles=true
+		UniformSize=true
+		AutomaticInitialSpawning=false
+		UseRandomSubdivision=true
+		Acceleration=(X=0.0000000,Y=0.0000000,Z=-500.0000000)
+		ColorScale[0]=(RelativeTime=0.0000000,Color=(R=255,G=255,B=255,A=255))
+		ColorScale[1]=(RelativeTime=0.2750000,Color=(R=255,G=255,B=128,A=255))
+		ColorScale[2]=(RelativeTime=1.0000000,Color=(R=0,G=150,B=255,A=255))
+		ColorMultiplierRange=(X=(Min=0.7000000,Max=0.7000000),Y=(Min=0.8000000,Max=1.0000000),Z=(Min=1.0000000,Max=1.0000000))
+		FadeOutStartTime=0.1700000
+		MaxParticles=750
+		StartSpinRange=(X=(Min=0.2500000,Max=0.2500000),Y=(Min=0.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=0.0000000))
+		StartSizeRange=(X=(Min=3.0000000,Max=6.0000000),Y=(Min=3.0000000,Max=6.0000000),Z=(Min=3.0000000,Max=6.0000000))
+		InitialParticlesPerSecond=15.0000000
+		Texture=Texture'BW_Core_WeaponTex.Effects.SparkA1'
+		TextureUSubdivisions=2
+		TextureVSubdivisions=2
+		SecondsBeforeInactive=0.0000000
+		LifetimeRange=(Min=0.2000000,Max=0.2000000)
+		StartVelocityRange=(X=(Min=50.0000000,Max=250.0000000),Y=(Min=-75.0000000,Max=75.0000000),Z=(Min=0.0000000,Max=75.0000000))
+	end object
+	Emitters[3]=SpriteEmitter28
+	AutoDestroy=true
+	bHardAttach=true
+}
+
+// ===== Sub-objects owned by this class (referenced from defaultproperties above) =====
+// Reference: SpriteEmitter'BallisticProV55.BG_BulletWoundSpurterBot.SpriteEmitter5'
+begin object name="SpriteEmitter5" class=Engine.SpriteEmitter
+	UseDirectionAs=1
+	UseCollision=true
+	UseMaxCollisions=true
+	UseSpawnedVelocityScale=true
+	FadeOut=true
+	RespawnDeadParticles=false
+	SpinParticles=true
+	UseSizeScale=true
+	UseRegularSizeScale=false
+	UniformSize=true
+	AutomaticInitialSpawning=false
+	Acceleration=(X=0.0000000,Y=0.0000000,Z=-140.0000000)
+	ExtentMultiplier=(X=0.5000000,Y=0.5000000,Z=0.5000000)
+	MaxCollisions=(Min=1.0000000,Max=1.0000000)
+	SpawnFromOtherEmitter=1
+	SpawnAmount=1
+	SpawnedVelocityScaleRange=(X=(Min=-0.1000000,Max=-0.1000000),Y=(Min=-0.1000000,Max=-0.1000000),Z=(Min=-0.1000000,Max=-0.1000000))
+	ColorScale[0]=(RelativeTime=0.0000000,Color=(R=255,G=255,B=255,A=255))
+	ColorScale[1]=(RelativeTime=1.0000000,Color=(R=255,G=255,B=255,A=255))
+	ColorMultiplierRange=(X=(Min=0.0000000,Max=0.0000000),Y=(Min=0.3500000,Max=0.6500000),Z=(Min=0.4000000,Max=0.7000000))
+	FadeOutStartTime=0.2500000
+	MaxParticles=24
+	StartSpinRange=(X=(Min=0.5000000,Max=0.5000000),Y=(Min=0.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=0.0000000))
+	SizeScale[0]=(RelativeTime=0.0000000,RelativeSize=0.0000000)
+	SizeScale[1]=(RelativeTime=0.2500000,RelativeSize=1.0000000)
+	SizeScale[2]=(RelativeTime=1.0000000,RelativeSize=1.0000000)
+	StartSizeRange=(X=(Min=2.0000000,Max=3.0000000),Y=(Min=2.0000000,Max=3.0000000),Z=(Min=2.0000000,Max=3.0000000))
+	InitialParticlesPerSecond=24.0000000
+	DrawStyle=1
+	Texture=Texture'BallisticBloodPro.Particles.BloodDrip1'
+	SecondsBeforeInactive=0.0000000
+	LifetimeRange=(Min=3.0000000,Max=3.0000000)
+	StartVelocityRange=(X=(Min=12.0000000,Max=16.0000000),Y=(Min=-2.0000000,Max=2.0000000),Z=(Min=10.0000000,Max=20.0000000))
+end object
+// Reference: SpriteEmitter'BallisticProV55.BG_BulletWoundSpurterBot.SpriteEmitter6'
+begin object name="SpriteEmitter6" class=Engine.SpriteEmitter
+	UseDirectionAs=3
+	FadeOut=true
+	RespawnDeadParticles=false
+	SpinParticles=true
+	UseSizeScale=true
+	UseRegularSizeScale=false
+	UniformSize=true
+	AutomaticInitialSpawning=false
+	ColorScale[0]=(RelativeTime=0.0000000,Color=(R=255,G=255,B=255,A=255))
+	ColorScale[1]=(RelativeTime=1.0000000,Color=(R=255,G=255,B=255,A=255))
+	FadeOutStartTime=9.0000000
+	MaxParticles=12
+	StartSpinRange=(X=(Min=0.0000000,Max=1.0000000),Y=(Min=0.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=0.0000000))
+	SizeScale[0]=(RelativeTime=0.0000000,RelativeSize=0.1000000)
+	SizeScale[1]=(RelativeTime=0.1700000,RelativeSize=1.0000000)
+	SizeScale[2]=(RelativeTime=0.9000000,RelativeSize=1.0000000)
+	SizeScale[3]=(RelativeTime=1.0000000,RelativeSize=0.0000000)
+	StartSizeRange=(X=(Min=4.0000000,Max=5.0000000),Y=(Min=4.0000000,Max=5.0000000),Z=(Min=4.0000000,Max=5.0000000))
+	DrawStyle=1
+	Texture=Texture'BallisticBloodPro.Bot.Bot-Splat6'
+	SecondsBeforeInactive=0.0000000
+	LifetimeRange=(Min=10.0000000,Max=10.0000000)
+end object
+// Reference: SpriteEmitter'BallisticProV55.BG_BulletWoundSpurterBot.SpriteEmitter11'
+begin object name="SpriteEmitter11" class=Engine.SpriteEmitter
+	FadeOut=true
+	Disabled=true
+	Backup_Disabled=true
+	UniformSize=true
+	ColorScale[0]=(RelativeTime=0.0000000,Color=(R=255,G=255,B=255,A=255))
+	ColorScale[1]=(RelativeTime=1.0000000,Color=(R=255,G=255,B=255,A=255))
+	FadeOutStartTime=3.1200000
+	CoordinateSystem=1
+	MaxParticles=1
+	StartSizeRange=(X=(Min=7.0000000,Max=7.0000000),Y=(Min=7.0000000,Max=7.0000000),Z=(Min=7.0000000,Max=7.0000000))
+	DrawStyle=1
+	Texture=Texture'BallisticBloodPro.Bot.Bot-Splat6'
+	SecondsBeforeInactive=0.0000000
+end object
+// Reference: SpriteEmitter'BallisticProV55.BG_BulletWoundSpurterBot.SpriteEmitter28'
+begin object name="SpriteEmitter28" class=Engine.SpriteEmitter
+	UseDirectionAs=1
+	UseColorScale=true
+	FadeOut=true
+	RespawnDeadParticles=false
+	SpinParticles=true
+	UniformSize=true
+	AutomaticInitialSpawning=false
+	UseRandomSubdivision=true
+	Acceleration=(X=0.0000000,Y=0.0000000,Z=-500.0000000)
+	ColorScale[0]=(RelativeTime=0.0000000,Color=(R=255,G=255,B=255,A=255))
+	ColorScale[1]=(RelativeTime=0.2750000,Color=(R=255,G=255,B=128,A=255))
+	ColorScale[2]=(RelativeTime=1.0000000,Color=(R=0,G=150,B=255,A=255))
+	ColorMultiplierRange=(X=(Min=0.7000000,Max=0.7000000),Y=(Min=0.8000000,Max=1.0000000),Z=(Min=1.0000000,Max=1.0000000))
+	FadeOutStartTime=0.1700000
+	MaxParticles=750
+	StartSpinRange=(X=(Min=0.2500000,Max=0.2500000),Y=(Min=0.0000000,Max=0.0000000),Z=(Min=0.0000000,Max=0.0000000))
+	StartSizeRange=(X=(Min=3.0000000,Max=6.0000000),Y=(Min=3.0000000,Max=6.0000000),Z=(Min=3.0000000,Max=6.0000000))
+	InitialParticlesPerSecond=15.0000000
+	Texture=Texture'BW_Core_WeaponTex.Effects.SparkA1'
+	TextureUSubdivisions=2
+	TextureVSubdivisions=2
+	SecondsBeforeInactive=0.0000000
+	LifetimeRange=(Min=0.2000000,Max=0.2000000)
+	StartVelocityRange=(X=(Min=50.0000000,Max=250.0000000),Y=(Min=-75.0000000,Max=75.0000000),Z=(Min=0.0000000,Max=75.0000000))
+end object

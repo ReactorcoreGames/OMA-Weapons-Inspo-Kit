@@ -1,0 +1,31 @@
+class SkrithStaffMeleeFire extends BallisticMeleeFire;
+
+defaultproperties
+{
+	DamageType=Class'BWBP_SWC_Pro.DT_SkrithStaffStab'
+	DamageTypeHead=Class'BWBP_SWC_Pro.DT_SkrithStaffStabHead'
+	DamageTypeArm=Class'BWBP_SWC_Pro.DT_SkrithStaffStab'
+	KickForce=100
+	HookStopFactor=1.7000000
+	HookPullForce=100.0000000
+	bIgnoreReload=true
+	bUseWeaponMag=false
+	ScopeDownOn=2
+	bReleaseFireOnDie=false
+	BallisticFireSound=(Sound=SoundGroup'BW_Core_WeaponSound.A73.A73Stab',Volume=0.5000000,Radius=32.0000000,Slot=0,Pitch=1.0000000,bAtten=true,bNoOverride=true)
+	bAISilent=true
+	bFireOnRelease=true
+	PreFireAnim="PrepStab"
+	FireAnim="Stab"
+	FireAnimRate=1.3500000
+	TweenTime=0.0000000
+	FireRate=0.6000000
+	AmmoClass=Class'BallisticProV55.Ammo_Cells'
+	AmmoPerFire=0
+	ShakeRotTime=1.0000000
+	ShakeOffsetMag=(X=5.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetRate=(X=-1000.0000000,Y=0.0000000,Z=0.0000000)
+	ShakeOffsetTime=1.0000000
+	BotRefireRate=0.7000000
+	WarnTargetPct=0.0500000
+}

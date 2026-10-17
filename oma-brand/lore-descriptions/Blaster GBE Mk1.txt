@@ -1,0 +1,13 @@
+NAME:		Blaster GBE Mk1
+
+--
+
+TYPE: 		Compact handgun-like high-tech energy weapon with an electronic component underneath. Has a tiny holographic projector at the back.
+
+EFFECT: 	Graviton Beam Emitter Mark 1. Only operational within range of enourmous gravity furnaces that create and maintain a stable gravity environment within gigantic artificial megastructures in space. The weapon itself creates a brief localized failure in the gravity environment in a straigth line - almost like a debug remote controller - which causes catastropic annihilation of practically any matter in the path of the beam. The result is often a clean bus-sized hole that extends as a hundred kilometer long tunnel. Everything in this tunnel has been displaced on an atomic level and pushed outward and forward with such sudden rapid force that it often create cataclysmic shockwaves that shatter the surrounded environment, causing massive secondary damage. There is no way to stop the projectile other than countering it with another GBE beam, though this results in a massive explosion anyway.
+
+INTENT:		The ultimate weapon of the administrator of a megastructure, giving them an unstoppable advantage over any other threat within their domain. Kind of like a ban hammer of an online community except taking the form of a "infinite power nuclear beam pistol" in the real world.
+
+
+==
+==
