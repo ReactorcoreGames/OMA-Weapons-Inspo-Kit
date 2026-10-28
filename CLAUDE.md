@@ -25,6 +25,7 @@ Full vision: [docs/project-objective.md](docs/project-objective.md).
 | Topic | Decision |
 |---|---|
 | Canonical ruleset | **One unified stat set, Classic-based with selected Pro enhancements.** See "Canonical stat merge rules" below and [docs/research/pro-vs-classic.md](docs/research/pro-vs-classic.md). Realism/Tactical are out. |
+| Recoil (author feedback after Phase 1) | **Simplify the kick layer** to a plain per-shot **vertical + horizontal recoil** (degrees per shot, horizontal as a random or biased sideways range) plus recovery. The accumulator / pitch-yaw pattern curves / scatter / view-follow machinery in `kit/core-mechanics/recoil.md` is too complicated. The physical `impulse_ns` layer (push, zero-g, mounts, knockback) stays. Exact field set to be settled when the rework is done (see `checklist-todo.md`). |
 | Units | Accepted: forces as **impulse (N·s)** resisted by mass, grip and bracing. Recoil and knockback use the same model, so it works in any gravity. BW feel is the calibration target for a default human. See [docs/open-questions-2.md](docs/open-questions-2.md) #2. |
 | Health baseline | **200 HP, no regen** = trained mercenary in body armour (the default combatant). 100 HP = ordinary human in basic clothes. Classic damage numbers stay as-is against this pool. Document this in the core docs. |
 | Movement baseline | Pro's: slower base movement (ground 315 uu/s = 6.6 m/s real time, jump 294 uu/s), stronger sprint (×1.40). |
